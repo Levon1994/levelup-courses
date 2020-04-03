@@ -1,0 +1,30 @@
+.checkbox{
+  width: 35px;
+  height: 35px;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  appearance:none;
+  border-radius: 4px;
+  outline: none;
+}
+.unchecked{
+  border: 2px solid #17A9BA;
+}
+.checked{
+  background-color: #17A9BA;
+  background-image: url('../../../assets/Checkbox.svg');
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.disabled{
+  background-color: #8AD3DC;
+}
+.disabledChecked{
+  background-color: #8AD3DC;
+  background-image: url('../../../assets/Checkbox.svg');
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+}

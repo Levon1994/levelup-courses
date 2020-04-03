@@ -1,0 +1,44 @@
+@import 'sass/variables.scss';
+
+.SwitchButton {
+  height: 55px;
+  width: 90px;
+  border-radius: 64px;
+  background-color: $secondary-green;
+  cursor: pointer;
+  box-shadow: 0 2px 12px 0 rgba(179, 166, 166, 0.5);
+  &.darkMode {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 10;
+  }
+  &.active {
+    background-color: $dark;
+    .SwitchButton_content {
+      background-color: $secondary-orange;
+      &_btn {
+        background-color: $secondary-white;
+        left: inherit;
+        right: 4px;
+      }
+    }
+  }
+  &_content {
+      width: 60px;
+      height: 30px;
+      background-color: $secondary-white;
+      border-radius: 30px;
+      position: relative;
+    &_btn {
+      transition: all .2s linear;
+      width: 24px;
+      height: 24px;
+      border-radius: 20px;
+      background-color: $secondary-orange;
+      position: absolute;
+      left: 4px;
+      top: 3px;
+    }
+  }
+}

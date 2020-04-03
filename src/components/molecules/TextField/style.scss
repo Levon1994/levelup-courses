@@ -1,0 +1,84 @@
+@import "~sass/variables";
+
+.TextField_Style {
+  border: 1px solid $secondary-gray;
+  color: $secondary-black;
+  background-color: $secondary-white;
+  font-size: 15px;
+  padding: 5px 15px;
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+  &.darkMode {
+    background-color: $dark;
+    border-color: $secondary-white;
+    color: $secondary-white;
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: $secondary-white;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+      color: $secondary-white;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+      color: $secondary-white;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      color: $secondary-white;
+    }
+  }
+}
+
+.TextFieldComponent {
+  position: relative;
+  .TextField {
+    border-radius: 10px;
+    @extend .TextField_Style;
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      text-transform: uppercase;
+      font-size: 14px;
+      opacity: 50%;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+      text-transform: uppercase;
+      font-size: 14px;
+      opacity: 50%;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+      text-transform: uppercase;
+      font-size: 14px;
+      opacity: 50%;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      text-transform: uppercase;
+      font-size: 14px;
+      opacity: 50%;
+    }
+    &.withRadius {
+      border-radius: 30px;
+    }
+    &.withButton {
+      padding-right: 70px;
+    }
+    &.small {
+      height: 30px;
+    }
+    &.medium {
+      height: 60px;
+      font-size: 18px;
+      &.withRadius {
+        border-radius: 60px;
+      }
+    }
+  };
+  .Button {
+    margin-left: -60px;
+  }
+}
+
+.Textarea {
+  @extend .TextField_Style;
+  resize: none;
+  border-radius: 6px;
+  height: 190px;
+  padding-top: 15px;
+}

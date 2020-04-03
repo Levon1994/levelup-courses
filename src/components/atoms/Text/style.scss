@@ -1,0 +1,33 @@
+@import "~sass/variables";
+
+.Text {
+  color: $secondary-black;
+  &.darkMode{
+    color: $secondary-white;
+  }
+  &.small {
+    font-size: $small-font-size;
+  }
+  &.medium {
+    font-size: $medium-font-size;
+    line-height: 25px;
+  }
+  &.large {
+    font-size: $large-font-size;
+  }
+  &.extraLarge {
+    font-size: $extraLarge-font-size;
+  }
+  &.doubleExtraLarge {
+    font-size: $doubleExtraLarge-font-size;
+  }
+  &.tripleExtraLarge {
+    font-size: $tripleExtraLarge-font-size;
+  }
+  &.big {
+    font-size: $big-font-size;
+  }
+  &.bigger {
+    font-size: $bigger-font-size;
+  }
+}

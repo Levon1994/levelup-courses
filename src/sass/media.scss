@@ -1,0 +1,166 @@
+@import 'sass/variables.scss';
+
+// Extra large devices (large desktops, 1200px and up)
+@media screen and (max-width: 1200px) {
+  .Course {
+    .image-content {
+      background-size: cover;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media screen and (max-width: 992px) {
+  .ImageContent {
+    height: 400px;
+    .image-block {
+      max-height: 90%;
+    }
+  }
+  .Course {
+    .image-content {
+      height: 400px;
+      background-size: cover;
+    }
+    .content {
+      margin-top: 20px;
+    }
+  }
+  .BlogNews {
+    .blog-image {
+      height: 400px;
+    }
+    .blog-name {
+      margin-top: 15px !important;
+      margin-bottom: 20px !important;
+      font-size: 38px;
+    }
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .Course {
+    .content {
+      margin-top: 0;
+    }
+  }
+  header {
+    .page-content {
+      .menu-wrapper {
+        display: block;
+      }
+      .header-list {
+        display: none;
+        flex-direction: column;
+        background-color: $secondary-white;
+        position: fixed;
+        left: 0;
+        top: 70px;
+        width: 100%;
+        height: calc(100% - 70px);
+        .Dropdown {
+          &_label {
+            text-align: center;
+            position: relative;
+            .Icon {
+              position: absolute;
+            }
+          }
+          &_content {
+            position: inherit;
+            top: 0;
+            > div {
+              background: none;
+              box-shadow: none;
+              &:before {
+                display: none;
+              }
+              .dropdown-list {
+                background: none;
+                padding-bottom: 0;
+              }
+            }
+          }
+        }
+        .nav-list {
+          flex-direction: column;
+          padding-top: 20px;
+          li {
+            margin-bottom: 20px;
+          }
+        }
+        .languages {
+          position: relative;
+          top: 0;
+          right: 0;
+        }
+      }
+    }
+    &.active {
+      .header-list {
+        display: flex;
+      }
+    }
+  }
+  &.darkMode {
+    .header-list {
+      background-color: $dark !important;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media screen and (max-width: 768px) {
+    .ImageContent {
+      height: 320px;
+      .image-block {
+        .before {
+          height: 230px;
+        }
+        .after {
+          height: 230px;
+        }
+      }
+    }
+    .Course {
+      .image-content {
+        height: 320px;
+      }
+    }
+    .BlogNews {
+      .blog-image {
+        height: 320px;
+      }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media screen and (max-width: 576px) {
+  .ImageContent {
+    height: 290px;
+    .image-block {
+      max-height: 85%;
+      .before {
+        height: 160px;
+        left: calc(50% - 150px);
+      }
+      .after {
+        height: 160px;
+        right: calc(50% - 235px);
+      }
+    }
+  }
+  .Course {
+    .image-content {
+      height: 290px;
+    }
+  }
+  .BlogNews {
+    .blog-image {
+      height: 290px;
+    }
+    .blog-name {
+      font-size: 30px;
+    }
+  }
+}

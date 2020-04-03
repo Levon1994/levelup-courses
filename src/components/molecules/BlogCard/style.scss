@@ -1,0 +1,39 @@
+@import "~sass/variables";
+
+.BlogCommentCard{
+  margin:20px 5px;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0px 0px 14px 1px rgba(197,185,185,0.5);
+    .imageWrapper{
+      max-height: 250px;
+  }
+  &.darkMode {
+      background-color: $dark;
+      box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.1);
+  }
+  .blogCardInfo{
+    padding: 30px;
+    .blogCommentTitle{
+      min-height: 64px;
+      margin-bottom: 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 2;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+    }
+    .desc{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 3;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+    }
+  }
+  .infoblock{
+    padding: 10px 30px;
+  }
+
+}

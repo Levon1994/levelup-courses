@@ -1,0 +1,70 @@
+@import "~sass/variables";
+
+.InfoCard{
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  &.reverse{
+    flex-direction: row-reverse;
+  }
+  .infoTitle{
+    text-transform: uppercase;
+  }
+  .infoBlockText{
+    padding: 0 20px;
+    width: 100%;
+    .infoText{
+      // margin-top: 28px;
+      :first-child{
+          line-height: 28px;
+          letter-spacing: 0.71px;
+      }
+      .listDote{
+        width: 10px;
+        height: 10px;
+        background-color: #F8BA1B;
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+    }
+  }
+  .infoCardImage{
+      width: 100%;
+      padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1180px){
+  .InfoCard{
+    padding-bottom: 25px ;
+  }
+}
+
+@media screen and (max-width: 830px){
+  .InfoCard{
+    flex-direction: column;
+    &.reverse{
+        flex-direction: column
+    }
+  }
+}
+
+@media screen and (max-width:500px){
+  .InfoCard{
+    .infoBlockText{
+      .infoTitle{
+      font-size: $extraLarge-font-size;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+    .info-Text{
+      font-size: $small-font-size;
+      word-break: break-word;
+
+    }
+
+
+  }
+}

@@ -1,0 +1,37 @@
+@import 'sass/variables.scss';
+
+.Button {
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.62px;
+    transition: all .2s linear;
+    border-radius: 33px;
+    &.green {
+      background-color: $secondary-green;
+      &:hover {
+        background-color: $secondary-orange;
+      }
+    }
+    &.orange {
+      background-color: $secondary-orange;
+      &:hover {
+        background-color: $secondary-green;
+      }
+    }
+    &.small {
+        font-size: $small-font-size;
+        padding: 12px 40px;
+    }
+    &.medium {
+        font-size: $medium-font-size;
+        padding: 14px 50px;
+    }
+    &.large {
+        font-size: $large-font-size;
+        padding: 17px 70px;
+    }
+};

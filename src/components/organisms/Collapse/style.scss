@@ -1,0 +1,239 @@
+@import "sass/variables.scss";
+
+.Collapse {
+  max-width: 90%;
+  margin: 18px auto;
+  .collapse-item {
+    padding: 0 20px;
+    padding-right: 85px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px -5px rgba(178, 168, 168, 0.5);
+    padding: 25px 25px;
+    transition: all 0.3s linear;
+    &.bg-collapse {
+      background: #17a9ba;
+      color: white;
+      .Button {
+        background: $secondary-orange;
+        cursor: pointer;
+      }
+      .title-content {
+        .Text {
+          color: white;
+        }
+      }
+    }
+    .title-content {
+      .Text {
+        font-weight: bold;
+        font-size: $extraLarge-font-size;
+        color: black;
+        &.darkMode {
+          color: white;
+        }
+      }
+      .plus-icon {
+        display: none;
+      }
+    }
+  }
+  .collapse-body {
+    overflow: hidden;
+    max-height: 0;
+    margin: auto;
+    &.content-opened {
+      transition: max-height 1s linear;
+      width: 85%;
+      max-height: 2000px;
+      padding-top: 20px;
+    }
+
+
+    .Respo {
+      .Icon {
+        margin-right: 14px;
+        svg {
+          fill: $secondary-orange;
+        }
+      }
+    }
+
+    .Paper {
+      &.title {
+        margin-bottom: 36px;
+        margin-top: 27px;
+        > span {
+          font-size: $extraLarge-font-size;
+          font-weight: 700;
+          letter-spacing: 0.44px;
+          line-height: 32px;
+          margin-left: 30px;
+        }
+      }
+      &.needSkills-content {
+        margin-top: 30px;
+        span {
+          margin-right: 14px;
+        }
+      }
+      &.niceToHave-content {
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      &.joining-content {
+        margin-bottom: 20px;
+        span {
+          margin-right: 14px;
+        }
+        .Icon {
+          svg {
+            fill: $secondary-orange;
+          }
+        }
+      }
+      &.niceToHave-content:last-of-type {
+        margin: 0;
+      }
+    }
+    .text-left {
+      text-align: left;
+    }
+    .niceToHave-title {
+      margin-top: 10px;
+      font-size: $large-font-size;
+    }
+    .niceToHave-content {
+      margin-bottom: 0 !important;
+      .Icon {
+        margin-right: 14px;
+      }
+    }
+    .knowledgeOf {
+      font-size: $large-font-size;
+    }
+  }
+}
+@media screen and (max-width: 924px) {
+  .Collapse {
+    .collapse-item {
+      .title-content {
+        .Text {
+          font-size: $medium-font-size;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .Collapse {
+    max-width: 90%;
+    .collapse-item {
+      .Text {
+        font-size: $small-font-size;
+        display: flex;
+        align-items: center;
+      }
+      .plus-icon {
+        margin-right: 20px;
+      }
+      .btn-container {
+        display: none;
+      }
+      .title-content {
+        .plus-icon {
+          display: block;
+          &.plus-icon-2 {
+            transform: rotate(45deg);
+            svg {
+              fill: white;
+            }
+          }
+          svg {
+            fill: #17a9ba;
+          }
+        }
+        .Text {
+          font-size: $small-font-size;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1225px) {
+  .collapse-body {
+    font-size: 14px;
+    color: red;
+    &.content-opened {
+    }
+
+    .Respo {
+      .Icon {
+        svg {
+        }
+      }
+    }
+
+    .Paper {
+      &.title {
+        margin-bottom: 11px !important;
+        &:first-of-type {
+          margin-top: 0;
+        }
+        > span {
+          font-size: $large-font-size !important;
+
+          margin-left: 0 !important;
+        }
+      }
+  
+    
+  
+    }
+
+  }
+}
+
+
+@media screen and (max-width:470px) {
+  .collapse-body {
+    width: 100%!important;
+    &.joining-content {
+      span {
+      }
+      .Icon {
+        outline: 1px solid red;
+        svg {
+        }
+      }
+    }
+    &.niceToHave-content:last-of-type {
+    }
+
+    .Respo {
+      .Icon {
+        margin-right: 5px!important;
+      }
+    }
+    .needSkills-content  {
+      margin-top: 8px!important;
+      .Icon {
+        margin-right: 5px!important;
+      }
+    }
+    .niceToHave-content {
+      margin-top: 8px!important;
+      .Icon {
+        margin-right: 5px!important;
+      }
+    }
+    .joining-content  {
+      .Icon {
+        margin-right: 5px!important;
+      }
+    }
+  }
+
+
+  
+}

@@ -1,0 +1,95 @@
+.radioParent {
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: flex;
+  align-items: center;
+}
+.radioParent input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.text {
+  padding: 0 10px;
+}
+.checked {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  border: 2px solid #17A9BA
+}
+.radioParent input:checked ~ .checked {
+  background-color: #2196F3;
+}
+.checked:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.radioParent input:checked ~ .checked:after {
+  display: block;
+}
+.radioParent .checked:after {
+  top: 7px;
+  left: 7px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: white;
+}
+.disabled{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  border: 2px solid #8AD3DC;
+  background-color: #8AD3DC;
+}
+.disabledChecked{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  border: 2px solid #8AD3DC;
+  background-color: #8AD3DC;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+}
+.radioContent {
+  position: relative;
+}
+.radioParent input:checked ~ .disabledChecked {
+  background-color: #8AD3DC;
+}
+.disabledChecked:after {
+  content: "";
+  position: absolute;
+  display: block;
+}
+.radioParent input:checked ~ .disabledChecked:after {
+  display: block;
+}
+.radioParent .disabledChecked:after {
+  top: 9px;
+  left: 9px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: white;
+}
+

@@ -1,0 +1,109 @@
+@import 'sass/variables.scss';
+
+.Dropdown {
+  position: relative;
+  &.darkMode {
+    .Dropdown_label {
+      color: $secondary-white;
+      &.active {
+        color: $secondary-green;
+        .Icon {
+          svg {
+            fill: $secondary-green;
+          }
+        }
+      }
+      &:hover {
+        color: $secondary-green;
+        .Icon {
+          svg {
+            fill: $secondary-green;
+          }
+        }
+      }
+      .Icon {
+        svg {
+          fill: $secondary-white;
+        }
+      }
+    }
+    .Dropdown_content {
+      > div {
+        &:before {
+          background-color: $dark;
+        }
+      }
+      .dropdown-list {
+        background-color: $dark;
+        span {
+          color: $secondary-white;
+          &:hover {
+            color: $secondary-green;
+          }
+        }
+      }
+    }
+  }
+  &_label {
+    font-weight: 700;
+    cursor: pointer;
+    &:hover {
+      color: $secondary-green;
+      .Icon {
+        svg {
+          fill: $secondary-green;
+        }
+      }
+    }
+    .Icon {
+      margin-left: 5px;
+      cursor: pointer;
+    }
+    &.active {
+      color: $secondary-green;
+      .Icon {
+        svg {
+          transform: rotateX(180deg);
+          transition: all .3s linear;
+          fill: $secondary-green;
+        }
+      }
+    }
+  }
+  &_content {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35px;
+    > div {
+      position: relative;
+      background-color: $secondary-white;
+      box-shadow: 0 2px 12px 0 rgba(179,166,166,0.5);
+      border-radius: 10px;
+      &:before {
+        content: '';
+        width: 15px;
+        height: 15px;
+        background-color: $secondary-white;
+        position: absolute;
+        top: -8px;
+        left: 50%;
+        transform: translateX(-50%) rotate(45deg);
+      }
+      .dropdown-list {
+        padding: 15px 35px;
+        border-radius: 10px;
+      }
+      span {
+        white-space: nowrap;
+        cursor: pointer;
+        display: block;
+        padding: 5px 0;
+        text-align: center;
+        &:hover {
+          color: $secondary-green;
+        }
+      }
+    }
+  }
+}

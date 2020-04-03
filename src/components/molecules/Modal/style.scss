@@ -1,0 +1,164 @@
+@import "sass/variables.scss";
+.fon {
+  width: 100%;
+  height: 100vh;
+  background-color: #e8e8efa8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  padding: 0 20px;
+  .Modal-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Modal {
+      width: 566px;
+      .modal-content {
+        position: relative;
+        .size {
+          padding: 0 45px;
+          background: $secondary-green;
+          border-radius: 10px;
+          .title-container {
+            .Text {
+              font-size: 24px;
+              font-weight: 700;
+              letter-spacing: 0.44px;
+              margin: 20px 0 20px 0;
+              color: $secondary-white;
+            }
+          }
+          .text-field-container {
+            .medium {
+              height: 50px;
+            }
+            .TextField {
+              margin-bottom: 6px;
+            }
+            .Textarea {
+              height: 150px;
+              margin-bottom: 6px;
+            }
+          }
+          .upload-container {
+            margin-bottom: 6px;
+          }
+          .sendMessage-container {
+            padding-bottom: 10px;
+            .Button:hover {
+              background: $secondary-orange;
+            }
+          }
+          .close-btn {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            right: -20px;
+            top: -20px;
+            cursor: pointer;
+            .Icon {
+              width: inherit !important;
+              height: inherit !important;
+              svg {
+                width: inherit !important;
+                height: inherit !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .Modal {
+    .modal-content {
+      height: 100%;
+      .size {
+        height: 100%;
+        .text-field-container {
+          .Textarea {
+            height: 150px;
+          }
+        }
+        .close-btn {
+          width: 50px;
+          height: 50px;
+          position: absolute;
+          right: -25px;
+          top: -25px;
+          .Icon {
+            width: inherit;
+            height: inherit;
+            position: absolute;
+          }
+        }
+
+      }
+    }
+  }
+}
+@media screen and (max-width: 533px) {
+  .fon {
+    .Modal-container {
+      .Modal {
+        .modal-content {
+          position: relative;
+          .size {
+            padding: 0 5px;
+            .title-container {
+              text-align: center;
+              .Text {
+                font-size: $large-font-size;
+              }
+            }
+            .text-field-container {
+              .medium {
+                height: 40px;
+              }
+              .Textarea {
+                height: 82px;
+              }
+            }
+
+            .upload-container {
+              flex-direction: column;
+              .Uploader {
+                &:last-of-type {
+                  margin: 0;
+                }
+              }
+
+            }
+            .sendMessage-container {
+              margin-bottom: 44px;
+              .Button:hover {
+                background: $secondary-orange;
+              }
+            }
+            .close-btn {
+              width: 26px;
+              height: 26px;
+              position: absolute;
+              right: -5px;
+              top: -13px;
+              cursor: pointer;
+              .Icon {
+                width: inherit !important;
+                height: inherit !important;
+                svg {
+                  width: inherit !important;
+                  height: inherit !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
