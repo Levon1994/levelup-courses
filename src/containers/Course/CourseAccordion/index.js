@@ -12,6 +12,7 @@ import './style.scss';
 const CourseAccordion = ({
   data,
   darkMode,
+  setIsOpen,
   onSelectVideo,
 }) => {
 
@@ -68,7 +69,7 @@ const CourseAccordion = ({
     <Paper className={classnames('CourseAccordion', { 'darkMode': darkMode })} flexName="flexName vertical">
       <Paper className="CourseAccordion_title" flexName="flexible aCenter jBetween">
         <Text className="large" darkMode={darkMode}>Course content</Text>
-        <Icon className="icon-feather-x" />
+        <Icon className="icon-feather-x" onClick={() => setIsOpen(false)} />
       </Paper>
       <Paper className="CourseAccordion_content">
         {generateContent()}

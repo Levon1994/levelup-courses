@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   NavLink,
   withRouter,
@@ -24,7 +24,7 @@ const Header = ({
   location,
 }) => {
 
-  const { t, setLanguage } = useTranslator();
+  const { setLanguage } = useTranslator();
 
   const languages = [
     { label: 'ENG', value: 'en' },
@@ -32,31 +32,12 @@ const Header = ({
     { label: 'RUS', value: 'ru' },
   ];
 
-  const companyPages = [
-    { label: '_Company_', value: '/' },
-    { label: '_AboutUs_', value: '/about-us' },
-    { label: '_ContactUs_', value: '/contact-us' },
-    { label: '_Carrers_', value: '/careers' },
-  ];
-
   const [active, setActive] = useState(false);
   const [activeLang, setActiveLang] = useState(languages[0]);
-  const [activePage, setActivePage] = useState(companyPages[0]);
-
-  useEffect(() => {
-    const selectedPage = companyPages.find(item => item.value.includes(location.pathname.split('/')[1]));
-    setActivePage(selectedPage || companyPages[0]);
-  }, [location.pathname]);
 
   const handleActiveLang = item => {
-    setActiveLang(item);
     setLanguage(item.value);
-  };
-
-  const handleActivePage = item => {
-    setActivePage(item);
-    push(item.value);
-    setActive(!active);
+    setActiveLang(item);
   };
 
   return (
@@ -81,6 +62,7 @@ const Header = ({
             <ul className="nav-list">
               <li>
                 <a
+                  rel="noopener noreferrer"
                   target="_blank"
                   href="http://levelup.am/"
                   onClick={() => setActive(!active)}

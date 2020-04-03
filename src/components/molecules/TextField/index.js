@@ -1,61 +1,46 @@
 import React from 'react';
 import classnames from 'classnames';
-
-import {
-  Paper,
-  Button,
-} from 'components';
+import { Icon } from 'components'
 
 import './style.scss';
 
 const TextField = ({
-  size,
+  type,
+  label,
   value,
   textarea,
-  darkMode,
   onChange,
+  errorText,
   className,
-  withButton,
-  buttonClick,
-  buttonText,
-  withRadius,
+  searchField,
   ...restProps
-}) => {
-  return (
-    textarea
-      ? <textarea
-        onChange={onChange}
-        value={value}
-        className={classnames('Textarea', {
-          [className]: className,
-          'darkMode': darkMode,
-        })}
-        {...restProps}
-      />
-
-    : <Paper flexName="flexible grow" className="TextFieldComponent">
-        <input
-            onChange={onChange}
-            value={value}
-            className={classnames('TextField', {
-              [className]: className,
-              [size || 'small']: size || 'small',
-              'withRadius': withRadius,
-              'withButton' : withButton,
-              'darkMode': darkMode,
-            })}
+}) => (
+    <div className='formGroup'>
+        <label htmlFor='' className='label'>
+            {label}
+        </label>
+        {textarea ?
+        <textarea
+            className = {classnames('textArea',{[className]: className})}
+            onChange = {onChange}
+            value = {value}
             {...restProps}
-          />
-          { withButton &&
-            <Button
-            onClick={buttonClick}
-            size="medium"
-            >
-              {buttonText || 'Button'}
-            </Button>
-          }
-      </Paper>
-  )
-};
+        ></textarea>
+        :
+        <input className = {classnames('TextField',{[className]: className,'searchField': searchField})}
+            type = {type || 'text'}
+            onChange = {onChange}
+            value = {value}
+            {...restProps}
+        />}
+        <div className='searchIcon'>
+            {searchField && <Icon className='icon-feather-search'/>}
+        </div>
+        <div className='errorText'>
+            <p>{errorText}</p>
+        </div>
+    </div>
+);
+
 
 export default TextField;

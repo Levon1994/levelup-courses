@@ -10,6 +10,7 @@ import classnames from 'classnames';
 
 import {
   Main,
+  Login,
   Course,
   CourseItem,
 } from 'containers';
@@ -19,7 +20,6 @@ import {
   Footer,
   DarkModeButton
 } from 'components';
-import { useMount } from 'utils';
 
 import { toggleDarkMode } from 'actions';
 

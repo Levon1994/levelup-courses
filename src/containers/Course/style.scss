@@ -5,10 +5,16 @@
     }
   }
   .player-content {
-    width: 75%;
+    &.isOpen {
+      width: 75%;
+      .player {
+        height: 600px !important;
+      }
+    }
+    width: 100%;
     .player {
       width: 100% !important;
-      height: 600px !important;
+      height: 700px !important;
       background-color: #283045;
     }
     .text-block {
@@ -21,5 +27,6 @@
   }
   .lessons-list {
     width: 25%;
+    position: relative;
   }
 }

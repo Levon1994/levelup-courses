@@ -2,6 +2,7 @@ import createReducer from 'helpers/createReducer';
 import { combineReducers } from 'redux';
 import {
   BLOG,
+  LOGIN,
   BLOGS,
   COURSE,
   COURSES,
@@ -24,6 +25,7 @@ const darkMode = (state = false, action) => {
 };
 
 const blogItem = createReducer(BLOG);
+const login = createReducer(LOGIN);
 const course = createReducer(COURSE);
 const blogItems = createReducer(BLOGS);
 const courses = createReducer(COURSES);
@@ -35,6 +37,7 @@ const testimonials = createReducer(TESTIMONIALS);
 const website_settings = createReducer(WEBSITE_SETTINGS);
 
 const rootReducer = combineReducers({
+  login,
   course,
   careers,
   courses,

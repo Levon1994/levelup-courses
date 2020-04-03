@@ -1,4 +1,15 @@
 .CourseAccordion {
+  position: fixed;
+  width: 25%;
+  height: 100%;
+  background-color: #fff;
+  border-left: 1px solid;
+  z-index: 5;
+  top: 70px;
+  right: 0;
+  &.darkMode {
+    background-color: #283045;
+  }
   &_title {
     height: 70px;
     padding: 15px;
@@ -9,6 +20,8 @@
     }
   }
   &_content {
+    overflow-y: auto;
+    max-height: calc(100% - 140px);
     .Accordion-item {
       &.active {
         .Accordion-item-body {

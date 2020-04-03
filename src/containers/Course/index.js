@@ -4,9 +4,9 @@ import { connect } from 'react-redux';
 import ReactPlayer from 'react-player';
 
 import {
+  Icon,
   Text,
   Paper,
-  BlogCard,
 } from 'components';
 
 import CourseAccordion from './CourseAccordion';
@@ -20,6 +20,8 @@ const Course = ({
    darkMode,
 }) => {
 
+  const [isOpen, setIsOpen] = useState(true);
+
   const data = {
     title: 'React Native Advanced',
     subtitle: 'Master the advanced topics of React Native: Animations, Maps, Notifications, Navigation and More!',
@@ -29,6 +31,124 @@ const Course = ({
         name: 'Welcome to the Course!',
         duration: '1min',
         id: 1,
+        subItems: [
+          {
+            name: '1. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4',
+          },
+          {
+            name: '2. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
+          },
+          {
+            name: '3. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson3.mp4',
+          },
+          {
+            name: '1. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4',
+          },
+          {
+            name: '2. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
+          },
+          {
+            name: '3. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson3.mp4',
+          },
+          {
+            name: '1. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4',
+          },
+          {
+            name: '2. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
+          },
+          {
+            name: '3. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson3.mp4',
+          },
+        ]
+      },
+      {
+        name: 'Welcome to the Course!',
+        duration: '1min',
+        id: 7,
+        subItems: [
+          {
+            name: '1. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4',
+          },
+          {
+            name: '2. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
+          },
+          {
+            name: '3. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson3.mp4',
+          },
+        ]
+      },
+      {
+        name: 'Welcome to the Course!',
+        duration: '1min',
+        id: 6,
+        subItems: [
+          {
+            name: '1. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4',
+          },
+          {
+            name: '2. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
+          },
+          {
+            name: '3. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson3.mp4',
+          },
+        ]
+      },
+      {
+        name: 'Welcome to the Course!',
+        duration: '1min',
+        id: 5,
+        subItems: [
+          {
+            name: '1. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4',
+          },
+          {
+            name: '2. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
+          },
+          {
+            name: '3. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson3.mp4',
+          },
+        ]
+      },
+      {
+        name: 'Welcome to the Course!',
+        duration: '1min',
+        id: 55,
         subItems: [
           {
             name: '1. Setting up our Tools',
@@ -89,19 +209,20 @@ const Course = ({
     description: 'string',
   };
 
-  const { id, lessonId } = params;
+  //const { id, lessonId } = params;
 
   const [url, setUrl] = useState(data.items[0].subItems[0].url);
 
   return (
     <section className={classnames('Course flexible jBetween', { 'darkMode': darkMode })}>
-      <Paper className="player-content" flexName="flexible vertical jCenter">
+      <Paper className={classnames('player-content', { 'isOpen': isOpen })} flexName="flexible vertical">
+        {!isOpen && <Icon className="icon-feather-arrow-left" />}
         <ReactPlayer
           className="player"
           url={url}
           controls
           loop={false}
-          playing={false}
+          playing={true}
           onEnded={data => console.log('onEnded', data)}
         />
         <Paper className="text-block" flexName="flexible vertical">
@@ -111,13 +232,17 @@ const Course = ({
           <Text darkMode={darkMode}>{data.description}</Text>
         </Paper>
       </Paper>
-      <Paper className="lessons-list">
-        <CourseAccordion
-          data={data.items}
-          darkMode={darkMode}
-          onSelectVideo={setUrl}
-        />
-      </Paper>
+      {
+        isOpen &&
+        <Paper className="lessons-list">
+          <CourseAccordion
+            setIsOpen={setIsOpen}
+            data={data.items}
+            darkMode={darkMode}
+            onSelectVideo={setUrl}
+          />
+        </Paper>
+      }
     </section>
   )
 };
