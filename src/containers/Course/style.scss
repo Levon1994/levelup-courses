@@ -1,0 +1,25 @@
+.Course {
+  &.darkMode {
+    .player {
+      background-color: #ccc7c7 !important;
+    }
+  }
+  .player-content {
+    width: 75%;
+    .player {
+      width: 100% !important;
+      height: 600px !important;
+      background-color: #283045;
+    }
+    .text-block {
+      padding: 30px 50px;
+      .extraLarge {
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .lessons-list {
+    width: 25%;
+  }
+}

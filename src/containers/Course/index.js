@@ -1,12 +1,24 @@
 import React, { useState } from 'react';
+import classnames from 'classnames';
+import { connect } from 'react-redux';
 import ReactPlayer from 'react-player';
 
 import {
+  Text,
   Paper,
   BlogCard,
 } from 'components';
 
-const Course = ({ match: { params } }) => {
+import CourseAccordion from './CourseAccordion';
+
+import './style.scss';
+
+const mapStateToProps = ({ darkMode }) => ({ darkMode });
+
+const Course = ({
+   match: { params },
+   darkMode,
+}) => {
 
   const data = {
     title: 'React Native Advanced',
@@ -19,19 +31,19 @@ const Course = ({ match: { params } }) => {
         id: 1,
         subItems: [
           {
-            name: 'Setting up our Tools',
+            name: '1. Setting up our Tools',
+            duration: '1min',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4',
+          },
+          {
+            name: '2. Setting up our Tools',
             duration: '1min',
             url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
           },
           {
-            name: 'Setting up our Tools',
+            name: '3. Setting up our Tools',
             duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
-          },
-          {
-            name: 'Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson3.mp4',
           },
         ]
       },
@@ -41,9 +53,9 @@ const Course = ({ match: { params } }) => {
         id: 2,
         subItems: [
           {
-            name: 'Setting up our Tools',
+            name: '4. Setting up our Tools',
             duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
+            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson4.mp4',
           }
         ]
       },
@@ -53,7 +65,7 @@ const Course = ({ match: { params } }) => {
         id: 3,
         subItems: [
           {
-            name: 'Setting up our Tools',
+            name: '5. Setting up our Tools',
             duration: '1min',
             url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
           },
@@ -82,16 +94,8 @@ const Course = ({ match: { params } }) => {
   const [url, setUrl] = useState(data.items[0].subItems[0].url);
 
   return (
-    <section className="Course">
-      <Paper className ='page-content' flexName='flexible vertical jBetween'>
-
-        <ul>
-          {data.items.map(item => (
-              <li key={item.name} onClick={() => setUrl(item.url)}>{item.url}</li>
-          ))}
-        </ul>
-      </Paper>
-      <Paper className="player-content">
+    <section className={classnames('Course flexible jBetween', { 'darkMode': darkMode })}>
+      <Paper className="player-content" flexName="flexible vertical jCenter">
         <ReactPlayer
           className="player"
           url={url}
@@ -100,12 +104,22 @@ const Course = ({ match: { params } }) => {
           playing={false}
           onEnded={data => console.log('onEnded', data)}
         />
+        <Paper className="text-block" flexName="flexible vertical">
+          <Text className="extraLarge" darkMode={darkMode}>About this course</Text>
+          <Text darkMode={darkMode}>{data.subtitle}</Text>
+          <Text className="extraLarge" darkMode={darkMode}>Description</Text>
+          <Text darkMode={darkMode}>{data.description}</Text>
+        </Paper>
       </Paper>
       <Paper className="lessons-list">
-
+        <CourseAccordion
+          data={data.items}
+          darkMode={darkMode}
+          onSelectVideo={setUrl}
+        />
       </Paper>
     </section>
   )
 };
 
-export default Course;
+export default connect(mapStateToProps, null)(Course);
