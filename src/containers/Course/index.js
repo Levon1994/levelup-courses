@@ -216,7 +216,7 @@ const Course = ({
   return (
     <section className={classnames('Course flexible jBetween', { 'darkMode': darkMode })}>
       <Paper className={classnames('player-content', { 'isOpen': isOpen })} flexName="flexible vertical">
-        {!isOpen && <Icon className="icon-feather-arrow-left" />}
+        {!isOpen && <Icon className="icon-feather-arrow-left" onClick={() => setIsOpen(true)} />}
         <ReactPlayer
           className="player"
           url={url}

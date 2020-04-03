@@ -3,8 +3,28 @@
     .player {
       background-color: #ccc7c7 !important;
     }
+    .icon-feather-arrow-left {
+      background-color: #283045 !important;
+      color: #fff !important;
+    }
   }
   .player-content {
+    position: relative;
+    .icon-feather-arrow-left {
+      position: absolute;
+      top: 20px;
+      right: 0px;
+      width: 40px;
+      height: 35px;
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      background-color: #fff;
+      color: #283045;
+      z-index: 2;
+    }
     &.isOpen {
       width: 75%;
       .player {
