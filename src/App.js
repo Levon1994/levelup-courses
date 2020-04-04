@@ -50,7 +50,7 @@ const App = ({
           />
           <Switch>
               <Route exact path="/" component={Main} />
-              <Route exact path="/course/:id" component={CourseItem} />
+              <Route exact path="/course/:id" render={() => <CourseItem darkMode={darkMode}/>} />
               <Route path="/course/:id/:lessonId" component={Course} />
               <Redirect from='/' to='/'/>
           </Switch>
