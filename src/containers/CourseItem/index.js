@@ -1,26 +1,30 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 
-import { Paper, CoursesCard,Accordion,GoToCourseCard,CreateBy } from 'components';
+import { 
+  Paper, 
+  CreateBy,
+  Accordion,
+  CoursesCard,
+  GoToCourseCard,
+} from 'components';
 
 import './index.scss';
 
+const mapStateToProps = ({ darkMode }) => ({ darkMode });
+
 const CourseItem = ({ darkMode }) => {
-  let arr = ['weqweqweqweqwe','qwewqeqweqw','qweqweqwewqewq','dsfsdfdsf','sdfdsfdsdfdsfdsfd'];
-  let obj = {
-    title: 'React',
-    subTitle: 'valod jan valod',
-    creator: 'Axas Axasyan'
-  };
+  
   return (
     <section className="Course_Item">
       <Paper className="page-content">
         <Paper className='left_side'>
-          <CreateBy darkMode={darkMode} data={obj}/>
+          <CreateBy darkMode={darkMode}/>
           <Paper className='Accordion_contain'>
-            <CoursesCard data={arr} darkMode={darkMode}/>
+            <CoursesCard darkMode={darkMode}/>
             <Paper className='accordions'>
-              <Accordion title={'barlus'} children={arr} darkMode={darkMode}/>
+              <Accordion darkMode={darkMode}/>
             </Paper>
           </Paper>
         </Paper>
@@ -33,4 +37,4 @@ const CourseItem = ({ darkMode }) => {
   )
 };
 
-export default CourseItem;
+export default connect(mapStateToProps,{})(CourseItem);

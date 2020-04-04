@@ -6,50 +6,47 @@ import classnames from 'classnames';
 import './style.scss';
 
 const Accordion = ({
-    title,
+    data,
     darkMode,
-    children,
 }) => {
 
     const [isOpen,setIsOpen] = useState(false);
 
-    const childs = children && children.map(item => (
-        <Paper className='accordion_content'>
-            {item}
-        </Paper>
-    ))
+    const content = () => {
+        if(!data && !data.length) return null;
 
-    return  <Paper className={classnames('accordion',{'darkMode' : darkMode})}>
+        return data.map(item => (
+            <Paper  
+                className={classnames('accordion',{'darkMode' : darkMode})}
+                key={item.id}
+            >
                 <Paper
                     className={`accordion_title ${isOpen ? "open" : ""}`}
                     onClick = {() => setIsOpen(!isOpen)}
                 >
-                    {title}
+                    {item.title}
                 </Paper>
                 <Paper
                     className = {`accordion_item ${!isOpen ? "collapsed" : ""}`}
                 >
-                    {childs}
+                {item.child && item.child.map((elem,index) => (
+                    <Paper 
+                        className='accordion_content'
+                        key={index}
+                    >
+                        {elem}
+                    </Paper>
+                ))}
                 </Paper>
             </Paper>
+        ));
+    };
+
+    return  <Paper>
+                {content()}
+            </Paper>
+                   
 };
 
 export default Accordion;
 
-// const Accordion = ({ title, children }) => {
-//     const [isOpen, setOpen] = React.useState(false);
-//     return (
-//       <div className="accordion-wrapper">
-        
-//         <div
-//           className={`accordion-title ${isOpen ? "open" : ""}`}
-//           onClick={() => setOpen(!isOpen)}
-//           >
-//           {title}
-//         </div>
-//         <div className={`accordion-item ${!isOpen ? "collapsed" : ""}`}>
-//           <div className="accordion-content">{children}</div>
-//         </div>
-//       </div>
-//     );
-//   };

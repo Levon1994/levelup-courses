@@ -51,8 +51,8 @@ const App = ({
           />
           <Switch>
               <Route exact path="/" component={Main} />
-              <Route exact path="/course/:id" render={() => <CourseItem darkMode={darkMode}/>} />
-              <Route path="/course/:id/:lessonId" component={Course} />
+              <Route exact path="/course/:id" component={Course} />
+              <Route path="/course/:id/:lessonId" component={CourseItem} />
               <Redirect from='/' to='/'/>
           </Switch>
         </main>
@@ -64,3 +64,5 @@ const App = ({
 export default connect(mapStateToProps, {
   toggleDarkMode,
 })(withRouter(App));
+
+
