@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import { Paper, CoursesCard,Accordion,GoToCourseCard,CreateBy } from 'components';
 
@@ -26,6 +27,7 @@ const CourseItem = ({ darkMode }) => {
         <Paper className='right_side'>
             <GoToCourseCard darkMode={darkMode}/>
         </Paper>
+        <NavLink to="1/3">Go To Course</NavLink>
       </Paper>
     </section>
   )

@@ -29,6 +29,7 @@ import Footer from './organisms/Footer';
 import Dropdown from './organisms/Dropdown';
 import Testimonials from "./organisms/Testimonals";
 import Collapse from './organisms/Collapse';
+import BusyLoader from './organisms/BusyLoader';
 
 export {
   Text,
@@ -50,6 +51,7 @@ export {
   Pagination,
   Uploader,
   CoursesCard,
+  BusyLoader,
   ImageContent,
   SwitchButton,
   Testimonials,

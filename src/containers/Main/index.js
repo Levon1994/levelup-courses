@@ -7,7 +7,6 @@ import {
 
 import {
   Text,
-  Icon,
   Paper,
   Image,
   Button,

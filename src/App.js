@@ -10,6 +10,7 @@ import classnames from 'classnames';
 
 import {
   Main,
+  Login,
   Course,
   CourseItem,
 } from 'containers';
@@ -19,13 +20,13 @@ import {
   Footer,
   DarkModeButton
 } from 'components';
-import { useMount } from 'utils';
 
 import { toggleDarkMode } from 'actions';
 
 import 'sass/animate.scss';
 import 'sass/main.scss';
 import 'sass/media.scss';
+import 'sass/feather-icon.scss';
 
 const mapStateToProps = ({ darkMode }) => ({ darkMode });
 

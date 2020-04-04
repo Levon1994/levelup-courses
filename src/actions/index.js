@@ -1,6 +1,7 @@
 import CreateActionCreator  from 'helpers/createActionCreator';
 import {
   BLOG,
+  LOGIN,
   BLOGS,
   COURSE,
   COURSES,
@@ -67,6 +68,14 @@ const fetchCarrers = _ => CreateActionCreator.read({
   path: 'careers',
   type: CAREERS,
 });
+
+export const loginToAdmin = data => CreateActionCreator.create({
+    path: 'user/login',
+    type: LOGIN,
+    body: data,
+    forLogin: true,
+});
+
 
 
 export {

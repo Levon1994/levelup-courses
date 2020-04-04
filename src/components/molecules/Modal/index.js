@@ -1,4 +1,5 @@
 import React from 'react';
+import classnames from 'classnames';
 import { createPortal } from 'react-dom';
 
 import {
@@ -10,10 +11,11 @@ import './style.scss';
 
 const Modal = ({
   closeModal,
+  className,
   children
 }) => (
     createPortal(
-      <Paper className="fon">
+      <Paper className={classnames('fon', className)}>
         <Paper className="Modal-container">
           <Paper className="Modal">
             <Paper className="modal-content">
