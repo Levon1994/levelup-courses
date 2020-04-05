@@ -1,0 +1,23 @@
+.Profile {
+  h1 {
+    text-align: center;
+    padding: 30px 20px;
+  }
+  .page-content {
+    .image-block {
+      width: 30%;
+    }
+    .BusyLoader {
+      width: 70%;
+      .info-block {
+        width: 100%;
+        padding: 15px;
+        .formGroup {
+          flex-grow: 1;
+          width: 80%;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}

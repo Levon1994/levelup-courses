@@ -17,10 +17,10 @@ const Modal = ({
     createPortal(
       <Paper className={classnames('fon', className)}>
         <Paper className="Modal-container">
-          <Paper className="Modal">
+          <Paper className="Modal animated fadeInDown">
             <Paper className="modal-content">
               <Paper className="size">
-                <Paper onClick={() => closeModal()} className="close-btn">
+                <Paper onClick={closeModal} className="close-btn">
                   <Icon name="close" />
                 </Paper>
                 <Paper flexName="flexible jCenter vertical" className="text-field-container">

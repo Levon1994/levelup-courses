@@ -1,39 +1,45 @@
 import { BASE_URL } from 'configs';
 
 export default class Fetch {
-    static async fetch(options) {
-        const { headers, method, body, path, data } = options;
-
-        let requestOptions = {
+    static async request(options) {
+        const ACCESS_TOKEN = window.localStorage.getItem('token');
+        const { method, path, headers, body, forLogin, data, withAuthToken } = options;
+        let requestConfig = {
+            method,
             headers: {
                 'Accept': 'application/json',
-                'Content-Type': 'application/json',
-                ...headers,
+                ...headers
             },
-            method,
-            redirect: 'follow',
         };
 
-        if (body) {
-            requestOptions.body = JSON.stringify(body);
-        } else if(data) {
-            requestOptions.body = data;
+        if(!withAuthToken) {
+          requestConfig.headers['x-auth-token'] = ACCESS_TOKEN;
         }
-        // Fire the Request and Return the response promise Object
-        const requestPromise = await fetch(new Request(`${BASE_URL}${path}`, requestOptions)).then((res)=> res).then((data)=> data.ok && data.json());
 
-        return requestPromise;
+        if (body) {
+            requestConfig.body = JSON.stringify(body);
+            requestConfig.headers['Content-Type'] = 'application/json';
+        } else if(data) {
+            requestConfig.body = data;
+        }
+
+        const response = await fetch(new Request(`${BASE_URL}${path}`, requestConfig)).then(res => res);
+        if (response.status >= 200 && response.status <= 299) {
+          return await response.json();
+        } else {
+          return response;
+        };
     }
 
     /* GET (retrieve) */
-    static get = options => Fetch.fetch({ ...options, method: 'GET' });
+    static get = options => Fetch.request({ ...options, method: 'GET' });
 
     /* POST (create) */
-    static post = options => Fetch.fetch({ ...options, method: 'POST' });
+    static post = options => Fetch.request({ ...options, method: 'POST' });
 
-    /* PUT (update) */
-    static put = options => Fetch.fetch({ ...options, method: 'PUT' });;
+    /* POST (create) */
+    static patch = options => Fetch.request({ ...options, method: 'PATCH' });
 
     /* DELETE (remove) */
-    static delete = options => Fetch.fetch({ ...options, method: 'DELETE' });
+    static delete = options => Fetch.request({ ...options, method: 'DELETE' });
 }

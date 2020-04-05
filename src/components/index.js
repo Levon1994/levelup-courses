@@ -26,6 +26,7 @@ import Dropdown from './organisms/Dropdown';
 import Testimonials from "./organisms/Testimonals";
 import Collapse from './organisms/Collapse';
 import BusyLoader from './organisms/BusyLoader';
+import ImageUploader from './organisms/ImageUploader';
 
 export {
   Text,
@@ -45,6 +46,7 @@ export {
   Pagination,
   Uploader,
   BusyLoader,
+  ImageUploader,
   ImageContent,
   SwitchButton,
   Testimonials,

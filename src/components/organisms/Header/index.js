@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { connect } from 'react-redux';
 import {
   NavLink,
   withRouter,
@@ -6,25 +7,35 @@ import {
 import classnames from 'classnames';
 
 import {
+  Icon,
+  Text,
   Image,
   Paper,
+  Avatar,
   Button,
   Dropdown,
 } from 'components';
 
+import { DEFAULT_USER_IMAGE } from 'configs';
+import { toggleIsOpenLogin } from 'actions';
 import { useTranslator } from 'utils/translator';
 
 import logo from 'assets/levelup-logo.svg';
 
 import './style.scss';
 
+const mapStateToProps = ({ login, user }) => ({ login, user });
+
 const Header = ({
+  user,
+  login,
   darkMode,
   history: { push },
   location,
+  toggleIsOpenLogin,
 }) => {
 
-  const { setLanguage } = useTranslator();
+  const { t, setLanguage } = useTranslator();
 
   const languages = [
     { label: 'ENG', value: 'en' },
@@ -38,6 +49,11 @@ const Header = ({
   const handleActiveLang = item => {
     setLanguage(item.value);
     setActiveLang(item);
+  };
+
+  const onLogOut = () => {
+    window.localStorage.clear();
+    window.location.reload();
   };
 
   return (
@@ -67,10 +83,46 @@ const Header = ({
                   href="http://levelup.am/"
                   onClick={() => setActive(!active)}
                   >
-                  <Button>
                     Level UP It Center
-                  </Button>
                 </a>
+              </li>
+              <li>
+                {
+                  (window.localStorage.getItem('token'))
+                  ? <Paper className="account-block">
+                      <Avatar
+                        src={(user && user.data) ? user.data.thumbnail_file_path : DEFAULT_USER_IMAGE}
+                        size={45}
+                      />
+                      <Paper className="hidden-block">
+                        <Paper flexName="flexible" className="image-block">
+                          <Avatar
+                            src={(user && user.data) ? user.data.thumbnail_file_path : DEFAULT_USER_IMAGE}
+                            size={45}
+                          />
+                          <Paper flexName="flexible vertical">
+                            <Text darkMode={darkMode}>{user && user.data && `${user.data.first_name} ${user.data.last_name}`}</Text>
+                            <Text darkMode={darkMode}>{user && user.data && user.data.email}</Text>
+                          </Paper>
+                        </Paper>
+                        <ul>
+                          <li className="flexible aCenter">
+                            <NavLink to="/profile" className="flexible aCenter">
+                              <Icon className="icon-feather-user"/>
+                              <Text darkMode={darkMode}>My Profile</Text>
+                            </NavLink>
+                          </li>
+                          <li className="flexible aCenter" onClick={onLogOut}>
+                            <Icon className="icon-feather-log-out"/>
+                            <Text darkMode={darkMode}>Logout</Text>
+                          </li>
+                        </ul>
+                      </Paper>
+                    </Paper>
+                  : <Button onClick={() => toggleIsOpenLogin(true)}>
+                     {t('_SignIn_')}
+                    </Button>
+                }
               </li>
               <li>
                 <Paper className="languages">
@@ -90,4 +142,4 @@ const Header = ({
   )
 };
 
-export default withRouter(Header);
+export default connect(mapStateToProps, { toggleIsOpenLogin })(withRouter(Header));

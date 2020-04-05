@@ -1,11 +1,35 @@
+@import 'sass/variables.scss';
+
 .Login {
+  .size {
+    background-color: #fbfbfb !important;
+  }
   .image-block {
     padding: 20px;
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
     img {
       width: 70%;
     }
   }
   .autorize-block {
+    .share-button {
+      padding: 2px 40px;
+      margin: 10px 0;
+      height: 46px;
+      .Icon {
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .fb-button {
+      background-color: #4267b2;
+    }
+    .google-button {
+      background-color: #d93025;
+    }
     .formGroup {
       width: 100%;
       margin-bottom: 10px;
@@ -13,5 +37,16 @@
   }
   .buttons-block {
     width: 100%;
+    .orange {
+      margin-bottom: 15px;
+    }
+    .signup-btn {
+      margin-left: 5px;
+      cursor: pointer;
+      color: $secondary-orange;
+      &:hover {
+        color: $secondary-green;
+      }
+    }
   }
 }

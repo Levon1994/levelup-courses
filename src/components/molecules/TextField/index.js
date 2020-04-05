@@ -8,6 +8,7 @@ const TextField = ({
   type,
   label,
   value,
+  darkMode,
   textarea,
   onChange,
   errorText,
@@ -27,7 +28,11 @@ const TextField = ({
             {...restProps}
         ></textarea>
         :
-        <input className = {classnames('TextField',{[className]: className,'searchField': searchField})}
+        <input className = {classnames('TextField',{
+          [className]: className,
+          'searchField': searchField,
+          'darkMode': darkMode,
+        })}
             type = {type || 'text'}
             onChange = {onChange}
             value = {value}
