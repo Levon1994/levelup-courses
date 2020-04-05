@@ -1,0 +1,74 @@
+@import "sass/variables.scss";
+
+.DemoModal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(64, 63, 63, 0.22);
+  overflow-y: auto;
+  overflow-x: hidden;
+  &.darkMode {
+    .DemoModal_content {
+      background-color: $dark;
+    }
+  }
+  .DemoModal_header {
+    height: 60px;
+    padding: 15px;
+    .Text {
+      max-width: 90%;
+      display: block;
+    }
+  }
+  .DemoModal_aside {
+    height: 60px;
+    padding: 15px;
+  }
+  .DemoModal_list {
+    .Text {
+      font-size: 14px;
+    }
+    ul {
+      li {
+        padding: 15px;
+        border-top: 1px solid;
+        cursor: pointer;
+        > .Text {
+          padding-right: 10px;
+        }
+        .Image {
+          margin-right: 10px;
+        }
+        .text-line {
+          .Icon {
+            color: $secondary-green;
+            margin-right: 10px;
+          }
+          .Text {
+            max-width: 80%;
+          }
+        }
+      }
+    }
+  }
+  .DemoModal_content {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    transform: translateY(150px);
+    background-color: #fff;
+    border-radius: 4px;
+    position: relative;
+    > .Icon {
+      position: absolute;
+      top: -19px;
+      right: -19px;
+      cursor: pointer;
+    }
+
+  }
+}

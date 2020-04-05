@@ -71,7 +71,39 @@
         position: sticky;
         top: 0;
         .course-preview {
-
+          position: relative;
+          .preview {
+            position: absolute;
+            width: 100%;
+            height: calc(100% - 6px);
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.38);
+            cursor: pointer;
+            &:hover {
+              .circle {
+                transform: scale(1.2);
+              }
+            }
+            .circle {
+              transition: all .3s linear;
+              width: 100px;
+              height: 100px;
+              border-radius: 100%;
+              background-color: rgba(0, 0, 0, 0.65);
+              .Icon {
+                color: #fff;
+                font-size: 50px;
+                margin-left: 6px;
+              }
+            }
+            .Text {
+              color: #fff;
+              font-size: 20px;
+              position: relative;
+              top: 30px;
+            }
+          }
         }
       }
       .course-desc {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import classnames from 'classnames';
 import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
@@ -16,6 +16,8 @@ import {
   toggleIsOpenLogin
 } from 'actions';
 import { useMount } from 'utils';
+
+import DemoModal from './DemoModal';
 
 import './style.scss';
 
@@ -38,6 +40,8 @@ const CourseItem = ({
   match: { params: { id } },
 }) => {
 
+  const [isOpen, setIsOpen] = useState(true);
+
   useMount(() => {
     fetchCourse(id);
   });
@@ -47,6 +51,8 @@ const CourseItem = ({
       toggleIsOpenLogin(true);
     }
   };
+
+  const onToggleModal = () => setIsOpen(!isOpen);
 
   return (
     <section className={classnames('CourseItem', { 'darkMode' : darkMode})}>
@@ -94,6 +100,12 @@ const CourseItem = ({
                 height={200}
                 src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
               />
+              <Paper className="preview" onClick={onToggleModal} flexName="flexible vertical aCenter jCenter">
+                <Paper className="circle" flexName="flexible aCenter jCenter">
+                  <Icon className="icon-feather-play" />
+                </Paper>
+                <Text>Preview the course</Text>
+              </Paper>
             </Paper>
             <Paper className="course-desc" flexName="flexible aCenter vertical">
               <Button>
@@ -113,6 +125,13 @@ const CourseItem = ({
               </Paper>
             </Paper>
           </Paper>
+          {isOpen &&
+            <DemoModal
+              name={course && course.data && course.data.title}
+              onClose={onToggleModal}
+              darkMode={darkMode}
+            />
+          }
         </Paper>
       </Paper>
     </section>
