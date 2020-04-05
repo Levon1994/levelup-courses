@@ -3,6 +3,7 @@ import { combineReducers } from 'redux';
 import {
   USER,
   LOGIN,
+  COURSE,
   COURSES,
   DARK_MODE,
   IS_OPEN_LOGIN,
@@ -27,12 +28,14 @@ const isOpenLogin = (state = false, action) => {
 };
 
 const courses = createReducer(COURSES);
+const course = createReducer(COURSE);
 const login = createReducer(LOGIN);
 const user = createReducer(USER);
 
 const rootReducer = combineReducers({
   user,
   login,
+  course,
   courses,
   darkMode,
   isOpenLogin,

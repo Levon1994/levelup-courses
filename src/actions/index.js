@@ -2,6 +2,7 @@ import CreateActionCreator  from 'helpers/createActionCreator';
 import {
   USER,
   LOGIN,
+  COURSE,
   COURSES,
   DARK_MODE,
   IS_OPEN_LOGIN,
@@ -46,8 +47,15 @@ const fetchCourses = _ => CreateActionCreator.read({
     withAuthToken: true,
 });
 
+const fetchCourse = id => CreateActionCreator.read({
+    path: `video-courses/${id}`,
+    type: COURSE,
+    withAuthToken: true,
+});
+
 export {
   loginAsUser,
+  fetchCourse,
   fetchCourses,
   fetchProfile,
   updateProfile,
