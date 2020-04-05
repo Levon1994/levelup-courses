@@ -112,6 +112,12 @@ const Header = ({
                               <Text darkMode={darkMode}>My Profile</Text>
                             </NavLink>
                           </li>
+                          <li className="flexible aCenter">
+                            <NavLink to="/my-courses" className="flexible aCenter">
+                              <Icon className="icon-feather-user"/>
+                              <Text darkMode={darkMode}>My Courses</Text>
+                            </NavLink>
+                          </li>
                           <li className="flexible aCenter" onClick={onLogOut}>
                             <Icon className="icon-feather-log-out"/>
                             <Text darkMode={darkMode}>Logout</Text>

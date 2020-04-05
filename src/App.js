@@ -13,6 +13,7 @@ import {
   Login,
   Course,
   Profile,
+  Favorites,
   CourseItem,
 } from 'containers';
 
@@ -82,6 +83,7 @@ const App = ({
               <Autorize toggleIsOpenLogin={toggleIsOpenLogin} login={login}>
                 <Route path="/course/:id/:lessonId" component={Course} />
                 <Route path="/profile" component={Profile} />
+                <Route path="/my-courses" component={Favorites} />
               </Autorize>
               <Redirect to='/' />
           </Switch>

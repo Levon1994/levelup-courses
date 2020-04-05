@@ -18,6 +18,7 @@ import {
 import { useMount } from 'utils';
 
 import DemoModal from './DemoModal';
+import CourseContent from './CourseContent';
 
 import './style.scss';
 
@@ -40,7 +41,7 @@ const CourseItem = ({
   match: { params: { id } },
 }) => {
 
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   useMount(() => {
     fetchCourse(id);
@@ -90,6 +91,12 @@ const CourseItem = ({
                 <Text className="medium" darkMode={darkMode}>Go from a total beginner to an advanced JavaScript developer</Text>
               </Paper>
             </Paper>
+          </Paper>
+          <Paper className="course-content-block">
+            <Text className="extraLarge" darkMode={darkMode}>Course Content</Text>
+            <CourseContent
+              darkMode={darkMode}
+            />
           </Paper>
         </Paper>
         <Paper className="image-block">

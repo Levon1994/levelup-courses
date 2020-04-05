@@ -67,7 +67,7 @@ const Login = ({
     const valid = email.length && password.length;
 
     setIsValid(valid);
-  })
+  }, [filter]);
 
   const handleChange = ({ target: { name, value } }) => {
     setFilter({ ...filter , [name]: value  });
