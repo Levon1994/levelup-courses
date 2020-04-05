@@ -10,6 +10,10 @@
     letter-spacing: 0.62px;
     transition: all .2s linear;
     border-radius: 33px;
+    &.disabled {
+      pointer-events: none;
+      opacity: 0.4;
+    }
     &.green {
       background-color: $secondary-green;
       &:hover {

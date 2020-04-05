@@ -1,6 +1,5 @@
 import React from 'react';
 import classnames from 'classnames';
-import dayjs from 'dayjs';
 
 import {
   Text,
@@ -18,10 +17,9 @@ const BlogCard = ({
   title,
   description,
   darkMode,
+  createdBy,
   restProps
 }) => {
-
-  const date = dayjs(createdDate).format('DD.MM.YYYY');
 
   return  (
     <Paper
@@ -41,9 +39,9 @@ const BlogCard = ({
       </Paper>
       <Paper flexName='flexible jBetween' className='infoblock'>
         {
-          createdDate &&
+          createdBy &&
           <Paper>
-            <Text darkMode={darkMode} className='small'>{date}</Text>
+            <Text darkMode={darkMode} className='small'>{createdBy}</Text>
           </Paper>
         }
         <Paper>

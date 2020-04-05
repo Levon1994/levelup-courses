@@ -80,10 +80,10 @@ const Header = ({
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="http://levelup.am/"
+                  href="http://levelup.am/about-us"
                   onClick={() => setActive(!active)}
                   >
-                    Level UP It Center
+                    {t('_AboutUs_')}
                 </a>
               </li>
               <li>

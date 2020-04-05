@@ -31,15 +31,13 @@ const Profile = ({
   const { t } = useTranslator();
 
   const [isBusy, setIsBusy] = useState();
-  const [filter, setFilter] = useState(defaultFilter);
+  const [filter, setFilter] = useState({ ...defaultFilter, ...(user && user.data) });
 
   useEffect(() => {
     if(user) {
-      setFilter({
-        ...filter,
-        ...user.data,
-      })
-    }
+      const newFilter = {...filter, ...user.data};
+      setFilter(newFilter);
+    };
   }, [user]);
 
   const handleChange = ({ target: { name, value } }) => {

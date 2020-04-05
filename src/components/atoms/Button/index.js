@@ -7,6 +7,7 @@ const Button = ({
     size,
     bgColor,
     children,
+    disabled,
     className,
     ...restProps
 }) => {
@@ -15,8 +16,10 @@ const Button = ({
             className={classname('Button', {
               [size || 'small']: size || 'small',
               [bgColor || 'green'] : bgColor || 'green',
+              'disabled' : disabled,
               [className]: className,
             })}
+            disabled={disabled}
             {...restProps}>
             {children}
         </button>

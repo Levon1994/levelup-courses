@@ -25,6 +25,7 @@ import {
 import {
   fetchProfile,
   toggleDarkMode,
+  toggleIsOpenLogin,
 } from 'actions';
 
 import Autorize from 'utils/autorize';
@@ -78,7 +79,7 @@ const App = ({
           <Switch>
               <Route exact path="/" component={Main} />
               <Route exact path="/course/:id" component={CourseItem} />
-              <Autorize >
+              <Autorize toggleIsOpenLogin={toggleIsOpenLogin} login={login}>
                 <Route path="/course/:id/:lessonId" component={Course} />
                 <Route path="/profile" component={Profile} />
               </Autorize>

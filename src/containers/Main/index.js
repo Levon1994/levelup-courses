@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { connect } from 'react-redux';
 import {
   withRouter,
@@ -14,6 +14,8 @@ import {
 } from 'components';
 
 import { useTranslator } from 'utils/translator';
+import { useMount } from 'utils';
+import { fetchCourses } from 'actions';
 
 import {
   wave
@@ -23,15 +25,38 @@ import './style.scss';
 
 const mapStateToProps = ({
   darkMode,
+  courses,
 }) => ({
   darkMode,
+  courses,
 });
 
 const Main = ({
+  courses,
   darkMode,
+  fetchCourses,
 }) => {
 
   const { t } = useTranslator();
+
+  useMount(() => { fetchCourses() });
+
+  const renderCourses = useMemo(() => {
+    if (!courses || !courses.data || !courses.data.result || !courses.data.result.length) return null;
+
+    return courses.data.result.map(({ _id, title, subtitle, createdby}) => (
+      <NavLink to={`/course/${_id}`} key={_id}>
+        <BlogCard
+          darkMode={darkMode}
+          title={title}
+          description={subtitle}
+          createdBy={createdby}
+          src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
+          width="280px"
+        />
+      </NavLink>
+    ))
+  },[courses, darkMode])
 
   return (
       <>
@@ -41,7 +66,7 @@ const Main = ({
               <Text className ='big' darkMode={darkMode}>
                 {t('_Welcome_')}
               </Text>
-              <NavLink to="/about-us">
+              <NavLink to="/">
                 <Button className='first-button'>{t("_ReadMore_")}</Button>
               </NavLink>
             </Paper>
@@ -59,46 +84,13 @@ const Main = ({
             <Text className='doubleExtraLarge titleMargin' darkMode={darkMode}>{t('_Development_')}</Text>
           </Paper>
           <Paper className="courses-line" flexName="flexible wrap jAround">
-            <NavLink to={`/course/1`}>
-              <BlogCard
-                darkMode={darkMode}
-                title="React Native: Advanced Concepts"
-                description="Master the advanced topics of React Native: Animations, Maps, Notifications, Navigation and More!"
-                src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
-                width="280px"
-              />
-            </NavLink>
-            <NavLink to={`/course/1`}>
-              <BlogCard
-                darkMode={darkMode}
-                title="React Native: Advanced Concepts"
-                description="Master the advanced topics of React Native: Animations, Maps, Notifications, Navigation and More!"
-                src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
-                width="280px"
-              />
-            </NavLink>
-            <NavLink to={`/course/1`}>
-              <BlogCard
-                darkMode={darkMode}
-                title="React Native: Advanced Concepts"
-                description="Master the advanced topics of React Native: Animations, Maps, Notifications, Navigation and More!"
-                src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
-                width="280px"
-              />
-            </NavLink>
-            <NavLink to={`/course/1`}>
-              <BlogCard
-                darkMode={darkMode}
-                title="React Native: Advanced Concepts"
-                description="Master the advanced topics of React Native: Animations, Maps, Notifications, Navigation and More!"
-                src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
-                width="280px"
-              />
-            </NavLink>
+            {renderCourses}
           </Paper>
           </Paper>
         </section>
       </>
   );
 }
-export default connect(mapStateToProps, null)(withRouter(Main));
+export default connect(mapStateToProps, {
+  fetchCourses,
+})(withRouter(Main));

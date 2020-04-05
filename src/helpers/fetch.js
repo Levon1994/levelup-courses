@@ -3,7 +3,7 @@ import { BASE_URL } from 'configs';
 export default class Fetch {
     static async request(options) {
         const ACCESS_TOKEN = window.localStorage.getItem('token');
-        const { method, path, headers, body, forLogin, data, withAuthToken } = options;
+        const { method, path, headers, body, data, withAuthToken, isChecked } = options;
         let requestConfig = {
             method,
             headers: {
@@ -27,6 +27,10 @@ export default class Fetch {
         if (response.status >= 200 && response.status <= 299) {
           return await response.json();
         } else {
+          if(isChecked) {
+            window.localStorage.clear();
+            window.location.reload();
+          }
           return response;
         };
     }

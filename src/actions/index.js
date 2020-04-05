@@ -2,6 +2,7 @@ import CreateActionCreator  from 'helpers/createActionCreator';
 import {
   USER,
   LOGIN,
+  COURSES,
   DARK_MODE,
   IS_OPEN_LOGIN,
 } from 'configs/types';
@@ -16,16 +17,21 @@ const toggleIsOpenLogin = (isOpenLogin) => ({
   payload: isOpenLogin
 });
 
-const loginToAdmin = data => CreateActionCreator.create({
+const loginAsUser = data => CreateActionCreator.create({
     path: 'signin/signin-standard',
     type: LOGIN,
     body: data,
-    forLogin: true,
+});
+
+const registerAsUser = data => CreateActionCreator.create({
+    path: 'signup/signup-standard',
+    body: data,
 });
 
 const fetchProfile = _ => CreateActionCreator.read({
     path: 'user',
     type: USER,
+    isChecked: true,
 });
 
 const updateProfile = data => CreateActionCreator.update({
@@ -34,10 +40,18 @@ const updateProfile = data => CreateActionCreator.update({
     body: data
 });
 
+const fetchCourses = _ => CreateActionCreator.read({
+    path: 'video-courses',
+    type: COURSES,
+    withAuthToken: true,
+});
+
 export {
-  loginToAdmin,
+  loginAsUser,
+  fetchCourses,
   fetchProfile,
   updateProfile,
+  registerAsUser,
   toggleDarkMode,
   toggleIsOpenLogin,
 };
