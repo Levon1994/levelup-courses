@@ -1,18 +1,10 @@
 import createReducer from 'helpers/createReducer';
 import { combineReducers } from 'redux';
 import {
-  BLOG,
+  USER,
   LOGIN,
-  BLOGS,
-  COURSE,
-  COURSES,
-  CAREERS,
-  STUDENTS,
-  PARTNERS,
   DARK_MODE,
-  TEAMMEMBERS,
-  TESTIMONIALS,
-  WEBSITE_SETTINGS
+  IS_OPEN_LOGIN,
 } from 'configs/types';
 
 const darkMode = (state = false, action) => {
@@ -24,31 +16,23 @@ const darkMode = (state = false, action) => {
   };
 };
 
-const blogItem = createReducer(BLOG);
+const isOpenLogin = (state = false, action) => {
+  switch (action.type) {
+    case IS_OPEN_LOGIN:
+      return action.payload;
+    default:
+      return state;
+  };
+};
+
 const login = createReducer(LOGIN);
-const course = createReducer(COURSE);
-const blogItems = createReducer(BLOGS);
-const courses = createReducer(COURSES);
-const careers = createReducer(CAREERS);
-const students = createReducer(STUDENTS);
-const partners = createReducer(PARTNERS);
-const teamMembers = createReducer(TEAMMEMBERS);
-const testimonials = createReducer(TESTIMONIALS);
-const website_settings = createReducer(WEBSITE_SETTINGS);
+const user = createReducer(USER);
 
 const rootReducer = combineReducers({
+  user,
   login,
-  course,
-  careers,
-  courses,
-  students,
-  partners,
-  blogItem,
   darkMode,
-  blogItems,
-  teamMembers,
-  testimonials,
-  website_settings
+  isOpenLogin,
 });
 
 export default rootReducer;

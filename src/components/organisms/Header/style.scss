@@ -3,7 +3,7 @@
 header {
   height: 70px;
   width: 100%;
-  z-index: 1;
+  z-index: 10;
   .page-content {
     overflow: visible;
   }
@@ -12,6 +12,23 @@ header {
       background-color: $dark;
       .nav-list {
         li {
+          .account-block {
+            .hidden-block {
+              background-color: $dark;
+              .image-block {
+                &:before {
+                  background-color: $dark;
+                }
+              }
+              ul {
+                li {
+                  .Icon {
+                    color: $secondary-white;
+                  }
+                }
+              }
+            }
+          }
           a {
             color: $secondary-white;
             &.active {
@@ -96,6 +113,62 @@ header {
       align-items: center;
       li {
         margin: 0 15px;
+        .account-block {
+          position: relative;
+          height: 60px;
+          width: 45px;
+          display: flex;
+          align-items: center;
+          &:hover {
+            .hidden-block {
+              display: block;
+            }
+          }
+          .hidden-block {
+            display: none;
+            position: absolute;
+            right: 0;
+            background-color: $secondary-white;
+            box-shadow: 0 2px 12px 0 rgba(179,166,166,0.5);
+            border-radius: 10px;
+            padding: 15px 20px;
+            top: 60px;
+            .image-block {
+              margin-bottom: 20px;
+              position: relative;
+              &:before {
+                content: '';
+                width: 15px;
+                height: 15px;
+                background-color: $secondary-white;
+                position: absolute;
+                top: -22px;
+                right: -12px;
+                transform: translateX(-50%) rotate(45deg);
+              }
+              .Avatar {
+                margin-right: 15px;
+              }
+            }
+            ul {
+              li {
+                height: 40px;
+                cursor: pointer;
+                &:hover {
+                  .Text, .Icon {
+                    color: $secondary-green;
+                  }
+                }
+                .Icon {
+                  margin-right: 10px;
+                }
+                a {
+                  text-transform: none;
+                }
+              }
+            }
+          }
+        }
         a {
           font-weight: 700;
           text-transform: uppercase;

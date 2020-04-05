@@ -1,4 +1,4 @@
-import React,{ useState } from 'react';
+import React,{ useState,useMemo } from 'react';
 import { Paper } from 'components';
 
 import classnames from 'classnames';
@@ -12,8 +12,8 @@ const Accordion = ({
 
     const [isOpen,setIsOpen] = useState(false);
 
-    const content = () => {
-        if(!data && !data.length) return null;
+    const content = useMemo(() => {
+        if(!data) return null;
 
         return data.map(item => (
             <Paper  
@@ -40,10 +40,10 @@ const Accordion = ({
                 </Paper>
             </Paper>
         ));
-    };
+    },[data]);
 
     return  <Paper>
-                {content()}
+                {content}
             </Paper>
                    
 };

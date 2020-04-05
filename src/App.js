@@ -12,6 +12,7 @@ import {
   Main,
   Login,
   Course,
+  Profile,
   CourseItem,
 } from 'containers';
 
@@ -21,25 +22,49 @@ import {
   DarkModeButton
 } from 'components';
 
-import { toggleDarkMode } from 'actions';
+import {
+  fetchProfile,
+  toggleDarkMode,
+} from 'actions';
+
+import Autorize from 'utils/autorize';
 
 import 'sass/animate.scss';
 import 'sass/main.scss';
 import 'sass/media.scss';
 import 'sass/feather-icon.scss';
 
-const mapStateToProps = ({ darkMode }) => ({ darkMode });
+const mapStateToProps = ({
+  isOpenLogin,
+  darkMode,
+  login,
+}) => ({
+  isOpenLogin,
+  darkMode,
+  login,
+});
 
 const App = ({
+  login,
   darkMode,
+  isOpenLogin,
+  fetchProfile,
   toggleDarkMode,
 }) => {
+
+  const token = window.localStorage.getItem('token');
 
   useEffect(() => {
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         toggleDarkMode(true);
     };
   },[toggleDarkMode]);
+
+  useEffect(() => {
+    if (token) {
+        fetchProfile();
+    };
+  },[fetchProfile, token]);
 
   return (
     <>
@@ -49,11 +74,15 @@ const App = ({
             active={darkMode}
             onClick={toggleDarkMode}
           />
+          {isOpenLogin && <Login/>}
           <Switch>
               <Route exact path="/" component={Main} />
-              <Route exact path="/course/:id" component={Course} />
-              <Route path="/course/:id/:lessonId" component={CourseItem} />
-              <Redirect from='/' to='/'/>
+              <Route exact path="/course/:id" component={CourseItem} />
+              <Autorize >
+                <Route path="/course/:id/:lessonId" component={Course} />
+                <Route path="/profile" component={Profile} />
+              </Autorize>
+              <Redirect to='/' />
           </Switch>
         </main>
       <Footer/>
@@ -62,6 +91,7 @@ const App = ({
 };
 
 export default connect(mapStateToProps, {
+  fetchProfile,
   toggleDarkMode,
 })(withRouter(App));
 

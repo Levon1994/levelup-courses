@@ -5,6 +5,7 @@ import Icons from './icon';
 
 const Icon = ({
     className,
+    fill,
     name,
     width,
     height,
@@ -15,7 +16,7 @@ const Icon = ({
          className={classnames('Icon',className)}
          {...restProps}
       >
-          {name ? Icons[name] && Icons[name](width,height) : ""}
+          {name ? Icons[name] && Icons[name](width,height,fill) : ""}
       </span>
     )
 };

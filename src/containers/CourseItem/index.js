@@ -10,12 +10,24 @@ import {
   GoToCourseCard,
 } from 'components';
 
+import { toggleIsOpenLogin } from 'actions';
+
 import './index.scss';
 
-const mapStateToProps = ({ darkMode }) => ({ darkMode });
+const mapStateToProps = ({ darkMode, login }) => ({ darkMode, login })
 
-const CourseItem = ({ darkMode }) => {
-  
+const CourseItem = ({
+  login,
+  darkMode,
+  toggleIsOpenLogin,
+}) => {
+
+  const onGoToCourse = () => {
+    if(!(login || window.localStorage.getItem('token'))) {
+      toggleIsOpenLogin(true);
+    }
+  };
+
   return (
     <section className="Course_Item">
       <Paper className="page-content">
@@ -30,11 +42,14 @@ const CourseItem = ({ darkMode }) => {
         </Paper>
         <Paper className='right_side'>
             <GoToCourseCard darkMode={darkMode}/>
+            <NavLink to="1/3">Go To Course</NavLink>
+            <NavLink to="1/3" onClick={onGoToCourse}>Go To Course</NavLink>
         </Paper>
-        <NavLink to="1/3">Go To Course</NavLink>
       </Paper>
     </section>
   )
 };
 
-export default connect(mapStateToProps,{})(CourseItem);
+export default connect(mapStateToProps, {
+  toggleIsOpenLogin,
+})(CourseItem);
