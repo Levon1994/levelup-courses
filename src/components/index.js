@@ -12,8 +12,12 @@ import Uploader from './atoms/Uploader';
 // Molecules
 import Avatar from './molecules/Avatar';
 import InfoCard from './molecules/InfoCard';
+import CreateBy from './molecules/CreateBy';
 import TextField from './molecules/TextField';
+import Accordion from './molecules/Accordion';
+import CoursesCard from './molecules/CoursesCard';
 import ImageContent from './molecules/ImageContent';
+import GoToCourseCard from './molecules/GoToCourseCard';
 import TeamMemberCard from './molecules/TeamMemberCard';
 import ServiceInfoCard from './molecules/ServiceInfoCard';
 import BlogCard from './molecules/BlogCard';
@@ -38,18 +42,22 @@ export {
   Footer,
   Button,
   Avatar,
+  CreateBy,
   BlogCard,
   Collapse,
   InfoCard,
   Dropdown,
+  Accordion,
   TextField,
   Pagination,
   Uploader,
+  CoursesCard,
   BusyLoader,
   ImageUploader,
   ImageContent,
   SwitchButton,
   Testimonials,
+  GoToCourseCard,
   DarkModeButton,
   TeamMemberCard,
   ServiceInfoCard,

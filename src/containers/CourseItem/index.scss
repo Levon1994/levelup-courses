@@ -1,0 +1,27 @@
+.Course_Item{
+    width: 100%;
+    background-image: url('../../assets/backGround.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+    .page-content{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        .left_side{
+            width: 65%;
+            min-height: 550px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .Accordion_contain{
+               .accordions{
+                   margin-top: 20px;
+               }
+            }
+        }
+        .right_side{
+            width: 30%;
+            position: relative;
+        }
+    }
+}
