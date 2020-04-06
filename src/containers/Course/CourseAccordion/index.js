@@ -1,4 +1,4 @@
-import React,  { useState, useMemo } from 'react';
+import React,  { useState, useMemo, useEffect } from 'react';
 import classnames from 'classnames';
 import { NavLink } from 'react-router-dom';
 
@@ -20,7 +20,12 @@ const CourseAccordion = ({
 
   const [selectedData, setSelectedData] = useState({});
 
-  console.log(selectedData);
+  useEffect(() => {
+    data && data.length && data.forEach((el, index) => {
+      const selected = el.items.find(item => item._id === lessonId);
+      selected && setSelectedData({ [index]: true });
+    })
+  }, [data]);
 
   const generateContent = useMemo(() => {
     if (!data || !data.length) return null;
