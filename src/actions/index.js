@@ -4,6 +4,7 @@ import {
   LOGIN,
   COURSE,
   COURSES,
+  LESSONS,
   DARK_MODE,
   IS_OPEN_LOGIN,
 } from 'configs/types';
@@ -53,9 +54,15 @@ const fetchCourse = id => CreateActionCreator.read({
     withAuthToken: true,
 });
 
+const fetchLessons = id => CreateActionCreator.read({
+    path: `video-courses/items/${id}`,
+    type: LESSONS,
+});
+
 export {
   loginAsUser,
   fetchCourse,
+  fetchLessons,
   fetchCourses,
   fetchProfile,
   updateProfile,

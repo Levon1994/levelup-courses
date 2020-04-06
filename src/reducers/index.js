@@ -5,6 +5,7 @@ import {
   LOGIN,
   COURSE,
   COURSES,
+  LESSONS,
   DARK_MODE,
   IS_OPEN_LOGIN,
 } from 'configs/types';
@@ -28,6 +29,7 @@ const isOpenLogin = (state = false, action) => {
 };
 
 const courses = createReducer(COURSES);
+const lessons = createReducer(LESSONS);
 const course = createReducer(COURSE);
 const login = createReducer(LOGIN);
 const user = createReducer(USER);
@@ -36,6 +38,7 @@ const rootReducer = combineReducers({
   user,
   login,
   course,
+  lessons,
   courses,
   darkMode,
   isOpenLogin,

@@ -20,6 +20,7 @@
   .page-content {
     position: relative;
     padding-top: 70px;
+    overflow: visible;
     .info-block {
       width: 60%;
       .info-content {
@@ -102,13 +103,16 @@
         top: 0;
         .course-preview {
           position: relative;
+          height: 200px;
+          .Image {
+            object-position: top;
+          }
           .preview {
             position: absolute;
             width: 100%;
-            height: calc(100% - 6px);
+            height: 200px;
             top: 0;
             left: 0;
-            background-color: rgba(0, 0, 0, 0.38);
             cursor: pointer;
             &:hover {
               .circle {
@@ -131,7 +135,7 @@
               color: #fff;
               font-size: 20px;
               position: relative;
-              top: 30px;
+              top: 25px;
             }
           }
         }

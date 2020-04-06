@@ -1,5 +1,6 @@
-import React,  { useState } from 'react';
+import React,  { useState, useMemo } from 'react';
 import classnames from 'classnames';
+import { NavLink } from 'react-router-dom';
 
 import {
   Icon,
@@ -12,58 +13,58 @@ import './style.scss';
 const CourseAccordion = ({
   data,
   darkMode,
+  lessonId,
   setIsOpen,
   onSelectVideo,
 }) => {
 
-  const [selected, setSelected] = useState();
+  const [selectedData, setSelectedData] = useState({});
 
-  const generateContent = () => {
-    if (!data && !data.length) return null;
+  console.log(selectedData);
 
-    return data.map((item, index) => (
+  const generateContent = useMemo(() => {
+    if (!data || !data.length) return null;
+
+    return data.map(({ name, duration, items }, index) => (
       <Paper
-        className={classnames('Accordion-item', { 'active': selected === item.id })}
-        key={item.id}
+        className={classnames('Accordion-item', { 'active': selectedData[index] })}
+        key={index}
       >
         <Paper
           className="Accordion-item-header"
           flexName="flexible aCenter jBetween"
-          onClick={() => {
-            if(selected !== item.id){
-              setSelected(item.id);
-            } else {
-              setSelected(null);
-            }
-          }}
+          onClick={() => setSelectedData(prev => ({ ...selectedData, [index]: !selectedData[index] }))}
         >
-          <Text darkMode={darkMode} className="large">
-            {`Section ${index+1}: ${item.name}`}
-          </Text>
-          <Icon className="icon-feather-chevron-down" />
+          <Paper flexName="flexible vertical">
+            <Text darkMode={darkMode} className="large">
+              {`Section ${index+1}: ${name}`}
+            </Text>
+            <Text darkMode={darkMode}>{duration}</Text>
+          </Paper>
+          <Icon className={!selectedData[index] ? 'icon-feather-chevron-down' : 'icon-feather-chevron-up'} />
         </Paper>
         <Paper className="Accordion-item-body">
-          {item.subItems && item.subItems.length &&
-            item.subItems.map((el, key) => (
-              <Paper
-                key={key}
-                className="Accordion-subItem"
-                flexName="flexible vertical"
-                onClick={() => onSelectVideo(el.url)}
-              >
-                <Text darkMode={darkMode} className="medium">
-                  {el.name}
-                </Text>
-                <Text darkMode={darkMode} className="small">
-                  {el.duration}
-                </Text>
-              </Paper>
+          {items && items.length &&
+            items.map(({ _id, name, duration }) => (
+              <NavLink to={_id} key={_id}>
+                <Paper
+                  className={classnames('Accordion-subItem', { 'active' : lessonId === _id })}
+                  flexName="flexible vertical"
+                >
+                  <Text darkMode={darkMode} className="medium">
+                    {name}
+                  </Text>
+                  <Text darkMode={darkMode} className="small">
+                    {duration}
+                  </Text>
+                </Paper>
+              </NavLink>
             ))
           }
         </Paper>
       </Paper>
     ));
-  };
+  }, [darkMode, data, selectedData, lessonId]);
 
   return (
     <Paper className={classnames('CourseAccordion', { 'darkMode': darkMode })} flexName="flexName vertical">
@@ -72,7 +73,7 @@ const CourseAccordion = ({
         <Icon className="icon-feather-x" onClick={() => setIsOpen(false)} />
       </Paper>
       <Paper className="CourseAccordion_content">
-        {generateContent()}
+        {generateContent}
       </Paper>
     </Paper>
   )

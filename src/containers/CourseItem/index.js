@@ -77,6 +77,14 @@ const CourseItem = ({
     ));
   }, [course, darkMode]);
 
+  const firstLessonId = useMemo(
+    () => course && course.data && course.data.lessons &&
+    course.data.lessons.length && course.data.lessons[0].items &&
+    course.data.lessons[0].items.length && course.data.lessons[0].items[0]._id,
+  [course]);
+
+  console.log('firstLessonId', firstLessonId);
+
   return (
     <section className={classnames('CourseItem', { 'darkMode' : darkMode})}>
       <Paper className="page-content" flexName="flexible">
@@ -133,7 +141,7 @@ const CourseItem = ({
                 <Icon className="icon-feather-save" />
                 Save Course
               </Button>
-              <NavLink to="1/3" onClick={onGoToCourse}>
+              <NavLink to={`${id}/${firstLessonId}`} onClick={onGoToCourse}>
                 <Button>
                   <Icon className="icon-feather-external-link" />
                   Start Course

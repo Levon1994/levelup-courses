@@ -9,6 +9,14 @@
   right: 0;
   &.darkMode {
     background-color: #283045;
+    .Accordion-item {
+      .Accordion-subItem {
+        background-color: #262931;
+        &:hover, &.active {
+          background-color: #363f54;
+        }
+      }
+    }
   }
   &_title {
     height: 70px;

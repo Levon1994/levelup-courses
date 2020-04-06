@@ -9,209 +9,31 @@ import {
   Paper,
 } from 'components';
 
+import { useMount } from 'utils';
+import { fetchLessons } from 'actions';
+
 import CourseAccordion from './CourseAccordion';
 
 import './style.scss';
 
-const mapStateToProps = ({ darkMode }) => ({ darkMode });
+const mapStateToProps = ({ darkMode, lessons }) => ({ darkMode, lessons });
 
 const Course = ({
-   match: { params },
+   match: { params: { id, lessonId } },
+   lessons,
    darkMode,
+   fetchLessons,
 }) => {
+
+  useMount(() => {
+    fetchLessons(id);
+  });
 
   const [isOpen, setIsOpen] = useState(true);
 
-  const data = {
-    title: 'React Native Advanced',
-    subtitle: 'Master the advanced topics of React Native: Animations, Maps, Notifications, Navigation and More!',
-    createdby: 'Stephen Grider',
-    items: [
-      {
-        name: 'Welcome to the Course!',
-        duration: '1min',
-        id: 1,
-        subItems: [
-          {
-            name: '1. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4',
-          },
-          {
-            name: '2. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
-          },
-          {
-            name: '3. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson3.mp4',
-          },
-          {
-            name: '1. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4',
-          },
-          {
-            name: '2. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
-          },
-          {
-            name: '3. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson3.mp4',
-          },
-          {
-            name: '1. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4',
-          },
-          {
-            name: '2. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
-          },
-          {
-            name: '3. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson3.mp4',
-          },
-        ]
-      },
-      {
-        name: 'Welcome to the Course!',
-        duration: '1min',
-        id: 7,
-        subItems: [
-          {
-            name: '1. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4',
-          },
-          {
-            name: '2. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
-          },
-          {
-            name: '3. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson3.mp4',
-          },
-        ]
-      },
-      {
-        name: 'Welcome to the Course!',
-        duration: '1min',
-        id: 6,
-        subItems: [
-          {
-            name: '1. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4',
-          },
-          {
-            name: '2. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
-          },
-          {
-            name: '3. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson3.mp4',
-          },
-        ]
-      },
-      {
-        name: 'Welcome to the Course!',
-        duration: '1min',
-        id: 5,
-        subItems: [
-          {
-            name: '1. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4',
-          },
-          {
-            name: '2. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
-          },
-          {
-            name: '3. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson3.mp4',
-          },
-        ]
-      },
-      {
-        name: 'Welcome to the Course!',
-        duration: '1min',
-        id: 55,
-        subItems: [
-          {
-            name: '1. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4',
-          },
-          {
-            name: '2. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
-          },
-          {
-            name: '3. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson3.mp4',
-          },
-        ]
-      },
-      {
-        name: 'Setting up our Tools',
-        duration: '1min',
-        id: 2,
-        subItems: [
-          {
-            name: '4. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson4.mp4',
-          }
-        ]
-      },
-      {
-        name: 'Lets start coding',
-        duration: '1min',
-        id: 3,
-        subItems: [
-          {
-            name: '5. Setting up our Tools',
-            duration: '1min',
-            url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson2.mp4',
-          },
-        ],
-      },
-    ],
-    demoItems: [
-      {
-        name: 'Welcome to the Course!',
-        duration: '1min',
-        url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4',
-      },
-      {
-        name: 'Welcome to the Course!',
-        duration: '1min',
-        url: 'https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4',
-      },
-    ],
-    whatYouWillLearn: ['Make compelling applications using', 'Build new React Native apps with Expo'],
-    requirements: ['Basic understanding of React Native'],
-    description: 'string',
-  };
-
   //const { id, lessonId } = params;
 
-  const [url, setUrl] = useState(data.items[0].subItems[0].url);
+  const [url, setUrl] = useState('');
 
   return (
     <section className={classnames('Course flexible jBetween', { 'darkMode': darkMode })}>
@@ -222,14 +44,14 @@ const Course = ({
           url={url}
           controls
           loop={false}
-          playing={true}
+          playing={false}
           onEnded={data => console.log('onEnded', data)}
         />
         <Paper className="text-block" flexName="flexible vertical">
           <Text className="extraLarge" darkMode={darkMode}>About this course</Text>
-          <Text darkMode={darkMode}>{data.subtitle}</Text>
+          <Text darkMode={darkMode}>{lessons && lessons.data && lessons.data.subtitle}</Text>
           <Text className="extraLarge" darkMode={darkMode}>Description</Text>
-          <Text darkMode={darkMode}>{data.description}</Text>
+          <Text darkMode={darkMode}>{lessons && lessons.data && lessons.data.description}</Text>
         </Paper>
       </Paper>
       {
@@ -237,8 +59,9 @@ const Course = ({
         <Paper className="lessons-list">
           <CourseAccordion
             setIsOpen={setIsOpen}
-            data={data.items}
+            data={lessons && lessons.data && lessons.data.lessons}
             darkMode={darkMode}
+            lessonId={lessonId}
             onSelectVideo={setUrl}
           />
         </Paper>
@@ -247,4 +70,6 @@ const Course = ({
   )
 };
 
-export default connect(mapStateToProps, null)(Course);
+export default connect(mapStateToProps, {
+  fetchLessons,
+})(Course);
