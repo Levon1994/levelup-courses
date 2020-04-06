@@ -64,6 +64,29 @@
           display: block;
         }
       }
+      .requirments-block {
+        margin-top: 30px;
+        .extraLarge {
+          margin-bottom: 20px;
+          display: block;
+        }
+        > .Paper {
+          margin-bottom: 10px;
+        }
+        .Icon {
+          color: $secondary-green;
+          margin-right: 10px;
+          font-size: 22px;
+          margin-top: -4px;
+        }
+      }
+      .description-block {
+        margin-top: 30px;
+        .extraLarge {
+          margin-bottom: 20px;
+          display: block;
+        }
+      }
     }
     .image-block {
       width: 40%;

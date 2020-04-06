@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo, useState } from 'react';
 import classnames from 'classnames';
 import { createPortal } from 'react-dom';
 import ReactPlayer from 'react-player';
@@ -13,11 +13,34 @@ import {
 import './style.scss';
 
 const DemoModal = ({
+  data,
   name,
   onClose,
   darkMode,
 }) => {
 
+  const [videoUrl, setVideoUrl] = useState(data && data[0].url);
+
+  const demoVideos = useMemo(() => {
+    if (!data || !data.length) return null;
+
+    return data.map(({ _id, name, duration, url }) => (
+      <li className="flexible jBetween aCenter" key={_id} onClick={() => setVideoUrl(url)}>
+        <Paper flexName="flexible">
+          <Image
+            width={120}
+            height={70}
+            src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
+          />
+          <Paper className="text-line" flexName="flexible aCenter">
+            <Icon className="icon-feather-play" />
+            <Text darkMode={darkMode}>{name}</Text>
+          </Paper>
+        </Paper>
+        <Text darkMode={darkMode}>{duration}</Text>
+      </li>
+    ))
+  }, [data, darkMode])
 
   return (
     createPortal(
@@ -30,7 +53,7 @@ const DemoModal = ({
           <Paper className="DemoModal_body">
             <ReactPlayer
               className="player"
-              url="https://vs1.coursehunter.net/udemy-complete-js-course/lesson1.mp4"
+              url={videoUrl}
               controls
               loop={false}
               playing={true}
@@ -41,90 +64,7 @@ const DemoModal = ({
           </Paper>
           <Paper className="DemoModal_list">
             <ul>
-              <li className="flexible jBetween aCenter">
-                <Paper flexName="flexible">
-                  <Image
-                    width={120}
-                    height={70}
-                    src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
-                  />
-                  <Paper className="text-line" flexName="flexible aCenter">
-                    <Icon className="icon-feather-play" />
-                    <Text darkMode={darkMode}>The Complete JavaScript Course 2020: Build Real Projects!</Text>
-                  </Paper>
-                </Paper>
-                <Text darkMode={darkMode}>2min</Text>
-              </li>
-              <li className="flexible jBetween aCenter">
-                <Paper flexName="flexible">
-                  <Image
-                    width={120}
-                    height={70}
-                    src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
-                  />
-                  <Paper className="text-line" flexName="flexible aCenter">
-                    <Icon className="icon-feather-play" />
-                    <Text darkMode={darkMode}>The Complete JavaScript Course 2020: Build Real Projects!</Text>
-                  </Paper>
-                </Paper>
-                <Text darkMode={darkMode}>2min</Text>
-              </li>
-              <li className="flexible jBetween aCenter">
-                <Paper flexName="flexible">
-                  <Image
-                    width={120}
-                    height={70}
-                    src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
-                  />
-                  <Paper className="text-line" flexName="flexible aCenter">
-                    <Icon className="icon-feather-play" />
-                    <Text darkMode={darkMode}>The Complete JavaScript Course 2020: Build Real Projects!</Text>
-                  </Paper>
-                </Paper>
-                <Text darkMode={darkMode}>2min</Text>
-              </li>
-              <li className="flexible jBetween aCenter">
-                <Paper flexName="flexible">
-                  <Image
-                    width={120}
-                    height={70}
-                    src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
-                  />
-                  <Paper className="text-line" flexName="flexible aCenter">
-                    <Icon className="icon-feather-play" />
-                    <Text darkMode={darkMode}>The Complete JavaScript Course 2020: Build Real Projects!</Text>
-                  </Paper>
-                </Paper>
-                <Text darkMode={darkMode}>2min</Text>
-              </li>
-              <li className="flexible jBetween aCenter">
-                <Paper flexName="flexible">
-                  <Image
-                    width={120}
-                    height={70}
-                    src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
-                  />
-                  <Paper className="text-line" flexName="flexible aCenter">
-                    <Icon className="icon-feather-play" />
-                    <Text darkMode={darkMode}>The Complete JavaScript Course 2020: Build Real Projects!</Text>
-                  </Paper>
-                </Paper>
-                <Text darkMode={darkMode}>2min</Text>
-              </li>
-              <li className="flexible jBetween aCenter">
-                <Paper flexName="flexible">
-                  <Image
-                    width={120}
-                    height={70}
-                    src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
-                  />
-                  <Paper className="text-line" flexName="flexible aCenter">
-                    <Icon className="icon-feather-play" />
-                    <Text darkMode={darkMode}>The Complete JavaScript Course 2020: Build Real Projects!</Text>
-                  </Paper>
-                </Paper>
-                <Text darkMode={darkMode}>2min</Text>
-              </li>
+              {demoVideos}
             </ul>
           </Paper>
         </Paper>

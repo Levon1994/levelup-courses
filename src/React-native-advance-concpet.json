@@ -1,0 +1,841 @@
+{
+    "title": "React Native: Advanced Concepts",
+    "subtitle": "Master the advanced topics of React Native: Animations, Maps, Notifications, Navigation and More!",
+    "createdby": "Stephen Grider",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/React%20Native%20Advance%20Concpet.jpg?alt=media&token=97a398be-ca40-4c22-b02e-9dac20318327",
+    "lessons": [
+      {
+        "name": "Expo Setup",
+        "duration": "15:06",
+        "items": [
+          {
+            "name": "Introduction - Start Here!",
+            "duration": "01:43",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/1.%20Expo%20Setup%2F1.%20Introduction%20-%20Start%20Here!.mp4?alt=media&token=14889c8f-d6f5-4762-9c3e-f1f27d6042ef"
+          },
+          {
+            "name": "Creating React Native Apps",
+            "duration": "02:23",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/1.%20Expo%20Setup%2F3.%20Creating%20React%20Native%20Apps.mp4?alt=media&token=a3f6d00d-26fc-4c23-ac0f-214b6d8d18fd"
+          },
+          {
+            "name": "Why Expo?",
+            "duration": "06:44",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/1.%20Expo%20Setup%2F4.%20Why%20Expo%3F.mp4?alt=media&token=ef340a44-4a52-4c6d-a1cf-21b059dbaf04"
+          },
+          {
+            "name": "Creating Our First App",
+            "duration": "04:13",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/1.%20Expo%20Setup%2F5.%20Creating%20Our%20First%20App.mp4?alt=media&token=5845dbd0-2e14-4eff-b918-03ce43026f62"
+          }
+        ]
+      },
+      {
+        "name": "Animations with React Native",
+        "duration": "01:17:52",
+        "items": [
+          {
+            "name": "Animation Systems",
+            "duration": "06:15",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/2.%20Animation%20With%20React%20Native%2F6.%20Animation%20Systems.mp4?alt=media&token=fc770298-63fb-4717-b378-9f19f7ea1d2a"
+          },
+          {
+            "name": "The Animation Module",
+            "duration": "09:47",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/2.%20Animation%20With%20React%20Native%2F7.%20The%20Animation%20Module.mp4?alt=media&token=7927f42e-6bfc-4c47-a938-fe84a76881c1"
+          },
+          {
+            "name": "Animation from Square One",
+            "duration": "08:14",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/2.%20Animation%20With%20React%20Native%2F8.%20Animation%20from%20Square%20One.mp4?alt=media&token=0fc8e8c0-73ef-4621-9c8e-8f9d4cb3e663"
+          },
+          {
+            "name": "Moving a Ball",
+            "duration": "05:22",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/2.%20Animation%20With%20React%20Native%2F9.%20Moving%20a%20Ball.mp4?alt=media&token=6a61caad-4068-492f-97ea-c861ed040c57"
+          },
+          {
+            "name": "How Animations Work",
+            "duration": "09:36",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/2.%20Animation%20With%20React%20Native%2F10.%20How%20Animations%20Work.mp4?alt=media&token=1ea21f94-d6c9-4c3a-83aa-fea11e3e1fdb"
+          },
+          {
+            "name": "Animation from Another Angle",
+            "duration": "08:47",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/2.%20Animation%20With%20React%20Native%2F11.%20Animation%20from%20Another%20Angle.mp4?alt=media&token=34a517b6-4a9d-4e53-8e24-773c2ab35bb1"
+          },
+          {
+            "name": "Swipe Deck Props",
+            "duration": "04:17",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/2.%20Animation%20With%20React%20Native%2F12.%20Swipe%20Deck%20Props.mp4?alt=media&token=0fd7f32e-0e30-43fe-96ec-c3d13b5dc6e6"
+          },
+          {
+            "name": "Component Boilerplate",
+            "duration": "03:51",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/2.%20Animation%20With%20React%20Native%2F13.%20Component%20Boilerplate.mp4?alt=media&token=b4fde7fe-5dfa-45d7-aa31-0c87d089c03f"
+          },
+          {
+            "name": "Interplay Between Components",
+            "duration": "07:34",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/2.%20Animation%20With%20React%20Native%2F15.%20Interplay%20Between%20Components.mp4?alt=media&token=df8e6ab4-7513-49bc-94f2-a3028d410005"
+          },
+          {
+            "name": "Customizing Individual Cards",
+            "duration": "13:51",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/2.%20Animation%20With%20React%20Native%2F16.%20Customizing%20Individual%20Cards.mp4?alt=media&token=06bca249-e008-4281-af91-418385e9b623"
+          }
+        ]
+      },
+      {
+        "name": "Handling Gestures",
+        "duration": "40:32",
+        "items": [
+          {
+            "name": "The Pan Responder System",
+            "duration": "10:23",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/3.%20Handling%20Gestures%2F17.%20The%20Pan%20Responder%20System.mp4?alt=media&token=3e41fa14-2c71-4c90-ad98-24e71a79ba09"
+          },
+          {
+            "name": "Pan Responder's Event Handlers",
+            "duration": "08:47",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/3.%20Handling%20Gestures%2F18.%20Pan%20Responder's%20Event%20Handlers.mp4?alt=media&token=8a5effe7-e254-4ca6-83b8-dfdf1354f27b"
+          },
+          {
+            "name": "The Gesture Object",
+            "duration": "09:54",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/3.%20Handling%20Gestures%2F19.%20The%20Gesture%20Object.mp4?alt=media&token=dfc9e15c-1bd6-4af4-bb85-7e747fac0924"
+          },
+          {
+            "name": "Dragging a Card",
+            "duration": "11:28",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/3.%20Handling%20Gestures%2F20.%20Dragging%20a%20Card.mp4?alt=media&token=283bd5bb-a2ab-4c04-9ef8-20c6fc0195a3"
+          }
+        ]
+      },
+      {
+        "name": "Applying Animation Styling",
+        "duration": "01:00:46",
+        "items": [
+          {
+            "name": "Animating Single Cards",
+            "duration": "04:38",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/4.%20Applying%20Animation%20Styling%2F21.%20Animating%20Single%20Cards.mp4?alt=media&token=a19b92df-13da-4c5f-a44d-85f2e82024fd"
+          },
+          {
+            "name": "How to Rotate Elements",
+            "duration": "06:59",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/4.%20Applying%20Animation%20Styling%2F22.%20How%20to%20Rotate%20Elements.mp4?alt=media&token=7c68f999-35d5-4605-8b58-9b42a29b2836"
+          },
+          {
+            "name": "Interpolating Rotation Values",
+            "duration": "06:14",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/4.%20Applying%20Animation%20Styling%2F23.%20Interpolating%20Rotation%20Values.mp4?alt=media&token=22d4e50c-99d8-4128-8fd7-1d2bc5a0ebc6"
+          },
+          {
+            "name": "Linear Relations with Interpolation",
+            "duration": "05:33",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/4.%20Applying%20Animation%20Styling%2F24.%20Linear%20Relation%20with%20Interpolation.mp4?alt=media&token=1ea23c47-b009-4fa0-b225-14af104a08b9"
+          },
+          {
+            "name": "Limiting Rotation with Interpolation",
+            "duration": "05:33",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/4.%20Applying%20Animation%20Styling%2F25.%20Limiting%20Rotation%20with.mp4?alt=media&token=5ab209a1-a5f7-4b38-a83b-f4d276401783"
+          },
+          {
+            "name": "Springing Back to Default",
+            "duration": "05:10",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/4.%20Applying%20Animation%20Styling%2F26.%20Springing%20Back%20to%20Default.mp4?alt=media&token=c85495a2-fe33-4f77-b71f-4e55c0175af5"
+          },
+          {
+            "name": "Detecting Minimum Swipe Distance",
+            "duration": "07:22",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/4.%20Applying%20Animation%20Styling%2F27.%20Detecting%20Minimum%20Swipe.mp4?alt=media&token=104fc02c-3204-44e9-b4a2-e4258bc72ade"
+          },
+          {
+            "name": "Programmatic Animation",
+            "duration": "08:41",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/4.%20Applying%20Animation%20Styling%2F28.%20Programmatic%20Animation.mp4?alt=media&token=ecb1e273-06f9-4132-9b82-bd21887ef650"
+          },
+          {
+            "name": "Forcing Swipes",
+            "duration": "04:11",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/4.%20Applying%20Animation%20Styling%2F29.%20Forcing%20Swipes.mp4?alt=media&token=73094a89-f56d-4761-bd5a-fdbe6b424807"
+          },
+          {
+            "name": "Callbacks on Swipe Completion",
+            "duration": "06:25",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/4.%20Applying%20Animation%20Styling%2F30.%20Callbacks%20on%20Swipe%20Completion.mp4?alt=media&token=46e4ce1b-315c-4a30-ae9d-1cd4b4fb2ff9"
+          }
+        ]
+      },
+      {
+        "name": "Component Reusability",
+        "duration": "58:41",
+        "items": [
+          {
+            "name": "Writing Reusable Components",
+            "duration": "04:49",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/5.%20Component%20Reusability%2F31.%20Writing%20Reusable%20Components.mp4?alt=media&token=8f93780d-bc8c-4aeb-a6ba-5757ee1a45fb"
+          },
+          {
+            "name": "The DefaultProps System",
+            "duration": "04:20",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/5.%20Component%20Reusability%2F32.%20The%20DefaultProps%20System.mp4?alt=media&token=2d8959f9-6d82-4702-9964-dc6a0c7c3b69"
+          },
+          {
+            "name": "Resetting Card Position",
+            "duration": "06:03",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/5.%20Component%20Reusability%2F33.%20Resetting%20Card%20Position.mp4?alt=media&token=b7504efc-99bb-4fd0-9ec8-227c5ffd9861"
+          },
+          {
+            "name": "Advancing the Deck",
+            "duration": "06:10",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/5.%20Component%20Reusability%2F34.%20Advancing%20the%20Deck.mp4?alt=media&token=742a993d-426f-4e57-a402-fc2f340c83ae"
+          },
+          {
+            "name": "Handling Empty Lists",
+            "duration": "06:49",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/5.%20Component%20Reusability%2F35.%20Handling%20Empty%20Lists.mp4?alt=media&token=15d88c5f-793d-45dd-831f-a75fe1d19d81"
+          },
+          {
+            "name": "Getting the Cards to Stack",
+            "duration": "08:31",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/5.%20Component%20Reusability%2F36.%20Getting%20the%20Cards%20to%20Stack.mp4?alt=media&token=d0c42e87-9734-4ee3-ad5d-3473316b5aaf"
+          },
+          {
+            "name": "Troubleshooting Flashing Images",
+            "duration": "03:09",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/5.%20Component%20Reusability%2F37.%20Troubleshooting%20Flashing%20Images.mp4?alt=media&token=02670951-7a48-4442-90c7-b14400428d6e"
+          },
+          {
+            "name": "Cascading Card List",
+            "duration": "05:34",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/5.%20Component%20Reusability%2F38.%20Cascading%20Card%20List.mp4?alt=media&token=64c738d1-9797-4dc7-bde1-56c3ccbb3dc1"
+          },
+          {
+            "name": "Animating Advancing Cards",
+            "duration": "04:22",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/5.%20Component%20Reusability%2F39.%20Animating%20Advancing%20Cards.mp4?alt=media&token=8c74c5d6-69a1-46e3-9510-8c28b498791b"
+          },
+          {
+            "name": "Resetting the Index",
+            "duration": "05:15",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/5.%20Component%20Reusability%2F40.%20Resetting%20the%20Index.mp4?alt=media&token=f2e9653e-5dbf-4296-b707-d93f89603e5d"
+          },
+          {
+            "name": "Deck Wrapup",
+            "duration": "03:39",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/5.%20Component%20Reusability%2F41.%20Deck%20Wrapup.mp4?alt=media&token=7e1509dc-f058-4ddf-9945-aef53a035248"
+          }
+        ]
+      },
+      {
+        "name": "One Time Password Authentication",
+        "duration": "01:47:42",
+        "items": [
+          {
+            "name": "Review of Common Auth Flows",
+            "duration": "08:20",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/6.%20One%20Time%20Password%20Authentication%2F42.%20Review%20of%20Common%20Auth%20Flows.mp4?alt=media&token=d0e9fdbd-789e-46e1-b1a7-baab99068674"
+          },
+          {
+            "name": "The Details of One Time Passwords",
+            "duration": "10:04",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/6.%20One%20Time%20Password%20Authentication%2F43.%20The%20Details%20of%20One%20Time%20Passwords.mp4?alt=media&token=0b349692-f1df-4f12-8234-78686bd26181"
+          },
+          {
+            "name": "Tech Stack with Google Cloud Functions",
+            "duration": "08:26",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/6.%20One%20Time%20Password%20Authentication%2F44.%20Tech%20Stack%20with%20Google%20Cloud%20Functions.mp4?alt=media&token=2ce6da90-86db-4be9-b077-cd89d3121ac9"
+          },
+          {
+            "name": "Traditional Servers vs Google Cloud Functions",
+            "duration": "08:21",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/6.%20One%20Time%20Password%20Authentication%2F45.%20Traditional%20Servers%20vs%20Google.mp4?alt=media&token=4c795856-c1ec-4c8f-85e2-df97c32cf0a0"
+          },
+          {
+            "name": "Layout of Google Cloud Functions",
+            "duration": "09:49",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/6.%20One%20Time%20Password%20Authentication%2F46.%20Layout%20of%20Google%20Cloud%20Functions.mp4?alt=media&token=b9454aea-ecd6-4506-a37b-d6772bbe77e9"
+          },
+          {
+            "name": "Firebase Project Setup",
+            "duration": "07:21",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/6.%20One%20Time%20Password%20Authentication%2F47.%20Firebase%20Project%20Setup.mp4?alt=media&token=677b6387-cbe0-4c0d-9e8a-626d23c5a0eb"
+          },
+          {
+            "name": "Deploying a Firebase Project",
+            "duration": "04:35",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/6.%20One%20Time%20Password%20Authentication%2F48.%20Deploying%20a%20Firebase%20Project.mp4?alt=media&token=0d2b35ff-4258-44ae-8d28-0fc7f2ec25ca"
+          },
+          {
+            "name": "Testing Deployed Functions",
+            "duration": "07:42",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/6.%20One%20Time%20Password%20Authentication%2F49.%20Testing%20Deployed%20Functions.mp4?alt=media&token=2b27f7ed-396d-4321-b470-1d2c0872dd38"
+          },
+          {
+            "name": "Project File Structure",
+            "duration": "05:48",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/6.%20One%20Time%20Password%20Authentication%2F50.%20Project%20File%20Structure.mp4?alt=media&token=afff1d9d-326c-4740-a3fd-1b34c218a038"
+          },
+          {
+            "name": "The Request and Response Objects",
+            "duration": "10:49",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/6.%20One%20Time%20Password%20Authentication%2F51.%20The%20Request%20and%20Response%20Objects.mp4?alt=media&token=b947c45d-9344-4ac7-9618-ec97558c1d84"
+          },
+          {
+            "name": "Generating a Service Account",
+            "duration": "05:48",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/6.%20One%20Time%20Password%20Authentication%2F52.%20Generating%20a%20Service%20Account.mp4?alt=media&token=afecd7e0-5b8e-48cf-91a2-337855271df6"
+          },
+          {
+            "name": "Sanitizing User Inputs",
+            "duration": "08:54",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/6.%20One%20Time%20Password%20Authentication%2F53.%20Sanitizing%20User%20Inputs.mp4?alt=media&token=db8bc4a1-2a8a-42a6-9ab3-1e9c88b69105"
+          },
+          {
+            "name": "Creating New Users",
+            "duration": "06:22",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/6.%20One%20Time%20Password%20Authentication%2F54.%20Creating%20New%20Users.mp4?alt=media&token=c0cfad22-2741-4e83-88dc-8f6f41f73c1c"
+          },
+          {
+            "name": "Testing New User Creation",
+            "duration": "05:23",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/6.%20One%20Time%20Password%20Authentication%2F55.%20Testing%20New%20User%20Creation.mp4?alt=media&token=b717b4a1-1b01-4cf9-a8a3-b1a91a30fe59"
+          }
+        ]
+      },
+      {
+        "name": "Twilio Integration",
+        "duration": "58:22",
+        "items": [
+          {
+            "name": "Texting from Twilio",
+            "duration": "06:29",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/7.%20Twilio%20Integration%2F56.%20Texting%20from%20Twilio.mp4?alt=media&token=b522db97-ee6a-4bd5-8308-8cfc61cf571d"
+          },
+          {
+            "name": "Twilio Credentials",
+            "duration": "07:03",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/7.%20Twilio%20Integration%2F57.%20Twilio%20Credentials.mp4?alt=media&token=d6dd1533-596d-4673-a43c-cf5f6252ffa9"
+          },
+          {
+            "name": "Accessing Saved Users",
+            "duration": "06:10",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/7.%20Twilio%20Integration%2F58.%20Accessing%20Saved%20Users.mp4?alt=media&token=49e419e9-8169-4a8b-8495-3bc082c44a32"
+          },
+          {
+            "name": "Sending Texts to Users",
+            "duration": "08:45",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/7.%20Twilio%20Integration%2F60.%20Sending%20Texts%20to%20Users.mp4?alt=media&token=a27f2ed2-6227-42a2-81d5-8cdfd9c279c2"
+          },
+          {
+            "name": "Generating Access Codes",
+            "duration": "09:05",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/7.%20Twilio%20Integration%2F61.%20Generating%20Access%20Codes.mp4?alt=media&token=c7efc500-e4cf-4899-8e81-0a63322f32ac"
+          },
+          {
+            "name": "Verifying One Time Passwords",
+            "duration": "08:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/7.%20Twilio%20Integration%2F62.%20Verifying%20One%20Time%20Passwords.mp4?alt=media&token=7733ffd2-db03-4792-bc27-ddb86212e16a"
+          },
+          {
+            "name": "Invalidating Used Codes",
+            "duration": "07:52",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/7.%20Twilio%20Integration%2F63.%20Invalidating%20Used%20Codes.mp4?alt=media&token=ff361677-98ab-4814-9a4f-60073325fc2c"
+          },
+          {
+            "name": "Generating JWT's",
+            "duration": "04:31",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/7.%20Twilio%20Integration%2F64.%20Generating%20JWT's.mp4?alt=media&token=12715c9e-a4af-436d-83a5-75f4b564c954"
+          }
+        ]
+      },
+      {
+        "name": "Client Side One Time Passwords",
+        "duration": "01:01:48",
+        "items": [
+          {
+            "name": "Transitioning to React Native",
+            "duration": "02:53",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/8.%20Cliend%20Side%20One%20Time%20Password%2F65.%20Transitioning%20to%20React%20Native.mp4?alt=media&token=1054d6bc-de09-4154-b73e-07ce10f7bd22"
+          },
+          {
+            "name": "App Boilerplate",
+            "duration": "06:57",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/8.%20Cliend%20Side%20One%20Time%20Password%2F66.%20App%20Boilerplate.mp4?alt=media&token=5d9da81c-0b17-4b99-b93f-24f4d6ab3272"
+          },
+          {
+            "name": "Defining Instance Properties",
+            "duration": "08:09",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/8.%20Cliend%20Side%20One%20Time%20Password%2F67.%20Defining%20Instance%20Properties.mp4?alt=media&token=99281007-fbe1-40d3-af9d-0a1682662ecc"
+          },
+          {
+            "name": "Invoking Cloud Functions",
+            "duration": "06:57",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/8.%20Cliend%20Side%20One%20Time%20Password%2F68.%20Invoking%20Cloud%20Functions.mp4?alt=media&token=f1bd4d23-6f75-4e8a-9ba8-c9a2adce69f9"
+          },
+          {
+            "name": "Refactoring with Async/Await",
+            "duration": "09:07",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/8.%20Cliend%20Side%20One%20Time%20Password%2F69.%20Refactoring%20with%20Async%3AAwait.mp4?alt=media&token=1b6dc273-fa95-4535-b252-d9a3272a9f9b"
+          },
+          {
+            "name": "Debugging with Async/Await",
+            "duration": "04:33",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/8.%20Cliend%20Side%20One%20Time%20Password%2F70.%20Debugging%20with%20Async%3AAwait.mp4?alt=media&token=367343c1-3057-44cb-bfd0-b4577a342233"
+          },
+          {
+            "name": "Async/Await on User Signin",
+            "duration": "05:59",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/8.%20Cliend%20Side%20One%20Time%20Password%2F71.%20Async%3AAwait%20on%20User%20Signin.mp4?alt=media&token=a3987ca4-bbbd-4005-87f7-8a4277230137"
+          },
+          {
+            "name": "Capturing Tokens",
+            "duration": "03:52",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/8.%20Cliend%20Side%20One%20Time%20Password%2F72.%20Capturing%20Tokens.mp4?alt=media&token=46eba40d-9ffc-415c-b1b5-62b5546c2e75"
+          },
+          {
+            "name": "Firebase Auth with a JWT",
+            "duration": "05:58",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/8.%20Cliend%20Side%20One%20Time%20Password%2F73.%20Firebase%20Auth%20with%20a%20JWT.mp4?alt=media&token=a295d92e-3f1c-41cc-859b-57231b8b495b"
+          },
+          {
+            "name": "Breather and Review",
+            "duration": "07:23",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/8.%20Cliend%20Side%20One%20Time%20Password%2F74.%20Breather%20and%20Review.mp4?alt=media&token=f001529c-8cc2-45dd-bf4b-e4509f57a23c"
+          }
+        ]
+      },
+      {
+        "name": "Bringing it All Together",
+        "duration": "02:11:15",
+        "items": [
+          {
+            "name": "App Overview",
+            "duration": "05:39",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F75.%20App%20Overview.mp4?alt=media&token=969080a7-6f20-452e-880b-05cfdadb2da2"
+          },
+          {
+            "name": "Screen Walkthrough",
+            "duration": "06:23",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F76.%20Screen%20Walkthrough.mp4?alt=media&token=7662d34b-c4e2-432c-ad3f-4a737b8ccf65"
+          },
+          {
+            "name": "More Screen Walkthroughs",
+            "duration": "06:41",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F77.%20More%20Screen%20Walkthroughs.mp4?alt=media&token=a664962b-ea36-464c-b5ae-dc22bedbcbb3"
+          },
+          {
+            "name": "App Challenges and Solutions",
+            "duration": "05:09",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F78.%20App%20Challenges%20and%20Solutions.mp4?alt=media&token=479b0bc1-b8b2-4756-95a0-4ec56799f3b0"
+          },
+          {
+            "name": "Screens vs Components",
+            "duration": "03:12",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F79.%20Screens%20vs%20Components.mp4?alt=media&token=bbdfe086-3e17-4c63-9d1f-f540c756d8a8"
+          },
+          {
+            "name": "React Native Navigation Options",
+            "duration": "09:20",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F80.%20React%20Native%20Navigation%20Options.mp4?alt=media&token=239eeb7b-d155-4d44-9ae5-3ee0aa4fe549"
+          },
+          {
+            "name": "React Navigation in Practice",
+            "duration": "10:24",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F81.%20React%20Navigation%20in%20Practice.mp4?alt=media&token=67bee93f-d551-4c5f-850f-1212cf246e54"
+          },
+          {
+            "name": "Screen Boilerplate",
+            "duration": "07:05",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F82.%20Screen%20Boilerplate.mp4?alt=media&token=2270f3fb-612d-4c63-8390-ce11a82ef9dd"
+          },
+          {
+            "name": "Implementing the First Navigator",
+            "duration": "07:13",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F83.%20Implementing%20the%20First%20Navigator.mp4?alt=media&token=697d5b6c-c8c1-4136-b575-e374d3a7cb7b"
+          },
+          {
+            "name": "Nesting Navigators",
+            "duration": "07:11",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F84.%20Nesting%20Navigators.mp4?alt=media&token=33f22cc6-b90c-4a66-b9e8-14b373fa3297"
+          },
+          {
+            "name": "Wiring Up Stack Navigators",
+            "duration": "03:15",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F85.%20Wiring%20Up%20Stack%20Navigators.mp4?alt=media&token=b2230a44-6539-4989-b864-6219133027b6"
+          },
+          {
+            "name": "Class vs Instance Properties",
+            "duration": "05:39",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F86.%20Class%20vs%20Instance%20Properties.mp4?alt=media&token=1f3eeb00-90f5-4d2e-9d55-497e4fcb83dc"
+          },
+          {
+            "name": "Customization with Header Options",
+            "duration": "04:43",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F87.%20Customization%20with%20Header.mp4?alt=media&token=5ac24e9e-9275-4568-974a-88aa1c2e68b4"
+          },
+          {
+            "name": "Programmatic Navigation",
+            "duration": "06:41",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F88.%20Programmatic%20Navigation.mp4?alt=media&token=81d4e875-34b2-4fa9-8fe5-3bc390bf302c"
+          },
+          {
+            "name": "Styling the NavBar",
+            "duration": "05:12",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F89.%20Styling%20the%20NavBar.mp4?alt=media&token=d9d85639-46b1-47e7-b1b8-d1f040243398"
+          },
+          {
+            "name": "The Welcome Screen",
+            "duration": "06:11",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F90.%20The%20Welcome%20Screen.mp4?alt=media&token=46476a39-54fa-4bca-9ea1-0e045f4002b4"
+          },
+          {
+            "name": "Styling the Welcome Screen",
+            "duration": "07:40",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F91.%20Styling%20the%20Welcome%20Screen.mp4?alt=media&token=88293979-836f-4e2c-9eb5-e96ad2d87d80"
+          },
+          {
+            "name": "Even More Welcome Screen Styling!",
+            "duration": "08:39",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F92.%20Even%20More%20Welcome%20Screen%20Styling.mp4?alt=media&token=4aa49cfa-c1f3-4264-90b3-052f82aa80aa"
+          },
+          {
+            "name": "Navigation from the Welcome Screen",
+            "duration": "04:57",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F93.%20Navigation%20from%20the%20Welcome%20Screen.mp4?alt=media&token=06444efb-f242-4579-9925-b15d68eca674"
+          },
+          {
+            "name": "More on Welcome Screen Navigation",
+            "duration": "10:01",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/9.%20Bringing%20it%20All%20Together%2F94.%20More%20on%20Welcome%20Screen%20Navigation.mp4?alt=media&token=a0549136-ca80-40a1-b418-2655d283ba2a"
+          }
+        ]
+      },
+      {
+        "name": "Facebook Authentication",
+        "duration": "01:58:22",
+        "items": [
+          {
+            "name": "Facebook Auth Flow",
+            "duration": "05:31",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/10.%20Facebook%20Authentication%2F95.%20Facebook%20Auth%20Flow.mp4?alt=media&token=fe4180a5-5047-43ae-8809-6e847cb36f88"
+          },
+          {
+            "name": "The Facebook Dev Console",
+            "duration": "05:50",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/10.%20Facebook%20Authentication%2F96.%20The%20Facebook%20Dev%20Console.mp4?alt=media&token=10f9b07e-5037-425a-86fc-1bfeb6945746"
+          },
+          {
+            "name": "Redux Setup",
+            "duration": "13:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/10.%20Facebook%20Authentication%2F97.%20Redux%20Setup.mp4?alt=media&token=375f9fa8-d6f1-4beb-8a0c-02dba1470299"
+          },
+          {
+            "name": "Using Async Storage",
+            "duration": "10:06",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/10.%20Facebook%20Authentication%2F98.%20Using%20Async%20Storage.mp4?alt=media&token=9549f8f4-9424-4bba-9105-aceb6c3c05d0"
+          },
+          {
+            "name": "Crazy Async/Await Syntax",
+            "duration": "13:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/10.%20Facebook%20Authentication%2F99.%20Crazy%20Async%3AAwait%20Syntax.mp4?alt=media&token=372fc9e8-c303-44f9-bc57-3b1a0bce69c9"
+          },
+          {
+            "name": "Logging in With Facebook",
+            "duration": "17:46",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/10.%20Facebook%20Authentication%2F100.%20Logging%20in%20With%20Facebook.mp4?alt=media&token=3e262bd0-9ef2-467c-b2d4-b8fdb6642b32"
+          },
+          {
+            "name": "Testing Facebook's Login Flow",
+            "duration": "10:37",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/10.%20Facebook%20Authentication%2F101.%20Testing%20Facebook's%20Login%20Flow.mp4?alt=media&token=fdaeb8a8-262d-450f-8b01-908a90638a8a"
+          },
+          {
+            "name": "World's Biggest Gotcha",
+            "duration": "09:13",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/10.%20Facebook%20Authentication%2F103.%20World's%20Biggest%20Gotcha.mp4?alt=media&token=a693d60d-f3a6-4fa6-876e-7a7b1fa6c1d6"
+          },
+          {
+            "name": "The Auth Reducer",
+            "duration": "05:46",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/10.%20Facebook%20Authentication%2F104.%20The%20Auth%20Reducer.mp4?alt=media&token=af4ad384-14c7-4dd8-b95b-e22e10f2a649"
+          },
+          {
+            "name": "Skipping the Auth Screen",
+            "duration": "08:49",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/10.%20Facebook%20Authentication%2F105.%20Skipping%20the%20Auth%20Screen.mp4?alt=media&token=8f467c3b-0df2-4ed5-af82-bba8369374af"
+          },
+          {
+            "name": "Testing Auth Flow",
+            "duration": "03:51",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/10.%20Facebook%20Authentication%2F106.%20Testing%20Auth%20Flow.mp4?alt=media&token=2d4cceb2-d7a6-4c97-ae73-06c3f43ec0ae"
+          },
+          {
+            "name": "Advancing the Welcome Screen",
+            "duration": "11:36",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/10.%20Facebook%20Authentication%2F107.%20Advancing%20the%20Welcome%20Screen.mp4?alt=media&token=89ffe6f3-9eb7-44cc-92ce-00f0ed4b028d"
+          },
+          {
+            "name": "Resolving the Loading Screen",
+            "duration": "03:01",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/10.%20Facebook%20Authentication%2F108.%20Resolving%20the%20Loading%20Screen.mp4?alt=media&token=bbcae58a-64b3-45f3-89ee-f6e8ebe3458a"
+          }
+        ]
+      },
+      {
+        "name": "MapViews on React Native",
+        "duration": "03:25:45",
+        "items": [
+          {
+            "name": "Showing a Map",
+            "duration": "05:25",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F109.%20Showing%20a%20Map.mp4?alt=media&token=d4b550da-4812-4884-87bb-a9ab886b9704"
+          },
+          {
+            "name": "Interacting with the MapView",
+            "duration": "07:23",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F110.%20Interacting%20with%20the%20MapView.mp4?alt=media&token=1fbcedfa-bc9c-4da0-bcae-58e200ce0d0e"
+          },
+          {
+            "name": "Working around MapView Issues",
+            "duration": "04:43",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F111.%20Working%20around%20MapView%20Issues.mp4?alt=media&token=d509f1e7-d925-4420-9fab-f5c18e655f97"
+          },
+          {
+            "name": "The Indeed Jobs API",
+            "duration": "08:55",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F113.%20The%20Indeed%20Jobs%20API.mp4?alt=media&token=6fad2d71-6d57-447d-ad37-5e67c143a2a1"
+          },
+          {
+            "name": "Location API Mismatch",
+            "duration": "08:58",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F114.%20Location%20API%20Mismatch.mp4?alt=media&token=ab8f2765-dbf9-41a3-b04d-5385961da979"
+          },
+          {
+            "name": "Converting LatLong to Zip Code",
+            "duration": "10:31",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F115.%20Converting%20LatLong%20to%20Zip%20Code.mp4?alt=media&token=3ab1f429-3d8f-4afc-8fa4-1e5aa357c25a"
+          },
+          {
+            "name": "Fetching a List of Jobs",
+            "duration": "07:42",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F116.%20Fetching%20a%20List%20of%20Jobs.mp4?alt=media&token=32f66e6b-4a67-46c3-bbc0-707ae6c37717"
+          },
+          {
+            "name": "Issuing Action Creators from MapScreen",
+            "duration": "10:04",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F117.%20Issuing%20Action%20Creators%20from%20MapScreen.mp4?alt=media&token=9175a649-c63a-4083-9681-899e3daab1d9"
+          },
+          {
+            "name": "The Jobs Reducer",
+            "duration": "08:44",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F118.%20The%20Jobs%20Reducer.mp4?alt=media&token=bdc5166d-d83f-4005-9cab-8ae370318752"
+          },
+          {
+            "name": "Navigating from Action Creators",
+            "duration": "05:29",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F119.%20Navigating%20from%20Action%20Creators.mp4?alt=media&token=3f6298bc-5748-428d-85d1-cff1af392cc4"
+          },
+          {
+            "name": "The Deck Screen",
+            "duration": "03:57",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F120.%20The%20Deck%20Screen.mp4?alt=media&token=88c15f58-5a28-43d7-bba4-6020684e83e7"
+          },
+          {
+            "name": "Importing the Deck Component",
+            "duration": "04:24",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F121.%20Importing%20the%20Deck%20Component.mp4?alt=media&token=e3dac6d0-dc5a-49d2-a1fa-d19f75ec9429"
+          },
+          {
+            "name": "Applying the Swipe Component",
+            "duration": "06:10",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F122.%20Applying%20the%20Swipe%20Component.mp4?alt=media&token=69afcfe2-01a9-441d-8211-07a62908fa48"
+          },
+          {
+            "name": "Styling Job Cards",
+            "duration": "08:38",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F123.%20Styling%20Job%20Cards.mp4?alt=media&token=b76fa55a-ce08-4b26-b9d4-10837de03c65"
+          },
+          {
+            "name": "Customizing MapViews",
+            "duration": "10:29",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F124.%20Customizing%20MapViews.mp4?alt=media&token=1835e9aa-ef86-4f41-87c1-95eba84c7b94"
+          },
+          {
+            "name": "Android Compatibility",
+            "duration": "07:07",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F125.%20Android%20Compatibility.mp4?alt=media&token=e1b7ae7e-a4ca-425a-8405-cab5f95367ba"
+          },
+          {
+            "name": "Dynamic Key Props",
+            "duration": "04:42",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F126.%20Dynamic%20Key%20Props.mp4?alt=media&token=a1e21445-e8cd-4766-b52d-9e09b0ef6281"
+          },
+          {
+            "name": "One More Swipe Deck Fix",
+            "duration": "02:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F127.%20One%20More%20Swipe%20Deck%20Fix.mp4?alt=media&token=ce236f28-01aa-4f9d-8d9c-9d897e20c6ad"
+          },
+          {
+            "name": "Liking a Job",
+            "duration": "03:29",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F128.%20Liking%20a%20Job.mp4?alt=media&token=83995524-4b21-403e-ad98-b6f4d1d2a3a8"
+          },
+          {
+            "name": "Considering Only Unique Jobs",
+            "duration": "10:40",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F129.%20Considering%20Only%20Unique%20Jobs.mp4?alt=media&token=ef4f849a-398d-46bb-be77-7c91a7061545"
+          },
+          {
+            "name": "The Review Screen",
+            "duration": "03:20",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F130.%20The%20Review%20Screen.mp4?alt=media&token=9adf2afd-a601-4c69-9587-d30dc16c27d0"
+          },
+          {
+            "name": "Rendering a List of Liked Jobs",
+            "duration": "08:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F131.%20Rendering%20a%20List%20of%20Liked%20Jobs.mp4?alt=media&token=b91d3a61-b0a2-46fe-b55f-4078d441ef72"
+          },
+          {
+            "name": "Applying to Jobs",
+            "duration": "08:19",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F132.%20Applying%20to%20Jobs.mp4?alt=media&token=ae88033f-3301-4eb9-8531-b41512ab4441"
+          },
+          {
+            "name": "Mapping a Jobs Location",
+            "duration": "08:24",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F133.%20Mapping%20a%20Jobs%20Location.mp4?alt=media&token=be18c5d9-b620-48c1-a5d5-86bf3af631ee"
+          },
+          {
+            "name": "Styling the Job Card",
+            "duration": "06:33",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F134.%20Styling%20the%20Job%20Card.mp4?alt=media&token=7746cff7-b4b3-4be7-8ecc-7cf3c9d397d2"
+          },
+          {
+            "name": "Clearing Liked Jobs",
+            "duration": "07:36",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F135.%20Clearing%20Liked%20Jobs.mp4?alt=media&token=7c4a1048-213b-44b7-a82e-9cf2c50a9645"
+          },
+          {
+            "name": "Redirecting Back to the Map",
+            "duration": "03:23",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F136.%20Redirecting%20Back%20to%20the%20Map.mp4?alt=media&token=4a4f9ea5-7885-4716-8870-5c2f43dced8f"
+          },
+          {
+            "name": "Callback Gotcha",
+            "duration": "03:26",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F137.%20Callback%20Gotcha.mp4?alt=media&token=53d8b6b0-b402-4bff-996e-ee34bdc51f01"
+          },
+          {
+            "name": "Tab Bar Icons",
+            "duration": "05:30",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F138.%20Tab%20Bar%20Icons.mp4?alt=media&token=3f54fbd2-7584-47dc-ad56-068cce0e7420"
+          },
+          {
+            "name": "Tab Bar Config",
+            "duration": "06:47",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F139.%20Tab%20Bar%20Config.mp4?alt=media&token=ef6a9b65-9055-49db-8f2f-a65f91e77149"
+          },
+          {
+            "name": "Android Specific Fixes",
+            "duration": "04:37",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/11.%20MapViews%20on%20React%20Native%2F140.%20Android%20Specific%20Fixes.mp4?alt=media&token=3b97e047-616e-4738-b9d0-c476672d5a42"
+          }
+        ]
+      },
+      {
+        "name": "Offline Data Persistence",
+        "duration": "27:44",
+        "items": [
+          {
+            "name": "Push Notifications and Data Persistence",
+            "duration": "03:30",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/12.%20Offline%20Data%20Persistence%2F141.%20Push%20Notifications%20and%20Data%20Persistence.mp4?alt=media&token=98b142a4-edeb-4544-a180-39de08f690df"
+          },
+          {
+            "name": "Persisting Application State",
+            "duration": "05:25",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/12.%20Offline%20Data%20Persistence%2F142.%20Persisting%20Application%20State.mp4?alt=media&token=b4749215-4501-4e0d-90e8-e3f35fefb5f3"
+          },
+          {
+            "name": "Wiring Up Redux Persist",
+            "duration": "03:29",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/12.%20Offline%20Data%20Persistence%2F143.%20Wiring%20Up%20Redux%20Persist.mp4?alt=media&token=17490224-a51d-493f-a3ee-dbd85c74e58e"
+          },
+          {
+            "name": "How Redux Persist Works",
+            "duration": "06:57",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/12.%20Offline%20Data%20Persistence%2F144.%20How%20Redux%20Persist%20Works.mp4?alt=media&token=c4809eab-bbef-4f48-a073-b4b40381c1bc"
+          },
+          {
+            "name": "Redux Persist - Huge Gotcha!",
+            "duration": "08:23",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/12.%20Offline%20Data%20Persistence%2F145.%20Redux%20Persist%20-%20Huge%20Gotcha!.mp4?alt=media&token=022bb82c-52ee-4bf1-99e4-3f3238922ea7"
+          }
+        ]
+      },
+      {
+        "name": "Push Notifications",
+        "duration": "30:27",
+        "items": [
+          {
+            "name": "Push Notification Overview",
+            "duration": "05:50",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/13.%20Push%20Notifications%2F146.%20Push%20Notification%20Overview.mp4?alt=media&token=635ae6be-db67-4b79-a36c-41f6962adf32"
+          },
+          {
+            "name": "Registering For Push Notifications",
+            "duration": "08:17",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/13.%20Push%20Notifications%2F147.%20Registering%20For%20Push%20Notifications.mp4?alt=media&token=a19e222a-f9f8-4921-821d-b95bfc52b032"
+          },
+          {
+            "name": "Generating Push Tokens",
+            "duration": "05:15",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/13.%20Push%20Notifications%2F148.%20Generating%20Push%20Tokens.mp4?alt=media&token=b7a0afcd-3bc5-4631-9047-08fd88f8bb62"
+          },
+          {
+            "name": "Testing Notifications",
+            "duration": "06:15",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/13.%20Push%20Notifications%2F149.%20Testing%20Notifications.mp4?alt=media&token=fb1a1f6c-5972-4ad2-b37c-f6f1431fea20"
+          },
+          {
+            "name": "More on Notifications and Wrapup",
+            "duration": "04:50",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/13.%20Push%20Notifications%2F150.%20More%20on%20Notifications%20and%20Wrapup.mp4?alt=media&token=6cd00269-7c4e-4f9b-a608-35902ce85381"
+          }
+        ]
+      }
+    ],
+    "demoItems": [
+      {
+        "name": "Introduction - Start Here!",
+        "duration": "01:43",
+        "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/1.%20Expo%20Setup%2F1.%20Introduction%20-%20Start%20Here!.mp4?alt=media&token=14889c8f-d6f5-4762-9c3e-f1f27d6042ef"
+      },
+      {
+        "name": "Animation Systems",
+        "duration": "06:15",
+        "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/2.%20Animation%20With%20React%20Native%2F6.%20Animation%20Systems.mp4?alt=media&token=fc770298-63fb-4717-b378-9f19f7ea1d2a"
+      },
+      {
+        "name": "The Animation Module",
+        "duration": "09:47",
+        "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/2.%20Animation%20With%20React%20Native%2F7.%20The%20Animation%20Module.mp4?alt=media&token=7927f42e-6bfc-4c47-a938-fe84a76881c1"
+      },
+      {
+        "name": "Animation from Square One",
+        "duration": "08:14",
+        "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/2.%20Animation%20With%20React%20Native%2F8.%20Animation%20from%20Square%20One.mp4?alt=media&token=0fc8e8c0-73ef-4621-9c8e-8f9d4cb3e663"
+      },
+      {
+        "name": "Moving a Ball",
+        "duration": "05:22",
+        "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/2.%20Animation%20With%20React%20Native%2F9.%20Moving%20a%20Ball.mp4?alt=media&token=6a61caad-4068-492f-97ea-c861ed040c57"
+      }
+    ],
+    "whatYouWillLearn": ["Make compelling applications using expert-level features of React Native", "Create amazingly smooth and performant animations", "Build new React Native apps with Expo", "Understand the latest Navigation options for new React Native apps", "Add logic to your Firebase backend with Google Cloud Functions", "Update your users with cross platform Push Notifications", "Handle your users going offline with Redux Persist"],
+    "requirements": ["Basic understanding of React Native"],
+    "description": "Note: This course assumes you've got the basics of React Native down.  Check out my course 'The Complete React Native and Redux' course, its the perfect preparation!"
+  }

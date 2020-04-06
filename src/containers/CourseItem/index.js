@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import classnames from 'classnames';
 import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
@@ -55,6 +55,28 @@ const CourseItem = ({
 
   const onToggleModal = () => setIsOpen(!isOpen);
 
+  const whatWeWillLearn = useMemo(() => {
+    if (!course || !course.data || !course.data.whatYouWillLearn || !course.data.whatYouWillLearn.length) return null;
+
+    return course.data.whatYouWillLearn.map((item, key) => (
+      <Paper className="key-value" flexName="flexible" key={key}>
+        <Icon className="icon-feather-check-square" />
+        <Text className="medium" darkMode={darkMode}>{item}</Text>
+      </Paper>
+    ));
+  }, [course, darkMode]);
+
+  const requirments = useMemo(() => {
+    if (!course || !course.data || !course.data.requirements || !course.data.requirements.length) return null;
+
+    return course.data.requirements.map((item, key) => (
+      <Paper flexName="flexible aCenter" key={key}>
+        <Icon className="icon-feather-disc"/>
+        <Text className="medium" darkMode={darkMode}>{item}</Text>
+      </Paper>
+    ));
+  }, [course, darkMode]);
+
   return (
     <section className={classnames('CourseItem', { 'darkMode' : darkMode})}>
       <Paper className="page-content" flexName="flexible">
@@ -70,26 +92,7 @@ const CourseItem = ({
           <Paper className="what-we-learn">
             <Text className="extraLarge" darkMode={darkMode}>What you'll learn</Text>
             <Paper flexName="flexible wrap">
-              <Paper className="key-value" flexName="flexible">
-                <Icon className="icon-feather-check-square" />
-                <Text className="medium" darkMode={darkMode}>Go from a total beginner to an advanced JavaScript developer</Text>
-              </Paper>
-              <Paper className="key-value" flexName="flexible">
-                <Icon className="icon-feather-check-square" />
-                <Text className="medium" darkMode={darkMode}>Go from a total beginner to an advanced JavaScript developer</Text>
-              </Paper>
-              <Paper className="key-value" flexName="flexible">
-                <Icon className="icon-feather-check-square" />
-                <Text className="medium" darkMode={darkMode}>Go from a total beginner to an advanced JavaScript developer</Text>
-              </Paper>
-              <Paper className="key-value" flexName="flexible">
-                <Icon className="icon-feather-check-square" />
-                <Text className="medium" darkMode={darkMode}>Go from a total beginner to an advanced JavaScript developer</Text>
-              </Paper>
-              <Paper className="key-value" flexName="flexible">
-                <Icon className="icon-feather-check-square" />
-                <Text className="medium" darkMode={darkMode}>Go from a total beginner to an advanced JavaScript developer</Text>
-              </Paper>
+              {whatWeWillLearn}
             </Paper>
           </Paper>
           <Paper className="course-content-block">
@@ -97,6 +100,16 @@ const CourseItem = ({
             <CourseContent
               darkMode={darkMode}
             />
+          </Paper>
+          <Paper className="requirments-block">
+            <Text className="extraLarge" darkMode={darkMode}>Requirements</Text>
+            {requirments}
+          </Paper>
+          <Paper className="description-block">
+            <Text className="extraLarge" darkMode={darkMode}>Description</Text>
+            <Paper className="description-body">
+              <Text darkMode={darkMode}>{course && course.data && course.data.description}</Text>
+            </Paper>
           </Paper>
         </Paper>
         <Paper className="image-block">
@@ -135,6 +148,7 @@ const CourseItem = ({
           {isOpen &&
             <DemoModal
               name={course && course.data && course.data.title}
+              data={course && course.data && course.data.demoItems}
               onClose={onToggleModal}
               darkMode={darkMode}
             />
