@@ -26,7 +26,7 @@ const BlogCard = ({
       className={classnames("BlogCommentCard",{ 'darkMode': darkMode })}
       style={{maxWidth: width}}
       {...restProps}>
-      <Paper flexName="flexible aCenter" className='imageWrapper'>
+      <Paper flexName="flexible aStart" className='imageWrapper'>
         <Image src={src} width='100%' height='auto'></Image>
       </Paper>
       <Paper className='blogCardInfo' flexName='flexible vertical'>
@@ -40,7 +40,7 @@ const BlogCard = ({
       <Paper flexName='flexible jBetween' className='infoblock'>
         {
           createdBy &&
-          <Paper>
+          <Paper className="createdBy">
             <Text darkMode={darkMode} className='small'>{createdBy}</Text>
           </Paper>
         }

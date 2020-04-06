@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo, useState } from 'react';
 import classnames from 'classnames';
 
 import {
@@ -10,30 +10,49 @@ import {
 import './style.scss';
 
 const CourseConent = ({
+  data,
   darkMode,
 }) => {
-  return (
-    <Paper className={classnames('CourseConent', { 'darkMode': darkMode })} flexName="flexible vertical">
-      <Paper className="list-item" flexName="flexible vertical">
-        <Paper className="list-item-header" flexName="flexible jBetween aCenter">
-          <Text darkMode={darkMode}>Course Introdocution</Text>
-          <Icon className="icon-feather-plus"/>
+
+  const [selectedData, setSelectedData] = useState({});
+
+  const accordion = useMemo(() => {
+    if (!data || !data.length) return null;
+
+    return data.map(({ items, name, duration }, key) => (
+      <Paper className={classnames('list-item', { 'active': selectedData[key] })} flexName="flexible vertical" key={key}>
+        <Paper
+          className="list-item-header"
+          flexName="flexible jBetween aCenter"
+          onClick={() => setSelectedData(prev => ({ ...selectedData, [key]: !selectedData[key] }))}
+        >
+          <Paper flexName="flexible jBetween aCenter">
+            <Icon className={!selectedData[key] ? 'icon-feather-plus' : 'icon-feather-minus'}/>
+            <Text darkMode={darkMode}>{name}</Text>
+          </Paper>
+          <Text darkMode={darkMode}>{duration}</Text>
         </Paper>
         <Paper className="list-item-body">
-          <Paper className="list-sub-item" flexName="flexible aCenter">
-            <Icon className="icon-feather-play"/>
-            <Text darkMode={darkMode}>Section Intro</Text>
-          </Paper>
-          <Paper className="list-sub-item" flexName="flexible aCenter">
-            <Icon className="icon-feather-play"/>
-            <Text darkMode={darkMode}>Section Intro</Text>
-          </Paper>
-          <Paper className="list-sub-item" flexName="flexible aCenter">
-            <Icon className="icon-feather-play"/>
-            <Text darkMode={darkMode}>Section Intro</Text>
-          </Paper>
+          {
+            items && items.length &&
+            items.map(({ _id, name, duration }) => (
+              <Paper className="list-sub-item" flexName="flexible aCenter jBetween" key={_id}>
+                <Paper>
+                  <Icon className="icon-feather-play"/>
+                  <Text darkMode={darkMode}>{name}</Text>
+                </Paper>
+                <Text darkMode={darkMode}>{duration}</Text>
+              </Paper>
+            ))
+          }
         </Paper>
       </Paper>
+    ));
+  }, [data, darkMode, selectedData]);
+
+  return (
+    <Paper className={classnames('CourseConent', { 'darkMode': darkMode })} flexName="flexible vertical">
+      {accordion}
     </Paper>
   )
 };

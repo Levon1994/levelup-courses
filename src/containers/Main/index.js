@@ -44,14 +44,14 @@ const Main = ({
   const renderCourses = useMemo(() => {
     if (!courses || !courses.data || !courses.data.result || !courses.data.result.length) return null;
 
-    return courses.data.result.map(({ _id, title, subtitle, createdby}) => (
+    return courses.data.result.map(({ _id, title, subtitle, createdby, image_url}) => (
       <NavLink to={`/course/${_id}`} key={_id}>
         <BlogCard
           darkMode={darkMode}
           title={title}
           description={subtitle}
           createdBy={createdby}
-          src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
+          src={image_url}
           width="280px"
         />
       </NavLink>

@@ -1,7 +1,6 @@
 .Image{
   width: 284px;
   height: 78px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  object-fit: contain;
+  object-position: center;
 }

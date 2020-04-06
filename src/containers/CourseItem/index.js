@@ -98,6 +98,7 @@ const CourseItem = ({
           <Paper className="course-content-block">
             <Text className="extraLarge" darkMode={darkMode}>Course Content</Text>
             <CourseContent
+              data={course && course.data && course.data.lessons}
               darkMode={darkMode}
             />
           </Paper>
