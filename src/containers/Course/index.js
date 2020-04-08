@@ -35,7 +35,7 @@ const Course = ({
   const [url, setUrl] = useState();
 
   return (
-    <section className={classnames('Course flexible jBetween isMobile', { 'darkMode': darkMode, 'isMobile': mobile })}>
+    <section className={classnames('Course flexible jBetween', { 'darkMode': darkMode, 'isMobile': mobile })}>
       <Paper className={classnames('player-content', { 'isOpen': isOpen })} flexName="flexible vertical">
         {!isOpen && <Icon className="icon-feather-arrow-left" onClick={() => setIsOpen(true)} />}
         <ReactPlayer

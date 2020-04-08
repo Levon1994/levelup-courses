@@ -70,9 +70,9 @@ const Profile = ({
 
   return (
     <section className={classnames('Profile', { 'isMobile': isMobile(), 'darkMode': darkMode })}>
-      <h1 className="flexible jBetween aCenter">
+      <h1 className={isMobile() && 'flexible jBetween aCenter'}>
         <Text className="doubleExtraLarge" darkMode={darkMode}>My {isMobile() ? 'Account' : 'Profile'}</Text>
-        <Icon className="icon-feather-log-out"  onClick={onLogOut}/>
+        {isMobile() && <Icon className="icon-feather-log-out"  onClick={onLogOut}/>}
       </h1>
       <Paper className={classnames('page-content', { 'darkMode': darkMode })} flexName="flexible">
         <Paper className="image-block" flexName="flexible vertical aCenter">

@@ -1,14 +1,11 @@
 import React, { useState, useMemo } from 'react';
 import classnames from 'classnames';
 import { connect } from 'react-redux';
-import { NavLink } from 'react-router-dom';
 
 import {
   Icon,
   Text,
   Paper,
-  Image,
-  Button,
 } from 'components';
 
 import {
