@@ -6,6 +6,7 @@ import {
   COURSES,
   LESSONS,
   DARK_MODE,
+  MY_COURSES,
   IS_OPEN_LOGIN,
 } from 'configs/types';
 
@@ -59,6 +60,16 @@ const fetchLessons = id => CreateActionCreator.read({
     type: LESSONS,
 });
 
+const fetchMycourses = _ => CreateActionCreator.read({
+    path: 'my-courses',
+    type: MY_COURSES,
+});
+
+const saveInMycourses = data => CreateActionCreator.create({
+    path: 'my-courses',
+    body: data
+});
+
 export {
   loginAsUser,
   fetchCourse,
@@ -66,7 +77,9 @@ export {
   fetchCourses,
   fetchProfile,
   updateProfile,
+  fetchMycourses,
   registerAsUser,
   toggleDarkMode,
+  saveInMycourses,
   toggleIsOpenLogin,
 };

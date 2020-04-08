@@ -100,7 +100,8 @@
         border-radius: 2px;
         box-shadow: 0 2px 5px 0px rgba(179, 166, 166, 0.5);
         position: sticky;
-        top: 0;
+        top: 70px;
+        z-index: 9;
         .course-preview {
           position: relative;
           height: 200px;

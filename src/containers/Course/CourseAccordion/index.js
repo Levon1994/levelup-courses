@@ -23,7 +23,10 @@ const CourseAccordion = ({
   useEffect(() => {
     data && data.length && data.forEach((el, index) => {
       const selected = el.items.find(item => item._id === lessonId);
-      selected && setSelectedData({ [index]: true });
+      if(selected) {
+        setSelectedData({ [index]: true })
+        onSelectVideo(selected.url);
+      }
     })
   }, [data]);
 
@@ -50,11 +53,12 @@ const CourseAccordion = ({
         </Paper>
         <Paper className="Accordion-item-body">
           {items && items.length &&
-            items.map(({ _id, name, duration }) => (
+            items.map(({ _id, name, duration, url }) => (
               <NavLink to={_id} key={_id}>
                 <Paper
                   className={classnames('Accordion-subItem', { 'active' : lessonId === _id })}
                   flexName="flexible vertical"
+                  onClick={() => onSelectVideo(url)}
                 >
                   <Text darkMode={darkMode} className="medium">
                     {name}
@@ -69,7 +73,7 @@ const CourseAccordion = ({
         </Paper>
       </Paper>
     ));
-  }, [darkMode, data, selectedData, lessonId]);
+  }, [darkMode, data, selectedData, lessonId, onSelectVideo]);
 
   return (
     <Paper className={classnames('CourseAccordion', { 'darkMode': darkMode })} flexName="flexName vertical">

@@ -13,6 +13,7 @@ import {
 
 import {
   fetchCourse,
+  saveInMycourses,
   toggleIsOpenLogin
 } from 'actions';
 import { useMount } from 'utils';
@@ -37,6 +38,7 @@ const CourseItem = ({
   course,
   darkMode,
   fetchCourse,
+  saveInMycourses,
   toggleIsOpenLogin,
   match: { params: { id } },
 }) => {
@@ -83,7 +85,13 @@ const CourseItem = ({
     course.data.lessons[0].items.length && course.data.lessons[0].items[0]._id,
   [course]);
 
-  console.log('firstLessonId', firstLessonId);
+  const onSaveCourse = () => {
+    saveInMycourses({ courseId: id }).then(res => {
+      res && fetchCourse(id);
+    })
+  };
+
+  const isCourseSaved = useMemo(() => course && course.data && course.data.isCourseSaved, [course]);
 
   return (
     <section className={classnames('CourseItem', { 'darkMode' : darkMode})}>
@@ -127,7 +135,7 @@ const CourseItem = ({
               <Image
                 width="100%"
                 height={200}
-                src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
+                src={course && course.data && course.data.image_url}
               />
               <Paper className="preview" onClick={onToggleModal} flexName="flexible vertical aCenter jCenter">
                 <Paper className="circle" flexName="flexible aCenter jCenter">
@@ -137,10 +145,12 @@ const CourseItem = ({
               </Paper>
             </Paper>
             <Paper className="course-desc" flexName="flexible aCenter vertical">
-              <Button>
-                <Icon className="icon-feather-save" />
-                Save Course
-              </Button>
+              {!isCourseSaved &&
+                <Button onClick={onSaveCourse}>
+                  <Icon className="icon-feather-save" />
+                  Save Course
+                </Button>
+              }
               <NavLink to={`${id}/${firstLessonId}`} onClick={onGoToCourse}>
                 <Button>
                   <Icon className="icon-feather-external-link" />
@@ -170,6 +180,7 @@ const CourseItem = ({
 
 export default connect(mapStateToProps, {
   fetchCourse,
+  saveInMycourses,
   toggleIsOpenLogin,
 })(CourseItem);
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import classnames from 'classnames';
 import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
@@ -9,70 +9,49 @@ import {
   BlogCard,
 } from 'components';
 
+import { useMount } from 'utils';
+import { fetchMycourses } from 'actions';
+
 import './style.scss';
 
-const mapStateToProps = ({ darkMode }) => ({ darkMode });
+const mapStateToProps = ({ darkMode, myCourses }) => ({ darkMode, myCourses });
 
 const Favorites = ({
   darkMode,
+  myCourses,
+  fetchMycourses,
 }) => {
+
+  useMount(() => {
+    fetchMycourses();
+  });
+
+  const renderMyCourses = useMemo(() => {
+    if (!myCourses || !myCourses.data || !myCourses.data.result || !myCourses.data.result.length) return null;
+
+    return myCourses.data.result.map(({ _id, title, subtitle, image_url}) => (
+      <NavLink to={`/course/${_id}`} key={_id}>
+        <BlogCard
+          darkMode={darkMode}
+          title={title}
+          description={subtitle}
+          src={image_url}
+          width="280px"
+        />
+      </NavLink>
+    ))
+  },[myCourses, darkMode]);
+
   return (
     <section className={classnames('Favorites', { 'darkMode': darkMode })}>
       <h1><Text className="doubleExtraLarge" darkMode={darkMode}>My Courses</Text></h1>
       <Paper className="page-content" flexName="flexible wrap jAround">
-        <NavLink to={`/course/5e88e3a042ed152bd7990f46`}>
-          <BlogCard
-            darkMode={darkMode}
-            title="React Native Advanced 2 test"
-            description="Master the advanced topics of React Native: Animations, Maps, Notifications, Navigation and More!"
-            createdBy="Stephen Grider"
-            src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
-            width="280px"
-          />
-        </NavLink>
-        <NavLink to={`/course/5e88e3a042ed152bd7990f46`}>
-          <BlogCard
-            darkMode={darkMode}
-            title="React Native Advanced 2 test"
-            description="Master the advanced topics of React Native: Animations, Maps, Notifications, Navigation and More!"
-            createdBy="Stephen Grider"
-            src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
-            width="280px"
-          />
-        </NavLink>
-        <NavLink to={`/course/5e88e3a042ed152bd7990f46`}>
-          <BlogCard
-            darkMode={darkMode}
-            title="React Native Advanced 2 test"
-            description="Master the advanced topics of React Native: Animations, Maps, Notifications, Navigation and More!"
-            createdBy="Stephen Grider"
-            src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
-            width="280px"
-          />
-        </NavLink>
-        <NavLink to={`/course/5e88e3a042ed152bd7990f46`}>
-          <BlogCard
-            darkMode={darkMode}
-            title="React Native Advanced 2 test"
-            description="Master the advanced topics of React Native: Animations, Maps, Notifications, Navigation and More!"
-            createdBy="Stephen Grider"
-            src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
-            width="280px"
-          />
-        </NavLink>
-        <NavLink to={`/course/5e88e3a042ed152bd7990f46`}>
-          <BlogCard
-            darkMode={darkMode}
-            title="React Native Advanced 2 test"
-            description="Master the advanced topics of React Native: Animations, Maps, Notifications, Navigation and More!"
-            createdBy="Stephen Grider"
-            src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
-            width="280px"
-          />
-        </NavLink>
+        {renderMyCourses}
       </Paper>
     </section>
   )
 };
 
-export default connect(mapStateToProps, null)(Favorites);
+export default connect(mapStateToProps, {
+  fetchMycourses,
+})(Favorites);

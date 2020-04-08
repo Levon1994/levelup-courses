@@ -56,7 +56,7 @@ const Main = ({
         />
       </NavLink>
     ))
-  },[courses, darkMode])
+  },[courses, darkMode]);
 
   return (
       <>

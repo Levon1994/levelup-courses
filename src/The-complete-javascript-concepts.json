@@ -1,0 +1,747 @@
+{
+    "title": "The Complete JavaScript Course 2020: Build Real Projects!",
+    "subtitle": "Master JavaScript with the most complete course! Projects, challenges, quizzes, JavaScript ES6+, OOP, AJAX, Webpack",
+    "createdby": "Jonas Schmedtmann",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2FThe%20Complete%20Javascript%20Course.jpg?alt=media&token=9634f737-d4be-4bcf-b4b1-8b96cf2c067d",
+    "lessons": [
+      {
+        "name": "Course Introduction",
+        "duration": "08:34",
+        "items": [
+          {
+            "name": "Welcome to the Course!",
+            "duration": "03:41",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F1.%20Course%20Introduction%2F1.%20Welcome%20to%20the%20Course!.mp4?alt=media&token=1523074d-8521-45d5-bef0-ad5ff04d5c56"
+          },
+          {
+            "name": "Setting up Our Tools",
+            "duration": "04:17",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F1.%20Course%20Introduction%2F2.%20Setting%20up%20Our%20Tools.mp4?alt=media&token=0ab9ffdb-18a4-4945-bcfb-3abe17d432e8"
+          }
+        ]
+      },
+      {
+        "name": "JavaScript Language Basics",
+        "duration": "04:00:27",
+        "items": [
+          {
+            "name": "Section Intro",
+            "duration": "00:54",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F3.%20Section%20Intro.mp4?alt=media&token=834d26d9-97eb-406e-b03a-8c5a2f3cf5aa"
+          },
+          {
+            "name": "Let's start coding!",
+            "duration": "05:50",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F4.%20Let's%20start%20coding!.mp4?alt=media&token=70933385-e65d-496a-885f-a9a17b956dbb"
+          },
+          {
+            "name": "A Brief Introduction to JavaScript",
+            "duration": "04:39",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F5.%20A%20Brief%20Introduction%20to%20JavaScript.mp4?alt=media&token=f90e237a-f880-41c8-a95b-3bb6dfd136a3"
+          },
+          {
+            "name": "Variables and Data Types",
+            "duration": "13:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F6.%20Variables%20and%20Data%20Types.mp4?alt=media&token=02626caa-2545-44bc-8004-263e7a3aed26"
+          },
+          {
+            "name": "Variable Mutation and Type Coercion",
+            "duration": "11:44",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F7.%20Variable%20Mutation%20and%20Type%20Coercion.mp4?alt=media&token=d45a1739-2efe-4e12-8376-7731bee25475"
+          },
+          {
+            "name": "Basic Operators",
+            "duration": "08:30",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F8.%20Basic%20Operators.mp4?alt=media&token=a2780a51-5aae-4197-8eac-5834f12121eb"
+          },
+          {
+            "name": "Operator Precedence",
+            "duration": "14:25",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F9.%20Operator%20Precedence.mp4?alt=media&token=e0f1c4b1-6c3b-48f5-b2e0-e79165c04ca2"
+          },
+          {
+            "name": "Coding Challenge 1",
+            "duration": "02:01",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F10.%20Coding%20Challenge%201.mp4?alt=media&token=9d1df674-9cc8-4e0e-b64d-c317cb2b08a4"
+          },
+          {
+            "name": "Coding Challenge 1: Solution",
+            "duration": "04:40",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F11.%20Coding%20Challenge%201-%20Solution.mp4?alt=media&token=2686106a-e2c3-4120-90f8-d4827cf02b45"
+          },
+          {
+            "name": "If / else Statements",
+            "duration": "08:38",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F12.%20If%20%3A%20else%20Statements.mp4?alt=media&token=9fbdd189-2342-4562-88c8-260d8003c9d6"
+          },
+          {
+            "name": "Boolean Logic",
+            "duration": "09:52",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F13.%20Boolean%20Logic.mp4?alt=media&token=56850e42-8d91-4016-b79f-891f8952c740"
+          },
+          {
+            "name": "The Ternary Operator and Switch Statements",
+            "duration": "13:03",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F14.%20The%20Ternary%20Operator%20and%20Switch%20Statements.mp4?alt=media&token=5362f544-a83a-4a3d-a11c-7528446e577f"
+          },
+          {
+            "name": "Truthy and Falsy Values and Equality Operators",
+            "duration": "08:03",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F15.%20Truthy%20and%20Falsy%20Values%20and%20Equality%20Operators.mp4?alt=media&token=cafcf5aa-2c72-4798-899b-798ca403bb6d"
+          },
+          {
+            "name": "Coding Challenge 2",
+            "duration": "02:10",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F16.%20Coding%20Challenge%202.mp4?alt=media&token=7d61fc34-3396-4e1f-97f4-dbfe67959fad"
+          },
+          {
+            "name": "Coding Challenge 2: Solution",
+            "duration": "08:17",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F17.%20Coding%20Challenge%202-%20Solution.mp4?alt=media&token=1279b728-e0fb-4be0-a955-23f323ea6a44"
+          },
+          {
+            "name": "Functions",
+            "duration": "11:24",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F18.%20Functions.mp4?alt=media&token=96cac1c9-02fc-4d87-9a1a-071689dcf350"
+          },
+          {
+            "name": "Function Statements and Expressions",
+            "duration": "10:07",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F19.%20Function%20Statements%20and%20Expressions.mp4?alt=media&token=832858f7-c716-496b-922d-528a4a3eecc8"
+          },
+          {
+            "name": "Arrays",
+            "duration": "12:36",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F20.%20Arrays.mp4?alt=media&token=2d69452a-d49e-4514-8baa-b71e69a0d15a"
+          },
+          {
+            "name": "Coding Challenge 3",
+            "duration": "01:43",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F21.%20Coding%20Challenge%203.mp4?alt=media&token=c4cfcb85-37d2-441a-916e-1ead2d15a05a"
+          },
+          {
+            "name": "Coding Challenge 3: Solution",
+            "duration": "07:57",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F22.%20Coding%20Challenge%203-%20Solution.mp4?alt=media&token=06d1e2aa-ac91-4316-a6ed-1c34022b41d6"
+          },
+          {
+            "name": "Objects and Properties",
+            "duration": "08:57",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F23.%20Objects%20and%20Properties.mp4?alt=media&token=8ac04c64-9775-451d-a9ea-f90c7a5d6658"
+          },
+          {
+            "name": "Objects and Methods",
+            "duration": "07:13",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F24.%20Objects%20and%20Methods.mp4?alt=media&token=49130aa8-a5da-42de-9c16-387ec5a9adc9"
+          },
+          {
+            "name": "Coding Challenge 4",
+            "duration": "01:16",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F25.%20Coding%20Challenge%204.mp4?alt=media&token=01aa29a5-70ed-4df2-91b7-4ae4a0cb6205"
+          },
+          {
+            "name": "Coding Challenge 4: Solution",
+            "duration": "08:51",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F26.%20Coding%20Challenge%204-%20Solution.mp4?alt=media&token=ceff04cc-881d-479d-826f-c2db726c0e6c"
+          },
+          {
+            "name": "Loops and Iteration",
+            "duration": "21:26",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F27.%20Loops%20and%20Iteration.mp4?alt=media&token=faa39b53-3179-48ec-a290-7d3fd2edaf90"
+          },
+          {
+            "name": "Coding Challenge 5",
+            "duration": "04:09",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F28.%20Coding%20Challenge%205.mp4?alt=media&token=c5f285b1-d62f-4e37-997e-444ea94cdeac"
+          },
+          {
+            "name": "Coding Challenge 5: Solution, Part 1",
+            "duration": "12:03",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F29.%20Coding%20Challenge%205-%20Solution%2C%20Part%201.mp4?alt=media&token=2baa85c0-096f-4d42-b05d-6d2f3c58e22b"
+          },
+          {
+            "name": "Coding Challenge 5: Solution, Part 2",
+            "duration": "09:58",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F30.%20Coding%20Challenge%205-%20Solution%2C%20Part%202.mp4?alt=media&token=b96e4abe-e828-42f9-bbcc-1b4547e3e0e6"
+          },
+          {
+            "name": "JavaScript Versions: ES5, ES6 / ES2015 and ES6+",
+            "duration": "06:07",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F31.%20JavaScript%20Versions-%20ES5%2C%20ES6%20%3A%20ES2015%20and%20ES6%2B.mp4?alt=media&token=fb1925d8-49ef-4fe7-b8fa-b864899fc4f5"
+          }
+        ]
+      },
+      {
+        "name": "How JavaScript Works Behind the Scenes",
+        "duration": "54:01",
+        "items": [
+          {
+            "name": "Section Intro",
+            "duration": "01:05",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F3.%20How%20JavaScript%20Works%20Behind%20the%20Scenes%2F32.%20Section%20Intro.mp4?alt=media&token=594e6539-b9e5-46f1-b773-f4d9648ca37d"
+          },
+          {
+            "name": "How Our Code Is Executed: JavaScript Parsers and Engines",
+            "duration": "02:51",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F3.%20How%20JavaScript%20Works%20Behind%20the%20Scenes%2F33.%20How%20Our%20Code%20Is%20Executed-%20JavaScript%20Parsers%20and%20Engines.mp4?alt=media&token=a1c0e35a-98d9-40de-b8f9-11482b385fd4"
+          },
+          {
+            "name": "Execution Contexts and the Execution Stack",
+            "duration": "06:04",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F3.%20How%20JavaScript%20Works%20Behind%20the%20Scenes%2F34.%20Execution%20Contexts%20and%20the%20Execution%20Stack.mp4?alt=media&token=44929ac8-3015-46a2-8d74-1f7cf35c7308"
+          },
+          {
+            "name": "Execution Contexts in Detail: Creation and Execution Phases and Hoisting",
+            "duration": "04:25",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F3.%20How%20JavaScript%20Works%20Behind%20the%20Scenes%2F35.%20Execution%20Contexts%20in%20Detail-%20Creation%20and%20Execution%20Phases%20and%20Hoisting.mp4?alt=media&token=575065e1-dcac-4a03-aa6d-34b7cbf6e116"
+          },
+          {
+            "name": "Hoisting in Practice",
+            "duration": "12:33",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F3.%20How%20JavaScript%20Works%20Behind%20the%20Scenes%2F36.%20Hoisting%20in%20Practice.mp4?alt=media&token=7d579867-b02b-448a-8996-e4838d100c70"
+          },
+          {
+            "name": "Scoping and the Scope Chain",
+            "duration": "13:11",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F3.%20How%20JavaScript%20Works%20Behind%20the%20Scenes%2F37.%20Scoping%20and%20the%20Scope%20Chain.mp4?alt=media&token=d2f8ac3e-685c-44e7-9a68-92d079f632c5"
+          },
+          {
+            "name": "The 'this' Keyword",
+            "duration": "02:22",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F3.%20How%20JavaScript%20Works%20Behind%20the%20Scenes%2F38.%20The%20'this'%20Keyword.mp4?alt=media&token=8d9e2655-ab5c-4724-bebd-834d0ae7cc21"
+          },
+          {
+            "name": "The 'this' Keyword in Practice",
+            "duration": "11:24",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F3.%20How%20JavaScript%20Works%20Behind%20the%20Scenes%2F39.%20The%20'this'%20Keyword%20in%20Practice.mp4?alt=media&token=fc352465-1125-4c6e-be70-2dc387dab09e"
+          }
+        ]
+      },
+      {
+        "name": "JavaScript in the Browser: DOM Manipulation and Events",
+        "duration": "02:07:32",
+        "items": [
+          {
+            "name": "Section Intro",
+            "duration": "00:46",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F4.%20JavaScript%20in%20the%20Browser%2C%20DOM%20Manipulation%20and%20Events%2F40.%20Section%20Intro.mp4?alt=media&token=5ebce1c7-787a-4b09-869e-d9e657926c68"
+          },
+          {
+            "name": "The DOM and DOM Manipulation",
+            "duration": "02:14",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F4.%20JavaScript%20in%20the%20Browser%2C%20DOM%20Manipulation%20and%20Events%2F41.%20The%20DOM%20and%20DOM%20Manipulation.mp4?alt=media&token=62b76381-8d2b-487b-b890-ae21adbfe96b"
+          },
+          {
+            "name": "5-Minute HTML and CSS Crash Course",
+            "duration": "05:44",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F4.%20JavaScript%20in%20the%20Browser%2C%20DOM%20Manipulation%20and%20Events%2F42.%205-Minute%20HTML%20and%20CSS%20Crash%20Course.mp4?alt=media&token=f546d0a3-5411-4a1b-8451-1a6060a6b129"
+          },
+          {
+            "name": "Project Setup and Details",
+            "duration": "04:39",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F4.%20JavaScript%20in%20the%20Browser%2C%20DOM%20Manipulation%20and%20Events%2F43.%20Project%20Setup%20and%20Details.mp4?alt=media&token=16fdceb2-3c74-4279-ada0-3500e2ae985e"
+          },
+          {
+            "name": "First DOM Access and Manipulation",
+            "duration": "19:56",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F4.%20JavaScript%20in%20the%20Browser%2C%20DOM%20Manipulation%20and%20Events%2F44.%20First%20DOM%20Access%20and%20Manipulation%20.mp4?alt=media&token=fbb7ec87-23df-4c15-8f56-6f47e1c43699"
+          },
+          {
+            "name": "Events and Event Handling: Rolling the Dice",
+            "duration": "17:39",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F4.%20JavaScript%20in%20the%20Browser%2C%20DOM%20Manipulation%20and%20Events%2F45.%20Events%20and%20Event%20Handling-%20Rolling%20the%20Dice%20.mp4?alt=media&token=955a672a-0fa8-4f3f-880e-8ebab02bf574"
+          },
+          {
+            "name": "Updating Scores and Changing the Active Player",
+            "duration": "14:23",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F4.%20JavaScript%20in%20the%20Browser%2C%20DOM%20Manipulation%20and%20Events%2F46.%20Updating%20Scores%20and%20Changing%20the%20Active%20Player.mp4?alt=media&token=e875bcc5-f00f-4470-ad72-a96adfabb426"
+          },
+          {
+            "name": "Implementing Our 'Hold' Function and the DRY Principle",
+            "duration": "17:28",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F4.%20JavaScript%20in%20the%20Browser%2C%20DOM%20Manipulation%20and%20Events%2F47.%20Implementing%20Our%20'Hold'%20Function%20and%20the%20DRY%20Principle.mp4?alt=media&token=7ac347f4-aea4-401b-aded-5a5ee3e6521f"
+          },
+          {
+            "name": "Creating a Game Initialization Function",
+            "duration": "11:28",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F4.%20JavaScript%20in%20the%20Browser%2C%20DOM%20Manipulation%20and%20Events%2F48.%20Creating%20a%20Game%20Initialization%20Function.mp4?alt=media&token=575c4729-4cdb-49db-8a4e-136d8939c484"
+          },
+          {
+            "name": "Finishing Touches: State Variables",
+            "duration": "07:48",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F4.%20JavaScript%20in%20the%20Browser%2C%20DOM%20Manipulation%20and%20Events%2F49.%20Finishing%20Touches-%20State%20Variables%20.mp4?alt=media&token=c6737101-6eb0-48c0-9175-e0100b94bcf2"
+          },
+          {
+            "name": "Coding Challenge 6",
+            "duration": "02:34",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F4.%20JavaScript%20in%20the%20Browser%2C%20DOM%20Manipulation%20and%20Events%2F50.%20Coding%20Challenge%206.mp4?alt=media&token=490525e4-e76f-4f12-9a9a-a51caff10b1b"
+          },
+          {
+            "name": "Coding Challenge 6: Solution, Part 1",
+            "duration": "06:31",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F4.%20JavaScript%20in%20the%20Browser%2C%20DOM%20Manipulation%20and%20Events%2F51.%20Coding%20Challenge%206-%20Solution%2C%20Part%201.mp4?alt=media&token=8c42be03-9fa1-43b8-be06-77794b0cd35e"
+          },
+          {
+            "name": "Coding Challenge 6: Solution, Part 2",
+            "duration": "09:05",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F4.%20JavaScript%20in%20the%20Browser%2C%20DOM%20Manipulation%20and%20Events%2F52.%20Coding%20Challenge%206-%20Solution%2C%20Part%202.mp4?alt=media&token=71ab86cc-39a4-4ff5-9adb-b4ef83a83eb5"
+          },
+          {
+            "name": "Coding Challenge 6: Solution, Part 3",
+            "duration": "07:11",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F4.%20JavaScript%20in%20the%20Browser%2C%20DOM%20Manipulation%20and%20Events%2F53.%20Coding%20Challenge%206-%20Solution%2C%20Part%203.mp4?alt=media&token=39b1d06a-a253-4484-9c55-6807a1c48925"
+          }
+        ]
+      },
+      {
+        "name": "Advanced JavaScript: Objects and Functions",
+        "duration": "02:36:48",
+        "items": [
+          {
+            "name": "Section Intro",
+            "duration": "00:58",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F5.%20Advanced%20JavaScript%2C%20Objects%20and%20Functionsled%20folder%2F54.%20Section%20Intro.mp4?alt=media&token=6ae101ae-2e56-4fba-9751-0f16aead3cf8"
+          },
+          {
+            "name": "Everything Is an Object: Inheritance and the Prototype Chain",
+            "duration": "10:25",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F5.%20Advanced%20JavaScript%2C%20Objects%20and%20Functionsled%20folder%2F55.%20Everything%20Is%20an%20Object-%20Inheritance%20and%20the%20Prototype%20Chain.mp4?alt=media&token=a8f98914-ea26-4dc4-9f2d-cf1770f2594b"
+          },
+          {
+            "name": "Creating Objects: Function Constructors",
+            "duration": "14:26",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F5.%20Advanced%20JavaScript%2C%20Objects%20and%20Functionsled%20folder%2F56.%20Creating%20Objects-%20Function%20Constructors.mp4?alt=media&token=9dc44829-1362-4a2f-b04e-6fa8d09c9f89"
+          },
+          {
+            "name": "The Prototype Chain in the Console",
+            "duration": "08:44",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F5.%20Advanced%20JavaScript%2C%20Objects%20and%20Functionsled%20folder%2F57.%20The%20Prototype%20Chain%20in%20the%20Console.mp4?alt=media&token=40ac3303-7108-4b01-a2a2-be6f9ef09d0f"
+          },
+          {
+            "name": "Creating Objects: Object.create",
+            "duration": "06:45",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F5.%20Advanced%20JavaScript%2C%20Objects%20and%20Functionsled%20folder%2F58.%20Creating%20Objects-%20Object.create.mp4?alt=media&token=6383d494-faeb-46c5-a1cc-d8b4daacd5dd"
+          },
+          {
+            "name": "Primitives vs. Objects",
+            "duration": "08:43",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F5.%20Advanced%20JavaScript%2C%20Objects%20and%20Functionsled%20folder%2F59.%20Primitives%20vs.%20Objects.mp4?alt=media&token=1fec981f-2f85-4e40-8ecf-40b71a6de8ab"
+          },
+          {
+            "name": "First Class Functions: Passing Functions as Arguments",
+            "duration": "15:13",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F5.%20Advanced%20JavaScript%2C%20Objects%20and%20Functionsled%20folder%2F60.%20First%20Class%20Functions-%20Passing%20Functions%20as%20Arguments.mp4?alt=media&token=de64e7d1-d5e2-4e8e-a23a-9388e8ed9770"
+          },
+          {
+            "name": "First Class Functions: Functions Returning Functions",
+            "duration": "08:49",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F5.%20Advanced%20JavaScript%2C%20Objects%20and%20Functionsled%20folder%2F61.%20First%20Class%20Functions-%20Functions%20Returning%20Functions.mp4?alt=media&token=f49966a7-ad49-45f3-a851-a1c654753995"
+          },
+          {
+            "name": "Immediately Invoked Function Expressions (IIFE)",
+            "duration": "06:46",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F5.%20Advanced%20JavaScript%2C%20Objects%20and%20Functionsled%20folder%2F62.%20Immediately%20Invoked%20Function%20Expressions%20(IIFE).mp4?alt=media&token=a030e39a-b418-4eac-88b8-cddc581fef75"
+          },
+          {
+            "name": "Closures",
+            "duration": "17:24",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F5.%20Advanced%20JavaScript%2C%20Objects%20and%20Functionsled%20folder%2F63.%20Closures.mp4?alt=media&token=b8c2098f-78a3-41f7-aaf7-078fb76fa4f6"
+          },
+          {
+            "name": "Bind, Call and Apply",
+            "duration": "17:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F5.%20Advanced%20JavaScript%2C%20Objects%20and%20Functionsled%20folder%2F64.%20Bind%2C%20Call%20and%20Apply.mp4?alt=media&token=eecb3a80-3a92-4628-9a23-f6ea9d8cd224"
+          },
+          {
+            "name": "Coding Challenge 7",
+            "duration": "07:11",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F5.%20Advanced%20JavaScript%2C%20Objects%20and%20Functionsled%20folder%2F65.%20Coding%20Challenge%207.mp4?alt=media&token=345b46f1-86c4-4425-b0e9-b0740706ba55"
+          },
+          {
+            "name": "Coding Challenge 7: Solution, Part 1",
+            "duration": "18:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F5.%20Advanced%20JavaScript%2C%20Objects%20and%20Functionsled%20folder%2F66.%20Coding%20Challenge%207-%20Solution%2C%20Part%201.mp4?alt=media&token=a6140bf5-c516-45f7-886a-ea3e160d55dc"
+          },
+          {
+            "name": "Coding Challenge 7: Solution, Part 2",
+            "duration": "16:02",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F5.%20Advanced%20JavaScript%2C%20Objects%20and%20Functionsled%20folder%2F67.%20Coding%20Challenge%207-%20Solution%2C%20Part%202.mp4?alt=media&token=b2238f5a-fcb3-4632-83d9-28ed51627cf6"
+          }
+        ]
+      },
+      {
+        "name": "Putting It All Together: The Budget App Project",
+        "duration": "04:55:22",
+        "items": [
+          {
+            "name": "Section Intro",
+            "duration": "00:59",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F68.%20Section%20Intro.mp4?alt=media&token=aeba2b90-a7d5-4f8a-9c6e-434ec61ec84d"
+          },
+          {
+            "name": "Project Setup and Details",
+            "duration": "04:45",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F69.%20Project%20Setup%20and%20Details.mp4?alt=media&token=e8609418-f6a4-4ac2-ae42-029e38fddf88"
+          },
+          {
+            "name": "Project Planning and Architecture: Step 1",
+            "duration": "06:01",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F70.%20Project%20Planning%20and%20Architecture-%20Step%201.mp4?alt=media&token=7492ae4a-8341-4994-96da-fc6ed8cad0f1"
+          },
+          {
+            "name": "Implementing the Module Pattern",
+            "duration": "17:38",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F71.%20Implementing%20the%20Module%20Pattern%20.mp4?alt=media&token=4511b89b-e8df-47fa-b9fb-09e82c7b104c"
+          },
+          {
+            "name": "Setting up the First Event Listeners",
+            "duration": "16:07",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F72.%20%20Setting%20up%20the%20First%20Event%20Listeners%20.mp4?alt=media&token=08d03287-e44d-47c7-a626-47a21ce18f41"
+          },
+          {
+            "name": "Reading Input Data",
+            "duration": "16:31",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F73.%20Reading%20Input%20Data.mp4?alt=media&token=36f4ab4d-ccd0-4af9-8d7e-5d48848b60ed"
+          },
+          {
+            "name": "Creating an Initialization Function",
+            "duration": "05:26",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F74.%20Creating%20an%20Initialization%20Function%20.mp4?alt=media&token=ac5340f6-edd5-42fd-9365-78b8ed88f9f7"
+          },
+          {
+            "name": "Creating Income and Expense Function Constructors",
+            "duration": "09:37",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F75.%20Creating%20Income%20and%20Expense%20Function%20Constructors.mp4?alt=media&token=2635d5e8-258c-4dfb-988d-b0e0d19e5d67"
+          },
+          {
+            "name": "Adding a New Item to Our Budget Controller",
+            "duration": "18:25",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F76.%20Adding%20a%20New%20Item%20to%20Our%20Budget%20Controller.mp4?alt=media&token=aefc7b44-805b-4f6a-b1af-1ccb8960cfca"
+          },
+          {
+            "name": "Adding a New Item to the UI",
+            "duration": "19:52",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F77.%20Adding%20a%20New%20Item%20to%20the%20UI.mp4?alt=media&token=ed7f02e9-1aca-47b9-8997-ce1a53283385"
+          },
+          {
+            "name": "Clearing Our Input Fields",
+            "duration": "11:50",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F78.%20Clearing%20Our%20Input%20Fields.mp4?alt=media&token=60651f24-91d2-42e0-9272-28da35db5a6a"
+          },
+          {
+            "name": "Updating the Budget: Controller",
+            "duration": "11:18",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F79.%20Updating%20the%20Budget-%20Controller.mp4?alt=media&token=0dcdaaad-3442-4b14-9850-f9c23a223e40"
+          },
+          {
+            "name": "Updating the Budget: Budget Controller",
+            "duration": "21:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F80.%20Updating%20the%20Budget-%20Budget%20Controller.mp4?alt=media&token=6cde2006-5c3f-475c-aefc-0c3d899c1eb6"
+          },
+          {
+            "name": "Updating the Budget: UI Controller",
+            "duration": "11:55",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F81.%20Updating%20the%20Budget-%20UI%20Controller.mp4?alt=media&token=b6573dbb-5448-4fb8-ac82-f9bff66675f0"
+          },
+          {
+            "name": "Project Planning and Architecture: Step 2",
+            "duration": "02:41",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F82.%20Project%20Planning%20and%20Architecture-%20Step%202.mp4?alt=media&token=f060e052-deda-4c2d-9c6a-d1be54fafab1"
+          },
+          {
+            "name": "Event Delegation",
+            "duration": "04:01",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F83.%20Event%20Delegation.mp4?alt=media&token=8c5fffce-c3e2-4ab9-b32d-675d85491aae"
+          },
+          {
+            "name": "Setting up the Delete Event Listener Using Event Delegation",
+            "duration": "19:34",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F84.%20Setting%20up%20the%20Delete%20Event%20Listener%20Using%20Event%20Delegation.mp4?alt=media&token=71319b86-83ea-44ea-9156-77577e233600"
+          },
+          {
+            "name": "Deleting an Item from Our Budget Controller",
+            "duration": "17:33",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F85.%20Deleting%20an%20Item%20from%20Our%20Budget%20Controller%20.mp4?alt=media&token=2bd70203-8910-4140-903b-e9cc5b687c82"
+          },
+          {
+            "name": "Deleting an Item from the UI",
+            "duration": "08:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F86.%20Deleting%20an%20Item%20from%20the%20UI.mp4?alt=media&token=472f5457-8b52-4eac-80f5-f41de804a0e6"
+          },
+          {
+            "name": "Project Planning and Architecture: Step 3",
+            "duration": "02:04",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F87.%20Project%20Planning%20and%20Architecture-%20Step%203.mp4?alt=media&token=39fcfc2d-61fe-46fc-b6f7-c3b16894abbb"
+          },
+          {
+            "name": "Updating the Percentages: Controller",
+            "duration": "03:56",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F88.%20Updating%20the%20Percentages-%20Controller.mp4?alt=media&token=94403060-735c-4700-830e-5633f6bd4564"
+          },
+          {
+            "name": "Updating the Percentages: Budget Controller",
+            "duration": "14:42",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F89.%20%20Updating%20the%20Percentages-%20Budget%20Controller%20.mp4?alt=media&token=abd0f395-bc9f-4ad8-af3d-cecc6204fe72"
+          },
+          {
+            "name": "Updating the Percentages: UI Controller",
+            "duration": "12:07",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F90.%20Updating%20the%20Percentages-%20UI%20Controller.mp4?alt=media&token=67feedf8-b0ba-4317-a08b-7873bfad3b5d"
+          },
+          {
+            "name": "Formatting Our Budget Numbers: String Manipulation",
+            "duration": "19:39",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F91.%20Formatting%20Our%20Budget%20Numbers-%20String%20Manipulation.mp4?alt=media&token=612deae6-8f23-41ad-b498-16f0210048ca"
+          },
+          {
+            "name": "Displaying the Current Month and Year",
+            "duration": "07:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F92.%20Displaying%20the%20Current%20Month%20and%20Year.mp4?alt=media&token=d6ec0313-06c9-49f1-8771-2652df5d4f13"
+          },
+          {
+            "name": "Finishing Touches: Improving the UX",
+            "duration": "10:39",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F93.%20Finishing%20Touches-%20Improving%20the%20UX.mp4?alt=media&token=71fc650b-3dcf-44ac-bace-790fb3144304"
+          },
+          {
+            "name": "We’ve Made It! Final Considerations",
+            "duration": "01:40",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F6.%20Putting%20It%20All%20Together%2C%20The%20Budget%20App%20Project%2F94.%20We%E2%80%99ve%20Made%20It!%20Final%20Considerations.mp4?alt=media&token=1bd3601f-eb10-4e8b-82a4-ca213530f16f"
+          }
+        ]
+      },
+      {
+        "name": "Next Generation JavaScript: Intro to ES6 / ES2015",
+        "duration": "03:20:59",
+        "items": [
+          {
+            "name": "Section Intro",
+            "duration": "00:52",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F95.%20Section%20Intro.mp4?alt=media&token=e7587ddd-095a-4d87-b67c-8123bd6dff79"
+          },
+          {
+            "name": "What's new in ES6 / ES2015",
+            "duration": "01:47",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F96.%20What's%20new%20in%20ES6%20%3A%20ES2015.mp4?alt=media&token=10ab56b9-4882-4671-9ebb-2963d6fcf2ed"
+          },
+          {
+            "name": "Variable Declarations with let and const",
+            "duration": "16:44",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F97.%20Variable%20Declarations%20with%20let%20and%20const.mp4?alt=media&token=d9310b69-cc18-420b-adac-981e685992d6"
+          },
+          {
+            "name": "Blocks and IIFEs",
+            "duration": "03:54",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F98.%20Blocks%20and%20IIFEs.mp4?alt=media&token=4791c9f9-5164-4187-b7e6-66655abb9f12"
+          },
+          {
+            "name": "Strings in ES6 / ES2015",
+            "duration": "10:21",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F99.%20Strings%20in%20ES6%20%3A%20ES2015.mp4?alt=media&token=6ab72bbc-366e-4a3b-8ff6-7ff3ba559ef7"
+          },
+          {
+            "name": "Arrow Functions: Basics",
+            "duration": "08:22",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F100.%20Arrow%20Functions-%20Basics.mp4?alt=media&token=486a17c2-c6e0-4678-92ab-8eb4ce3e85f8"
+          },
+          {
+            "name": "Arrow Functions: Lexical 'this' Keyword",
+            "duration": "19:34",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F101.%20Arrow%20Functions-%20Lexical%20'this'%20Keyword.mp4?alt=media&token=092360aa-debe-443b-99e8-cdd9bb4579db"
+          },
+          {
+            "name": "Destructuring",
+            "duration": "08:04",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F102.%20%20Destructuring.mp4?alt=media&token=33923fef-ffe8-4080-a59a-6d491df56bd8"
+          },
+          {
+            "name": "Arrays in ES6 / ES2015",
+            "duration": "17:52",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F103.%20Arrays%20in%20ES6%20%3A%20ES2015.mp4?alt=media&token=bdef0ff3-1e3c-437e-bc59-b993dbf26328"
+          },
+          {
+            "name": "The Spread Operator",
+            "duration": "10:12",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F104.%20The%20Spread%20Operator.mp4?alt=media&token=75fa661c-e39f-4e52-b8bf-1dfffde1d6d3"
+          },
+          {
+            "name": "Rest Parameters",
+            "duration": "13:48",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F105.%20Rest%20Parameters.mp4?alt=media&token=318db561-9f60-4ab7-883e-cdb7c5703d1b"
+          },
+          {
+            "name": "Default Parameters",
+            "duration": "08:07",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F106.%20Default%20Parameters.mp4?alt=media&token=f969f20a-3c54-4386-9066-a5b94925ba31"
+          },
+          {
+            "name": "Maps",
+            "duration": "20:34",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F107.%20Maps.mp4?alt=media&token=611b3e13-62d8-4d0b-8b57-a55350eff2df"
+          },
+          {
+            "name": "Classes",
+            "duration": "10:01",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F108.%20Classes.mp4?alt=media&token=bf2352f9-aac7-4429-b450-0f43cbad6023"
+          },
+          {
+            "name": "Classes with Subclasses",
+            "duration": "16:12",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F109.%20Classes%20with%20Subclasses.mp4?alt=media&token=eeeb9d87-ce8d-4ab8-9042-225f51a40fd3"
+          },
+          {
+            "name": "Coding Challenge 8",
+            "duration": "03:04",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F110.%20Coding%20Challenge%208.mp4?alt=media&token=5565e6f5-3be9-4309-92f0-e1da44a6268f"
+          },
+          {
+            "name": "Coding Challenge 8: Solution",
+            "duration": "31:25",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/7.%20Next%20Generation%20JavaScript%2C%20Intro%20to%20ES6%20-%20ES2015%2F111.%20Coding%20Challenge%208-%20Solution.mp4?alt=media&token=73918b94-79b1-4dfd-8f94-5b0da1d5c496"
+          }
+        ]
+      },
+      {
+        "name": "Asynchronous JavaScript: Promises, Async/Await and AJAX",
+        "duration": "01:29:07",
+        "items": [
+          {
+            "name": "Section Intro",
+            "duration": "00:36",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/8.%20Asynchronous%20JavaScript%2C%20Promises%2C%20Async-Await%20and%20AJAX%2F112.%20Section%20Intro.mp4?alt=media&token=80468bb5-8cb7-4acc-b82b-6bc4296f0b78"
+          },
+          {
+            "name": "An Example of Asynchronous JavaScript",
+            "duration": "06:27",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/8.%20Asynchronous%20JavaScript%2C%20Promises%2C%20Async-Await%20and%20AJAX%2F113.%20An%20Example%20of%20Asynchronous%20JavaScript.mp4?alt=media&token=86ee9416-d342-41c4-925c-5a86d8cb54cf"
+          },
+          {
+            "name": "Understanding Asynchronous JavaScript: The Event Loop",
+            "duration": "08:44",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/8.%20Asynchronous%20JavaScript%2C%20Promises%2C%20Async-Await%20and%20AJAX%2F114.%20Understanding%20Asynchronous%20JavaScript-%20The%20Event%20Loop.mp4?alt=media&token=c6f31d46-c5b7-43c7-ae5a-bbe28bae7eaa"
+          },
+          {
+            "name": "The Old Way: Asynchronous JavaScript with Callbacks",
+            "duration": "09:22",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/8.%20Asynchronous%20JavaScript%2C%20Promises%2C%20Async-Await%20and%20AJAX%2F115.%20The%20Old%20Way-%20Asynchronous%20JavaScript%20with%20Callbacks.mp4?alt=media&token=9be011f1-02df-4f9c-b53c-ea5828e6ca89"
+          },
+          {
+            "name": "From Callback Hell to Promises",
+            "duration": "22:45",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/8.%20Asynchronous%20JavaScript%2C%20Promises%2C%20Async-Await%20and%20AJAX%2F116.%20From%20Callback%20Hell%20to%20Promises.mp4?alt=media&token=2d010b9b-01ea-4d1e-bf98-248a0a923353"
+          },
+          {
+            "name": "From Promises to Async/Await",
+            "duration": "10:49",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/8.%20Asynchronous%20JavaScript%2C%20Promises%2C%20Async-Await%20and%20AJAX%2F117.%20From%20Promises%20to%20Async%3AAwait.mp4?alt=media&token=f62e9961-9132-4498-aed8-dae2b9751eae"
+          },
+          {
+            "name": "AJAX and APIs",
+            "duration": "03:03",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/8.%20Asynchronous%20JavaScript%2C%20Promises%2C%20Async-Await%20and%20AJAX%2F118.%20AJAX%20and%20APIs.mp4?alt=media&token=1adef4f2-8288-44b5-af1b-932192bdd51b"
+          },
+          {
+            "name": "Making AJAX Calls with Fetch and Promises",
+            "duration": "17:15",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/8.%20Asynchronous%20JavaScript%2C%20Promises%2C%20Async-Await%20and%20AJAX%2F119.%20Making%20AJAX%20Calls%20with%20Fetch%20and%20Promises.mp4?alt=media&token=f7fd2c2e-d534-4599-97de-eca2f7cfca03"
+          },
+          {
+            "name": "Making AJAX Calls with Fetch and Async/Await",
+            "duration": "10:06",
+            "url": "https://firebasestorage.googleapis.com/v0/b/the-complete-javascript-course.appspot.com/o/8.%20Asynchronous%20JavaScript%2C%20Promises%2C%20Async-Await%20and%20AJAX%2F120.%20Making%20AJAX%20Calls%20with%20Fetch%20and%20Async%3AAwait.mp4?alt=media&token=9311fd78-018d-4b5e-89f7-2340ed6f8707"
+          }
+        ]
+      },
+      {
+        "name": "Modern JavaScript: Using ES6, NPM, Babel and Webpack",
+        "duration": "07:04:19",
+        "items": [
+          {
+            "name": "",
+            "duration": "",
+            "url": ""
+          },
+          {
+            "name": "",
+            "duration": "",
+            "url": ""
+          },
+          {
+            "name": "",
+            "duration": "",
+            "url": ""
+          },
+          {
+            "name": "",
+            "duration": "",
+            "url": ""
+          },
+          {
+            "name": "",
+            "duration": "",
+            "url": ""
+          },
+          {
+            "name": "",
+            "duration": "",
+            "url": ""
+          },
+          {
+            "name": "",
+            "duration": "",
+            "url": ""
+          },
+          {
+            "name": "",
+            "duration": "",
+            "url": ""
+          },
+          {
+            "name": "",
+            "duration": "",
+            "url": ""
+          }
+        ]
+      }
+    ],
+    "demoItems": [
+      {
+        "name": "Welcome to the Course!",
+        "duration": "03:41",
+        "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F1.%20Course%20Introduction%2F1.%20Welcome%20to%20the%20Course!.mp4?alt=media&token=1523074d-8521-45d5-bef0-ad5ff04d5c56"
+      },
+      {
+        "name": "Setting up Our Tools",
+        "duration": "04:17",
+        "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F1.%20Course%20Introduction%2F2.%20Setting%20up%20Our%20Tools.mp4?alt=media&token=0ab9ffdb-18a4-4945-bcfb-3abe17d432e8"
+      },
+      {
+        "name": "Section Intro",
+        "duration": "00:54",
+        "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F3.%20Section%20Intro.mp4?alt=media&token=834d26d9-97eb-406e-b03a-8c5a2f3cf5aa"
+      },
+      {
+        "name": "Let's start coding!",
+        "duration": "05:50",
+        "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F4.%20Let's%20start%20coding!.mp4?alt=media&token=70933385-e65d-496a-885f-a9a17b956dbb"
+      },
+      {
+        "name": "A Brief Introduction to JavaScript",
+        "duration": "04:39",
+        "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F5.%20A%20Brief%20Introduction%20to%20JavaScript.mp4?alt=media&token=f90e237a-f880-41c8-a95b-3bb6dfd136a3"
+      },
+      {
+        "name": "Variables and Data Types",
+        "duration": "13:08",
+        "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F6.%20Variables%20and%20Data%20Types.mp4?alt=media&token=02626caa-2545-44bc-8004-263e7a3aed26"
+      },
+      {
+        "name": "Variable Mutation and Type Coercion",
+        "duration": "11:44",
+        "url": "https://firebasestorage.googleapis.com/v0/b/react-native-advance-concepts.appspot.com/o/The%20Complete%20JavaScript%20Course%202020%2F2.%20JavaScript%20Language%20Basics%2F7.%20Variable%20Mutation%20and%20Type%20Coercion.mp4?alt=media&token=d45a1739-2efe-4e12-8376-7731bee25475"
+      }
+    ],
+    "requirements": ["No coding experience is necessary to take this course! I take you from beginner to expert!", "Any computer and OS will work — Windows, macOS or Linux. We will set up your text editor the course.", "A basic understanding of HTML and CSS is a plus, but not a must! The course includes a 5-minutes HTML and CSS crash course."],
+    "whatYouWillLearn": ["Go from a total beginner to an advanced JavaScript developer", "Code 3 beautiful real-world apps with both ES5 and ES6+ (no boring toy apps here)", "JavaScript and programming fundamentals: variables, boolean logic, if/else, loops, functions, arrays, etc.", "Complex features like the 'this' keyword, function constructors, prototypal inheritance, first-class functions, closures", "Asynchronous JavaScript: The event loop, promises, async/await, AJAX and APIs", "Modern JavaScript for 2020: NPM, Webpack, Babel and ES6 modules", "A true understanding of how JavaScript works behind the scenes", "What's new in ES6: arrow functions, classes, default and rest parameters, etc.", "Practice your new skills with coding challenges (solutions included)", "Organize and structure your code using JavaScript patterns like modules", "Get friendly and fast support in the course Q&A", "Downloadable lectures, code and design assets for all projects"],
+    "description": "'Excellent course. Jonas explains the core concepts in javascript that are usually glossed over in other courses. And he does it in a manner that is clear and concise.' — John Collins"
+  }

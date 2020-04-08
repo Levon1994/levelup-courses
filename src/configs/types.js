@@ -4,4 +4,5 @@ export const COURSE = 'COURSE';
 export const COURSES = 'COURSES';
 export const LESSONS = 'LESSONS';
 export const DARK_MODE = 'DARK_MODE';
+export const MY_COURSES = 'MY_COURSES';
 export const IS_OPEN_LOGIN = 'IS_OPEN_LOGIN';

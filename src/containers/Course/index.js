@@ -30,10 +30,7 @@ const Course = ({
   });
 
   const [isOpen, setIsOpen] = useState(true);
-
-  //const { id, lessonId } = params;
-
-  const [url, setUrl] = useState('');
+  const [url, setUrl] = useState();
 
   return (
     <section className={classnames('Course flexible jBetween', { 'darkMode': darkMode })}>
