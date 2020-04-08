@@ -12,13 +12,19 @@ import {
 } from 'components';
 
 import {
+  FacebookShareButton,
+} from "react-share";
+
+import {
   fetchCourse,
   saveInMycourses,
   toggleIsOpenLogin
 } from 'actions';
-import { useMount } from 'utils';
+import { MAIN_URL } from 'configs';
+import { useMount, isMobile } from 'utils';
 
 import DemoModal from './DemoModal';
+import VideoBlock from './VideoBlock';
 import CourseContent from './CourseContent';
 
 import './style.scss';
@@ -27,13 +33,16 @@ const mapStateToProps = ({
   darkMode,
   course,
   login,
+  user,
 }) => ({
   darkMode,
   course,
   login,
+  user,
 });
 
 const CourseItem = ({
+  user,
   login,
   course,
   darkMode,
@@ -41,7 +50,10 @@ const CourseItem = ({
   saveInMycourses,
   toggleIsOpenLogin,
   match: { params: { id } },
+  history: { goBack },
 }) => {
+
+  const mobile = isMobile();
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -94,8 +106,17 @@ const CourseItem = ({
   const isCourseSaved = useMemo(() => course && course.data && course.data.isCourseSaved, [course]);
 
   return (
-    <section className={classnames('CourseItem', { 'darkMode' : darkMode})}>
+    <section className={classnames('CourseItem', { 'darkMode' : darkMode , 'isMobile': mobile})}>
       <Paper className="page-content" flexName="flexible">
+        {
+          mobile &&
+          <Paper className="course-mobile-header" flexName="flexible aCenter jBetween">
+            <Icon className="icon-feather-chevron-left" onClick={goBack}/>
+            <FacebookShareButton url={`${MAIN_URL}course/${id}`}>
+              <Icon name="facebookMobile"/>
+            </FacebookShareButton>
+          </Paper>
+        }
         <Paper className="info-block" flexName="flexible vertical">
           <Paper className="info-content" flexName="flexible vertical">
             <Text className="doubleExtraLarge" darkMode={darkMode}>{course && course.data && course.data.title}</Text>
@@ -105,6 +126,19 @@ const CourseItem = ({
               <Text darkMode={darkMode}>Created By {course && course.data && course.data.createdby}</Text>
             </Paper>
           </Paper>
+          {mobile &&
+            <VideoBlock
+              id={id}
+              user={user}
+              mobile={mobile}
+              course={course}
+              onGoToCourse={onGoToCourse}
+              onSaveCourse={onSaveCourse}
+              isCourseSaved={isCourseSaved}
+              firstLessonId={firstLessonId}
+              onToggleModal={onToggleModal}
+            />
+          }
           <Paper className="what-we-learn">
             <Text className="extraLarge" darkMode={darkMode}>What you'll learn</Text>
             <Paper flexName="flexible wrap">
@@ -130,40 +164,18 @@ const CourseItem = ({
           </Paper>
         </Paper>
         <Paper className="image-block">
-          <Paper className="video-block">
-            <Paper className="course-preview">
-              <Image
-                width="100%"
-                height={200}
-                src={course && course.data && course.data.image_url}
-              />
-              <Paper className="preview" onClick={onToggleModal} flexName="flexible vertical aCenter jCenter">
-                <Paper className="circle" flexName="flexible aCenter jCenter">
-                  <Icon className="icon-feather-play" />
-                </Paper>
-                <Text>Preview the course</Text>
-              </Paper>
-            </Paper>
-            <Paper className="course-desc" flexName="flexible aCenter vertical">
-              {!isCourseSaved &&
-                <Button onClick={onSaveCourse}>
-                  <Icon className="icon-feather-save" />
-                  Save Course
-                </Button>
-              }
-              <NavLink to={`${id}/${firstLessonId}`} onClick={onGoToCourse}>
-                <Button>
-                  <Icon className="icon-feather-external-link" />
-                  Start Course
-                </Button>
-              </NavLink>
-              <Paper className="share-block">
-                <Button>
-                  Share On Facebook
-                </Button>
-              </Paper>
-            </Paper>
-          </Paper>
+          {!mobile &&
+            <VideoBlock
+              id={id}
+              user={user}
+              course={course}
+              onGoToCourse={onGoToCourse}
+              onSaveCourse={onSaveCourse}
+              isCourseSaved={isCourseSaved}
+              firstLessonId={firstLessonId}
+              onToggleModal={onToggleModal}
+            />
+          }
           {isOpen &&
             <DemoModal
               name={course && course.data && course.data.title}

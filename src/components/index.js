@@ -27,6 +27,7 @@ import Testimonials from "./organisms/Testimonals";
 import Collapse from './organisms/Collapse';
 import BusyLoader from './organisms/BusyLoader';
 import ImageUploader from './organisms/ImageUploader';
+import MobileFooter from './organisms/MobileFooter';
 
 export {
   Text,
@@ -46,6 +47,7 @@ export {
   Pagination,
   Uploader,
   BusyLoader,
+  MobileFooter,
   ImageUploader,
   ImageContent,
   SwitchButton,

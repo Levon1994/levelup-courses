@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
+import classnames from 'classnames';
 
 import {
   Text,
@@ -16,6 +18,7 @@ import {
   registerAsUser,
   toggleIsOpenLogin,
 } from 'actions';
+import { isMobile } from 'utils';
 import { useTranslator } from 'utils/translator';
 
 import './style.scss';
@@ -40,7 +43,11 @@ const Login = ({
   loginAsUser,
   registerAsUser,
   toggleIsOpenLogin,
+  location: { pathname },
+  history: { push }
 }) => {
+
+  const mobile = isMobile();
 
   const { t } = useTranslator();
 
@@ -84,7 +91,9 @@ const Login = ({
   const onSave = () => {
     if(isLogin) {
       setIsBusy(true);
-      loginAsUser(filter);
+      loginAsUser(filter).then((res) => {
+        push(pathname);
+      });
     } else {
       setIsBusy(true);
       registerAsUser(filter).then(res => {
@@ -99,7 +108,7 @@ const Login = ({
   };
 
   return (
-    <Modal className="Login" forLogin closeModal={() => toggleIsOpenLogin(false)}>
+    <Modal className={classnames('Login', { 'isMobile': mobile })} forLogin closeModal={() => toggleIsOpenLogin(false)}>
       <BusyLoader isBusy={isBusy}>
         <Paper className="image-block" flexName="flexible vertical aCenter">
           {
@@ -114,14 +123,17 @@ const Login = ({
           {
             isLogin
             ? <>
-                <Button className="fb-button share-button flexible aCenter jCenter" onClick={onSave}>
-                  {t('_SignInWith_')}
-                  <Icon fill="#fff" width="30" name="facebook" />
-                </Button>
-                <Button className="google-button share-button flexible aCenter jCenter" onClick={onSave}>
-                  {t('_SignInWith_')}
-                  <Icon width="34" height="34" name="gmail" />
-                </Button>
+                <Text>{t('_SignInWith_')}</Text>
+                <Paper flexName="flexible vertical social-block">
+                  <Button className="fb-button share-button flexible aCenter jCenter">
+                    {!mobile && t('_SignInWith_')}
+                    <Icon fill="#fff" width="30" name="facebook" />
+                  </Button>
+                  <Button className="google-button share-button flexible aCenter jCenter">
+                    {!mobile && t('_SignInWith_')}
+                    <Icon width="34" height="34" name="gmail" />
+                  </Button>
+                </Paper>
                 {hasError && <Text className="errorText">Wrong Email or Password*</Text>}
                 <TextField
                   name="email"
@@ -222,4 +234,4 @@ export default connect(mapStateToProps, {
   loginAsUser,
   registerAsUser,
   toggleIsOpenLogin,
-})(Login);
+})(withRouter(Login));

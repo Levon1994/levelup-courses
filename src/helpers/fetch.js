@@ -12,8 +12,6 @@ export default class Fetch {
             },
         };
 
-        console.log('options', options);
-
         if(!withAuthToken) {
           requestConfig.headers['x-auth-token'] = ACCESS_TOKEN;
         }

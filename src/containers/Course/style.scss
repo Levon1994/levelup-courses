@@ -49,4 +49,47 @@
     width: 25%;
     position: relative;
   }
+  &.isMobile {
+    flex-direction: column;
+    .CourseAccordion_content {
+      border-top: 1px solid;
+      .Accordion-item {
+        .Accordion-item-header {
+          > .Paper {
+            .Text.large {
+              font-size: 15px;
+            }
+            .Text:last-child {
+              font-size: 13px;
+            }
+          }
+        }
+        .Accordion-item-body {
+          .Accordion-subItem {
+            .Text {
+              &:first-child {
+                font-size: 14px;
+              }
+              &:last-child {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .player-content {
+      width: 100% !important;
+      .player {
+        height: 180px !important;
+      }
+    }
+    .lessons-list {
+      width: 100%;
+      .CourseAccordion {
+        position: initial;
+        width: 100%;
+      }
+    }
+  }
 }

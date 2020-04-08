@@ -7,6 +7,15 @@
   right: 25px;
   bottom: 25px;
   z-index: 12;
+  &.isMobile {
+    position: inherit;
+    width: 35px;
+    height: 35px;
+    .Icon {
+      height: 35px;
+      width: 35px;
+    }
+  }
   .Icon {
     height: 50px;
     width: 50px;

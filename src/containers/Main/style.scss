@@ -1,5 +1,16 @@
 @import "~sass/variables";
 .Main {
+  &.isMobile {
+    .first-text-block {
+      width: 100% !important;
+      .Text {
+        font-size: 30px;
+      }
+    }
+    .titleMargin {
+      margin-bottom: 20px !important;
+    }
+  }
   .content-padding {
     padding: 25px;
   }

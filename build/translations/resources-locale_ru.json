@@ -1,10 +1,12 @@
 {
   "_Company_" : "Компания",
-  "_Welcome_" : "Добро пожаловать в Level Up It Center",
+  "_Welcome_" : "Добро пожаловать в Level Up Courses",
   "_Services_" : "Сервисы",
   "_Blog_" : "Блог",
   "_AboutUs_" : "О нас",
   "_ContactUs_" : "Контакты",
+  "_Username_": "Username",
+  "_Password_": "Password",
   "_OurPartners_": "Наши партнеры",
   "_Carrers_" : "Карьера",
   "_Academy_" : "Академия",

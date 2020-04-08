@@ -26,9 +26,9 @@ const CourseConent = ({
           flexName="flexible jBetween aCenter"
           onClick={() => setSelectedData(prev => ({ ...selectedData, [key]: !selectedData[key] }))}
         >
-          <Paper flexName="flexible jBetween aCenter">
+          <Paper flexName="flexible aCenter">
             <Icon className={!selectedData[key] ? 'icon-feather-plus' : 'icon-feather-minus'}/>
-            <Text darkMode={darkMode}>{name}</Text>
+            <Text darkMode={darkMode} className="singleLine truncate">{name}</Text>
           </Paper>
           <Text darkMode={darkMode}>{duration}</Text>
         </Paper>
@@ -36,10 +36,10 @@ const CourseConent = ({
           {
             items && items.length &&
             items.map(({ _id, name, duration }) => (
-              <Paper className="list-sub-item" flexName="flexible aCenter jBetween" key={_id}>
-                <Paper>
+              <Paper className="list-sub-item " flexName="flexible aCenter jBetween" key={_id}>
+                <Paper className="singleLine truncate">
                   <Icon className="icon-feather-play"/>
-                  <Text darkMode={darkMode}>{name}</Text>
+                  <Text darkMode={darkMode} className="singleLine truncate">{name}</Text>
                 </Paper>
                 <Text darkMode={darkMode}>{duration}</Text>
               </Paper>

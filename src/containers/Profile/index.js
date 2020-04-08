@@ -1,19 +1,24 @@
 import React, { useState, useEffect } from 'react';
+import classnames from 'classnames';
 import { connect } from 'react-redux';
 
 import {
+  Icon,
   Text,
   Paper,
   Button,
   TextField,
   BusyLoader,
   ImageUploader,
+  DarkModeButton,
 } from 'components';
 
 import {
   fetchProfile,
   updateProfile,
+  toggleDarkMode,
 } from 'actions';
+import { isMobile } from 'utils';
 import { useTranslator } from 'utils/translator';
 
 import { defaultFilter } from './defaultFilter';
@@ -23,6 +28,7 @@ import './style.scss';
 const mapStateToProps = ({ darkMode, user }) => ({ darkMode, user });
 
 const Profile = ({
+  toggleDarkMode,
   updateProfile,
   fetchProfile,
   darkMode,
@@ -57,18 +63,36 @@ const Profile = ({
     });
   };
 
+  const onLogOut = () => {
+    window.localStorage.clear();
+    window.location.reload();
+  };
+
   return (
-    <section className="Profile">
-      <h1><Text className="doubleExtraLarge" darkMode={darkMode}>My Profile</Text></h1>
-      <Paper className="page-content" flexName="flexible">
+    <section className={classnames('Profile', { 'isMobile': isMobile(), 'darkMode': darkMode })}>
+      <h1 className="flexible jBetween aCenter">
+        <Text className="doubleExtraLarge" darkMode={darkMode}>My {isMobile() ? 'Account' : 'Profile'}</Text>
+        <Icon className="icon-feather-log-out"  onClick={onLogOut}/>
+      </h1>
+      <Paper className={classnames('page-content', { 'darkMode': darkMode })} flexName="flexible">
         <Paper className="image-block" flexName="flexible vertical aCenter">
           <ImageUploader
-            size={150}
+            size={isMobile() ? 80 : 150}
             onChange={console.log}
           />
           <Text className="large" darkMode={darkMode}>{user && user.data && `${user.data.first_name || ''} ${user.data.last_name || ''}`}</Text>
           <Text className="large" darkMode={darkMode}>{user && user.data && user.data.email}</Text>
         </Paper>
+        {isMobile() &&
+          <Paper flexName="flexible aCenter" className="darkMode-button">
+            <Text darkMode={darkMode}>Dark Mode</Text>
+            <DarkModeButton
+              active={darkMode}
+              onClick={toggleDarkMode}
+              isMobile={isMobile()}
+            />
+          </Paper>
+        }
         <BusyLoader isBusy={isBusy}>
           <Paper className="info-block" flexName="flexible vertical aCenter">
             <TextField
@@ -113,4 +137,5 @@ const Profile = ({
 export default connect(mapStateToProps, {
   fetchProfile,
   updateProfile,
+  toggleDarkMode,
 })(Profile);

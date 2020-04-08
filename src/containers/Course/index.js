@@ -9,7 +9,7 @@ import {
   Paper,
 } from 'components';
 
-import { useMount } from 'utils';
+import { useMount, isMobile } from 'utils';
 import { fetchLessons } from 'actions';
 
 import CourseAccordion from './CourseAccordion';
@@ -25,6 +25,8 @@ const Course = ({
    fetchLessons,
 }) => {
 
+  const mobile = isMobile();
+
   useMount(() => {
     fetchLessons(id);
   });
@@ -33,7 +35,7 @@ const Course = ({
   const [url, setUrl] = useState();
 
   return (
-    <section className={classnames('Course flexible jBetween', { 'darkMode': darkMode })}>
+    <section className={classnames('Course flexible jBetween isMobile', { 'darkMode': darkMode, 'isMobile': mobile })}>
       <Paper className={classnames('player-content', { 'isOpen': isOpen })} flexName="flexible vertical">
         {!isOpen && <Icon className="icon-feather-arrow-left" onClick={() => setIsOpen(true)} />}
         <ReactPlayer
@@ -44,12 +46,15 @@ const Course = ({
           playing={false}
           onEnded={data => console.log('onEnded', data)}
         />
-        <Paper className="text-block" flexName="flexible vertical">
-          <Text className="extraLarge" darkMode={darkMode}>About this course</Text>
-          <Text darkMode={darkMode}>{lessons && lessons.data && lessons.data.subtitle}</Text>
-          <Text className="extraLarge" darkMode={darkMode}>Description</Text>
-          <Text darkMode={darkMode}>{lessons && lessons.data && lessons.data.description}</Text>
-        </Paper>
+        {
+          !mobile &&
+          <Paper className="text-block" flexName="flexible vertical">
+            <Text className="extraLarge" darkMode={darkMode}>About this course</Text>
+            <Text darkMode={darkMode}>{lessons && lessons.data && lessons.data.subtitle}</Text>
+            <Text className="extraLarge" darkMode={darkMode}>Description</Text>
+            <Text darkMode={darkMode}>{lessons && lessons.data && lessons.data.description}</Text>
+          </Paper>
+        }
       </Paper>
       {
         isOpen &&
@@ -60,6 +65,10 @@ const Course = ({
             darkMode={darkMode}
             lessonId={lessonId}
             onSelectVideo={setUrl}
+            mobile={mobile}
+            courseId={id}
+            title={lessons && lessons.data && lessons.data.title}
+            subtitle={lessons && lessons.data && lessons.data.subtitle}
           />
         </Paper>
       }

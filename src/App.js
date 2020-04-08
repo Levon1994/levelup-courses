@@ -12,6 +12,7 @@ import {
   Main,
   Login,
   Course,
+  Search,
   Profile,
   Favorites,
   CourseItem,
@@ -20,6 +21,7 @@ import {
 import {
   Header,
   Footer,
+  MobileFooter,
   DarkModeButton
 } from 'components';
 
@@ -29,6 +31,7 @@ import {
   toggleIsOpenLogin,
 } from 'actions';
 
+import { isMobile } from 'utils';
 import Autorize from 'utils/autorize';
 
 import 'sass/animate.scss';
@@ -40,6 +43,7 @@ const mapStateToProps = ({
   isOpenLogin,
   darkMode,
   login,
+  user,
 }) => ({
   isOpenLogin,
   darkMode,
@@ -47,12 +51,15 @@ const mapStateToProps = ({
 });
 
 const App = ({
+  user,
   login,
   darkMode,
   isOpenLogin,
   fetchProfile,
   toggleDarkMode,
 }) => {
+
+  const mobile = isMobile();
 
   const token = window.localStorage.getItem('token');
 
@@ -70,16 +77,19 @@ const App = ({
 
   return (
     <>
-      <Header darkMode={darkMode} />
+      {!mobile && <Header darkMode={darkMode} />}
         <main className={classnames("Main", { 'darkMode': darkMode })}>
-          <DarkModeButton
-            active={darkMode}
-            onClick={toggleDarkMode}
-          />
+          {!mobile &&
+            <DarkModeButton
+              active={darkMode}
+              onClick={toggleDarkMode}
+            />
+          }
           {isOpenLogin && <Login/>}
           <Switch>
               <Route exact path="/" component={Main} />
               <Route exact path="/course/:id" component={CourseItem} />
+              <Route path="/search" component={Search} />
               <Autorize toggleIsOpenLogin={toggleIsOpenLogin} login={login}>
                 <Route path="/course/:id/:lessonId" component={Course} />
                 <Route path="/profile" component={Profile} />
@@ -88,7 +98,7 @@ const App = ({
               <Redirect to='/' />
           </Switch>
         </main>
-      <Footer/>
+      {mobile ? <MobileFooter /> : <Footer/>}
     </>
   )
 };

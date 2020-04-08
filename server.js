@@ -12,8 +12,7 @@ const config = require('./config');
 const getReplaceData = require('./replaceData');
 
 //Schema
-const Blog = require('./schema/blog');
-const Courses = require('./schema/course');
+const VideoCourses = require('./schema/course');
 
 //Middleware
 app.use(morgan('dev'));
@@ -48,16 +47,16 @@ app.use((req, res, next) => {
     next();
 });
 
-app.get('/academy/course/:coursId', function(request, response) {
+app.get('/course/:coursId', function(request, response) {
   const filePath = path.resolve(__dirname, './build', 'index.html');
   fs.readFile(filePath, 'utf8', function (err,data) {
     if (err) {
       return console.log(err);
     }
 
-    Courses.find({ "_id" : request.params.coursId }).then(res => {
-      data = data.replace(/\$OG_TITLE/g, res[0].name || '');
-      data = data.replace(/\$OG_DESCRIPTION/g, res[0].description || '');
+    VideoCourses.find({ "_id" : request.params.coursId }).then(res => {
+      data = data.replace(/\$OG_TITLE/g, res[0].title || '');
+      data = data.replace(/\$OG_DESCRIPTION/g, res[0].subtitle || '');
       result = data.replace(/\$OG_IMAGE/g, res[0].image_url || '');
       response.send(result);
     }).catch((err)=> {
@@ -66,31 +65,7 @@ app.get('/academy/course/:coursId', function(request, response) {
   });
 });
 
-app.get('/blog/:blogId', function(request, response) {
-  const filePath = path.resolve(__dirname, './build', 'index.html');
-  fs.readFile(filePath, 'utf8', function (err,data) {
-    if (err) {
-      return console.log(err);
-    }
-
-    Blog.find({ "_id" : request.params.blogId }).then(res => {
-      data = data.replace(/\$OG_TITLE/g, res[0].name || '');
-      data = data.replace(/\$OG_DESCRIPTION/g, res[0].description || '');
-      result = data.replace(/\$OG_IMAGE/g, res[0].image_url || '');
-      response.send(result);
-    }).catch((err)=> {
-      err && response.send(data);
-    });;
-  });
-});
-
 app.get('/', (request, response) => setReplaceData('home',response));
-app.get('/about-us', (request, response) => setReplaceData('aboutUs',response));
-app.get('/contact-us', (request, response) => setReplaceData('contactUs',response));
-app.get('/blog', (request, response) => setReplaceData('blog',response));
-app.get('/academy', (request, response) => setReplaceData('academy',response));
-app.get('/services', (request, response) => setReplaceData('services',response));
-app.get('/careers', (request, response) => setReplaceData('careers',response));
 
 app.use(express.static(path.resolve(__dirname, './build')));
 

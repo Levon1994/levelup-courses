@@ -1,5 +1,13 @@
 @import "~sass/variables";
 
+.isMobile {
+  .Text {
+    &.darkMode{
+      color: #e4dede;
+    }
+  }
+}
+
 .Text {
   color: $secondary-black;
   &.darkMode{

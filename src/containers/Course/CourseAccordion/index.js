@@ -12,6 +12,10 @@ import './style.scss';
 
 const CourseAccordion = ({
   data,
+  title,
+  mobile,
+  courseId,
+  subtitle,
   darkMode,
   lessonId,
   setIsOpen,
@@ -45,7 +49,7 @@ const CourseAccordion = ({
         >
           <Paper flexName="flexible vertical">
             <Text darkMode={darkMode} className="large">
-              {`Section ${index+1}: ${name}`}
+              {mobile ? `${index+1} - ${name}` : `Section ${index+1}: ${name}`}
             </Text>
             <Text darkMode={darkMode}>{duration}</Text>
           </Paper>
@@ -60,9 +64,12 @@ const CourseAccordion = ({
                   flexName="flexible vertical"
                   onClick={() => onSelectVideo(url)}
                 >
-                  <Text darkMode={darkMode} className="medium">
-                    {name}
-                  </Text>
+                  <Paper flexName="flexible aCenter">
+                    <Icon className="icon-feather-play"/>
+                    <Text darkMode={darkMode} className="medium">
+                      {name}
+                    </Text>
+                  </Paper>
                   <Text darkMode={darkMode} className="small">
                     {duration}
                   </Text>
@@ -77,10 +84,21 @@ const CourseAccordion = ({
 
   return (
     <Paper className={classnames('CourseAccordion', { 'darkMode': darkMode })} flexName="flexName vertical">
-      <Paper className="CourseAccordion_title" flexName="flexible aCenter jBetween">
-        <Text className="large" darkMode={darkMode}>Course content</Text>
-        <Icon className="icon-feather-x" onClick={() => setIsOpen(false)} />
-      </Paper>
+      {mobile
+        ? <Paper className="mobile-title" flexName="flexible vertical">
+            <Paper flexName="flexible">
+              <NavLink to={`/course/${courseId}`}>
+                <Icon className="icon-feather-link-2" />
+                <Text darkMode={darkMode}>{title}</Text>
+              </NavLink>
+            </Paper>
+            <Text className="singleLine truncate" darkMode={darkMode}>{subtitle}</Text>
+          </Paper>
+        : <Paper className="CourseAccordion_title" flexName="flexible aCenter jBetween">
+            <Text className="large" darkMode={darkMode}>Course content</Text>
+            <Icon className="icon-feather-x" onClick={() => setIsOpen(false)} />
+          </Paper>
+      }
       <Paper className="CourseAccordion_content">
         {generateContent}
       </Paper>

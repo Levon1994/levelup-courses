@@ -1,0 +1,2242 @@
+{
+    "title": "The Complete React Native + Hooks Course [2020 Edition]",
+    "subtitle": "Understand React Native with Hooks, Context, and React Navigation.",
+    "createdby": " Stephen Grider",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/The%20complete%20react%20native%20and%20hooks.jpg?alt=media&token=40b8bd7f-7bf5-4437-95cf-fa440eaef6bb",
+    "lessons": [
+      {
+        "name": "Getting Started",
+        "duration": "22:25",
+        "items": [
+          {
+            "name": "How to Get Help",
+            "duration": "00:52",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/1.%20Getting%20started%2F1.%20How%20to%20get%20help.mp4?alt=media&token=2650f6e8-df16-4719-8afb-22124d4b3445"
+          },
+          {
+            "name": "Course Overview",
+            "duration": "03:19",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/1.%20Getting%20started%2F2.%20Course%20Overview.mp4?alt=media&token=1dfdebc2-c215-46be-a248-8bbedffe50fe"
+          },
+          {
+            "name": "App Setup",
+            "duration": "08:44",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/1.%20Getting%20started%2F5.%20App%20Setup.mp4?alt=media&token=e8feba51-78f5-4dd7-85ab-914862688080"
+          },
+          {
+            "name": "Making Changes",
+            "duration": "04:09",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/1.%20Getting%20started%2F6.%20Making%20Changes.mp4?alt=media&token=812bd0ad-66c0-4224-a517-326bd0944084"
+          }
+        ]
+      },
+      {
+        "name": "Working with Content",
+        "duration": "32:07",
+        "items": [
+          {
+            "name": "Overview of React Components",
+            "duration": "08:50",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/2.%20Working%20with%20Content%2F9.%20Overview%20of%20React%20Components.mp4?alt=media&token=936cb0d3-13aa-4e09-a608-d92d82f1a413"
+          },
+          {
+            "name": "Showing a Custom Component",
+            "duration": "04:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/2.%20Working%20with%20Content%2F10.%20Showing%20a%20Custom%20Component.mp4?alt=media&token=320d6dea-913c-4c4a-9ad1-6e27bd88b4bb.mp4"
+          },
+          {
+            "name": "Common Questions and Answers",
+            "duration": "07:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/2.%20Working%20with%20Content%2F11.%20Common%20Question%20and%20Answers.mp4?alt=media&token=65b17caf-2685-441b-a155-5a380cc8af16"
+          },
+          {
+            "name": "Rules of JSX",
+            "duration": "05:50",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/2.%20Working%20with%20Content%2F12.%20Rules%20of%20JSX.mp4?alt=media&token=af52d176-2372-4e24-8d51-6bc1119f0bd3"
+          },
+          {
+            "name": "One Common Error",
+            "duration": "01:45",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/2.%20Working%20with%20Content%2F13.%20One%20Common%20Error.mp4?alt=media&token=53eb465b-cdc4-4f8f-a81f-b8bb35af2559"
+          },
+          {
+            "name": "JSX Exercise Overview",
+            "duration": "01:46",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/2.%20Working%20with%20Content%2F14.%20JSX%20Exercise%20Overview.mp4?alt=media&token=460d3f4b-718b-449e-b0e6-ecf226b699bd"
+          },
+          {
+            "name": "JSX Solution",
+            "duration": "02:40",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/2.%20Working%20with%20Content%2F15.%20JSX%20Solution.mp4?alt=media&token=8a693c92-f2d9-46e8-b1f2-517f21da13e7"
+          }
+        ]
+      },
+      {
+        "name": "List Building - With Style!",
+        "duration": "27:33",
+        "items": [
+          {
+            "name": "Building Lists",
+            "duration": "02:24",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/3.%20List%20Buliding%20-%20With%20Style!%2F16.%20Building%20Lists.mp4?alt=media&token=ff0a8716-17d2-4812-b533-8cacf91651e2"
+          },
+          {
+            "name": "The FlatList Element",
+            "duration": "02:24",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/3.%20List%20Buliding%20-%20With%20Style!%2F17.%20The%20FlatList%20Element.mp4?alt=media&token=3b6138b4-93fb-4277-a9cb-861785dd47c8"
+          },
+          {
+            "name": "Rendering a FlatList",
+            "duration": "05:12",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/3.%20List%20Buliding%20-%20With%20Style!%2F18.%20Rendering%20a%20FlatList.mp4?alt=media&token=d293daa3-bde1-4ef1-9e38-d1af013448a8"
+          },
+          {
+            "name": "Why a Key Property?",
+            "duration": "04:11",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/3.%20List%20Buliding%20-%20With%20Style!%2F19.%20Why%20a%20Key%20Property.mp4?alt=media&token=6cd94157-f97f-4711-a9af-e31d6200578c"
+          },
+          {
+            "name": "Solving the Key Issue",
+            "duration": "05:18",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/3.%20List%20Buliding%20-%20With%20Style!%2F20.%20Solving%20the%20Key%20Issue.mp4?alt=media&token=bdf0ece3-b8a0-405b-a78e-add9598bb5d9"
+          },
+          {
+            "name": "A Few Props Around FlatList",
+            "duration": "04:57",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/3.%20List%20Buliding%20-%20With%20Style!%2F21.%20A%20Few%20Props%20Around%20FlatList.mp4?alt=media&token=082f6023-fab6-44b6-9895-d10c91806bac"
+          },
+          {
+            "name": "Exercise Overview",
+            "duration": "00:53",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/3.%20List%20Buliding%20-%20With%20Style!%2F22.%20Exercise%20Overview.mp4?alt=media&token=68620839-e9ca-488e-a5e3-58f78e362980"
+          },
+          {
+            "name": "Exercise Solution",
+            "duration": "02:14",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/3.%20List%20Buliding%20-%20With%20Style!%2F23.%20Exercise%20Solution.mp4?alt=media&token=63173cbb-ccd8-4de5-b483-070de95ddbf9"
+          }
+        ]
+      },
+      {
+        "name": "Navigating Users Between Screens",
+        "duration": "24:11",
+        "items": [
+          {
+            "name": "Button Types",
+            "duration": "03:44",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/4.%20Navigating%20Users%20Between%20Screens%2F24.%20Button%20Types.mp4?alt=media&token=3b273f27-5bf9-455a-9be6-84d7a1b11574"
+          },
+          {
+            "name": "Buttons in Action",
+            "duration": "05:20",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/4.%20Navigating%20Users%20Between%20Screens%2F25.%20Buttons%20in%20Action.mp4?alt=media&token=e0ae1ce5-8793-4a4a-9aea-d0f1a34d0554"
+          },
+          {
+            "name": "Touchable Opacity in Action",
+            "duration": "04:18",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/4.%20Navigating%20Users%20Between%20Screens%2F26.%20Touchable%20Opacity%20in%20Action.mp4?alt=media&token=4479b602-f2c0-4186-959b-2bf7fcccb4ec"
+          },
+          {
+            "name": "Navigating with React Navigation",
+            "duration": "06:46",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/4.%20Navigating%20Users%20Between%20Screens%2F27.%20Navigating%20with%20React%20Navigation.mp4?alt=media&token=2be95feb-32d8-4f75-bdf5-03d98a9cbb7b"
+          },
+          {
+            "name": "Destructuring Props",
+            "duration": "04:03",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/4.%20Navigating%20Users%20Between%20Screens%2F28.%20Destructuring%20Props.mp4?alt=media&token=fab4b8ae-88fd-42c1-a85c-1edcdcf8736a"
+          }
+        ]
+      },
+      {
+        "name": "Building Reusable Components",
+        "duration": "27:53",
+        "items": [
+          {
+            "name": "Component Reuse with Props",
+            "duration": "03:35",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/5.%20Buildinng%20Reusable%20Components%2F29.%20Component%20Reuse%20with%20Props.mp4?alt=media&token=aedbedfb-55eb-41a8-94f8-4af45172fa3b"
+          },
+          {
+            "name": "Exercise Solution",
+            "duration": "01:49",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/5.%20Buildinng%20Reusable%20Components%2F30.%20Exercise%20Solution.mp4?alt=media&token=367e9fc9-4e88-4413-a2bf-261b34fce77a"
+          },
+          {
+            "name": "Parent-Child Relationships",
+            "duration": "05:07",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/5.%20Buildinng%20Reusable%20Components%2F31.%20Parent-Child%20Relationships.mp4?alt=media&token=577c11a1-0286-45f3-a95c-948a000dce6c"
+          },
+          {
+            "name": "Communicating from Parent to Child",
+            "duration": "05:44",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/5.%20Buildinng%20Reusable%20Components%2F32.%20Communicating%20from%20Parent%20to%20Child.mp4?alt=media&token=3b973830-7fa9-420c-a62e-2037860ec9c8"
+          },
+          {
+            "name": "Showing Images",
+            "duration": "04:07",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/5.%20Buildinng%20Reusable%20Components%2F34.%20Showing%20Images.mp4?alt=media&token=c8876ebd-15eb-45b8-8124-2ff279357479"
+          },
+          {
+            "name": "Passing Images as Props",
+            "duration": "04:14",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/5.%20Buildinng%20Reusable%20Components%2F35.%20Passing%20Images%20as%20Props.mp4?alt=media&token=189b9dc2-19fc-4369-b8df-cb3ef62bb8ea"
+          },
+          {
+            "name": "Exercise Outline",
+            "duration": "00:47",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/5.%20Buildinng%20Reusable%20Components%2F36.%20Exercise%20Outline.mp4?alt=media&token=52de8a1c-a802-48a2-a04e-aeeaf56792d9"
+          },
+          {
+            "name": "Exercise Solution",
+            "duration": "02:26",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/5.%20Buildinng%20Reusable%20Components%2F37.%20Exercise%20Solution.mp4?alt=media&token=76748ea4-e372-42a2-a675-36246f54e536"
+          }
+        ]
+      },
+      {
+        "name": "State Management in React Components",
+        "duration": "02:54:48",
+        "items": [
+          {
+            "name": "State in Components",
+            "duration": "05:35",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F38.%20State%20in%20Components.mp4?alt=media&token=1c86c347-ae1e-41e5-b72f-bfebeb2bf8ca"
+          },
+          {
+            "name": "Screen Boilerplate",
+            "duration": "03:14",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F39.%20Screen%20Boilerplate.mp4?alt=media&token=dfc0925b-bf66-46b8-b275-d138404e0909"
+          },
+          {
+            "name": "State in Action",
+            "duration": "09:45",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F40.%20State%20in%20Action.mp4?alt=media&token=beb48845-38a9-4dde-9e2c-ccc2dc116854"
+          },
+          {
+            "name": "Notes on State",
+            "duration": "06:59",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F41.%20Notes%20on%20State.mp4?alt=media&token=685cf341-8b90-4c12-a7f2-61c99bc56a7d"
+          },
+          {
+            "name": "App Overview",
+            "duration": "05:06",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F42.%20App%20Overview.mp4?alt=media&token=b797e07e-a5bb-41e2-8be2-e915d0b9e30e"
+          },
+          {
+            "name": "Generating Random Colors",
+            "duration": "04:27",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F43.%20Generating%20Random%20Colors.mp4?alt=media&token=63bdc7ba-4625-4c9c-aa88-73a23275cc73"
+          },
+          {
+            "name": "Adding Random Colors",
+            "duration": "04:48",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F44.%20Adding%20Random%20Colors.mp4?alt=media&token=e2641db8-08bc-4a3f-8f20-eaea3aabbf48"
+          },
+          {
+            "name": "Showing Colors with a FlatList",
+            "duration": "03:33",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F45.%20Showing%20Colors%20with%20a%20FlatList.mp4?alt=media&token=79cb0820-761a-4057-8c46-d9a87af201cc"
+          },{
+            "name": "App Overview",
+            "duration": "04:43",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F46.%20App%20Overview.mp4?alt=media&token=e88eaeb4-524b-49da-a43c-ea7867294c0c"
+          },
+          {
+            "name": "Reusable Color Adjusters",
+            "duration": "06:14",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F47.%20Reusable%20Color%20Adjusters.mp4?alt=media&token=bb197230-2cc5-4549-b868-d90954bd7d74"
+          },
+          {
+            "name": "Coordinating State",
+            "duration": "05:31",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F48.%20Coordinating%20State.mp4?alt=media&token=0e5125ab-cc33-4dfa-9bf2-9bb4313b8385https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F48.%20Coordinating%20State.mp4?alt=media&token=0e5125ab-cc33-4dfa-9bf2-9bb4313b8385"
+          },
+          {
+            "name": "Passing Callbacks to Children",
+            "duration": "06:21",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F49.%20Passing%20Callbacks%20to%20Children.mp4?alt=media&token=3ef490ba-417d-4f18-81ce-e727e9c5c52a"
+          },
+          {
+            "name": "Tying State Values Together",
+            "duration": "07:16",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F50.%20Tying%20State%20Values%20Together.mp4?alt=media&token=10baaae3-0810-433f-9be3-9ad6f34b6e08"
+          },
+          {
+            "name": "Validating State Changes",
+            "duration": "07:56",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F51.%20Validating%20State%20Changes.mp4?alt=media&token=79847aef-b59a-4d26-987b-02b3be76ed23"
+          },
+          {
+            "name": "Reusable State Updates",
+            "duration": "07:34",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F52.%20Reusable%20State%20Updates.mp4?alt=media&token=6105e29b-1cfa-4c20-8d0f-35499cfafd15"
+          },
+          {
+            "name": "Introduction to Reducers",
+            "duration": "08:39",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F53.%20Introduction%20to%20Reducers.mp4?alt=media&token=333acef4-008f-4b2c-98e9-92160e7d074a"
+          },
+          {
+            "name": "Creating a Reducer",
+            "duration": "15:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F54.%20Creating%20a%20Reducer.mp4?alt=media&token=5ca3bc5f-f4d7-4310-8481-7ddf452c7675"
+          },
+          {
+            "name": "Applying State with a Reducer",
+            "duration": "08:55",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F55.%20Applying%20State%20with%20a%20Reducer.mp4?alt=media&token=736dbec3-cf69-4f19-a17c-2f3fdfe2ae5e"
+          },
+          {
+            "name": "Restoring Validation",
+            "duration": "07:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F56.%20Restoring%20Validation.mp4?alt=media&token=47724098-f8d5-46d9-8a00-70dc8d4014f2"
+          },
+          {
+            "name": "Community Convention in Reducers",
+            "duration": "06:49",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F57.%20Community%20Convention%20in%20Reducers.mp4?alt=media&token=856cde52-2f79-442c-8594-f3814cd0aecf"
+          },
+          {
+            "name": "Exercise Outline",
+            "duration": "01:16",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F58.%20Exercise%20Outline.mp4?alt=media&token=1d047f5d-7830-4d12-8179-8f7d8cdfce98"
+          },
+          {
+            "name": "Exercise Solution",
+            "duration": "10:56",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F59.%20Exercise%20Solution.mp4?alt=media&token=ca95879d-d4f7-4d4c-bebd-b320c8a1a89c"
+          },
+          {
+            "name": "Handling Text Input",
+            "duration": "03:22",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F60.%20Handling%20Text%20Input.mp4?alt=media&token=ccc63c65-50a1-4088-b3d0-bcf139d4c5ba"
+          },
+          {
+            "name": "Showing a Text Input",
+            "duration": "03:28",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F61.%20Showing%20a%20Text%20Input.mp4?alt=media&token=7ee33c0e-141b-43c0-96e0-910590cb1ecc"
+          },
+          {
+            "name": "Two Important Props",
+            "duration": "04:16",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F62.%20Two%20Important%20Props.mp4?alt=media&token=1a867f4e-332d-489f-94a4-ea5fef051837"
+          },
+          {
+            "name": "Weird Things with Text and State",
+            "duration": "06:11",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F63.%20Weird%20Things%20with%20Text%20and%20State.mp4?alt=media&token=58eaf2cb-fd49-4501-b5e7-94f63732ec92"
+          },
+          {
+            "name": "Updating State",
+            "duration": "04:52",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F64.%20Updating%20State.mp4?alt=media&token=dbe734c3-3dfd-4cee-8e27-7630ac3faa07"
+          },
+          {
+            "name": "Exercise Outline",
+            "duration": "02:28",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F65.%20Exercise%20Outline.mp4?alt=media&token=61e6f0d9-f603-4631-a9af-d0d19d4924fc"
+          },
+          {
+            "name": "Exercise Solution",
+            "duration": "02:34",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/6.%20State%20Management%20in%20React%20Components%2F66.%20Exercise%20Solution.mp4?alt=media&token=ab4b0469-2094-4753-b7db-5127383e79c7"
+          }
+        ]
+      },
+      {
+        "name": "How to Handle Screen Layout",
+        "duration": "46:16",
+        "items": [
+          {
+            "name": "Layout with React Native",
+            "duration": "03:49",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/7.%20How%20to%20Handle%20Screen%20Layout%2F67.%20Layout%20with%20React%20Native.mp4?alt=media&token=d3e5b938-e267-4e31-99cc-75031f560625"
+          },
+          {
+            "name": "Basics of Box Object Model",
+            "duration": "05:55",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/7.%20How%20to%20Handle%20Screen%20Layout%2F68.%20Basics%20of%20Box%20Object%20Model.mp4?alt=media&token=0f48136a-a135-404a-890e-8b10279ebfcd"
+          },
+          {
+            "name": "AlignItems with Flex",
+            "duration": "04:34",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/7.%20How%20to%20Handle%20Screen%20Layout%2F69.%20AlignItems%20with%20Flex.mp4?alt=media&token=92dee50b-c5a9-4ea5-bd23-c96ae3047356"
+          },
+          {
+            "name": "Flex Direction",
+            "duration": "03:47",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/7.%20How%20to%20Handle%20Screen%20Layout%2F70.%20Flex%20Direction.mp4?alt=media&token=d6041279-2161-48f9-9650-a6aa76ea63da"
+          },
+          {
+            "name": "Justify Content",
+            "duration": "02:56",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/7.%20How%20to%20Handle%20Screen%20Layout%2F71.%20Justify%20Content.mp4?alt=media&token=1fcd6506-b047-4d64-9b9b-a98603196a9b"
+          },
+          {
+            "name": "Flex Values",
+            "duration": "05:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/7.%20How%20to%20Handle%20Screen%20Layout%2F72.%20Flex%20Values.mp4?alt=media&token=8e2ea95c-271f-4d82-8f81-eabc087e7577"
+          },
+          {
+            "name": "Align Self on Children",
+            "duration": "02:24",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/7.%20How%20to%20Handle%20Screen%20Layout%2F73.%20Align%20Self%20on%20Children.mp4?alt=media&token=3a09a8a9-8982-4593-9e92-017d3ba79164"
+          },
+          {
+            "name": "The Position Property",
+            "duration": "02:33",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/7.%20How%20to%20Handle%20Screen%20Layout%2F74.%20The%20Position%20Property.mp4?alt=media&token=6e6740cb-c823-48ae-b752-9a4c81fec155"
+          },
+          {
+            "name": "Top, Bottom, Left, Right",
+            "duration": "03:01",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/7.%20How%20to%20Handle%20Screen%20Layout%2F75.%20Top%2C%20Bottom%2C%20Left%2C%20Right.mp4?alt=media&token=ec564029-4e65-4503-b165-d5f3d4426249"
+          },
+          {
+            "name": "Absolute Fill Objects",
+            "duration": "02:46",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/7.%20How%20to%20Handle%20Screen%20Layout%2F76.%20Absolute%20Fill%20Objects.mp4?alt=media&token=57f44c86-6349-44ca-92f3-e6437e619397"
+          },
+          {
+            "name": "Applying Layout Systems",
+            "duration": "01:52",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/7.%20How%20to%20Handle%20Screen%20Layout%2F77.%20Applying%20Layout%20Systems.mp4?alt=media&token=35c098ea-b2d7-4a16-b2ad-08847fc8ee48"
+          },
+          {
+            "name": "Exercise Overview",
+            "duration": "01:13",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/7.%20How%20to%20Handle%20Screen%20Layout%2F78.%20Exercise%20Overview.mp4?alt=media&token=e5bf7f74-4344-4d85-94f0-1863e6ad11cb"
+          },
+          {
+            "name": "Exercise Solution",
+            "duration": "06:18",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/7.%20How%20to%20Handle%20Screen%20Layout%2F79.%20Exercise%20Solution.mp4?alt=media&token=60efab6c-a3a3-48c6-9fbd-4e0088ba73db"
+          }
+        ]
+      },
+      {
+        "name": "Putting It All Together - Restaurant Search App",
+        "duration": "55:14",
+        "items": [
+          {
+            "name": "App Overview",
+            "duration": "01:36",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/8.%20Putting%20It%20All%20Together%20-%20Restaurant%20Rearch%20App%2F80.%20App%20Overview.mp4?alt=media&token=81671841-f1e7-4fc7-9110-d26a7588d741"
+          },
+          {
+            "name": "Project Generation",
+            "duration": "02:40",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/8.%20Putting%20It%20All%20Together%20-%20Restaurant%20Rearch%20App%2F81.%20Project%20Generation.mp4?alt=media&token=9da4cd2c-a981-4e73-9f73-417df0a98047"
+          },
+          {
+            "name": "Yelp Signup",
+            "duration": "04:40",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/8.%20Putting%20It%20All%20Together%20-%20Restaurant%20Rearch%20App%2F82.%20Yelp%20Signup.mp4?alt=media&token=2ddead94-4f52-4361-a9f2-2994aa389c73"
+          },
+          {
+            "name": "Yelp Walkthrough",
+            "duration": "04:16",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/8.%20Putting%20It%20All%20Together%20-%20Restaurant%20Rearch%20App%2F83.%20Yelp%20Walkthrough.mp4?alt=media&token=b027c5bf-b277-476e-add2-4ca004d24294"
+          },
+          {
+            "name": "React Navigation",
+            "duration": "03:06",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/8.%20Putting%20It%20All%20Together%20-%20Restaurant%20Rearch%20App%2F84.%20React%20Navigation.mp4?alt=media&token=94e37854-5f83-4887-85e9-675037f07dd6"
+          },
+          {
+            "name": "Assembling a Navigator",
+            "duration": "06:58",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/8.%20Putting%20It%20All%20Together%20-%20Restaurant%20Rearch%20App%2F86.%20Assembling%20a%20Navigator.mp4?alt=media&token=eba21c1a-bb25-42ef-a420-9ba54d175af2"
+          },
+          {
+            "name": "Architecture Approach",
+            "duration": "02:47",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/8.%20Putting%20It%20All%20Together%20-%20Restaurant%20Rearch%20App%2F87.%20Architecture%20Approach.mp4?alt=media&token=e8bf3dde-b872-4a33-b6dc-f2c4d456ea72"
+          },
+          {
+            "name": "Starting the SearchBar",
+            "duration": "04:11",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/8.%20Putting%20It%20All%20Together%20-%20Restaurant%20Rearch%20App%2F88.%20Starting%20the%20SearchBar.mp4?alt=media&token=a4979d15-a8d3-4e88-8ee1-71f87038aad0"
+          },
+          {
+            "name": "Displaying Icons",
+            "duration": "05:48",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/8.%20Putting%20It%20All%20Together%20-%20Restaurant%20Rearch%20App%2F89.%20Displaying%20Icons.mp4?alt=media&token=09468f8f-e202-410e-a8e3-05fe50ed66b7"
+          },
+          {
+            "name": "Search Bar Styling",
+            "duration": "04:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/8.%20Putting%20It%20All%20Together%20-%20Restaurant%20Rearch%20App%2F90.%20Search%20Bar%20Styling.mp4?alt=media&token=d82d43ef-c08b-4979-840a-a3cbad952d3c"
+          },
+          {
+            "name": "A Touch More Styling",
+            "duration": "03:52",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/8.%20Putting%20It%20All%20Together%20-%20Restaurant%20Rearch%20App%2F91.%20A%20Touch%20More%20Styling.mp4?alt=media&token=48a61598-2506-4f7b-bc09-c25ba7547811"
+          },
+          {
+            "name": "Managing State",
+            "duration": "06:42",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/8.%20Putting%20It%20All%20Together%20-%20Restaurant%20Rearch%20App%2F92.%20Managing%20State.mp4?alt=media&token=1177ca9c-b0c8-4747-86cb-d1553aba721d"
+          },
+          {
+            "name": "Detecting Editing Completion",
+            "duration": "04:04",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/8.%20Putting%20It%20All%20Together%20-%20Restaurant%20Rearch%20App%2F93.%20Detecting%20Editing%20Completion.mp4?alt=media&token=0e591837-0466-433f-9cfa-03be784167f7"
+          }
+        ]
+      },
+      {
+        "name": "Using Outside API's",
+        "duration": "31:23",
+        "items": [
+          {
+            "name": "Configuring Axios",
+            "duration": "06:58",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/9.%20Using%20Outside%20API%60s%2F94.%20Configuring%20Axios.mp4?alt=media&token=547d0561-36b9-40ce-8a77-17ed0dd00ef6"
+          },
+          {
+            "name": "Making the Request",
+            "duration": "10:37",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/9.%20Using%20Outside%20API%60s%2F95.%20Making%20the%20Request.mp4?alt=media&token=ac059c4d-9ce0-42e8-81f7-8c8db8bd553b"
+          },
+          {
+            "name": "Error Handling",
+            "duration": "07:30",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/9.%20Using%20Outside%20API%60s%2F96.%20Error%20Handling.mp4?alt=media&token=7591c3c7-7fb2-4938-a77a-36bcf192ce56"
+          },
+          {
+            "name": "Running an Initial Search",
+            "duration": "06:18",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/9.%20Using%20Outside%20API%60s%2F97.%20Running%20an%20Initial%20Search.mp4?alt=media&token=be570152-07a3-4221-ba7d-774fc79007f5"
+          }
+        ]
+      },
+      {
+        "name": "Making Hooks Reusable",
+        "duration": "29:02",
+        "items": [
+          {
+            "name": "The UseEffect Hook",
+            "duration": "04:14",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/10.%20%20Making%20Hooks%20Reusable%2F99.%20The%20UseEffect%20Hook.mp4?alt=media&token=7b920250-77c4-4714-a4b5-279c1c96a8cd"
+          },
+          {
+            "name": "Extracting Hook Logic",
+            "duration": "07:34",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/10.%20%20Making%20Hooks%20Reusable%2F100.%20Extracting%20Hook%20Logic.mp4?alt=media&token=d97cc10d-db81-495a-a7ce-374c037423d2"
+          },
+          {
+            "name": "Showing Search Results",
+            "duration": "05:57",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/10.%20%20Making%20Hooks%20Reusable%2F101.%20Showing%20Search%20Results.mp4?alt=media&token=ed6a1bfc-cef4-46fb-a84f-3c120e89b4f0"
+          },
+          {
+            "name": "Grouping Results",
+            "duration": "07:10",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/10.%20%20Making%20Hooks%20Reusable%2F102.%20Grouping%20Results.mp4?alt=media&token=8bba2e68-009b-4207-9177-fc80dd23e32a"
+          },
+          {
+            "name": "FlatList Rendering",
+            "duration": "03:58",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/10.%20%20Making%20Hooks%20Reusable%2F103.%20FlatList%20Rendering.mp4?alt=media&token=605e38e5-a504-472b-8e10-347c728d4682"
+          }
+        ]
+      },
+      {
+        "name": "Navigation with Parameters",
+        "duration": "54:42",
+        "items": [
+          {
+            "name": "Showing a Single Result",
+            "duration": "04:26",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/11.%20%20Navigation%20with%20Parameters%2F104.%20Showing%20a%20Single%20Result.mp4?alt=media&token=961c6116-f87c-4c4f-b114-07edde793e8b"
+          },
+          {
+            "name": "Showing Additional Info",
+            "duration": "05:42",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/11.%20%20Navigation%20with%20Parameters%2F105.%20Showing%20Additional%20Info.mp4?alt=media&token=e7e50885-6746-487c-9065-44a3c0b34a6e"
+          },
+          {
+            "name": "A Few More Styling Issues",
+            "duration": "07:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/11.%20%20Navigation%20with%20Parameters%2F106.%20A%20Few%20More%20Styling%20Issues.mp4?alt=media&token=13f0cd6e-693c-4d82-b83f-a0475e2d4c2f"
+          },
+          {
+            "name": "Hiding Scroll Bars",
+            "duration": "02:38",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/11.%20%20Navigation%20with%20Parameters%2F107.%20Hiding%20Scroll%20Bars.mp4?alt=media&token=0b797b9b-4ff2-46d2-8e25-40f5b74b3f1f"
+          },
+          {
+            "name": "Constraining View Elements",
+            "duration": "02:57",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/11.%20%20Navigation%20with%20Parameters%2F108.%20Constraining%20View%20Elements.mp4?alt=media&token=53963507-0bdd-4685-bdb3-2e9685b8812f"
+          },
+          {
+            "name": "Empty Elements",
+            "duration": "02:38",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/11.%20%20Navigation%20with%20Parameters%2F109.%20Empty%20Elements.mp4?alt=media&token=d37f0fbf-3969-4d74-bf04-cdf4d4ad603b"
+          },
+          {
+            "name": "Spacing on the Search Bar",
+            "duration": "01:40",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/11.%20%20Navigation%20with%20Parameters%2F110.%20Spacing%20on%20the%20Search%20Bar.mp4?alt=media&token=1599d1cd-70be-462e-8a4a-dadde422730d"
+          },
+          {
+            "name": "Reminder on Navigation",
+            "duration": "04:48",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/11.%20%20Navigation%20with%20Parameters%2F111.%20Reminder%20on%20Navigation.mp4?alt=media&token=eb8bce47-9f9b-460a-b450-935d76356b3c"
+          },
+          {
+            "name": "Navigating from a Child Component",
+            "duration": "03:18",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/11.%20%20Navigation%20with%20Parameters%2F112.%20Navigating%20from%20a%20Child%20Component.mp4?alt=media&token=1ed149a6-4a5d-4913-825d-a1db89b4da8e"
+          },
+          {
+            "name": "The WithNavigation Helper",
+            "duration": "03:24",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/11.%20%20Navigation%20with%20Parameters%2F113.%20The%20WithNavigation%20Helper.mp4?alt=media&token=45ca877f-2f19-44ac-8876-7a633b0c1f85"
+          },
+          {
+            "name": "Communicating Between Screens",
+            "duration": "03:44",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/11.%20%20Navigation%20with%20Parameters%2F114.%20Communicating%20Between%20Screen.mp4?alt=media&token=6664ff91-3a55-4cfe-b5c7-77ccec6c5903"
+          },
+          {
+            "name": "Fetching a Single Restaurant",
+            "duration": "05:54",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/11.%20%20Navigation%20with%20Parameters%2F115.%20Fetching%20a%20Single%20Restaurant.mp4?alt=media&token=881b8465-d164-4f68-83ab-3b091da23eaf"
+          },
+          {
+            "name": "Showing a List of Images",
+            "duration": "04:12",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/11.%20%20Navigation%20with%20Parameters%2F116.%20Showing%20a%20List%20of%20Images.mp4?alt=media&token=2aeff9fa-c920-4ada-8715-98f56cc1b542"
+          },
+          {
+            "name": "One Last Fix",
+            "duration": "02:21",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/11.%20%20Navigation%20with%20Parameters%2F117.%20One%20Last%20Fix.mp4?alt=media&token=1f511cdb-5586-4ebd-a924-008561785bc5"
+          }
+        ]
+      },
+      {
+        "name": "Advanced State Management with Context",
+        "duration": "03:03:12",
+        "items": [
+          {
+            "name": "App Overview",
+            "duration": "03:09",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F118.%20App%20Overview.mp4?alt=media&token=cc380e74-6757-4293-9001-05da661d3d69"
+          },
+          {
+            "name": "Issues with Data",
+            "duration": "05:45",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F119.%20Issues%20with%20Data.mp4?alt=media&token=bb5b5a2b-7b8d-409e-abac-6d0e65a04a51"
+          },
+          {
+            "name": "Initial Setup",
+            "duration": "05:20",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F121.%20Initial%20Setup.mp4?alt=media&token=c9e7cbf2-88b4-4b42-bf8c-ac92d5c65862"
+          },
+          {
+            "name": "Wrapping the Navigator",
+            "duration": "02:41",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F122.%20Wrapping%20the%20Navigator.mp4?alt=media&token=1a1eb312-bb45-4fd4-84c1-287ede7c7c06"
+          },
+          {
+            "name": "Introduction to Context",
+            "duration": "02:19",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F123.%20Introduction%20to%20Context.mp4?alt=media&token=d1bf6abb-bb32-456b-a892-08bd7803be5b"
+          },
+          {
+            "name": "Adding Context",
+            "duration": "06:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F124.%20Adding%20Context.mp4?alt=media&token=985f5ff7-0a63-41c9-a27c-7fbe0061df15"
+          },
+          {
+            "name": "Moving Data with Context",
+            "duration": "06:04",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F125.%20Moving%20Data%20with%20Context.mp4?alt=media&token=62ff9978-0573-47f3-8fe0-2f406edb5272"
+          },
+          {
+            "name": "Rendering a List of Posts",
+            "duration": "03:55",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F126.%20Rendering%20a%20List%20of%20Posts.mp4?alt=media&token=6577db32-ed7a-46a9-af14-6205f04fff6d"
+          },
+          {
+            "name": "Adding State in Context",
+            "duration": "07:54",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F127.%20Adding%20State%20in%20Context.mp4?alt=media&token=ce2f8138-32f1-405a-bc7d-9228c4768528"
+          },
+          {
+            "name": "It Works!",
+            "duration": "04:05",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F128.%20It%20Works!.mp4?alt=media&token=a8207470-ed87-4612-aae0-a599682077e8"
+          },
+          {
+            "name": "Opportunity for Improvement",
+            "duration": "02:11",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F129.%20Opportunity%20for%20Improvement.mp4?alt=media&token=68ce1f71-8338-455b-a9eb-a55098b44922"
+          },
+          {
+            "name": "Updating with UseReducer",
+            "duration": "09:32",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F130.%20Updating%20with%20UseReducer.mp4?alt=media&token=8066c7a9-57f5-4da4-861e-809b9a5c399b"
+          },
+          {
+            "name": "Automating Context Creation",
+            "duration": "12:12",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F131.%20Automating%20Context%20Creation.mp4?alt=media&token=22f50375-80cb-4023-ad69-f6caf3e1a013"
+          },
+          {
+            "name": "More Automatic Context Creation",
+            "duration": "09:12",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F132.%20More%20Automatic%20Context%20Creation.mp4?alt=media&token=290a6b8d-0582-4ec2-b26a-2e53ea98189d"
+          },
+          {
+            "name": "A Bit of Styling",
+            "duration": "07:17",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F133.%20A%20Bit%20of%20Styling.mp4?alt=media&token=0c1d3989-59ff-4275-8469-047b2f828477"
+          },
+          {
+            "name": "Deleting Posts",
+            "duration": "03:46",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F134.%20Deleting%20Posts.mp4?alt=media&token=1246d8ae-049d-406c-8c5a-fa559bc240de"
+          },
+          {
+            "name": "Updating the Reducer",
+            "duration": "05:52",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F135.%20Updating%20the%20Reducer.mp4?alt=media&token=826002e9-677b-4bd6-89b9-625283262128"
+          },
+          {
+            "name": "Navigation on Tap",
+            "duration": "05:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F136.%20Navigation%20on%20Tap.mp4?alt=media&token=84014610-a8ea-4de8-bf87-1fc6f92f739e"
+          },
+          {
+            "name": "Retrieving Single Posts",
+            "duration": "05:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F137.%20Retrieving%20Single%20Posts.mp4?alt=media&token=3340e5fc-6057-40a0-8c31-38c87d49ba33"
+          },
+          {
+            "name": "Adding a Creation Screen",
+            "duration": "02:15",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F138.%20Adding%20a%20Creation%20Screen.mp4?alt=media&token=9750d99a-5d78-4ca8-9a56-8876d91d754d"
+          },
+          {
+            "name": "Header Navigation",
+            "duration": "04:57",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F139.%20Header%20Navigation.mp4?alt=media&token=38e75f7e-48ac-42af-a39f-662c58dd5773"
+          },
+          {
+            "name": "Displaying a Form",
+            "duration": "06:51",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F140.%20Displaying%20a%20Form.mp4?alt=media&token=8226bd6e-b075-4a4f-8aae-21d15a0a9ce0"
+          },
+          {
+            "name": "Saving a New Post",
+            "duration": "04:41",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F141.%20Saving%20a%20New%20Post.mp4?alt=media&token=30dcb584-1499-4003-bffa-1e7428306820"
+          },
+          {
+            "name": "Navigation on Save",
+            "duration": "06:19",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F142.%20Navigation%20on%20Save.mp4?alt=media&token=8e7d07ca-1204-47d3-b4f7-f92990086044"
+          },
+          {
+            "name": "The Edit Icon Link",
+            "duration": "04:49",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F143.%20The%20Edit%20Icon%20Link.mp4?alt=media&token=688a4677-cf1b-4a47-98e4-4df3cc797e6f"
+          },
+          {
+            "name": "Communicating Info to Edit",
+            "duration": "06:15",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F144.%20Communicating%20Info%20to%20Edit.mp4?alt=media&token=f8659004-5b8e-476f-8ac4-704e2f649f63"
+          },
+          {
+            "name": "Initializing State from Context",
+            "duration": "05:38",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F145.%20Initializing%20State%20from%20Context.mp4?alt=media&token=c6a45eea-5c4a-4ac7-9593-d3a3ded37df3"
+          },
+          {
+            "name": "Extracting Form Logic",
+            "duration": "09:05",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F146.%20Extracting%20Form%20Logic.mp4?alt=media&token=817220f4-e4fc-4e4e-bb1f-b0ffe1635bb1"
+          },
+          {
+            "name": "Customizing OnSubmit",
+            "duration": "04:24",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F147.%20Customizing%20OnSubmit.mp4?alt=media&token=bd12cafa-6a16-4aee-adcc-c7918b8d4c97"
+          },
+          {
+            "name": "Initial Form Values",
+            "duration": "04:59",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F148.%20Initial%20Form%20Values.mp4?alt=media&token=22c0aa2b-1649-4ce3-9408-601d94dd7511"
+          },
+          {
+            "name": "Default Props",
+            "duration": "02:28",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F149.%20Default%20Props.mp4?alt=media&token=47916685-ff2e-44e1-b54d-6fc96c6f90ca"
+          },
+          {
+            "name": "Editing Action Function",
+            "duration": "04:58",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F150.%20Editing%20Action%20Function.mp4?alt=media&token=610e9fa3-6355-45bf-b17c-6a1bd2166268"
+          },
+          {
+            "name": "Editing in a Reducer",
+            "duration": "03:38",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F151.%20Editing%20in%20a%20Reducer.mp4?alt=media&token=66027bd4-c0fc-4255-a9df-63ccb8c60195"
+          },
+          {
+            "name": "Navigating Backwards",
+            "duration": "04:15",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/12.%20Advanced%20State%20Management%20with%20Context%2F152.%20Navigating%20Backwards.mp4?alt=media&token=bad33208-b46b-4039-83dc-bca3e28782d0"
+          }
+        ]
+      },
+      {
+        "name": "Data API Sync",
+        "duration": "49:27",
+        "items": [
+          {
+            "name": "Outside Data API",
+            "duration": "02:09",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/13.%20%20Data%20API%20Sync%2F153.%20Outside%20Data%20API.mp4?alt=media&token=d1bef968-2fc2-4852-9d06-55508e107b96"
+          },
+          {
+            "name": "Issues with Servers + React Native",
+            "duration": "03:12",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/13.%20%20Data%20API%20Sync%2F154.%20Issues%20with%20Servers%20%2B%20React%20Native.mp4?alt=media&token=a4bffdb9-33f6-48d5-b05e-f6d7fd8f90aa"
+          },
+          {
+            "name": "JSON Server and Ngrok Setup",
+            "duration": "06:43",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/13.%20%20Data%20API%20Sync%2F155.%20JSON%20Server%20and%20Ngrok%20Setup.mp4?alt=media&token=501107f3-aa6f-45a5-a16f-a913be501d29"
+          },
+          {
+            "name": "JSON Server REST Conventions",
+            "duration": "03:48",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/13.%20%20Data%20API%20Sync%2F156.%20JSON%20Server%20REST%20Conventions.mp4?alt=media&token=4b3a2161-3375-4621-a811-6823aab55307"
+          },
+          {
+            "name": "Making a Request",
+            "duration": "10:16",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/13.%20%20Data%20API%20Sync%2F157.%20Making%20a%20Request.mp4?alt=media&token=0769f43d-d2d9-4035-98dd-ca363d6512cd"
+          },
+          {
+            "name": "Remote Fetch of Posts",
+            "duration": "05:55",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/13.%20%20Data%20API%20Sync%2F158.%20Remote%20Fetch%20of%20Posts.mp4?alt=media&token=4b3fa24a-981d-4e40-b284-c1baf457f613"
+          },
+          {
+            "name": "Creating Posts with Post Requests",
+            "duration": "03:53",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/13.%20%20Data%20API%20Sync%2F159.%20Creating%20Posts%20with%20Post%20Requests.mp4?alt=media&token=23d942f3-7479-4956-bb61-df66b0493b49"
+          },
+          {
+            "name": "Refetching on Navigate",
+            "duration": "05:59",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/13.%20%20Data%20API%20Sync%2F160.%20Refetching%20on%20Navigate.mp4?alt=media&token=fe7a4e8f-1c57-4003-a145-ef61fcfd3b3c"
+          },
+          {
+            "name": "Deleting a Post",
+            "duration": "02:33",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/13.%20%20Data%20API%20Sync%2F161.%20Deleting%20a%20Post.mp4?alt=media&token=24974c4a-87d2-4290-8994-c727b64f50e3"
+          },
+          {
+            "name": "Editing Posts",
+            "duration": "01:38",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/13.%20%20Data%20API%20Sync%2F162.%20Editing%20Posts.mp4?alt=media&token=e317957d-08bb-42fb-b819-34f684913e1a"
+          },
+          {
+            "name": "App Wrapup",
+            "duration": "03:21",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/13.%20%20Data%20API%20Sync%2F163.%20App%20Wrapup.mp4?alt=media&token=27b3807a-5c58-489e-8c40-b0c9ea98f6e5"
+          }
+        ]
+      },
+      {
+        "name": "Building a Custom Express API",
+        "duration": "02:07:47",
+        "items": [
+          {
+            "name": "App Overview",
+            "duration": "04:30",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F164.%20App%20Overview.mp4?alt=media&token=741a074e-8236-4524-bd19-a4860a153873"
+          },
+          {
+            "name": "Dependencies Setup",
+            "duration": "02:06",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F165.%20Dependencies%20Setup.mp4?alt=media&token=c2b3e7ad-ca7b-4db0-9ce3-2fe475cbbd20"
+          },
+          {
+            "name": "The Basics of Express",
+            "duration": "03:44",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F166.%20The%20Basics%20of%20Express.mp4?alt=media&token=fc2cb778-a329-490b-8654-cf48ba36441a"
+          },
+          {
+            "name": "MongoDB Setup",
+            "duration": "03:37",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F167.%20MongoDB%20Setup.mp4?alt=media&token=c06b3cab-56af-47d5-899d-ec3e7331312a"
+          },
+          {
+            "name": "Connecting to MongoDB",
+            "duration": "06:37",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F168.%20Connecting%20to%20MongoDB.mp4?alt=media&token=c33e013a-e36b-43d4-b7cc-a7c8fd86de55"
+          },
+          {
+            "name": "Nodemon for Automatic Restarts",
+            "duration": "01:18",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F169.%20Nodemon%20for%20Automatic%20Restarts.mp4?alt=media&token=3e5b898e-b07d-4423-b8e7-21ad4b109c90"
+          },
+          {
+            "name": "Understanding the Signup Process",
+            "duration": "05:31",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F170.%20Understanding%20the%20Signup%20Process.mp4?alt=media&token=b381393d-e74b-4a1d-8ab5-f85f9427c6a7"
+          },
+          {
+            "name": "Using Postman",
+            "duration": "02:46",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F171.%20Using%20Postman.mp4?alt=media&token=20dfe12c-794e-419f-9b40-7177289e4ff4"
+          },
+          {
+            "name": "Handling JSON Data",
+            "duration": "05:25",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F172.%20Handling%20JSON%20Data.mp4?alt=media&token=0aec4534-4169-41cc-8619-b65ef818d57d"
+          },
+          {
+            "name": "Defining a User Schema",
+            "duration": "07:09",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F173.%20Defining%20a%20User%20Schema.mp4?alt=media&token=4f9ad9e8-a41a-4fb9-a970-0e16e20a6786"
+          },
+          {
+            "name": "Creating and Saving a User",
+            "duration": "04:37",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F174.%20Creating%20and%20Saving%20a%20User.mp4?alt=media&token=5d51fcdd-0fea-4454-8a71-beda15fb1213"
+          },
+          {
+            "name": "Error Handling",
+            "duration": "05:43",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F175.%20Error%20Handling.mp4?alt=media&token=17797bb8-968e-4586-b66d-b2a97d71ff61"
+          },
+          {
+            "name": "JSON Web Tokens",
+            "duration": "07:12",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F176.%20JSON%20Web%20Tokens.mp4?alt=media&token=ada40933-dac3-4d37-9575-d25e507efb33"
+          },
+          {
+            "name": "Creating a JWT",
+            "duration": "02:48",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F177.%20Creating%20a%20JWT.mp4?alt=media&token=e6023492-ac18-4773-997a-e1a67303a07f"
+          },
+          {
+            "name": "Wiring Up JSON Web Tokens",
+            "duration": "13:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F178.%20Wiring%20Up%20JSON%20Web%20Tokens.mp4?alt=media&token=ead6085e-eb5e-45cc-958f-7c5647850443"
+          },
+          {
+            "name": "Understanding Password Hashing",
+            "duration": "08:18",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F179.%20Understanding%20Password%20Hashing.mp4?alt=media&token=c34b5ac9-c47a-4547-90f0-babde6eb78ef"
+          },
+          {
+            "name": "Salting and Hashing",
+            "duration": "08:35",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F180.%20Salting%20and%20Hashing.mp4?alt=media&token=4b23b8c7-146b-4f64-bb4c-aaf53c05f42f"
+          },
+          {
+            "name": "The Signin Route",
+            "duration": "06:42",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F181.%20The%20Signin%20Route.mp4?alt=media&token=eb1e7208-373a-49f2-935b-8ae945a3e86a"
+          },
+          {
+            "name": "Testing Signup and Signin",
+            "duration": "03:23",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F182.%20Testing%20Signup%20and%20Signin.mp4?alt=media&token=881e55a2-d209-4977-9e73-7db5a62e963f"
+          },
+          {
+            "name": "Defining Tracks",
+            "duration": "06:59",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F183.%20Defining%20Tracks.mp4?alt=media&token=8cdfb7cd-e982-4c23-b554-1c0871904400"
+          },
+          {
+            "name": "Listing Tracks",
+            "duration": "07:47",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F184.%20Listing%20Tracks.mp4?alt=media&token=6dfd9177-d3cb-4bd4-a682-f07263a6c29e"
+          },
+          {
+            "name": "Creating Tracks",
+            "duration": "10:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/14.%20%20Building%20a%20Custom%20Express%20API%2F185.%20Creating%20Tracks.mp4?alt=media&token=142228db-b827-4fca-b970-a10d7a756f80"
+          }
+        ]
+      },
+      {
+        "name": "In-App Authentication",
+        "duration": "07:14:33",
+        "items": [
+          {
+            "name": "Server Setup",
+            "duration": "08:25",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F187.%20Server%20Setup.mp4?alt=media&token=162813b8-e8d4-4dd5-8f2b-5f7e3bfb2185"
+          },
+          {
+            "name": "Navigation Design",
+            "duration": "11:14",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F188.%20Navigation%20Design.mp4?alt=media&token=333c9a7c-fd4c-49af-a523-565832d3733c"
+          },
+          {
+            "name": "A LOT of Boilerplate",
+            "duration": "07:24",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F190.%20A%20LOT%20of%20Boilerplate.mp4?alt=media&token=6bd9c6d6-e008-452b-bca8-1938f8c2118b"
+          },
+          {
+            "name": "Navigator Hookup",
+            "duration": "07:45",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F191.%20Navigator%20Hookup.mp4?alt=media&token=5290725f-c389-4081-a5b7-611ad2e6309f"
+          },
+          {
+            "name": "Testing the Navigation Flow",
+            "duration": "06:28",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F192.%20Testing%20the%20Navigation%20Flow.mp4?alt=media&token=8ae0ece5-fb23-491a-a910-d1d542e6d70c"
+          },
+          {
+            "name": "React Native Elements",
+            "duration": "05:19",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F193.%20React%20Native%20Elements.mp4?alt=media&token=566ef848-8b96-43a4-92ce-c33a6ae5832f"
+          },
+          {
+            "name": "Helper Styling Components",
+            "duration": "08:58",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F194.%20Helper%20Styling%20Components.mp4?alt=media&token=a4a426f0-d299-4f13-89f5-0246f240c680"
+          },
+          {
+            "name": "Styling Odds and Ends",
+            "duration": "06:39",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F195.%20Styling%20Odds%20and%20Ends.mp4?alt=media&token=ffdc476b-d50b-4e64-9a3f-4357e7c02d33"
+          },
+          {
+            "name": "Input Props",
+            "duration": "04:39",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F196.%20Input%20Props.mp4?alt=media&token=41b00fe8-888d-4665-8cbe-5e4caa9fdccc"
+          },
+          {
+            "name": "The Auth Context",
+            "duration": "10:43",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F197.%20The%20Auth%20Context.mp4?alt=media&token=bca79357-608f-43ee-943a-1b126798069b"
+          },
+          {
+            "name": "What's the Context Doing?",
+            "duration": "07:36",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F198.%20What's%20the%20Context%20Doing.mp4?alt=media&token=75697623-17ce-46f2-b14b-50816745a16d"
+          },
+          {
+            "name": "Axios Setup",
+            "duration": "05:31",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F199.%20Axios%20Setup.mp4?alt=media&token=4f3be00a-a623-4d9f-94e9-84bb11a4e5c9"
+          },
+          {
+            "name": "Making an API Request",
+            "duration": "09:44",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F200.%20Making%20an%20API%20Request.mp4?alt=media&token=0a58ecd8-d746-4dd3-9719-6293e4e0065a"
+          },
+          {
+            "name": "Handling Errored Requests",
+            "duration": "07:43",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F201.%20Handling%20Errored%20Requests.mp4?alt=media&token=d2ef3567-7fb8-4116-b33f-108a34576c6d"
+          },
+          {
+            "name": "Async Storage",
+            "duration": "04:22",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F202.%20Async%20Storage.mp4?alt=media&token=cc4d07a8-d1f7-4683-9562-4a45604029ca"
+          },
+          {
+            "name": "Storing the Token",
+            "duration": "06:31",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F203.%20Storing%20the%20Token.mp4?alt=media&token=33728765-9d9b-46e2-9edd-a9e9e060769c"
+          },
+          {
+            "name": "Navigation From Outside of React",
+            "duration": "13:09",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F204.%20Navigation%20From%20Outside%20of%20React.mp4?alt=media&token=72fa4fca-bbcf-4ca4-a62d-87b1178a6155"
+          },
+          {
+            "name": "Oops, Typo",
+            "duration": "00:50",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F205.%20Oops%2C%20Typo.mp4?alt=media&token=86aae8ec-aef0-4e30-b5ee-6dc40b1d7766"
+          },
+          {
+            "name": "Navigation to Signin",
+            "duration": "03:37",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F206.%20Navigation%20to%20Signin.mp4?alt=media&token=0fa4807b-c828-4ded-8e84-35d27152b06a"
+          },
+          {
+            "name": "Extracting Form Logic",
+            "duration": "09:45",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F207.%20Extracting%20Form%20Logic.mp4?alt=media&token=e7c85a04-c60b-4b8e-9200-a0ee3e40b26c"
+          },
+          {
+            "name": "Last Bit of Extractin",
+            "duration": "04:31",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F208.%20Last%20Bit%20of%20Extractin.mp4?alt=media&token=78a55b5d-7fb6-4b36-b849-178173b5966e"
+          },
+          {
+            "name": "Creating a NavLink",
+            "duration": "06:56",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F209.%20Creating%20a%20NavLink.mp4?alt=media&token=c0abe7be-9b66-4c0f-b7ca-c90b65dc1ab8"
+          },
+          {
+            "name": "Real Component Reuse!",
+            "duration": "05:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F210.%20Real%20Component%20Reuse!.mp4?alt=media&token=d8f73755-2afe-4e37-859e-28335e8d0317"
+          },
+          {
+            "name": "Wiring Up Signin",
+            "duration": "08:02",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F211.%20Wiring%20Up%20Signin.mp4?alt=media&token=45d51cc1-f88a-4961-ae73-01636e090b8d"
+          },
+          {
+            "name": "Clearing Error Messages",
+            "duration": "11:04",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F212.%20Clearing%20Error%20Messages.mp4?alt=media&token=787ae52a-a4e3-41d6-b000-42d37f66c2c8"
+          },
+          {
+            "name": "Automatic Signin",
+            "duration": "05:36",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F213.%20Automatic%20Signin.mp4?alt=media&token=7af86d4c-7e89-480f-b1cb-7742b951236c"
+          },
+          {
+            "name": "Empty Screens While Resolving Auth",
+            "duration": "07:22",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F214.%20Empty%20Screens%20While%20Resolving%20Auth.mp4?alt=media&token=bac5767a-ba25-40bb-b0ae-9f977117d4f3"
+          },
+          {
+            "name": "Signing Out a User",
+            "duration": "07:01",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F215.%20Signing%20Out%20a%20User.mp4?alt=media&token=3e18b090-b0ff-4700-8085-27d6fb5d443a"
+          },
+          {
+            "name": "Safe Area Views",
+            "duration": "02:10",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F216.%20Safe%20Area%20Views.mp4?alt=media&token=ef31130a-d51f-481d-9311-ba54878775b6"
+          },
+          {
+            "name": "Working on Track Create",
+            "duration": "05:03",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F217.%20Working%20on%20Track%20Create.mp4?alt=media&token=4b1a22f5-9077-4ca1-add6-15553c3a7493"
+          },
+          {
+            "name": "Showing a Map",
+            "duration": "04:58",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F219.%20Showing%20a%20Map.mp4?alt=media&token=14c64773-506b-4791-b916-6c1923ee2303"
+          },
+          {
+            "name": "Drawing a Series of Points",
+            "duration": "04:37",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F220.%20Drawing%20a%20Series%20of%20Points.mp4?alt=media&token=9585ce53-f7ce-4740-937c-3ad97eff69d1"
+          },
+          {
+            "name": "Notes on Location",
+            "duration": "04:13",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F221.%20Notes%20on%20Location.mp4?alt=media&token=1e545cef-d622-4bc1-8ae6-59d5293a8859"
+          },
+          {
+            "name": "Requesting Location Permissions",
+            "duration": "06:39",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F222.%20Requesting%20Location%20Permissions.mp4?alt=media&token=a3f63689-cff2-4ece-854e-7c122161cb81"
+          },
+          {
+            "name": "Resetting Permissions",
+            "duration": "04:22",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F223.%20Resetting%20Permissions.mp4?alt=media&token=2d93cf2d-0787-48a4-8062-c69d0a943f85"
+          },
+          {
+            "name": "How to Test Location?",
+            "duration": "03:45",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F224.%20How%20to%20Test%20Location.mp4?alt=media&token=757a12a7-4919-47e0-98e8-7f34007df2a6"
+          },
+          {
+            "name": "Faking the Users Location",
+            "duration": "06:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F225.%20Faking%20the%20Users%20Location.mp4?alt=media&token=133a3c34-bd35-473a-be44-71ed72bfae7a"
+          },
+          {
+            "name": "Reading a Location",
+            "duration": "04:05",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F226.%20Reading%20a%20Location.mp4?alt=media&token=acc9e367-b85c-44da-93c5-8c6e3042c157"
+          },
+          {
+            "name": "Bugginess with Location",
+            "duration": "03:19",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F227.%20Bugginess%20with%20Location.mp4?alt=media&token=7767fd68-d1d5-43c0-a9e9-ccd90ff11129"
+          },
+          {
+            "name": "Location Architecture",
+            "duration": "03:52",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F228.%20Location%20Architecture.mp4?alt=media&token=7b27b926-4146-4ba8-9aaa-074f69330a76"
+          },
+          {
+            "name": "Location Context",
+            "duration": "04:20",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F229.%20Location%20Context.mp4?alt=media&token=ff45484b-31e6-4c6c-869b-10860e6c85a7"
+          },
+          {
+            "name": "Live Location Updates",
+            "duration": "13:47",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F230.%20Live%20Location%20Updates.mp4?alt=media&token=bdb0493e-80bc-4034-8b2b-05e507cc363a"
+          },
+          {
+            "name": "Drawing a Position Indicator",
+            "duration": "04:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F231.%20Drawing%20a%20Position%20Indicator.mp4?alt=media&token=0c54ba8e-2c5d-484e-87ef-24c6c2443385"
+          },
+          {
+            "name": "Extracting Logic to a Hook",
+            "duration": "08:27",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F232.%20Extracting%20Logic%20to%20a%20Hook.mp4?alt=media&token=3ebd2beb-6145-41f4-805f-b77226886ba2"
+          },
+          {
+            "name": "Disabling Location Tracking",
+            "duration": "04:18",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F233.%20Disabling%20Location%20Tracking.mp4?alt=media&token=1a37bac4-d9a9-445e-a320-77ed453b032e"
+          },
+          {
+            "name": "Automatic Disables",
+            "duration": "08:29",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F234.%20Automatic%20Disables.mp4?alt=media&token=e22e6a6c-c4d0-4e3b-8390-eaabcca391ce"
+          },
+          {
+            "name": "Building a Track Form",
+            "duration": "03:49",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F235.%20Building%20a%20Track%20Form.mp4?alt=media&token=427482d3-fb3c-43fd-b019-8b06962639be"
+          },
+          {
+            "name": "Updates to Location Context",
+            "duration": "08:41",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F236.%20Updates%20to%20Location%20Context.mp4?alt=media&token=271c0e0b-ab6c-44af-9329-edf7000df0fb"
+          },
+          {
+            "name": "Track Form Wire Up",
+            "duration": "05:49",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F237.%20Track%20Form%20Wire%20Up.mp4?alt=media&token=b67e2bda-0076-447b-820f-a25934d81732"
+          },
+          {
+            "name": "Buggy UseEffects",
+            "duration": "08:30",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F238.%20Buggy%20UseEffects.mp4?alt=media&token=e58467e4-4350-4073-a584-b05615358b84"
+          },
+          {
+            "name": "Understanding Stale References",
+            "duration": "12:42",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F239.%20Understanding%20Stale%20References.mp4?alt=media&token=6fa4ba73-5a81-42c0-8e4f-1aa573768742"
+          },
+          {
+            "name": "Kind of Fixed",
+            "duration": "06:57",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F240.%20Kind%20of%20Fixed.mp4?alt=media&token=57974998-189d-4c9d-a762-c993ed879026"
+          },
+          {
+            "name": "The UseCallback Hook",
+            "duration": "07:06",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F241.%20The%20UseCallback%20Hook.mp4?alt=media&token=f7073775-0d8b-4da4-a2a9-d5f88bfc1288"
+          },
+          {
+            "name": "Cleaning Up After Ourselves",
+            "duration": "06:04",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F242.%20Cleaning%20Up%20After%20Ourselves.mp4?alt=media&token=352cb120-be42-477c-bef0-2cdd991c7ceb"
+          },
+          {
+            "name": "Avoiding Stale References",
+            "duration": "07:15",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F243.%20Avoiding%20Stale%20References.mp4?alt=media&token=8ce92093-86a6-4c47-adf9-410a5613e8af"
+          },
+          {
+            "name": "Tracking While Recording",
+            "duration": "02:18",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F244.%20Tracking%20While%20Recording.mp4?alt=media&token=75fe6145-d497-4102-956b-5d11eb8125fa"
+          },
+          {
+            "name": "Bring Back the Polyline",
+            "duration": "03:38",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F245.%20Bring%20Back%20the%20Polyline.mp4?alt=media&token=9711fb08-c0d3-47c0-b5e2-156c6796de94"
+          },
+          {
+            "name": "What Manages Tracks",
+            "duration": "07:54",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F246.%20What%20Manages%20Tracks.mp4?alt=media&token=e2ecf744-5398-4723-8436-0f38845d7ee7"
+          },
+          {
+            "name": "Coordination Between Contexts",
+            "duration": "07:42",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F247.%20Coordination%20Between%20Contexts.mp4?alt=media&token=eec20077-c6c5-4786-b6a6-c2f87909c773"
+          },
+          {
+            "name": "Automatic Authentication",
+            "duration": "10:26",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F248.%20Automatic%20Authentication.mp4?alt=media&token=4a44a850-165c-4d52-94fb-8e55358e1b92"
+          },
+          {
+            "name": "Form Reset and Navigation",
+            "duration": "07:24",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F249.%20Form%20Reset%20and%20Navigation.mp4?alt=media&token=dcffc566-f02f-4b53-9c07-5ec53b06ecff"
+          },
+          {
+            "name": "Fetching Created Tracks",
+            "duration": "02:06",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F250.%20Fetching%20Created%20Tracks.mp4?alt=media&token=5128eb47-b686-47e6-a781-5a93602ff8fb"
+          },
+          {
+            "name": "Listing All Tracks",
+            "duration": "07:25",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F251.%20Listing%20All%20Tracks.mp4?alt=media&token=f93bfa42-2d40-43c6-bfc7-6eccc9913e5a"
+          },
+          {
+            "name": "Navigating to a Saved Track",
+            "duration": "05:09",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F252.%20Navigating%20to%20a%20Saved%20Track.mp4?alt=media&token=52288989-6ef6-4429-a02a-155d86361971"
+          },
+          {
+            "name": "Showing Track Details",
+            "duration": "05:21",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F253.%20Showing%20Track%20Details.mp4?alt=media&token=6c50357b-5ec5-40bd-8444-cd6f9dd8a321"
+          },
+          {
+            "name": "Fixing Odds and Ends",
+            "duration": "08:47",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/15.%20In-App%20Authentication%2F254.%20Fixing%20Odds%20and%20Ends.mp4?alt=media&token=791504ba-53e0-4bb4-8fd7-c826587502b7"
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] Dive Right In!",
+        "duration": "04:18",
+        "items": [
+          {
+            "name": "Introduction - Course Roadmap",
+            "duration": "02:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/16.%20%5BLEGACY%5D%20Dive%20Right%20In!%2F255.%20Introduction%20-%20Course%20Roadmap.mp4?alt=media&token=e45ae82d-f42b-4ce5-96f2-f3142bacf7b3"
+          },
+          {
+            "name": "Roadmap to the First App",
+            "duration": "02:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/16.%20%5BLEGACY%5D%20Dive%20Right%20In!%2F256.%20Roadmap%20to%20the%20First%20App.mp4?alt=media&token=4da73282-2972-4553-95b9-4aca3b31d85d"
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] Got OSX?  Go Here.",
+        "duration": "13:39",
+        "items": [
+          {
+            "name": "OSX Installation",
+            "duration": "06:02",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/17.%20%5BLEGACY%5D%20Got%20OSX%20-%20Go%20Here%2F258.%20OSX%20Installation.mp4?alt=media&token=44b86aaf-1c7a-4748-a531-ad8786efd571"
+          },
+          {
+            "name": "More on OSX Installation",
+            "duration": "05:25",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/17.%20%5BLEGACY%5D%20Got%20OSX%20-%20Go%20Here%2F259.%20More%20on%20OSX%20Installation.mp4?alt=media&token=d8e10c3f-4f95-4831-ad7e-005dbea0128a"
+          },
+          {
+            "name": "Running in the Simulator",
+            "duration": "02:12",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/17.%20%5BLEGACY%5D%20Got%20OSX%20-%20Go%20Here%2F260.%20Running%20in%20the%20Simulator.mp4?alt=media&token=07c4a5d0-14e4-4cc2-a0a7-7ebfc950a206"
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] Got Windows? Go Here.",
+        "duration": "26:39",
+        "items": [
+          {
+            "name": "Windows Setup of React Native",
+            "duration": "06:31",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/18.%20%5BLEGACY%5D%20Got%20Windows!%20Go%20Here%2F261.%20Windows%20Setup%20of%20React%20Native.mp4?alt=media&token=a3d49899-8fae-4e3f-abed-bbeef2f16cfb"
+          },
+          {
+            "name": "Android Studio and React Native CLI Installation",
+            "duration": "05:12",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/18.%20%5BLEGACY%5D%20Got%20Windows!%20Go%20Here%2F262.%20Android%20Studio%20and%20React%20Native%20CLI%20Installation.mp4?alt=media&token=228465bc-cb71-4ca8-8b28-9bd208c2861f"
+          },
+          {
+            "name": "Emulator Creation and System Variables",
+            "duration": "14:56",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/18.%20%5BLEGACY%5D%20Got%20Windows!%20Go%20Here%2F263.%20Emulator%20Creation%20and%20System%20Variables.mp4?alt=media&token=c16c8a72-df03-4baa-9d9b-487e6580ea18"
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] [Optional] ESLint Setup",
+        "duration": "27:13",
+        "items": [
+          {
+            "name": "ESLint Setup and Overview",
+            "duration": "08:56",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/19.%20%5BLEGACY%5D%20%5BOptional%5D%20ESLint%20Setup%2F264.%20ESLint%20Setup%20and%20Overview.mp4?alt=media&token=ec82c074-7687-4470-98d8-9f44442e9148"
+          },
+          {
+            "name": "ESLint Setup with Atom",
+            "duration": "06:18",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/19.%20%5BLEGACY%5D%20%5BOptional%5D%20ESLint%20Setup%2F265.%20ESLint%20Setup%20with%20Atom.mp4?alt=media&token=274cb064-7c8d-4ec9-a989-ff9c50497f13"
+          },
+          {
+            "name": "ESLint Setup with Sublime Text 3",
+            "duration": "08:22",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/19.%20%5BLEGACY%5D%20%5BOptional%5D%20ESLint%20Setup%2F266.%20ESLint%20Setup%20with%20Sublime%20Text%203.mp4?alt=media&token=b19a7656-2924-4fe5-a967-23eccddc0240"
+          },
+          {
+            "name": "ESLint Setup with VSCode",
+            "duration": "03:37",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/19.%20%5BLEGACY%5D%20%5BOptional%5D%20ESLint%20Setup%2F267.%20ESLint%20Setup%20with%20VSCode.mp4?alt=media&token=1d1a51d7-7353-4f4d-a0d6-8cc259ca1834"
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] Onwards!",
+        "duration": "44:37",
+        "items": [
+          {
+            "name": "Project Directory Walkthrough",
+            "duration": "02:16",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/20.%20%5BLEGACY%5D%20Onwards!%2F269.%20Project%20Directory%20Walkthrough.mp4?alt=media&token=1652200d-dcf6-42e2-8ce1-9aa73bf73cda"
+          },
+          {
+            "name": "Getting Content on the Screen",
+            "duration": "03:17",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/20.%20%5BLEGACY%5D%20Onwards!%2F270.%20Getting%20Content%20on%20the%20Screen.mp4?alt=media&token=b2d0e084-1bb9-4b7e-8922-90d7dbabd96a"
+          },
+          {
+            "name": "React vs React Native",
+            "duration": "03:11",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/20.%20%5BLEGACY%5D%20Onwards!%2F271.%20React%20vs%20React%20Native.mp4?alt=media&token=9c9ca94b-50bd-46f5-adef-075b564625bb"
+          },
+          {
+            "name": "Creating a Component with JSX",
+            "duration": "06:16",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/20.%20%5BLEGACY%5D%20Onwards!%2F272.%20Creating%20a%20Component%20with%20JSX.mp4?alt=media&token=fb1a9994-852c-44e5-8a82-e64a983ff0d9"
+          },
+          {
+            "name": "Registering a Component",
+            "duration": "03:45",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/20.%20%5BLEGACY%5D%20Onwards!%2F273.%20Registering%20a%20Component.mp4?alt=media&token=96161173-ab01-487d-b2dd-71b946e46f8c"
+          },
+          {
+            "name": "Destructuring Imports",
+            "duration": "05:25",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/20.%20%5BLEGACY%5D%20Onwards!%2F274.%20Destructuring%20Imports.mp4?alt=media&token=db027fa5-f94a-4f30-ba9e-b4b2b32afaa2"
+          },
+          {
+            "name": "Application Outline",
+            "duration": "04:47",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/20.%20%5BLEGACY%5D%20Onwards!%2F275.%20Application%20Outline.mp4?alt=media&token=fbe47292-c6f7-4a50-bcce-4cc1727d9c50"
+          },
+          {
+            "name": "The Header Component",
+            "duration": "08:29",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/20.%20%5BLEGACY%5D%20Onwards!%2F276.%20The%20Header%20Component.mp4?alt=media&token=66dcd975-aafb-432b-83d5-7716a1d210be"
+          },
+          {
+            "name": "Consuming File Exports",
+            "duration": "06:50",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/20.%20%5BLEGACY%5D%20Onwards!%2F277.%20Consuming%20File%20Exports.mp4?alt=media&token=e25c171e-4337-4bf4-9bc2-eba579c39294"
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] Making Great Looking Apps",
+        "duration": "26:29",
+        "items": [
+          {
+            "name": "Styling with React Native",
+            "duration": "04:33",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/21.%20%5BLEGACY%5D%20Making%20Great%20Looking%20Apps%2F278.%20Styling%20with%20React%20Native.mp4?alt=media&token=8f698383-61e0-4fde-8bbc-a1e8d77805e8"
+          },
+          {
+            "name": "More on Styling Components",
+            "duration": "04:51",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/21.%20%5BLEGACY%5D%20Making%20Great%20Looking%20Apps%2F279.%20More%20on%20Styling%20Components.mp4?alt=media&token=81ef15c7-cbed-4d66-93d3-595beec044f7"
+          },
+          {
+            "name": "Introduction to Flexbox",
+            "duration": "05:24",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/21.%20%5BLEGACY%5D%20Making%20Great%20Looking%20Apps%2F280.%20Introduction%20to%20Flexbox.mp4?alt=media&token=db2c08d3-1eda-4ad8-892a-9f0b57d0382c"
+          },
+          {
+            "name": "Header Styling",
+            "duration": "04:23",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/21.%20%5BLEGACY%5D%20Making%20Great%20Looking%20Apps%2F281.%20Header%20Styling.mp4?alt=media&token=8aace31f-fcb0-4459-a79a-ff9c176d3492"
+          },
+          {
+            "name": "Making the Header Reusable",
+            "duration": "07:18",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] HTTP Requests with React Native",
+        "duration": "01:28:45",
+        "items": [
+          {
+            "name": "Sourcing Album Data",
+            "duration": "04:51",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/22.%20%5BLEGACY%5D%20HTTP%20Requests%20with%20React%20Native%2F283.%20Sourcing%20Album%20Data.mp4?alt=media&token=4765745b-c930-4ebf-9589-0a1e1e2bd4db"
+          },
+          {
+            "name": "List Component Boilerplate",
+            "duration": "06:07",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/22.%20%5BLEGACY%5D%20HTTP%20Requests%20with%20React%20Native%2F284.%20List%20Component%20Boilerplate.mp4?alt=media&token=9b9aba14-ed0b-45d5-93b7-f488b35f9c5b"
+          },
+          {
+            "name": "Class Based Components",
+            "duration": "07:26",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/22.%20%5BLEGACY%5D%20HTTP%20Requests%20with%20React%20Native%2F285.%20Class%20Based%20Components.mp4?alt=media&token=d3fb6106-d9ef-4b07-a30f-8090561dc08d"
+          },
+          {
+            "name": "Lifecycle Methods",
+            "duration": "06:40",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/22.%20%5BLEGACY%5D%20HTTP%20Requests%20with%20React%20Native%2F286.%20Lifecycle%20Methods.mp4?alt=media&token=f0e44bfa-e4b1-4895-a6c4-1473363e291f"
+          },
+          {
+            "name": "Network Requests",
+            "duration": "08:11",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/22.%20%5BLEGACY%5D%20HTTP%20Requests%20with%20React%20Native%2F288.%20Network%20Requests.mp4?alt=media&token=112227d3-bab9-4fef-8ed9-5536244ea14c"
+          },
+          {
+            "name": "Component Level State",
+            "duration": "08:57",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/22.%20%5BLEGACY%5D%20HTTP%20Requests%20with%20React%20Native%2F289.%20Component%20Level%20State.mp4?alt=media&token=16235f4b-21fa-4962-966d-86c16d53d4c3"
+          },
+          {
+            "name": "More on Component Level State",
+            "duration": "06:53",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/22.%20%5BLEGACY%5D%20HTTP%20Requests%20with%20React%20Native%2F290.%20More%20on%20Component%20Level%20State.mp4?alt=media&token=21aedab5-d91f-4d26-9e05-7743aa7f5a98"
+          },
+          {
+            "name": "Rendering a List of Components",
+            "duration": "05:55",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/22.%20%5BLEGACY%5D%20HTTP%20Requests%20with%20React%20Native%2F291.%20Rendering%20a%20List%20of%20Components.mp4?alt=media&token=e583dffc-038a-48d5-9c9f-eacc51acf0f8"
+          },
+          {
+            "name": "Displaying Individual Albums",
+            "duration": "09:30",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/22.%20%5BLEGACY%5D%20HTTP%20Requests%20with%20React%20Native%2F292.%20Displaying%20Individual%20Albums.mp4?alt=media&token=06c33b79-0151-426e-b629-7f9096c95470"
+          },
+          {
+            "name": "Fantastic Reusable Components - The Card",
+            "duration": "05:25",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/22.%20%5BLEGACY%5D%20HTTP%20Requests%20with%20React%20Native%2F293.%20Fantastic%20Reusable%20Components%20-%20The%20Card.mp4?alt=media&token=c4738be7-5c16-4a7b-9a67-329725ed52bd"
+          },
+          {
+            "name": "Styling a Card",
+            "duration": "06:05",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/22.%20%5BLEGACY%5D%20HTTP%20Requests%20with%20React%20Native%2F294.%20Styling%20a%20Card.mp4?alt=media&token=06f21c5f-dfb2-4ae6-9bbc-26ec1159f2e5"
+          },
+          {
+            "name": "Passing Components as Props",
+            "duration": "04:12",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/22.%20%5BLEGACY%5D%20HTTP%20Requests%20with%20React%20Native%2F295.%20Passing%20Components%20as%20Props.mp4?alt=media&token=9f56aabe-5cdc-4bb4-a0e3-de1337b702fa"
+          },
+          {
+            "name": "Dividing Cards into Sections",
+            "duration": "08:23",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/22.%20%5BLEGACY%5D%20HTTP%20Requests%20with%20React%20Native%2F296.%20Dividing%20Cards%20into%20Sections.mp4?alt=media&token=774d9b6b-78e1-4f3d-bb8b-7f61bda13f6e"
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] Handling Component Layout",
+        "duration": "01:06:16",
+        "items": [
+          {
+            "name": "Mastering Layout with Flexbox",
+            "duration": "05:12",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/23.%20%5BLEGACY%5D%20Handling%20Component%20Layout%2F297.%20Mastering%20Layout%20with%20Flexbox.mp4?alt=media&token=d01c0bc2-2ff3-4851-9fa0-fb0c0917c41d"
+          },
+          {
+            "name": "Positioning of Elements on Mobile",
+            "duration": "05:20",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/23.%20%5BLEGACY%5D%20Handling%20Component%20Layout%2F298.%20Positioning%20of%20Elements%20on%20Mobile.mp4?alt=media&token=56a6f47a-287c-41b6-b1ec-26a501a622f2"
+          },
+          {
+            "name": "More on Styling",
+            "duration": "04:27",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/23.%20%5BLEGACY%5D%20Handling%20Component%20Layout%2F299.%20More%20on%20Styling.mp4?alt=media&token=4dfdd436-80da-4d9b-956f-b5db8570e06b"
+          },
+          {
+            "name": "Images with React Native",
+            "duration": "07:35",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/23.%20%5BLEGACY%5D%20Handling%20Component%20Layout%2F300.%20Images%20with%20React%20Native.mp4?alt=media&token=ae7261b8-0488-42f7-b312-bb0968f039aa"
+          },
+          {
+            "name": "Displaying Album Artwork",
+            "duration": "08:40",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/23.%20%5BLEGACY%5D%20Handling%20Component%20Layout%2F301.%20Displaying%20Album%20Artwork.mp4?alt=media&token=bf481e05-d721-40a6-b5b7-ebbda80cf589"
+          },
+          {
+            "name": "Making Content Scrollable",
+            "duration": "04:30",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/23.%20%5BLEGACY%5D%20Handling%20Component%20Layout%2F302.%20Making%20Content%20Scrollable.mp4?alt=media&token=40e09d18-b33b-4079-9fac-963ff90f527f"
+          },
+          {
+            "name": "Handling User Input with Buttons",
+            "duration": "07:50",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/23.%20%5BLEGACY%5D%20Handling%20Component%20Layout%2F303.%20Handling%20User%20Input%20with%20Buttons.mp4?alt=media&token=f9646116-7e24-43a0-a516-7f69863f5693"
+          },
+          {
+            "name": "Styling of Buttons with UX Considerations",
+            "duration": "05:28",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/23.%20%5BLEGACY%5D%20Handling%20Component%20Layout%2F304.%20Styling%20of%20Buttons%20with%20UX%20Considerations.mp4?alt=media&token=467f28e5-a411-4b45-b18e-c2ff2b720288"
+          },
+          {
+            "name": "Responding to User Input",
+            "duration": "07:18",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/23.%20%5BLEGACY%5D%20Handling%20Component%20Layout%2F305.%20Responding%20to%20User%20Input.mp4?alt=media&token=2c646da6-a5f8-4959-b939-02ee1ec57532"
+          },
+          {
+            "name": "Linking Between Mobile Apps",
+            "duration": "04:20",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/23.%20%5BLEGACY%5D%20Handling%20Component%20Layout%2F306.%20Linking%20Between%20Mobile%20Apps.mp4?alt=media&token=cb2c862b-e16d-453c-94cc-56c0935cc52b"
+          },
+          {
+            "name": "Setting Button Text by Props",
+            "duration": "02:29",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/23.%20%5BLEGACY%5D%20Handling%20Component%20Layout%2F307.%20Setting%20Button%20Text%20by%20Props.mp4?alt=media&token=6bb42ac1-f7e3-4b4b-b5d6-a06a68acf206"
+          },
+          {
+            "name": "App Wrapup",
+            "duration": "03:07",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/23.%20%5BLEGACY%5D%20Handling%20Component%20Layout%2F308.%20App%20Wrapup.mp4?alt=media&token=ebc2dee6-6115-4d3f-acf4-ec2e865e1c0a"
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] Authentication with Firebase",
+        "duration": "01:19:00",
+        "items": [
+          {
+            "name": "Auth App Introduction",
+            "duration": "04:45",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/24.%20%5BLEGACY%5D%20Authentication%20with%20Firebase%2F309.%20Auth%20App%20Introduction.mp4?alt=media&token=eb52af84-cd68-4452-958f-57fd24210da0"
+          },
+          {
+            "name": "A Common Root Component",
+            "duration": "04:27",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/24.%20%5BLEGACY%5D%20Authentication%20with%20Firebase%2F310.%20A%20Common%20Root%20Component.mp4?alt=media&token=65ed3aeb-5838-4924-8124-a86b93631985"
+          },
+          {
+            "name": "Copying Reusable Components",
+            "duration": "11:21",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/24.%20%5BLEGACY%5D%20Authentication%20with%20Firebase%2F311.%20Copying%20Reusable%20Components.mp4?alt=media&token=521337c4-8b6c-4ac7-87a9-a89437884b7e"
+          },
+          {
+            "name": "What is Firebase?",
+            "duration": "05:17",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/24.%20%5BLEGACY%5D%20Authentication%20with%20Firebase%2F312.%20What%20is%20Firebase.mp4?alt=media&token=6c1896d8-730d-4757-b5cc-5a0816382d1d"
+          },
+          {
+            "name": "Firebase Client Setup",
+            "duration": "04:47",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/24.%20%5BLEGACY%5D%20Authentication%20with%20Firebase%2F313.%20Firebase%20Client%20Setup.mp4?alt=media&token=629e7fd2-ed9f-4cf2-915f-e2461a5bff6b"
+          },
+          {
+            "name": "Login Form Scaffolding",
+            "duration": "06:10",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/24.%20%5BLEGACY%5D%20Authentication%20with%20Firebase%2F314.%20Login%20Form%20Scaffolding.mp4?alt=media&token=8b9e25db-422b-4817-bcfd-54159169e67c"
+          },
+          {
+            "name": "Handling User Inputs",
+            "duration": "03:20",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/24.%20%5BLEGACY%5D%20Authentication%20with%20Firebase%2F315.%20Handling%20User%20Inputs.mp4?alt=media&token=5d6ec7f0-7fe1-49d0-9b34-3aefc91a3c7d"
+          },
+          {
+            "name": "More on Handling User Inputs",
+            "duration": "03:18",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/24.%20%5BLEGACY%5D%20Authentication%20with%20Firebase%2F316.%20More%20on%20Handling%20User%20Inputs.mp4?alt=media&token=5ddaf5f0-8aaf-4519-86b9-1bd288e6d5a3"
+          },
+          {
+            "name": "How to Create Controlled Components",
+            "duration": "04:30",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/24.%20%5BLEGACY%5D%20Authentication%20with%20Firebase%2F317.%20How%20to%20Create%20Controlled%20Components.mp4?alt=media&token=e18ddd26-2af9-4c0d-83d1-c862ab30fad7"
+          },
+          {
+            "name": "Making Text Inputs From Scratch",
+            "duration": "04:14",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/24.%20%5BLEGACY%5D%20Authentication%20with%20Firebase%2F318.%20Making%20Text%20Inputs%20From%20Scratch.mp4?alt=media&token=dee02382-8223-460a-bc1c-d641d1f5aa62"
+          },
+          {
+            "name": "A Focus on Passing Props",
+            "duration": "05:01",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/24.%20%5BLEGACY%5D%20Authentication%20with%20Firebase%2F319.%20A%20Focus%20on%20Passing%20Props.mp4?alt=media&token=5c59f163-4efa-4922-b6d0-4879d1243180"
+          },
+          {
+            "name": "Making the Input Pretty",
+            "duration": "06:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/24.%20%5BLEGACY%5D%20Authentication%20with%20Firebase%2F320.%20Making%20the%20Input%20Pretty.mp4?alt=media&token=ac2f67a5-9f5f-46b5-8f71-92046c74393a"
+          },
+          {
+            "name": "Wrapping up Inputs",
+            "duration": "07:15",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/24.%20%5BLEGACY%5D%20Authentication%20with%20Firebase%2F321.%20Wrapping%20up%20Inputs.mp4?alt=media&token=b4a038dc-0c53-452b-828b-5d43dc4a6f90"
+          },
+          {
+            "name": "Password Inputs",
+            "duration": "08:35",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/24.%20%5BLEGACY%5D%20Authentication%20with%20Firebase%2F322.%20Password%20Inputs.mp4?alt=media&token=e0894dfc-9385-4b39-882e-9483e274fbfa"
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] Processing Authentication Credentials",
+        "duration": "59:28",
+        "items": [
+          {
+            "name": "Logging a User In",
+            "duration": "05:35",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/25.%20%5BLEGACY%5D%20Processing%20Authentication%20Credentials%2F323.%20Logging%20a%20User%20In.mp4?alt=media&token=d0c0836c-91ab-4119-8834-c1e89b107d18"
+          },
+          {
+            "name": "Error Handling",
+            "duration": "07:18",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/25.%20%5BLEGACY%5D%20Processing%20Authentication%20Credentials%2F324.%20Error%20Handling.mp4?alt=media&token=f744067b-7c75-4eb1-92e7-81a5b27b41b9"
+          },
+          {
+            "name": "More on Authentication Flow",
+            "duration": "07:30",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/25.%20%5BLEGACY%5D%20Processing%20Authentication%20Credentials%2F325.%20More%20on%20Authentication%20Flow.mp4?alt=media&token=8481cb0e-a9b8-45fd-9de3-52f5a5249873"
+          },
+          {
+            "name": "Creating an Activity Spinner",
+            "duration": "04:59",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/25.%20%5BLEGACY%5D%20Processing%20Authentication%20Credentials%2F326.%20Creating%20an%20Activity%20Spinner.mp4?alt=media&token=ebc0e6bd-ee49-4dfe-995d-b95081ebfb0d"
+          },
+          {
+            "name": "Conditional Rendering of JSX",
+            "duration": "06:40",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/25.%20%5BLEGACY%5D%20Processing%20Authentication%20Credentials%2F327.%20Conditional%20Rendering%20of%20JSX.mp4?alt=media&token=884154e0-89d6-4e16-97bb-23fafa56054d"
+          },
+          {
+            "name": "Clearing the Form Spinner",
+            "duration": "08:28",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/25.%20%5BLEGACY%5D%20Processing%20Authentication%20Credentials%2F328.%20Clearing%20the%20Form%20Spinner.mp4?alt=media&token=f53344ff-26a0-4445-9549-7204dbda90f7"
+          },
+          {
+            "name": "Handling Authentication Events",
+            "duration": "06:09",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/25.%20%5BLEGACY%5D%20Processing%20Authentication%20Credentials%2F329.%20Handling%20Authentication%20Events.mp4?alt=media&token=c98a1093-0b1c-492a-998f-6dc48665d3fd"
+          },
+          {
+            "name": "More on Conditional Rendering",
+            "duration": "07:19",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/25.%20%5BLEGACY%5D%20Processing%20Authentication%20Credentials%2F330.%20More%20on%20Conditional%20Rendering.mp4?alt=media&token=a3fe6afd-d7cc-49c0-b37e-0bde7649de5d"
+          },
+          {
+            "name": "Logging a User Out and Wrapup",
+            "duration": "05:30",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/25.%20%5BLEGACY%5D%20Processing%20Authentication%20Credentials%2F331.%20Logging%20a%20User%20Out%20and%20Wrapup.mp4?alt=media&token=09b2ada1-5d55-44c7-abc3-162007900cfd"
+          }
+          
+        ]
+      },
+      {
+        "name": "[LEGACY] Digging Deeper with Redux",
+        "duration": "42:30",
+        "items": [
+          {
+            "name": "App Mockup and Approach",
+            "duration": "03:55",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/26.%20%5BLEGACY%5D%20Digging%20Deeper%20with%20Redux%2F332.%20App%20Mockup%20and%20Approach.mp4?alt=media&token=d763207c-ea66-4e81-bfa2-7b8a2df50702"
+          },
+          {
+            "name": "The Basics of Redux",
+            "duration": "08:30",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/26.%20%5BLEGACY%5D%20Digging%20Deeper%20with%20Redux%2F333.%20The%20Basics%20of%20Redux.mp4?alt=media&token=f9f0844b-8d3d-4af9-833a-1961890095ae"
+          },
+          {
+            "name": "More on Redux",
+            "duration": "07:37",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/26.%20%5BLEGACY%5D%20Digging%20Deeper%20with%20Redux%2F334.%20More%20on%20Redux.mp4?alt=media&token=27769387-54e6-4a8d-ae01-d11cff49471c"
+          },
+          {
+            "name": "Redux is Hard!",
+            "duration": "11:39",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/26.%20%5BLEGACY%5D%20Digging%20Deeper%20with%20Redux%2F335.%20Redux%20is%20Hard!.mp4?alt=media&token=98617dcc-cdbd-4e65-9eed-96143fa97d6c"
+          },
+          {
+            "name": "Application Boilerplate",
+            "duration": "02:35",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/26.%20%5BLEGACY%5D%20Digging%20Deeper%20with%20Redux%2F336.%20Application%20Boilerplate.mp4?alt=media&token=5b48fdd5-4a79-47bd-9c27-00f7199e3fd3"
+          },
+          {
+            "name": "More on Redux Boilerplate",
+            "duration": "08:14",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/26.%20%5BLEGACY%5D%20Digging%20Deeper%20with%20Redux%2F337.%20More%20on%20Redux%20Boilerplate.mp4?alt=media&token=079041cc-0ec9-4f30-af40-770ae7867584"
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] Back to React",
+        "duration": "44:16",
+        "items": [
+          {
+            "name": "Rendering the Header",
+            "duration": "05:31",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/27.%20%5BLEGACY%5D%20Back%20to%20React%2F338.%20Rendering%20the%20Header.mp4?alt=media&token=b179e4be-619f-4243-8ab3-2a348d3d6208"
+          },
+          {
+            "name": "Reducer and State Design",
+            "duration": "06:45",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/27.%20%5BLEGACY%5D%20Back%20to%20React%2F339.%20Reducer%20and%20State%20Design.mp4?alt=media&token=21d32620-90ec-439a-a608-ae280e146339"
+          },
+          {
+            "name": "Library List of Data",
+            "duration": "07:31",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/27.%20%5BLEGACY%5D%20Back%20to%20React%2F340.%20Library%20List%20of%20Data.mp4?alt=media&token=ee3c3ea3-8b90-4eb3-9a77-040ee560d051"
+          },
+          {
+            "name": "The Connect Function",
+            "duration": "10:06",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/27.%20%5BLEGACY%5D%20Back%20to%20React%2F342.%20The%20Connect%20Function.mp4?alt=media&token=92ae1a87-d551-4ef2-b85a-fb3d5595e80f"
+          },
+          {
+            "name": "MapStateToProps with Connect",
+            "duration": "07:31",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/27.%20%5BLEGACY%5D%20Back%20to%20React%2F343.%20MapStateToProps%20with%20Connect.mp4?alt=media&token=64f3c129-649c-4697-bf7d-f638140385de"
+          },
+          {
+            "name": "A Quick Review and Breather",
+            "duration": "05:34",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/27.%20%5BLEGACY%5D%20Back%20to%20React%2F344.%20A%20Quick%20Review%20and%20Breather.mp4?alt=media&token=70ef2fc3-6c76-4945-b9b3-53b08678f45e"
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] Rendering Lists the Right Way",
+        "duration": "01:14:37",
+        "items": [
+          {
+            "name": "The Theory of ListView",
+            "duration": "07:11",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/28.%20%5BLEGACY%5D%20Rendering%20Lists%20the%20Right%20Way%2F345.%20The%20Theory%20of%20ListView.mp4?alt=media&token=f3f28faf-d00f-4b91-88cd-cc654299e1b4"
+          },
+          {
+            "name": "ListView in Practice",
+            "duration": "03:36",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/28.%20%5BLEGACY%5D%20Rendering%20Lists%20the%20Right%20Way%2F346.%20ListView%20in%20Practice.mp4?alt=media&token=0e5d5dbb-24c0-4ee1-b63a-310ac03c986b"
+          },
+          {
+            "name": "Rendering a Single Row",
+            "duration": "01:59",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/28.%20%5BLEGACY%5D%20Rendering%20Lists%20the%20Right%20Way%2F347.%20Rendering%20a%20Single%20Row.mp4?alt=media&token=f97713f6-919d-4d72-bf74-7749f853e8c0"
+          },
+          {
+            "name": "Styling the List",
+            "duration": "06:31",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/28.%20%5BLEGACY%5D%20Rendering%20Lists%20the%20Right%20Way%2F348.%20Styling%20the%20List.mp4?alt=media&token=174690b3-5098-4b0b-be3c-292e01cd050c"
+          },
+          {
+            "name": "Creating the Selection Reducer",
+            "duration": "04:42",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/28.%20%5BLEGACY%5D%20Rendering%20Lists%20the%20Right%20Way%2F349.%20Creating%20the%20Selection%20Reducer.mp4?alt=media&token=09fe6487-6da1-4438-8062-8777df10685b"
+          },
+          {
+            "name": "Introducing Action Creators",
+            "duration": "05:47",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/28.%20%5BLEGACY%5D%20Rendering%20Lists%20the%20Right%20Way%2F350.%20Introducing%20Action%20Creators.mp4?alt=media&token=a08522e8-6f99-4d01-b8c8-db6ce855f490"
+          },
+          {
+            "name": "Calling Action Creators",
+            "duration": "08:56",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/28.%20%5BLEGACY%5D%20Rendering%20Lists%20the%20Right%20Way%2F351.%20Calling%20Action%20Creators.mp4?alt=media&token=918e1bfe-4491-47a4-b110-d7ff08866967"
+          },
+          {
+            "name": "Adding a Touchable",
+            "duration": "06:56",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/28.%20%5BLEGACY%5D%20Rendering%20Lists%20the%20Right%20Way%2F352.%20Adding%20a%20Touchable.mp4?alt=media&token=ec5bee10-f998-4ed6-9f65-e4df7098cbfc"
+          },
+          {
+            "name": "Rules of Reducers",
+            "duration": "05:16",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/28.%20%5BLEGACY%5D%20Rendering%20Lists%20the%20Right%20Way%2F353.%20Rules%20of%20Reducers.mp4?alt=media&token=55cd0b6f-1ed6-47e5-a555-329ff76668fd"
+          },
+          {
+            "name": "Expanding a Row",
+            "duration": "05:12",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/28.%20%5BLEGACY%5D%20Rendering%20Lists%20the%20Right%20Way%2F354.%20Expanding%20a%20Row.mp4?alt=media&token=36cfea2f-4734-48ac-836d-975f1f4c1c23"
+          },
+          {
+            "name": "Moving Logic Out of Components",
+            "duration": "06:23",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/28.%20%5BLEGACY%5D%20Rendering%20Lists%20the%20Right%20Way%2F355.%20Moving%20Logic%20Out%20of%20Components.mp4?alt=media&token=4e75293c-614a-449a-826d-b1c24c7a6955"
+          },
+          {
+            "name": "Animations",
+            "duration": "07:02",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/28.%20%5BLEGACY%5D%20Rendering%20Lists%20the%20Right%20Way%2F356.%20Animations.mp4?alt=media&token=6dfcc2cf-c1ec-4315-8364-f04de84b05ae"
+          },
+          {
+            "name": "Wrapup",
+            "duration": "05:06",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/28.%20%5BLEGACY%5D%20Rendering%20Lists%20the%20Right%20Way%2F357.%20Wrapup.mp4?alt=media&token=ccad0186-361c-4690-bf54-4ceef39290ce"
+          },
+        ]
+      },
+      {
+        "name": "[LEGACY] Not Done Yet...",
+        "duration": "23:22",
+        "items": [
+          {
+            "name": "Overview of Our Next App",
+            "duration": "04:40",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/29.%20%5BLEGACY%5D%20Not%20Done%20Yet%2F358.%20Overview%20of%20Our%20Next%20App.mp4?alt=media&token=03c03831-8b8d-4a23-9887-86c227bd44db"
+          },
+          {
+            "name": "App Challenges",
+            "duration": "05:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/29.%20%5BLEGACY%5D%20Not%20Done%20Yet%2F359.%20App%20Challenges.mp4?alt=media&token=719096da-264b-473f-bb0a-14cd339704b2"
+          },
+          {
+            "name": "Just a Touch More Setup",
+            "duration": "06:22",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/29.%20%5BLEGACY%5D%20Not%20Done%20Yet%2F361.%20Just%20a%20Touch%20More%20Setup.mp4?alt=media&token=0e6efeb5-317b-4d0f-b3f7-56664787c81b"
+          },
+          {
+            "name": "More on Boilerplate Setup",
+            "duration": "07:02",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/29.%20%5BLEGACY%5D%20Not%20Done%20Yet%2F362.%20More%20on%20Boilerplate%20Setup.mp4?alt=media&token=1d5ae260-8216-4a54-9ada-d4842883b7e3"
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] Handling Data in React vs Redux",
+        "duration": "38:49",
+        "items": [
+          {
+            "name": "Login Form in a Redux World",
+            "duration": "07:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/30.%20%5BLEGACY%5D%20Handling%20Data%20in%20React%20vs%20Redux%2F363.%20Login%20Form%20in%20a%20Redux%20World.mp4?alt=media&token=87c47cc9-d855-403b-8186-da293aa97893"
+          },
+          {
+            "name": "Rebuilding the Login Form",
+            "duration": "06:19",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/30.%20%5BLEGACY%5D%20Handling%20Data%20in%20React%20vs%20Redux%2F364.%20Rebuilding%20the%20Login%20Form.mp4?alt=media&token=6ffb88af-421e-4675-be92-290e9c27e398"
+          },
+          {
+            "name": "Handling Form Updates with Action Creators",
+            "duration": "08:42",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/30.%20%5BLEGACY%5D%20Handling%20Data%20in%20React%20vs%20Redux%2F365.%20Handling%20Form%20Updates%20with%20Action%20Creators.mp4?alt=media&token=f78c9e9d-05c3-487c-9b61-0ca3f12333bf"
+          },
+          {
+            "name": "Wiring up Action Creators",
+            "duration": "08:01",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/30.%20%5BLEGACY%5D%20Handling%20Data%20in%20React%20vs%20Redux%2F366.%20Wiring%20up%20Action%20Creators.mp4?alt=media&token=d59ef7c8-3b97-4a2e-bbe0-f8622e77af3a"
+          },
+          {
+            "name": "Typed Actions",
+            "duration": "08:47",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/30.%20%5BLEGACY%5D%20Handling%20Data%20in%20React%20vs%20Redux%2F367.%20Typed%20Actions.mp4?alt=media&token=984b367a-4116-4f06-ac15-819824556f2b"
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] Don't Mutate that State",
+        "duration": "01:27:46",
+        "items": [
+          {
+            "name": "Immutable State",
+            "duration": "08:39",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/31.%20%5BLEGACY%5D%20Don't%20Mutate%20that%20State%2F368.%20Immutable%20State.mp4?alt=media&token=be2ada22-e0a5-4f9a-8567-0bfc77592c84"
+          },
+          {
+            "name": "Creating Immutable State",
+            "duration": "07:08",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/31.%20%5BLEGACY%5D%20Don't%20Mutate%20that%20State%2F369.%20Creating%20Immutable%20State.mp4?alt=media&token=56de551c-03ef-449a-abe8-537dbf4e38ad"
+          },
+          {
+            "name": "More on Creating Immutable State",
+            "duration": "07:45",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/31.%20%5BLEGACY%5D%20Don't%20Mutate%20that%20State%2F370.%20More%20on%20Creating%20Immutable%20State.mp4?alt=media&token=ba754f44-ee35-4cd0-b4eb-4ca22e408765"
+          },
+          {
+            "name": "Synchronous vs Asynchronous Action Creators",
+            "duration": "08:01",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/31.%20%5BLEGACY%5D%20Don't%20Mutate%20that%20State%2F371.%20Synchronous%20vs%20Asynchronous%20Action%20Creators.mp4?alt=media&token=b21031d1-f23a-4f3f-ab1c-5a0a218b364b"
+          },
+          {
+            "name": "Introduction to Redux Thunk",
+            "duration": "06:29",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/31.%20%5BLEGACY%5D%20Don't%20Mutate%20that%20State%2F372.%20Introduction%20to%20Redux%20Thunk.mp4?alt=media&token=2cce6213-d522-4fb4-b9ad-3d1b3912b9b1"
+          },
+          {
+            "name": "Redux Thunk in Practice",
+            "duration": "05:38",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/31.%20%5BLEGACY%5D%20Don't%20Mutate%20that%20State%2F373.%20Redux%20Thunk%20in%20Practice.mp4?alt=media&token=0efc5857-1745-4024-8450-83204ecff40c"
+          },
+          {
+            "name": "Redux Thunk in Practice Continued",
+            "duration": "07:49",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/31.%20%5BLEGACY%5D%20Don't%20Mutate%20that%20State%2F374.%20Redux%20Thunk%20in%20Practice%20Continued.mp4?alt=media&token=cef69dad-4150-4fd8-a8e7-6b9c24f240be"
+          },
+          {
+            "name": "Making LoginUser More Robust",
+            "duration": "03:27",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/31.%20%5BLEGACY%5D%20Don't%20Mutate%20that%20State%2F375.%20Making%20LoginUser%20More%20Robust.mp4?alt=media&token=cea715f7-071f-4e5c-b678-4b7afa592421"
+          },
+          {
+            "name": "Creating User Accounts",
+            "duration": "07:23",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/31.%20%5BLEGACY%5D%20Don't%20Mutate%20that%20State%2F376.%20Creating%20User%20Accounts.mp4?alt=media&token=31aa7d6b-e3b2-44f8-8c14-d602192716e8"
+          },
+          {
+            "name": "Showing Error Messages",
+            "duration": "06:45",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/31.%20%5BLEGACY%5D%20Don't%20Mutate%20that%20State%2F377.%20Showing%20Error%20Messages.mp4?alt=media&token=61a0778e-0ecf-4a8b-a5a5-21921a02bf60 "
+          },
+          {
+            "name": "A Firebase Gotcha",
+            "duration": "06:45",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/31.%20%5BLEGACY%5D%20Don't%20Mutate%20that%20State%2F378.%20A%20Firebase%20Gotcha.mp4?alt=media&token=f20f67fa-4cd2-4538-b805-0b7d7d3e9045"
+          },
+          {
+            "name": "Showing a Spinner on Loading",
+            "duration": "11:57",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] Navigating Users Around",
+        "duration": "01:25:49",
+        "items": [
+          {
+            "name": "Dealing with Navigation",
+            "duration": "08:19",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/32.%20%5BLEGACY%5D%20Navigating%20Users%20Around%2F380.%20Dealing%20with%20Navigation.mp4?alt=media&token=47d54f4c-11e1-4ea8-8ddb-a497b07d01d0"
+          },
+          {
+            "name": "Navigation in the Router",
+            "duration": "04:53",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/32.%20%5BLEGACY%5D%20Navigating%20Users%20Around%2F381.%20Navigation%20in%20the%20Router.mp4?alt=media&token=f9deb815-d823-4936-9671-fecd3a4bce9c"
+          },
+          {
+            "name": "Addressing Styling Issues",
+            "duration": "04:41",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/32.%20%5BLEGACY%5D%20Navigating%20Users%20Around%2F382.%20Addressing%20Styling%20Issues.mp4?alt=media&token=e0e91c04-6b66-49b4-930b-969975c66de4"
+          },
+          {
+            "name": "Displaying Multiple Scenes",
+            "duration": "05:41",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/32.%20%5BLEGACY%5D%20Navigating%20Users%20Around%2F383.%20Displaying%20Multiple%20Scenes.mp4?alt=media&token=1ce70f91-4f53-4371-8631-062e8cc6f624"
+          },
+          {
+            "name": "Navigating Between Routes",
+            "duration": "03:40",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/32.%20%5BLEGACY%5D%20Navigating%20Users%20Around%2F384.%20Navigating%20Between%20Routes.mp4?alt=media&token=9c829acf-1196-405d-866c-65f387b361e1"
+          },
+          {
+            "name": "Grouping Scenes with Buckets",
+            "duration": "07:19",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/32.%20%5BLEGACY%5D%20Navigating%20Users%20Around%2F385.%20Grouping%20Scenes%20with%20Buckets.mp4?alt=media&token=a97c69bf-4d00-43a3-8a5c-6679eaf7f587"
+          },
+          {
+            "name": "Navigation Bar Buttons",
+            "duration": "03:17",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/32.%20%5BLEGACY%5D%20Navigating%20Users%20Around%2F386.%20Navigation%20Bar%20Buttons.mp4?alt=media&token=743c71d4-012b-44fe-a898-a3aff48a758f"
+          },
+          {
+            "name": "Navigating to the Employee Creation Form",
+            "duration": "06:01",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/32.%20%5BLEGACY%5D%20Navigating%20Users%20Around%2F387.%20Navigating%20to%20the%20Employee%20Creation%20Form.mp4?alt=media&token=53ad218d-5ade-4fbe-a0a1-be103d95bac0"
+          },
+          {
+            "name": "Building the Employee Creation Form",
+            "duration": "05:14",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/32.%20%5BLEGACY%5D%20Navigating%20Users%20Around%2F388.%20Building%20the%20Employee%20Creation%20Form.mp4?alt=media&token=8001e91d-bd1a-4652-8aeb-6d8b405a9099"
+          },
+          {
+            "name": "Employee Form Actions",
+            "duration": "07:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/32.%20%5BLEGACY%5D%20Navigating%20Users%20Around%2F389.%20Employee%20Form%20Actions.mp4?alt=media&token=01ec8636-e1d9-416d-af18-291104d3105b"
+          },
+          {
+            "name": "Handling Form Updates at the Reducer Level",
+            "duration": "06:14",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/32.%20%5BLEGACY%5D%20Navigating%20Users%20Around%2F390.%20Handling%20Form%20Updates%20at%20the%20Reducer%20Level.mp4?alt=media&token=89c3dee0-aaef-4085-b6d6-bf56d3e1d0f2"
+          },
+          {
+            "name": "Dynamic Property Updates",
+            "duration": "08:48",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/32.%20%5BLEGACY%5D%20Navigating%20Users%20Around%2F391.%20Dynamic%20Property%20Updates.mp4?alt=media&token=b376eeed-0b09-407d-8f0e-d81186f9249d"
+          },
+          {
+            "name": "The Picker Component",
+            "duration": "07:42",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/32.%20%5BLEGACY%5D%20Navigating%20Users%20Around%2F392.%20The%20Picker%20Component.mp4?alt=media&token=8ee6a3a8-8d02-43bd-bf69-bbf0f5b00695"
+          },
+          {
+            "name": "Pickers and Style Overrides",
+            "duration": "07:00",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/32.%20%5BLEGACY%5D%20Navigating%20Users%20Around%2F393.%20Pickers%20and%20Style%20Overrides.mp4?alt=media&token=9e09ece8-c05d-4ee7-9ebb-3678fe98c1aa"
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] Firebase as a Data Store",
+        "duration": "01:20:25",
+        "items": [
+          {
+            "name": "Firebase JSON Schema",
+            "duration": "06:36",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/33.%20%5BLEGACY%5D%20Firebase%20as%20a%20Data%20Store%2F394.%20Firebase%20JSON%20Schema.mp4?alt=media&token=fee1ace7-1b75-4f68-a68a-3e8974a7a6b9"
+          },
+          {
+            "name": "Data Security in Firebase",
+            "duration": "05:54",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/33.%20%5BLEGACY%5D%20Firebase%20as%20a%20Data%20Store%2F395.%20Data%20Security%20in%20Firebase.mp4?alt=media&token=2162d6a1-66d8-4f38-b12a-5e8670d70c46"
+          },
+          {
+            "name": "Creating Records with Firebase",
+            "duration": "05:43",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/33.%20%5BLEGACY%5D%20Firebase%20as%20a%20Data%20Store%2F396.%20Creating%20Records%20with%20Firebase.mp4?alt=media&token=663e9edc-42b2-42b2-acad-2d2077617784"
+          },
+          {
+            "name": "Default Form Values",
+            "duration": "05:48",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/33.%20%5BLEGACY%5D%20Firebase%20as%20a%20Data%20Store%2F397.%20Default%20Form%20Values.mp4?alt=media&token=466cefb9-cda5-4009-9f30-b95000f8dd8b"
+          },
+          {
+            "name": "Successful Data Save to Firebase",
+            "duration": "07:49",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/33.%20%5BLEGACY%5D%20Firebase%20as%20a%20Data%20Store%2F398.%20Successful%20Data%20Save%20to%20Firebase.mp4?alt=media&token=93e4fc62-b883-46e0-b4ef-4797ddd89416"
+          },
+          {
+            "name": "Resetting Form Properties",
+            "duration": "09:48",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/33.%20%5BLEGACY%5D%20Firebase%20as%20a%20Data%20Store%2F399.%20Resetting%20Form%20Properties.mp4?alt=media&token=d0a917e9-ac1b-4ea3-9a9b-7e987cf79c22"
+          },
+          {
+            "name": "Fetching Data from Firebase",
+            "duration": "08:16",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/33.%20%5BLEGACY%5D%20Firebase%20as%20a%20Data%20Store%2F400.%20Fetching%20Data%20from%20Firebase.mp4?alt=media&token=ccf6c443-c59c-4d63-8052-4b22bb108d4f"
+          },
+          {
+            "name": "Storing Data by ID",
+            "duration": "08:58",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/33.%20%5BLEGACY%5D%20Firebase%20as%20a%20Data%20Store%2F401.%20Storing%20Data%20by%20ID.mp4?alt=media&token=1026ee56-14f0-4e6a-9144-a7d27558c1b2"
+          },
+          {
+            "name": "Dynamic DataSource Building",
+            "duration": "08:01",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/33.%20%5BLEGACY%5D%20Firebase%20as%20a%20Data%20Store%2F402.%20Dynamic%20DataSource%20Building.mp4?alt=media&token=3f8cdafe-fb14-4103-9dfb-07ca3f2b935f"
+          },
+          {
+            "name": "Transforming Objects to Arrays",
+            "duration": "07:07",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/33.%20%5BLEGACY%5D%20Firebase%20as%20a%20Data%20Store%2F403.%20Transforming%20Objects%20to%20Arrays.mp4?alt=media&token=3e9fa33a-095c-4505-9843-cc2ab51ca39b"
+          },
+          {
+            "name": "List Building in Employee List",
+            "duration": "06:25",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/33.%20%5BLEGACY%5D%20Firebase%20as%20a%20Data%20Store%2F404.%20List%20Building%20in%20Employee%20List.mp4?alt=media&token=fb54cf57-3b04-40cd-802c-af01cb0049ab"
+          }
+        ]
+      },
+      {
+        "name": "[LEGACY] Code Reuse - Edit vs Create",
+        "duration": "01:30:29",
+        "items": [
+          {
+            "name": "Reusing the Employee Form",
+            "duration": "06:56",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/34.%20%5BLEGACY%5D%20Code%20Reuse%20-%20Edit%20vs%20Create%2F405.%20Reusing%20the%20Employee%20Form.mp4?alt=media&token=b9825060-a293-4161-ab38-8330cf0c6a40"
+          },
+          {
+            "name": "Create vs Edit Forms",
+            "duration": "06:53",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/34.%20%5BLEGACY%5D%20Code%20Reuse%20-%20Edit%20vs%20Create%2F406.%20Create%20vs%20Edit%20Forms.mp4?alt=media&token=f0b7fa2a-fd3f-4031-97d8-3327edc507b1"
+          },
+          {
+            "name": "Reusable Forms",
+            "duration": "09:06",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/34.%20%5BLEGACY%5D%20Code%20Reuse%20-%20Edit%20vs%20Create%2F407.%20Reusable%20Forms.mp4?alt=media&token=bfd3a4e9-62c4-4587-bfe5-34fc6e511fad"
+          },
+          {
+            "name": "A Standalone Employee Edit Form",
+            "duration": "03:27",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/34.%20%5BLEGACY%5D%20Code%20Reuse%20-%20Edit%20vs%20Create%2F408.%20A%20Standalone%20Employee%20Edit%20Form.mp4?alt=media&token=3130fa86-4c20-49a4-b8e1-cd7c3d9d145f"
+          },
+          {
+            "name": "Initializing Forms from State",
+            "duration": "09:13",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/34.%20%5BLEGACY%5D%20Code%20Reuse%20-%20Edit%20vs%20Create%2F409.%20Initializing%20Forms%20from%20State.mp4?alt=media&token=98e67e78-ccba-4211-ac43-65b2a312f511"
+          },
+          {
+            "name": "Updating Firebase Records",
+            "duration": "07:15",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/34.%20%5BLEGACY%5D%20Code%20Reuse%20-%20Edit%20vs%20Create%2F410.%20Updating%20Firebase%20Records.mp4?alt=media&token=5c1c99cf-833f-43e5-9fd0-02649f2bf308"
+          },
+          {
+            "name": "Clearing Form Attributes",
+            "duration": "05:17",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/34.%20%5BLEGACY%5D%20Code%20Reuse%20-%20Edit%20vs%20Create%2F411.%20Clearing%20Form%20Attributes.mp4?alt=media&token=75a871f6-99b9-4752-ba05-44c245352815"
+          },
+          {
+            "name": "Texting Employees",
+            "duration": "04:42",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/34.%20%5BLEGACY%5D%20Code%20Reuse%20-%20Edit%20vs%20Create%2F412.%20Texting%20Employees.mp4?alt=media&token=f906b6c7-b327-4e69-a75b-aa2efb0b1cf7"
+          },
+          {
+            "name": "Modals as a Reusable Component",
+            "duration": "07:14",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/34.%20%5BLEGACY%5D%20Code%20Reuse%20-%20Edit%20vs%20Create%2F413.%20Modals%20as%20a%20Reusable%20Component.mp4?alt=media&token=4c4b3ed2-2300-4af3-8f13-792f36ec326f"
+          },
+          {
+            "name": "The Modal Component Continued",
+            "duration": "08:11",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/34.%20%5BLEGACY%5D%20Code%20Reuse%20-%20Edit%20vs%20Create%2F414.%20The%20Modal%20Component%20Continued.mp4?alt=media&token=7ce2e16c-817c-458b-b058-003aec2b23cf"
+          },
+          {
+            "name": "Styling the Modal",
+            "duration": "09:26",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/34.%20%5BLEGACY%5D%20Code%20Reuse%20-%20Edit%20vs%20Create%2F415.%20Styling%20the%20Modal.mp4?alt=media&token=af98829e-19fc-4585-b5fa-d53dd3849111"
+          },
+          {
+            "name": "Employee Delete Action Creator",
+            "duration": "08:30",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/34.%20%5BLEGACY%5D%20Code%20Reuse%20-%20Edit%20vs%20Create%2F416.%20Employee%20Delete%20Action%20Creator.mp4?alt=media&token=a94082f4-1b5f-4fd9-b073-55524030e1fe"
+          },
+          {
+            "name": "Wiring up Employee Delete",
+            "duration": "04:19",
+            "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/34.%20%5BLEGACY%5D%20Code%20Reuse%20-%20Edit%20vs%20Create%2F417.%20Wiring%20up%20Employee%20Delete.mp4?alt=media&token=c282a27f-f673-4bbb-abda-a94fb36e9072"
+          }
+        ]
+      }
+    ],
+    "demoItems": [
+      {
+        "name": "How to Get Help",
+        "duration": "00:52",
+        "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/1.%20Getting%20started%2F1.%20How%20to%20get%20help.mp4?alt=media&token=2650f6e8-df16-4719-8afb-22124d4b3445"
+      },
+      {
+        "name": "Course Overview",
+        "duration": "03:19",
+        "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/1.%20Getting%20started%2F2.%20Course%20Overview.mp4?alt=media&token=1dfdebc2-c215-46be-a248-8bbedffe50fe"
+      },
+      {
+        "name": "App Setup",
+        "duration": "08:44",
+        "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/1.%20Getting%20started%2F5.%20App%20Setup.mp4?alt=media&token=e8feba51-78f5-4dd7-85ab-914862688080"
+      },
+      {
+        "name": "Making Changes",
+        "duration": "04:09",
+        "url": "https://firebasestorage.googleapis.com/v0/b/react-native-and-hooks-course.appspot.com/o/1.%20Getting%20started%2F6.%20Making%20Changes.mp4?alt=media&token=812bd0ad-66c0-4224-a517-326bd0944084"
+      }
+    ],
+    "requirements": ["All you need is basic understanding of Javascript"],
+    "whatYouWillLearn": ["Create real-world native apps using React Native", "Make truly reusable components that look great", "Understand the terminology and concepts of Redux", "Prototype and deploy your own applications to the Apple and Google Play Stores", "Get up to speed with React design principles and methodologies", "Discover mobile design patterns used by experienced engineers"],
+    "description": "If you're tired of spinning your wheels learning Swift or Android, this is the course for you."
+  }

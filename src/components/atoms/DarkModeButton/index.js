@@ -8,6 +8,7 @@ import './style.scss';
 const DarkModeButton = ({
   active,
   onClick,
+  isMobile,
   className,
   ...restProps
 }) => {
@@ -17,9 +18,10 @@ const DarkModeButton = ({
         onClick={() => onClick(!active)}
         className={classnames("DarkModeButton flexible aCenter jCenter", {
           'active': active,
+          'isMobile': isMobile,
           ...className
         })}>
-        <Icon name={active ? 'darkMode' : 'lightMode'}/>
+        <Icon width={isMobile ? 35 : 50} height={isMobile ? 35 : 50} name={active ? 'darkMode' : 'lightMode'}/>
       </Paper>
     )
   )

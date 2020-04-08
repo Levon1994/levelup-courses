@@ -5,12 +5,11 @@ const MONGO_ATLAS_PW = 'nodejs';
 
 module.exports = {
     mongodb: {
-        //url: `mongodb+srv://david:${MONGO_ATLAS_PW}@cluster0-x3jzj.mongodb.net/test?retryWrites=true&w=majority`,
-        url: `mongodb://NodeJs:${MONGO_ATLAS_PW}@nodejs-shard-00-00-1ava4.mongodb.net:27017,nodejs-shard-00-01-1ava4.mongodb.net:27017,nodejs-shard-00-02-1ava4.mongodb.net:27017/test?ssl=true&replicaSet=NodeJs-shard-0&authSource=admin&retryWrites=true`,
-        options: {
-            useNewUrlParser: true,
-            useCreateIndex: true
-        }
+      url: process.env.MONGODB_URL || 'mongodb://NodeJs:nodejs@nodejs-shard-00-00-1ava4.mongodb.net:27017,nodejs-shard-00-01-1ava4.mongodb.net:27017,nodejs-shard-00-02-1ava4.mongodb.net:27017/test?ssl=true&replicaSet=NodeJs-shard-0&authSource=admin&retryWrites=true',
+      options: {
+        useNewUrlParser: true,
+        useCreateIndex: true
+      }
     },
     app: {
         secret: 'reswenwyu2fewv^&*^d',

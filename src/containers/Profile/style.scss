@@ -2,6 +2,16 @@
   h1 {
     text-align: center;
     padding: 30px 20px;
+    .Icon {
+      color: #3E4B5B;
+    }
+  }
+  &.darkMode {
+    h1 {
+      .Icon {
+        color: #fff;
+      }
+    }
   }
   .page-content {
     .image-block {
@@ -16,6 +26,56 @@
           flex-grow: 1;
           width: 80%;
           margin-bottom: 15px;
+        }
+      }
+    }
+  }
+  &.isMobile {
+    h1 {
+      padding: 20px 20px 0;
+      .Text {
+        font-size: 26px;
+      }
+    }
+    .page-content {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 0;
+      padding-bottom: 15px;
+      &.darkMode {
+        .ImageUploader {
+          background-color: #fff !important;
+        }
+      }
+      .image-block {
+        width: 100%;
+        .ImageUploader {
+          background-color:  #273045;
+        }
+        .Text {
+          font-size: 14px;
+        }
+      }
+      .darkMode-button {
+        margin-top: 10px;
+        .Text {
+          margin-right: 15px;
+        }
+      }
+      .BusyLoader {
+        width: 100%;
+        .info-block {
+          .Button {
+            margin-top: 10px;
+            font-size: 12px;
+          }
+          .formGroup {
+            width: 100%;
+            margin-bottom: 10px;
+            .TextField {
+              height: 40px;
+            }
+          }
         }
       }
     }

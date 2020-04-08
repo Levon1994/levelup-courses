@@ -1,3 +1,5 @@
+@import 'sass/variables.scss';
+
 .CourseAccordion {
   position: fixed;
   width: 25%;
@@ -7,6 +9,22 @@
   z-index: 5;
   top: 70px;
   right: 0;
+  .mobile-title {
+    padding: 15px;
+    .Icon {
+      margin-right: 5px;
+      margin-top: 5px;
+    }
+    .Paper {
+      .Text {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+    }
+     > .Text {
+        font-size: 14px;
+    }
+  }
   &.darkMode {
     background-color: #283045;
     .Accordion-item {
@@ -53,6 +71,11 @@
           height: 60px;
           padding: 5px 15px;
           border-bottom: 1px solid;
+          .Icon {
+            color: $secondary-green;
+            margin-right: 5px;
+            margin-top: -2px;
+          }
         }
       }
     }

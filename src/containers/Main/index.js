@@ -1,4 +1,5 @@
 import React, { useMemo } from 'react';
+import classnames from 'classnames';
 import { connect } from 'react-redux';
 import {
   withRouter,
@@ -13,8 +14,9 @@ import {
   BlogCard,
 } from 'components';
 
+import HelmetContent from 'helpers/HelmetContent';
 import { useTranslator } from 'utils/translator';
-import { useMount } from 'utils';
+import { useMount, isMobile } from 'utils';
 import { fetchCourses } from 'actions';
 
 import {
@@ -36,6 +38,8 @@ const Main = ({
   darkMode,
   fetchCourses,
 }) => {
+
+  const mobile = isMobile();
 
   const { t } = useTranslator();
 
@@ -60,14 +64,15 @@ const Main = ({
 
   return (
       <>
-        <section className="Main" >
+        <section className={classnames('Main', { 'isMobile': mobile })} >
+          <HelmetContent page="home" />
           <Paper className ='page-content first-block content-padding' flexName='flexible jBetween'>
             <Paper className ='first-text-block' flexName='flexible vertical jCenter aStart'>
               <Text className ='big' darkMode={darkMode}>
                 {t('_Welcome_')}
               </Text>
               <NavLink to="/">
-                <Button className='first-button'>{t("_ReadMore_")}</Button>
+                <Button className='first-button'>Find Course</Button>
               </NavLink>
             </Paper>
             <Paper className='first-image-parent'>
