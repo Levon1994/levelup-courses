@@ -116,9 +116,12 @@ header {
         .account-block {
           position: relative;
           height: 60px;
-          width: 45px;
+          width: 80px;
           display: flex;
           align-items: center;
+          .Avatar {
+            margin: 0 auto;
+          }
           &:hover {
             .hidden-block {
               display: block;

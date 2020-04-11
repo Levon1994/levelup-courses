@@ -25,7 +25,7 @@ const DemoModal = ({
     if (!data || !data.length) return null;
 
     return data.map(({ _id, name, duration, url }) => (
-      <li className="flexible jBetween aCenter" key={_id} onClick={() => setVideoUrl(url)}>
+      <li className={classnames('flexible jBetween aCenter', { 'isActive': videoUrl === url })} key={_id} onClick={() => setVideoUrl(url)}>
         <Paper flexName="flexible">
           <Image
             width={120}
@@ -40,7 +40,7 @@ const DemoModal = ({
         <Text darkMode={darkMode}>{duration}</Text>
       </li>
     ))
-  }, [data, darkMode])
+  }, [data, darkMode, videoUrl])
 
   return (
     createPortal(

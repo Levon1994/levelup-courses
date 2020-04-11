@@ -128,6 +128,15 @@
     .video-block {
       background-color: $dark !important;
     }
+    .description-block {
+      color: #fff;
+      p, span, em, strong, li {
+        color: #fff !important;
+      }
+      .see-more {
+        background: linear-gradient(rgba(39, 48, 69, 0), rgba(39, 48, 69, 0.95), rgb(39, 48, 69)) !important;
+      }
+    }
   }
   .page-content {
     position: relative;
@@ -195,9 +204,68 @@
       }
       .description-block {
         margin-top: 30px;
+        span {
+          background: none !important;
+        }
         .extraLarge {
           margin-bottom: 20px;
           display: block;
+        }
+        .description-body {
+          .see-more {
+            background: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.95),#FFF);
+            padding-top: 30px;
+            position: relative;
+            top: -30px;
+            .Icon {
+              margin-right: 5px;
+            }
+            .Paper {
+              cursor: pointer;
+              &:hover {
+                .Text, .Icon {
+                  color: $secondary-green
+                }
+              }
+            }
+          }
+          .blog-body {
+            height: 230px;
+            overflow: hidden;
+            &.isShown {
+              height: auto;
+              & ~ .see-more {
+                top: -15px;
+              }
+            }
+          }
+          strong {
+            font-weight: bold;
+            em {
+              font-weight: bold;
+            }
+          }
+          p {
+            margin-bottom: 10px;
+          }
+          ul, ol {
+            padding-left: 35px;
+            margin-top: 0;
+            margin-bottom: 10px;
+            li {
+              margin-bottom: 10px;
+            }
+          }
+          ul {
+            li {
+              list-style: disc;
+            }
+          }
+          ol {
+            li {
+              list-style: decimal;
+            }
+          }
         }
       }
     }

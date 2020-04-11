@@ -1,3 +1,5 @@
+@import "~sass/variables";
+
 .Course {
   &.darkMode {
     .player {
@@ -6,6 +8,12 @@
     .icon-feather-arrow-left {
       background-color: #283045 !important;
       color: #fff !important;
+    }
+    .description-block {
+      color: #fff;
+      p, span, em, strong, li {
+        color: #fff !important;
+      }
     }
   }
   .player-content {
@@ -24,6 +32,38 @@
       background-color: #fff;
       color: #283045;
       z-index: 2;
+    }
+    .description-block {
+      span {
+        background: none !important;
+      }
+      strong {
+        font-weight: bold;
+        em {
+          font-weight: bold;
+        }
+      }
+      p {
+        margin-bottom: 10px;
+      }
+      ul, ol {
+        padding-left: 35px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        li {
+          margin-bottom: 10px;
+        }
+      }
+      ul {
+        li {
+          list-style: disc;
+        }
+      }
+      ol {
+        li {
+          list-style: decimal;
+        }
+      }
     }
     &.isOpen {
       width: 75%;

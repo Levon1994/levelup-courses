@@ -1,10 +1,15 @@
 const defaultFilter = {
   first_name: '',
   last_name: '',
-  email: '',
-  password: '',
 };
+
+const defaultPassFilter = {
+  new_password: '',
+  current_password: '',
+  new_password_confirmation: '',
+}
 
 export {
   defaultFilter,
+  defaultPassFilter,
 };

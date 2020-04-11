@@ -91,13 +91,13 @@ const Header = ({
                   (window.localStorage.getItem('token'))
                   ? <Paper className="account-block">
                       <Avatar
-                        src={(user && user.data) ? user.data.thumbnail_file_path : DEFAULT_USER_IMAGE}
+                        src={(user && user.data) ? user.data.image_url : DEFAULT_USER_IMAGE}
                         size={45}
                       />
                       <Paper className="hidden-block">
                         <Paper flexName="flexible" className="image-block">
                           <Avatar
-                            src={(user && user.data) ? user.data.thumbnail_file_path : DEFAULT_USER_IMAGE}
+                            src={(user && user.data) ? user.data.image_url : DEFAULT_USER_IMAGE}
                             size={45}
                           />
                           <Paper flexName="flexible vertical">

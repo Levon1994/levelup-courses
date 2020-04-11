@@ -34,7 +34,7 @@ const BlogCard = ({
         <Text darkMode={darkMode} className='extraLarge blogCommentTitle'>{title}</Text>
         </Paper>
         <Paper>
-          <Text darkMode={darkMode} className='small desc'>{description}</Text>
+          <Text darkMode={darkMode} className='small desc truncate-lines-styles truncate twoLines'>{description}</Text>
         </Paper>
       </Paper>
       <Paper flexName='flexible jBetween' className='infoblock'>

@@ -52,7 +52,12 @@ const Course = ({
             <Text className="extraLarge" darkMode={darkMode}>About this course</Text>
             <Text darkMode={darkMode}>{lessons && lessons.data && lessons.data.subtitle}</Text>
             <Text className="extraLarge" darkMode={darkMode}>Description</Text>
-            <Text darkMode={darkMode}>{lessons && lessons.data && lessons.data.description}</Text>
+            <div
+              className="description-block"
+              dangerouslySetInnerHTML={{
+                __html: lessons && lessons.data && lessons.data.description
+              }}
+            />
           </Paper>
         }
       </Paper>

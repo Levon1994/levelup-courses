@@ -55,7 +55,7 @@ app.get('/course/:coursId', function(request, response) {
     }
 
     VideoCourses.find({ "_id" : request.params.coursId }).then(res => {
-      data = data.replace(/\$OG_TITLE/g, res[0].title || '');
+      data = data.replace(/\$OG_TITLE/g, `Free: ${res[0].title}` || '');
       data = data.replace(/\$OG_DESCRIPTION/g, res[0].subtitle || '');
       result = data.replace(/\$OG_IMAGE/g, res[0].image_url || '');
       response.send(result);

@@ -53,6 +53,7 @@ const CourseItem = ({
   const mobile = isMobile();
 
   const [isOpen, setIsOpen] = useState(false);
+  const [isShown, setIsShown] = useState(false);
 
   useMount(() => {
     fetchCourse(id);
@@ -65,6 +66,7 @@ const CourseItem = ({
   };
 
   const onToggleModal = () => setIsOpen(!isOpen);
+  const onToggleIsShown = () => setIsShown(!isShown);
 
   const whatWeWillLearn = useMemo(() => {
     if (!course || !course.data || !course.data.whatYouWillLearn || !course.data.whatYouWillLearn.length) return null;
@@ -156,7 +158,24 @@ const CourseItem = ({
           <Paper className="description-block">
             <Text className="extraLarge" darkMode={darkMode}>Description</Text>
             <Paper className="description-body">
-              <Text darkMode={darkMode}>{course && course.data && course.data.description}</Text>
+              <div
+                className={classnames('blog-body', { 'isShown': isShown })}
+                dangerouslySetInnerHTML={{
+                  __html: course && course.data && course.data.description
+                }}
+              />
+              <Paper className="see-more">
+                {!isShown
+                  ? <Paper flexName="flexible aCenter" onClick={onToggleIsShown}>
+                      <Icon className="icon-feather-plus" />
+                      <Text darkMode={darkMode}>See More</Text>
+                    </Paper>
+                  : <Paper flexName="flexible aCenter" onClick={onToggleIsShown}>
+                      <Icon className="icon-feather-minus" />
+                      <Text darkMode={darkMode}>Hide</Text>
+                    </Paper>
+                }
+              </Paper>
             </Paper>
           </Paper>
         </Paper>

@@ -48,7 +48,7 @@ const CourseAccordion = ({
           onClick={() => setSelectedData(prev => ({ ...selectedData, [index]: !selectedData[index] }))}
         >
           <Paper flexName="flexible vertical">
-            <Text darkMode={darkMode} className="large">
+            <Text darkMode={darkMode} className="large background-color: rgba(226, 226, 226, 0.53);">
               {mobile ? `${index+1} - ${name}` : `Section ${index+1}: ${name}`}
             </Text>
             <Text darkMode={darkMode}>{duration}</Text>
@@ -66,7 +66,7 @@ const CourseAccordion = ({
                 >
                   <Paper flexName="flexible aCenter">
                     <Icon className="icon-feather-play"/>
-                    <Text darkMode={darkMode} className="medium">
+                    <Text darkMode={darkMode} className="medium singleLine truncate">
                       {name}
                     </Text>
                   </Paper>
@@ -80,7 +80,7 @@ const CourseAccordion = ({
         </Paper>
       </Paper>
     ));
-  }, [darkMode, data, selectedData, lessonId, onSelectVideo]);
+  }, [darkMode, data, selectedData, lessonId, onSelectVideo, mobile]);
 
   return (
     <Paper className={classnames('CourseAccordion', { 'darkMode': darkMode })} flexName="flexName vertical">

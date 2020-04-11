@@ -43,8 +43,17 @@ const updateProfile = data => CreateActionCreator.update({
     body: data
 });
 
-const fetchCourses = _ => CreateActionCreator.read({
-    path: 'video-courses',
+const deleteProfile = _ => CreateActionCreator.delete({
+    path: 'user/my',
+});
+
+const updatePassword = data => CreateActionCreator.update({
+    path: 'user/current/password',
+    body: data
+});
+
+const fetchCourses = (page = 0, limit = 30) => CreateActionCreator.read({
+    path: `video-courses?page=${page}&limit=${limit}`,
     type: COURSES,
     withAuthToken: true,
 });
@@ -70,13 +79,21 @@ const saveInMycourses = data => CreateActionCreator.create({
     body: data
 });
 
+const uploadImage = data => CreateActionCreator.create({
+    path: 'files/upload',
+    data,
+});
+
 export {
+  uploadImage,
   loginAsUser,
   fetchCourse,
   fetchLessons,
   fetchCourses,
   fetchProfile,
   updateProfile,
+  deleteProfile,
+  updatePassword,
   fetchMycourses,
   registerAsUser,
   toggleDarkMode,

@@ -13,6 +13,15 @@
       }
     }
   }
+  .delete-account {
+    padding-bottom: 30px;
+    .Button {
+      .Icon {
+        margin-right: 5px;
+        color: #fff;
+      }
+    }
+  }
   .page-content {
     .image-block {
       width: 30%;
@@ -26,6 +35,9 @@
           flex-grow: 1;
           width: 80%;
           margin-bottom: 15px;
+        }
+        .Button {
+          margin-bottom: 10px;
         }
       }
     }
