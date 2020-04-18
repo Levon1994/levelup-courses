@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useCallback } from 'react';
 import { connect } from 'react-redux';
 import classnames from 'classnames';
 import {
@@ -33,6 +33,11 @@ const data = [
     name: 'My Courses',
   },
   {
+    url: '/categories',
+    icon: 'icon-feather-layers',
+    name: 'Categories',
+  },
+  {
     url: '/profile',
     icon: 'icon-feather-user',
     name: 'Account',
@@ -48,11 +53,11 @@ const MobileFooter = ({
   location: { pathname }
 }) => {
 
-  const onGoToCourse = url => {
+  const onGoToCourse = useCallback(url => {
     if((url === '/my-courses' || url === '/profile') && !user) {
       toggleIsOpenLogin(true);
     }
-  };
+  }, [user, toggleIsOpenLogin]);
 
   const mobileData = useMemo(() => (
     data.map(({ url, icon, name }, key) => (
@@ -66,7 +71,7 @@ const MobileFooter = ({
         <Text darkMode={darkMode}>{name}</Text>
       </NavLink>
     ))
-  ), [darkMode, pathname]);
+  ), [darkMode, pathname, onGoToCourse]);
 
   return (
     <Paper className="MobileFooter" flexName="flexible">

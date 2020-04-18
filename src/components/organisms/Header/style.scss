@@ -7,6 +7,58 @@ header {
   .page-content {
     overflow: visible;
   }
+  .search-block {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 10px;
+    position: relative;
+    &:hover {
+      ul {
+        display: block;
+      }
+    }
+    ul {
+      position: absolute;
+      width: calc(100% - 40px);
+      background-color: #EBEEF5;
+      left: 50%;
+      transform: translateX(-50%);
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+      display: none;
+      li {
+        padding: 5px 10px;
+        min-height: 45px;
+        display: flex;
+        .Icon {
+          animation: spin 1s linear infinite;
+          display: inline-block;
+          margin: auto;
+        }
+        a {
+          max-width: 100%;
+        }
+        &:hover{
+          background-color: #fff;
+        }
+        .Image {
+          margin-right: 10px;
+        }
+      }
+    }
+    .formGroup {
+      width: 100%;
+      .searchIcon {
+        top: 11px !important;
+        right: 18px;
+        left: initial;
+        font-size: 20px;
+      }
+      .darkMode {
+        color: #3E4B5B;
+      }
+    }
+  }
   &.darkMode {
     nav {
       background-color: $dark;
@@ -240,4 +292,9 @@ header {
     transform: rotate(-45deg);
     transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);;
   }
+}
+
+@keyframes spin {
+  from { transform: rotate(0) }
+  to { transform:rotate(360deg) }
 }

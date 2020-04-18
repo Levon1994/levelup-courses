@@ -47,7 +47,6 @@ const Profile = ({
   const [isValid, setIsValid] = useState(false);
   const [filter, setFilter] = useState({ ...defaultFilter, ...(user && user.data) });
   const [passfilter, setPassFilter] = useState({ ...defaultPassFilter });
-  const [isUpload, setIsUpload] = useState(filter.image_url ? true : false);
 
   useEffect(() => {
     if(user) {
@@ -114,7 +113,6 @@ const Profile = ({
 
     uploadImage(formData).then(res => {
       setFile(res.data);
-      setIsUpload(true);
     });
   };
 

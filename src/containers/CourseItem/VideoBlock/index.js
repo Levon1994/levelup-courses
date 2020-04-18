@@ -62,10 +62,8 @@ const VideoBlock = ({
       </NavLink>
       {!mobile &&
         <Paper className="share-block">
-          <FacebookShareButton url={`${MAIN_URL}course/${id}`}>
-            <Button>
-              Share On Facebook
-            </Button>
+          <FacebookShareButton className="Button small green" url={`${MAIN_URL}course/${id}`}>
+            Share On Facebook
           </FacebookShareButton>
         </Paper>
       }

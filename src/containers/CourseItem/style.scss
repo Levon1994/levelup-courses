@@ -338,7 +338,11 @@
           margin-top: 10px;
           padding-top: 20px;
           .Button {
-            background-color: #4267b2;
+            background-color: #4267b2 !important;
+            font-size: 14px !important;
+            padding: 12px 40px !important;
+            color: #fff !important;
+            font-weight: bold !important;
           }
         }
       }

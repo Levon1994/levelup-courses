@@ -8,7 +8,10 @@ import {
   LESSONS,
   DARK_MODE,
   MY_COURSES,
+  CATEGORIES,
   IS_OPEN_LOGIN,
+  COURSESSBYNAME,
+  COURSESBYSCATEGORYNAME,
 } from 'configs/types';
 
 const darkMode = (state = false, action) => {
@@ -29,6 +32,9 @@ const isOpenLogin = (state = false, action) => {
   };
 };
 
+const coursesByCategoryName = createReducer(COURSESBYSCATEGORYNAME);
+const coursesByName = createReducer(COURSESSBYNAME);
+const categories = createReducer(CATEGORIES);
 const myCourses = createReducer(MY_COURSES);
 const courses = createReducer(COURSES);
 const lessons = createReducer(LESSONS);
@@ -44,7 +50,10 @@ const rootReducer = combineReducers({
   courses,
   darkMode,
   myCourses,
+  categories,
   isOpenLogin,
+  coursesByName,
+  coursesByCategoryName
 });
 
 export default rootReducer;

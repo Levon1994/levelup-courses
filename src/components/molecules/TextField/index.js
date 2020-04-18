@@ -17,9 +17,11 @@ const TextField = ({
   ...restProps
 }) => (
     <div className='formGroup'>
-        <label htmlFor='' className='label'>
-            {label}
-        </label>
+        {label &&
+          <label htmlFor='' className='label'>
+              {label}
+          </label>
+        }
         {textarea ?
         <textarea
             className = {classnames('textArea',{[className]: className})}
@@ -38,12 +40,17 @@ const TextField = ({
             value = {value}
             {...restProps}
         />}
-        <div className='searchIcon'>
-            {searchField && <Icon className='icon-feather-search'/>}
-        </div>
-        <div className='errorText'>
-            <p>{errorText}</p>
-        </div>
+        {
+          searchField &&
+          <div className='searchIcon'>
+              {searchField && <Icon className='icon-feather-search'/>}
+          </div>
+        }
+        {errorText &&
+          <div className='errorText'>
+              <p>{errorText}</p>
+          </div>
+        }
     </div>
 );
 

@@ -7,7 +7,10 @@ import {
   LESSONS,
   DARK_MODE,
   MY_COURSES,
+  CATEGORIES,
   IS_OPEN_LOGIN,
+  COURSESSBYNAME,
+  COURSESBYSCATEGORYNAME,
 } from 'configs/types';
 
 const toggleDarkMode = (darkMode) => ({
@@ -52,7 +55,7 @@ const updatePassword = data => CreateActionCreator.update({
     body: data
 });
 
-const fetchCourses = (page = 0, limit = 30) => CreateActionCreator.read({
+const fetchCourses = (page = 0, limit = 60) => CreateActionCreator.read({
     path: `video-courses?page=${page}&limit=${limit}`,
     type: COURSES,
     withAuthToken: true,
@@ -61,7 +64,7 @@ const fetchCourses = (page = 0, limit = 30) => CreateActionCreator.read({
 const fetchCourse = id => CreateActionCreator.read({
     path: `video-courses/${id}`,
     type: COURSE,
-    withAuthToken: true,
+    withAuthToken: !window.localStorage.getItem('token'),
 });
 
 const fetchLessons = id => CreateActionCreator.read({
@@ -74,6 +77,10 @@ const fetchMycourses = _ => CreateActionCreator.read({
     type: MY_COURSES,
 });
 
+const deleteMycourse = courseId => CreateActionCreator.delete({
+    path: `my-courses/${courseId}`,
+});
+
 const saveInMycourses = data => CreateActionCreator.create({
     path: 'my-courses',
     body: data
@@ -82,6 +89,24 @@ const saveInMycourses = data => CreateActionCreator.create({
 const uploadImage = data => CreateActionCreator.create({
     path: 'files/upload',
     data,
+});
+
+const fetchCategories = (page = 0, limit = 9) => CreateActionCreator.read({
+    path: `categories?page=${page}&limit=${limit}`,
+    type: CATEGORIES,
+    withAuthToken: true,
+});
+
+const fetchCourseByName = name => CreateActionCreator.read({
+    path: `video-courses/search?s=${name}`,
+    type: COURSESSBYNAME,
+    withAuthToken: true,
+});
+
+const fetchCourseByCategoryName = name => CreateActionCreator.read({
+    path: `video-courses/name/${name}`,
+    type: COURSESBYSCATEGORYNAME,
+    withAuthToken: true,
 });
 
 export {
@@ -93,10 +118,14 @@ export {
   fetchProfile,
   updateProfile,
   deleteProfile,
+  deleteMycourse,
   updatePassword,
   fetchMycourses,
   registerAsUser,
   toggleDarkMode,
   saveInMycourses,
+  fetchCategories,
   toggleIsOpenLogin,
+  fetchCourseByName,
+  fetchCourseByCategoryName,
 };

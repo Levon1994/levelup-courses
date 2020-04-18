@@ -3,6 +3,7 @@ import noop from './noop';
 import isObject from './is-object';
 import useMount from './useMount';
 import isMobile from './isMobile';
+import useDebounce from './useDebounce';
 
 export {
   omit,
@@ -10,4 +11,5 @@ export {
   isObject,
   useMount,
   isMobile,
+  useDebounce,
 };

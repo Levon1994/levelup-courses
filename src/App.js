@@ -89,13 +89,13 @@ const App = ({
           <Switch>
               <Route exact path="/" component={Main} />
               <Route exact path="/course/:id" component={CourseItem} />
-              <Route path="/search" component={Search} />
+              <Route exact path="/search/:courseName" component={Search} />
               <Autorize toggleIsOpenLogin={toggleIsOpenLogin} login={login}>
                 <Route path="/course/:id/:lessonId" component={Course} />
                 <Route path="/profile" component={Profile} />
                 <Route path="/my-courses" component={Favorites} />
               </Autorize>
-              <Redirect to='/' />
+              <Redirect from='/' to='/' />
           </Switch>
         </main>
       {mobile ? <MobileFooter /> : <Footer/>}

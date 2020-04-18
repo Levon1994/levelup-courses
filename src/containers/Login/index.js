@@ -3,6 +3,12 @@ import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import classnames from 'classnames';
 
+import FacebookLogin from 'react-facebook-login/dist/facebook-login-render-props';
+import GoogleLogin from 'react-google-login';
+
+//google clientid - 140089550919-fcbtojogt6rka5nt9nr21pbaa5708jje.apps.googleusercontent.com
+//google serverId - ZxRI5ljIhsw_K0X_XErDAf3v
+
 import {
   Text,
   Icon,
@@ -125,14 +131,32 @@ const Login = ({
             ? <>
                 <Text>{t('_SignInWith_')}</Text>
                 <Paper flexName="flexible vertical social-block">
-                  <Button className="fb-button share-button flexible aCenter jCenter">
-                    {!mobile && t('_SignInWith_')}
-                    <Icon fill="#fff" width="30" name="facebook" />
-                  </Button>
-                  <Button className="google-button share-button flexible aCenter jCenter">
-                    {!mobile && t('_SignInWith_')}
-                    <Icon width="34" height="34" name="gmail" />
-                  </Button>
+                  <FacebookLogin
+                    appId="266585047835019"
+                    autoLoad={false}
+                    fields="name,email,picture"
+                    onClick={console.log}
+                    callback={console.log}
+                    render={renderProps => (
+                      <Button onClick={renderProps.onClick} className="fb-button share-button flexible aCenter jCenter">
+                        {!mobile && t('_SignInWith_')}
+                        <Icon fill="#fff" width="30" name="facebook" />
+                      </Button>
+                    )}
+                  />
+                  <GoogleLogin
+                    clientId="140089550919-q3q658sq5ud11qp2dfjm6epmo2a7m7a5.apps.googleusercontent.com"
+                    buttonText="Login"
+                    onSuccess={console.log}
+                    onFailure={console.log}
+                    cookiePolicy={'single_host_origin'}
+                    render={renderProps => (
+                      <Button onClick={renderProps.onClick} disabled={renderProps.disabled} className="google-button share-button flexible aCenter jCenter">
+                        {!mobile && t('_SignInWith_')}
+                        <Icon width="34" height="34" name="gmail" />
+                      </Button>
+                    )}
+                  />
                 </Paper>
                 {hasError && <Text className="errorText">Wrong Email or Password*</Text>}
                 <TextField

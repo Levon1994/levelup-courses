@@ -14,9 +14,9 @@ import Avatar from './molecules/Avatar';
 import InfoCard from './molecules/InfoCard';
 import TextField from './molecules/TextField';
 import ImageContent from './molecules/ImageContent';
-import TeamMemberCard from './molecules/TeamMemberCard';
+import CategoryCard from './molecules/CategoryCard';
 import ServiceInfoCard from './molecules/ServiceInfoCard';
-import BlogCard from './molecules/BlogCard';
+import CourseCard from './molecules/CourseCard';
 import Modal from './molecules/Modal';
 
 // Organisms
@@ -39,7 +39,7 @@ export {
   Footer,
   Button,
   Avatar,
-  BlogCard,
+  CourseCard,
   Collapse,
   InfoCard,
   Dropdown,
@@ -53,6 +53,6 @@ export {
   SwitchButton,
   Testimonials,
   DarkModeButton,
-  TeamMemberCard,
+  CategoryCard,
   ServiceInfoCard,
 };

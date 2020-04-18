@@ -9,7 +9,7 @@ import {
 
 import './style.scss'
 
-const BlogCard = ({
+const CourseCard = ({
   src,
   createdDate,
   width,
@@ -23,7 +23,7 @@ const BlogCard = ({
 
   return  (
     <Paper
-      className={classnames("BlogCommentCard",{ 'darkMode': darkMode })}
+      className={classnames("CourseCard",{ 'darkMode': darkMode })}
       style={{maxWidth: width}}
       {...restProps}>
       <Paper flexName="flexible aStart" className='imageWrapper'>
@@ -52,8 +52,8 @@ const BlogCard = ({
   )
 };
 
-BlogCard.defaultProps = {
+CourseCard.defaultProps = {
   width: '350px'
 };
 
-export default BlogCard;
+export default CourseCard;
