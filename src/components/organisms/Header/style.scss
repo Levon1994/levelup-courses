@@ -48,6 +48,10 @@ header {
     }
     .formGroup {
       width: 100%;
+      .TextField {
+        padding-right: 45px;
+        padding-left: 25px;
+      }
       .searchIcon {
         top: 11px !important;
         right: 18px;
@@ -171,8 +175,25 @@ header {
           width: 80px;
           display: flex;
           align-items: center;
+          justify-content: center;
+          .image-block-content {
+            width: 45px;
+            height: 45px;
+            overflow: hidden;
+            border-radius: 100%;
+            background-color: #0088d1;
+            text-align: center;
+            line-height: 45px;
+          }
           .Avatar {
             margin: 0 auto;
+            &_content {
+              width: 45px;
+              height: 45px;
+              overflow: hidden;
+              border-radius: 100%;
+              background-color: #0088d1;
+            }
           }
           &:hover {
             .hidden-block {
@@ -188,6 +209,9 @@ header {
             border-radius: 10px;
             padding: 15px 20px;
             top: 60px;
+            .image-block-content {
+              margin-right: 15px;
+            }
             .image-block {
               margin-bottom: 20px;
               position: relative;

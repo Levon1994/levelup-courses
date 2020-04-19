@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo, useState, useCallback } from 'react';
 import classnames from 'classnames';
 import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
@@ -11,7 +11,7 @@ import {
   BusyLoader,
 } from 'components';
 
-import { useMount } from 'utils';
+import { useMount, isMobile } from 'utils';
 import {
   fetchMycourses,
   deleteMycourse,
@@ -28,13 +28,15 @@ const Favorites = ({
   deleteMycourse,
 }) => {
 
+  const mobile = isMobile();
+
   const [isBusy, setIsBusy] = useState(false);
 
   useMount(() => {
     fetchMycourses();
   });
 
-  const onRemove = id => {
+  const onRemove = useCallback(id => {
     setIsBusy(true);
     deleteMycourse(id).then(res => {
       if(res) {
@@ -42,7 +44,7 @@ const Favorites = ({
         fetchMycourses();
       }
     });
-  };
+  }, [deleteMycourse, fetchMycourses, setIsBusy]);
 
   const renderMyCourses = useMemo(() => {
     if (!myCourses || !myCourses.data || !myCourses.data.result || !myCourses.data.result.length) return null;
@@ -64,7 +66,7 @@ const Favorites = ({
   },[myCourses, darkMode, onRemove]);
 
   return (
-    <section className={classnames('Favorites', { 'darkMode': darkMode })}>
+    <section className={classnames('Favorites', { 'darkMode': darkMode, 'isMobile': mobile })}>
       <h1><Text className="doubleExtraLarge" darkMode={darkMode}>My Courses</Text></h1>
       <BusyLoader isBusy={isBusy}>
         <Paper className="page-content" flexName="flexible wrap jAround">

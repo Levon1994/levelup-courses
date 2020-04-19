@@ -84,7 +84,7 @@ const Main = ({
           </Paper>
           <Paper className="page-content">
           <Paper  className='testimonialsTitle' flexName='flexible jCenter'>
-            <Text className='doubleExtraLarge titleMargin' darkMode={darkMode}>{t('_Development_')}</Text>
+            <Text className='doubleExtraLarge titleMargin' darkMode={darkMode}>The Best Courses</Text>
           </Paper>
           <Paper className="courses-line" flexName="flexible wrap jAround">
             {renderCourses}

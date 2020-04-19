@@ -1,6 +1,9 @@
 @import "~sass/variables";
 .Main {
   &.isMobile {
+    .page-content {
+      padding: 15px;
+    }
     .first-text-block {
       width: 100% !important;
       .Text {
@@ -13,6 +16,12 @@
   }
   .content-padding {
     padding: 25px;
+  }
+  .courses-line {
+    > a {
+      max-width: 100%;
+
+    }
   }
   .partners-item {
     width: 180px !important;
@@ -317,6 +326,17 @@
     font-size: 30px;
   }
   .Main {
+    .page-content:last-child {
+      padding-top: 0 !important;
+    }
+    .first-text-block {
+      padding-bottom: 15px;
+    }
+    .first-block {
+      .first-button {
+        margin-bottom: 10px;
+      }
+    }
     .first-block .first-image-parent{
       width: 100% !important;
     }
@@ -341,7 +361,7 @@
     }
     .first-block {
       max-height: 520px;
-      justify-content: flex-start !important; 
+      justify-content: flex-start !important;
     }
     .wave .left-text {
       width: 80%;

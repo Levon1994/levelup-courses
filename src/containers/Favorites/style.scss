@@ -10,6 +10,22 @@
       color: #fff !important;
     }
   }
+  &.isMobile {
+    .page-content {
+      padding: 15px;
+      .course-item {
+        margin-top: 20px;
+        max-width: 100%;
+        > a {
+          max-width: 100%;
+        }
+        .icon-feather-x {
+          top: -20px;
+          right: -10px;
+        }
+      }
+    }
+  }
   .course-item {
     position: relative;
     .Icon {

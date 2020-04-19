@@ -131,19 +131,31 @@ const Header = ({
                 {
                   (window.localStorage.getItem('token'))
                   ? <Paper className="account-block">
-                      <Avatar
-                        src={(user && user.data) ? user.data.image_url : DEFAULT_USER_IMAGE}
-                        size={45}
-                      />
+                      <Paper className="image-block-content">
+                        {
+                          (user && user.data && user.data.image_url)
+                          ? <Avatar
+                              src={(user && user.data) ? user.data.image_url : DEFAULT_USER_IMAGE}
+                              size={45}
+                            />
+                          : <Text>{user && user.data && user.data.first_name.split('')[0]}</Text>
+                        }
+                      </Paper>
                       <Paper className="hidden-block">
                         <Paper flexName="flexible" className="image-block">
-                          <Avatar
-                            src={(user && user.data) ? user.data.image_url : DEFAULT_USER_IMAGE}
-                            size={45}
-                          />
+                          <Paper className="image-block-content">
+                            {
+                              (user && user.data && user.data.image_url)
+                              ? <Avatar
+                                  src={(user && user.data) ? user.data.image_url : DEFAULT_USER_IMAGE}
+                                  size={45}
+                                />
+                              : <Text>{user && user.data && user.data.first_name.split('')[0]}</Text>
+                            }
+                          </Paper>
                           <Paper flexName="flexible vertical">
                             <Text darkMode={darkMode}>{user && user.data && `${user.data.first_name} ${user.data.last_name}`}</Text>
-                            <Text darkMode={darkMode}>{user && user.data && user.data.email}</Text>
+                            <Text className="singleLine" darkMode={darkMode}>{user && user.data && user.data.email}</Text>
                           </Paper>
                         </Paper>
                         <ul>

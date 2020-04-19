@@ -7,6 +7,8 @@ import {
   Image,
 } from 'components';
 
+import { isMobile } from 'utils';
+
 import './style.scss'
 
 const CourseCard = ({
@@ -21,9 +23,11 @@ const CourseCard = ({
   restProps
 }) => {
 
+  const mobile = isMobile();
+
   return  (
     <Paper
-      className={classnames("CourseCard",{ 'darkMode': darkMode })}
+      className={classnames("CourseCard",{ 'darkMode': darkMode, 'isMobile': mobile })}
       style={{maxWidth: width}}
       {...restProps}>
       <Paper flexName="flexible aStart" className='imageWrapper'>
@@ -31,7 +35,7 @@ const CourseCard = ({
       </Paper>
       <Paper className='blogCardInfo' flexName='flexible vertical'>
         <Paper>
-        <Text darkMode={darkMode} className='extraLarge blogCommentTitle'>{title}</Text>
+        <Text darkMode={darkMode} className='blogCommentTitle'>{title}</Text>
         </Paper>
         <Paper>
           <Text darkMode={darkMode} className='small desc truncate-lines-styles truncate twoLines'>{description}</Text>

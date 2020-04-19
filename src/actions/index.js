@@ -29,6 +29,18 @@ const loginAsUser = data => CreateActionCreator.create({
     body: data,
 });
 
+const signInFacebook = data => CreateActionCreator.create({
+    path: 'signin/sign-facebook',
+    type: LOGIN,
+    body: data,
+});
+
+const signInGoogle = data => CreateActionCreator.create({
+    path: 'signin/sign-google',
+    type: LOGIN,
+    body: data,
+});
+
 const registerAsUser = data => CreateActionCreator.create({
     path: 'signup/signup-standard',
     body: data,
@@ -113,11 +125,13 @@ export {
   uploadImage,
   loginAsUser,
   fetchCourse,
+  signInGoogle,
   fetchLessons,
   fetchCourses,
   fetchProfile,
   updateProfile,
   deleteProfile,
+  signInFacebook,
   deleteMycourse,
   updatePassword,
   fetchMycourses,

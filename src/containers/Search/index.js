@@ -1,18 +1,27 @@
 import React, { useMemo, useEffect, useState } from 'react';
+import classnames from 'classnames';
 import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 
 import {
+  Icon,
   Text,
   Paper,
+  Image,
+  TextField,
   CourseCard,
   BusyLoader,
   CategoryCard,
 } from 'components';
 
-import { useMount } from 'utils';
+import {
+  useMount,
+  isMobile,
+  useDebounce,
+} from 'utils';
 import {
   fetchCategories,
+  fetchCourseByName,
   fetchCourseByCategoryName,
 } from 'actions';
 
@@ -21,23 +30,39 @@ import './style.scss';
 const mapStateToProps = ({
   darkMode,
   categories,
+  coursesByName,
   coursesByCategoryName,
 }) => ({
   darkMode,
   categories,
+  coursesByName,
   coursesByCategoryName,
 });
 
 const Search = ({
   darkMode,
   categories,
+  coursesByName,
   fetchCategories,
+  fetchCourseByName,
   coursesByCategoryName,
   fetchCourseByCategoryName,
   match: { params: { courseName } },
 }) => {
 
+  const mobile = isMobile();
+
   const [isBusy,setIsBusy] = useState(false);
+  const [isBusySearch, setIsBusySearch] = useState(false);
+  const [searchName, setSearchName] = useState('');
+
+  const debouncedValue = useDebounce(searchName, 500);
+
+  useEffect(() => {
+    fetchCourseByName(debouncedValue).then(res => {
+      res && setIsBusySearch(false);
+    })
+  }, [debouncedValue, fetchCourseByName]);
 
   useMount(() => {
     fetchCategories(1, 90);
@@ -85,9 +110,55 @@ const Search = ({
     ))
   },[coursesByCategoryName, darkMode]);
 
+  const courseData = useMemo(() => {
+    if (!coursesByName || !coursesByName.data || !coursesByName.data.result || !coursesByName.data.result.length) return null;
+
+    return coursesByName.data.result.map(({ _id, image_url, title }) => (
+      <li key={_id}>
+        <NavLink to={`/course/${_id}`} className="flexible aCenter">
+          <Image
+            src={image_url}
+            width={50}
+            height={35}
+            alt="title"
+          />
+          <Paper className="singleLine truncate">
+            {title}
+          </Paper>
+        </NavLink>
+      </li>
+    ));
+  },[coursesByName]);
+
+  const handleChange = ({ target: { value } }) => {
+    setIsBusySearch(true);
+    setSearchName(value);
+  };
+
   return (
-    <section className="Search">
-      <h1><Text className="doubleExtraLarge" darkMode={darkMode}>Find Your Favorite Course</Text></h1>
+    <section className={classnames('Search', { 'isMobile': mobile })}>
+      {
+        mobile
+        ? <Paper className="search-block">
+            <TextField
+              searchField
+              darkMode={darkMode}
+              value={searchName}
+              onChange={handleChange}
+              placeholder="Search Course"
+            />
+            {
+              <>
+                {
+                  isBusySearch
+                  ? <ul><li><Icon className="icon-feather-refresh-ccw" /></li></ul>
+                  : <ul>{courseData}</ul>
+                }
+              </>
+            }
+          </Paper>
+        : <h1><Text className="doubleExtraLarge" darkMode={darkMode}>Find Your Favorite Course</Text></h1>
+      }
       <Paper className="page-content">
         <Paper className="category-block" flexName="flexible wrap jAround">
           {renderCategories}
@@ -104,5 +175,6 @@ const Search = ({
 
 export default connect(mapStateToProps, {
   fetchCategories,
+  fetchCourseByName,
   fetchCourseByCategoryName,
 })(Search);

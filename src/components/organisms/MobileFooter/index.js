@@ -23,7 +23,7 @@ const data = [
     name: 'Home',
   },
   {
-    url: '/search',
+    url: '/search/HTML',
     icon: 'icon-feather-search',
     name: 'Search',
   },
@@ -31,11 +31,6 @@ const data = [
     url: '/my-courses',
     icon: 'icon-feather-play-circle',
     name: 'My Courses',
-  },
-  {
-    url: '/categories',
-    icon: 'icon-feather-layers',
-    name: 'Categories',
   },
   {
     url: '/profile',

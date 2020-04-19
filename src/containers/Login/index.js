@@ -6,9 +6,6 @@ import classnames from 'classnames';
 import FacebookLogin from 'react-facebook-login/dist/facebook-login-render-props';
 import GoogleLogin from 'react-google-login';
 
-//google clientid - 140089550919-fcbtojogt6rka5nt9nr21pbaa5708jje.apps.googleusercontent.com
-//google serverId - ZxRI5ljIhsw_K0X_XErDAf3v
-
 import {
   Text,
   Icon,
@@ -21,6 +18,8 @@ import {
 
 import {
   loginAsUser,
+  signInGoogle,
+  signInFacebook,
   registerAsUser,
   toggleIsOpenLogin,
 } from 'actions';
@@ -47,6 +46,8 @@ const mapStateToProps = ({ login }) => ({ login });
 const Login = ({
   login,
   loginAsUser,
+  signInGoogle,
+  signInFacebook,
   registerAsUser,
   toggleIsOpenLogin,
   location: { pathname },
@@ -63,6 +64,8 @@ const Login = ({
   const [hasError, setHasError] = useState(false);
   const [isValid, setIsValid] = useState(false);
   const [isRegistered, setIsRegistered] = useState(false);
+  const [fbData, setFbData] = useState();
+  const [googleData, setGoogleData] = useState();
 
   useEffect(() => {
     if(login && login.status < 209) {
@@ -73,6 +76,38 @@ const Login = ({
       setHasError(true);
     }
   },[login, toggleIsOpenLogin]);
+
+  useEffect(() => {
+    if (fbData) {
+      setIsBusy(true);
+      signInFacebook({
+        fbId: fbData.id,
+        accessToken: fbData.accessToken,
+        fbEmail: fbData.email,
+      }).then(res => {
+        if (res.status > 209) {
+          setHasError(true);
+          setIsBusy(false);
+        }
+      })
+    }
+  },[fbData, signInFacebook]);
+
+  useEffect(() => {
+    if (googleData) {
+      setIsBusy(true);
+      signInGoogle({
+        googleId: googleData.googleId,
+        accessToken: googleData.accessToken,
+        googleEmail: googleData.profileObj.email,
+      }).then(res => {
+        if (res.status > 209) {
+          setHasError(true);
+          setIsBusy(false);
+        }
+      })
+    }
+  },[googleData, signInGoogle]);
 
   useEffect(() => {
     const { email, password } = filter;
@@ -133,10 +168,8 @@ const Login = ({
                 <Paper flexName="flexible vertical social-block">
                   <FacebookLogin
                     appId="266585047835019"
-                    autoLoad={false}
                     fields="name,email,picture"
-                    onClick={console.log}
-                    callback={console.log}
+                    callback={setFbData}
                     render={renderProps => (
                       <Button onClick={renderProps.onClick} className="fb-button share-button flexible aCenter jCenter">
                         {!mobile && t('_SignInWith_')}
@@ -147,7 +180,7 @@ const Login = ({
                   <GoogleLogin
                     clientId="140089550919-q3q658sq5ud11qp2dfjm6epmo2a7m7a5.apps.googleusercontent.com"
                     buttonText="Login"
-                    onSuccess={console.log}
+                    onSuccess={setGoogleData}
                     onFailure={console.log}
                     cookiePolicy={'single_host_origin'}
                     render={renderProps => (
@@ -256,6 +289,8 @@ const Login = ({
 
 export default connect(mapStateToProps, {
   loginAsUser,
+  signInGoogle,
   registerAsUser,
+  signInFacebook,
   toggleIsOpenLogin,
 })(withRouter(Login));
