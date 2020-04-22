@@ -57,6 +57,7 @@ app.get('/course/:coursId', function(request, response) {
     VideoCourses.find({ "_id" : request.params.coursId }).then(res => {
       data = data.replace(/\$OG_TITLE/g, `Free: ${res[0].title}` || '');
       data = data.replace(/\$OG_DESCRIPTION/g, res[0].subtitle || '');
+      data = data.replace(/\$OG_URL/g, `https://courses.levelup.am/course/${request.params.coursId}`);
       result = data.replace(/\$OG_IMAGE/g, res[0].image_url || '');
       response.send(result);
     }).catch((err)=> {
@@ -65,7 +66,7 @@ app.get('/course/:coursId', function(request, response) {
   });
 });
 
-app.get('/', (request, response) => setReplaceData('home',response));
+app.get('*', (request, response) => setReplaceData('home',response));
 
 app.use(express.static(path.resolve(__dirname, './build')));
 

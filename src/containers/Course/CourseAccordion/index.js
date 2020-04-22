@@ -20,6 +20,7 @@ const CourseAccordion = ({
   lessonId,
   setIsOpen,
   onSelectVideo,
+  loadedDuration,
 }) => {
 
   const [selectedData, setSelectedData] = useState({});
@@ -32,7 +33,7 @@ const CourseAccordion = ({
         onSelectVideo(selected.url);
       }
     })
-  }, [data]);
+  }, [data, lessonId]);
 
   const generateContent = useMemo(() => {
     if (!data || !data.length) return null;
@@ -64,6 +65,7 @@ const CourseAccordion = ({
                   flexName="flexible vertical"
                   onClick={() => onSelectVideo(url)}
                 >
+                  <Paper className="overlay" style={{ width: `${loadedDuration}%` }}/>
                   <Paper flexName="flexible aCenter">
                     <Icon className="icon-feather-play"/>
                     <Text darkMode={darkMode} className="medium singleLine truncate">
@@ -80,7 +82,7 @@ const CourseAccordion = ({
         </Paper>
       </Paper>
     ));
-  }, [darkMode, data, selectedData, lessonId, onSelectVideo, mobile]);
+  }, [darkMode, data, selectedData, lessonId, onSelectVideo, mobile, loadedDuration]);
 
   return (
     <Paper className={classnames('CourseAccordion', { 'darkMode': darkMode })} flexName="flexName vertical">

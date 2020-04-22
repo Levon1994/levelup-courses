@@ -5,6 +5,7 @@ import Course from './Course';
 import Profile from './Profile';
 import Favorites from './Favorites';
 import CourseItem from './CourseItem';
+import PasswordReset from './PasswordReset';
 
 export {
   Main,
@@ -14,4 +15,5 @@ export {
   Profile,
   Favorites,
   CourseItem,
+  PasswordReset,
 };

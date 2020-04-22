@@ -48,7 +48,7 @@ const CourseItem = ({
   saveInMycourses,
   toggleIsOpenLogin,
   match: { params: { id } },
-  history: { goBack },
+  history: { goBack, push },
 }) => {
 
   const mobile = isMobile();
@@ -63,12 +63,6 @@ const CourseItem = ({
       res && setIsBusy(false);
     });
   },[id, fetchCourse]);
-
-  const onGoToCourse = () => {
-    if(!(login || window.localStorage.getItem('token'))) {
-      toggleIsOpenLogin(true);
-    }
-  };
 
   const onToggleModal = () => setIsOpen(!isOpen);
   const onToggleIsShown = () => setIsShown(!isShown);
@@ -102,12 +96,24 @@ const CourseItem = ({
   [course]);
 
   const onSaveCourse = () => {
+    setIsBusy(true);
     saveInMycourses({ courseId: id }).then(res => {
-      res && fetchCourse(id);
+      if(res) {
+        fetchCourse(id);
+        setIsBusy(false);
+      };
     })
   };
 
   const isCourseSaved = useMemo(() => course && course.data && course.data.isCourseSaved, [course]);
+
+  const onGoToCourse = () => {
+    if(!(login || window.localStorage.getItem('token'))) {
+      toggleIsOpenLogin(true);
+    } else {
+      push(`${id}/${firstLessonId}`);
+    }
+  };
 
   return (
     <section className={classnames('CourseItem', { 'darkMode' : darkMode , 'isMobile': mobile})}>
@@ -204,6 +210,8 @@ const CourseItem = ({
                 data={course && course.data && course.data.demoItems}
                 onClose={onToggleModal}
                 darkMode={darkMode}
+                mobile={mobile}
+                image={course && course.data && course.data.image_url}
               />
             }
           </Paper>

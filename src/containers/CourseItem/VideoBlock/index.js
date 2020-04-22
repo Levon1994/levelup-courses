@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 import {
   Icon,
@@ -54,12 +53,10 @@ const VideoBlock = ({
           Save Course
         </Button>
       }
-      <NavLink to={`${id}/${firstLessonId}`} onClick={onGoToCourse}>
-        <Button>
-          <Icon className="icon-feather-external-link" />
-          Start Course
-        </Button>
-      </NavLink>
+      <Button onClick={onGoToCourse}>
+        <Icon className="icon-feather-external-link" />
+        Start Course
+      </Button>
       {!mobile &&
         <Paper className="share-block">
           <FacebookShareButton className="Button small green" url={`${MAIN_URL}course/${id}`}>

@@ -69,7 +69,7 @@ const Main = ({
               <Text className ='big' darkMode={darkMode}>
                 {t('_Welcome_')}
               </Text>
-              <NavLink to="/categories">
+              <NavLink to="/search/HTML">
                 <Button className='first-button'>Find Course</Button>
               </NavLink>
             </Paper>

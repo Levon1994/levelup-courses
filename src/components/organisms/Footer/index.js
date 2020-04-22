@@ -55,10 +55,16 @@ const Footer = ({ darkMode }) => {
           </ul>
           <Paper flexName="flexible" className="page-block">
             <ul>
-              <li><NavLink to="/">{t('_Company_')}</NavLink></li>
+              <li><a rel="noopener noreferrer" target="_blank" href="https://levelup.am/">{t('_Company_')}</a></li>
+              <li><a rel="noopener noreferrer" target="_blank" href="https://levelup.am/academy">{t('_Courses_')}</a></li>
+              <li><a rel="noopener noreferrer" target="_blank" href="https://levelup.am/about-us">{t('_AboutUs_')}</a></li>
+              <li><a rel="noopener noreferrer" target="_blank" href="https://levelup.am/careers">{t('_Carrers_')}</a></li>
             </ul>
             <ul>
-              <li><NavLink to="/course">{t('_Courses_')}</NavLink></li>
+              <li><a rel="noopener noreferrer" target="_blank" href="https://levelup.am/contact-us">{t('_ContactUs_')}</a></li>
+              <li><a rel="noopener noreferrer" target="_blank" href="https://levelup.am/blog">{t('_Blog_')}</a></li>
+              <li><a rel="noopener noreferrer" target="_blank" href="https://levelup.am/academy">{t('_Academy_')}</a></li>
+              <li><a rel="noopener noreferrer" target="_blank" href="https://levelup.am/services">{t('_Services_')}</a></li>
             </ul>
           </Paper>
           <Paper flexName="flexible vertical aEnd" className="subscribe-block">

@@ -138,7 +138,7 @@ const Header = ({
                               src={(user && user.data) ? user.data.image_url : DEFAULT_USER_IMAGE}
                               size={45}
                             />
-                          : <Text>{user && user.data && user.data.first_name.split('')[0]}</Text>
+                          : <Text>{user && user.data && user.data.first_name && user.data.first_name.split('')[0]}</Text>
                         }
                       </Paper>
                       <Paper className="hidden-block">
@@ -150,7 +150,7 @@ const Header = ({
                                   src={(user && user.data) ? user.data.image_url : DEFAULT_USER_IMAGE}
                                   size={45}
                                 />
-                              : <Text>{user && user.data && user.data.first_name.split('')[0]}</Text>
+                              : <Text>{user && user.data && user.data.first_name && user.data.first_name.split('')[0]}</Text>
                             }
                           </Paper>
                           <Paper flexName="flexible vertical">

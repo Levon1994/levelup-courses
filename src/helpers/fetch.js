@@ -23,9 +23,12 @@ export default class Fetch {
             requestConfig.body = data;
         }
 
-        const response = await fetch(new Request(`${BASE_URL}${path}`, requestConfig)).then(res => res);
+        const response = await fetch(new Request(`${BASE_URL}${path}`, requestConfig))
+        .then(res => res.json())
+        .then(res => res);
+
         if (response.status >= 200 && response.status <= 299) {
-          return await response.json();
+          return response;
         } else {
           if(isChecked) {
             window.localStorage.clear();

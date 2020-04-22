@@ -16,6 +16,7 @@ import {
   Profile,
   Favorites,
   CourseItem,
+  PasswordReset,
 } from 'containers';
 
 import {
@@ -88,6 +89,7 @@ const App = ({
           {isOpenLogin && <Login/>}
           <Switch>
               <Route exact path="/" component={Main} />
+              <Route exact path="/password-reset/:key" component={PasswordReset} />
               <Route exact path="/course/:id" component={CourseItem} />
               <Route exact path="/search/:courseName" component={Search} />
               <Autorize toggleIsOpenLogin={toggleIsOpenLogin} login={login}>

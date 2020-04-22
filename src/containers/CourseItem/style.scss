@@ -3,7 +3,7 @@
   position: relative;
   &.isMobile {
     .page-content {
-      padding: 20px;
+      padding: 20px !important;
       flex-direction: column;
       .image-block {
         display: none;
@@ -325,6 +325,7 @@
         padding: 20px;
         > .Button, a {
           margin-bottom: 18px;
+          width: 220px;
           .Icon {
             color: $secondary-white;
             font-size: 16px;
@@ -340,9 +341,10 @@
           .Button {
             background-color: #4267b2 !important;
             font-size: 14px !important;
-            padding: 12px 40px !important;
+            padding: 12px 20px !important;
             color: #fff !important;
             font-weight: bold !important;
+            width: 220px;
           }
         }
       }

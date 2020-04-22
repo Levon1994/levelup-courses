@@ -4,6 +4,15 @@
   .size {
     background-color: #fbfbfb !important;
   }
+  .check-email {
+    .Text {
+      margin-bottom: 20px;
+    }
+    .Icon {
+      font-size: 75px;
+      color: $secondary-green;
+    }
+  }
   &.isMobile {
     .close-btn {
       width: 35px !important;
@@ -66,8 +75,15 @@
     }
   }
   .autorize-block {
+    .forgot-pass {
+      width: 100%;
+      text-align: right;
+      margin-bottom: 15px;
+      cursor: pointer;
+    }
     .errorText {
       color: red;
+      margin-bottom: 10px;
     }
     .isRegistered {
       padding-top: 20px;

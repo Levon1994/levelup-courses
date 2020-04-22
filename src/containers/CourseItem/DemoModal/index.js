@@ -15,6 +15,8 @@ import './style.scss';
 const DemoModal = ({
   data,
   name,
+  image,
+  mobile,
   onClose,
   darkMode,
 }) => {
@@ -30,7 +32,7 @@ const DemoModal = ({
           <Image
             width={120}
             height={70}
-            src="https://img-a.udemycdn.com/course/480x270/1172996_0241_5.jpg"
+            src={image}
           />
           <Paper className="text-line" flexName="flexible aCenter">
             <Icon className="icon-feather-play" />
@@ -40,11 +42,11 @@ const DemoModal = ({
         <Text darkMode={darkMode}>{duration}</Text>
       </li>
     ))
-  }, [data, darkMode, videoUrl])
+  }, [data, darkMode, videoUrl, image])
 
   return (
     createPortal(
-      <Paper className={classnames('DemoModal', { 'darkMode': darkMode })}>
+      <Paper className={classnames('DemoModal', { 'darkMode': darkMode, 'isMobile': mobile })}>
         <Paper className="DemoModal_content">
           <Icon width={40} height={40} name="close" onClick={onClose}/>
           <Paper className="DemoModal_header" flexName="flexible aCenter">

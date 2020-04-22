@@ -77,8 +77,26 @@
           height: 60px;
           padding: 5px 15px;
           border-bottom: 1px solid;
+          position: relative;
+          .overlay {
+            position: absolute;
+            height: 100%;
+            display: none;
+            top:0;
+            left: 0;
+            z-index: 0;
+            background-color: rgba(80, 196, 204, 0.34);
+          }
+          &.active {
+            .overlay {
+              display: block;
+            }
+          }
           .medium {
             font-size: 14px;
+          }
+          .flexible {
+            z-index: 1;
           }
           &:hover, &.active {
             background-color: rgba(226, 226, 226, 0.53);

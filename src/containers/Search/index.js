@@ -48,6 +48,7 @@ const Search = ({
   coursesByCategoryName,
   fetchCourseByCategoryName,
   match: { params: { courseName } },
+  history: { push }
 }) => {
 
   const mobile = isMobile();
@@ -72,7 +73,9 @@ const Search = ({
   useEffect(() => {
     setIsBusy(true);
     fetchCourseByCategoryName(decodeURI(courseName)).then(res => {
-      res && setIsBusy(false);
+      if(res) {
+        setIsBusy(false);
+      }
     });
   },[courseName, fetchCourseByCategoryName]);
 

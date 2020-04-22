@@ -121,6 +121,18 @@ const fetchCourseByCategoryName = name => CreateActionCreator.read({
     withAuthToken: true,
 });
 
+const passwordReset = data => CreateActionCreator.create({
+    path: 'password-reset',
+    body: data,
+    withAuthToken: true,
+});
+
+const forgotPassword = data => CreateActionCreator.create({
+    path: 'user/forgot-password',
+    body: data,
+    withAuthToken: true,
+});
+
 export {
   uploadImage,
   loginAsUser,
@@ -131,12 +143,14 @@ export {
   fetchProfile,
   updateProfile,
   deleteProfile,
+  passwordReset,
   signInFacebook,
   deleteMycourse,
   updatePassword,
   fetchMycourses,
   registerAsUser,
   toggleDarkMode,
+  forgotPassword,
   saveInMycourses,
   fetchCategories,
   toggleIsOpenLogin,

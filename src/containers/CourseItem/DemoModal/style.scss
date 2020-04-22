@@ -10,6 +10,27 @@
   background-color: rgba(64, 63, 63, 0.22);
   overflow-y: auto;
   overflow-x: hidden;
+  &.isMobile {
+    .DemoModal_content {
+      width: 90%;
+    }
+    .DemoModal_body {
+      .player {
+        width: 100% !important;
+        height: auto !important;
+      }
+    }
+    .DemoModal_list {
+      ul {
+        li {
+          .Image {
+            width: 60px !important;
+            height: auto !important;
+          }
+        }
+      }
+    }
+  }
   &.darkMode {
     .DemoModal_content {
       background-color: $dark;

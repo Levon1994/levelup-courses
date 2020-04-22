@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import classnames from 'classnames';
 import { connect } from 'react-redux';
 import ReactPlayer from 'react-player';
@@ -23,6 +23,7 @@ const Course = ({
    lessons,
    darkMode,
    fetchLessons,
+   history: { push },
 }) => {
 
   const mobile = isMobile();
@@ -32,7 +33,26 @@ const Course = ({
   });
 
   const [isOpen, setIsOpen] = useState(true);
+  const [loadedDuration, setLoadedDuration] = useState(0);
   const [url, setUrl] = useState();
+
+  useEffect(() => {
+    setLoadedDuration(0);
+  }, [lessonId, setLoadedDuration]);
+
+  const videoItems = useMemo(() =>
+    lessons && lessons.data && lessons.data.lessons && lessons.data.lessons.length &&
+    lessons.data.lessons.flatMap(({ items }) => items.flatMap(({ _id }) => _id)),
+  [lessons]);
+
+  const index = videoItems && videoItems.indexOf(lessonId);
+
+  const onEnded = () => videoItems && (index !== videoItems.length - 1) && push(`/course/${id}/${videoItems[index + 1]}`);
+
+  const onProgress = ({ loadedSeconds, playedSeconds }) => {
+    const duration = (playedSeconds*100/loadedSeconds).toFixed(1);
+    setLoadedDuration(duration);
+  };
 
   return (
     <section className={classnames('Course flexible jBetween', { 'darkMode': darkMode, 'isMobile': mobile })}>
@@ -43,8 +63,9 @@ const Course = ({
           url={url}
           controls
           loop={false}
-          playing={false}
-          onEnded={data => console.log('onEnded', data)}
+          playing={true}
+          onEnded={onEnded}
+          onProgress={onProgress}
         />
         {
           !mobile &&
@@ -72,6 +93,7 @@ const Course = ({
             onSelectVideo={setUrl}
             mobile={mobile}
             courseId={id}
+            loadedDuration={loadedDuration}
             title={lessons && lessons.data && lessons.data.title}
             subtitle={lessons && lessons.data && lessons.data.subtitle}
           />
