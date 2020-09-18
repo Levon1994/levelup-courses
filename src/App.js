@@ -1,111 +1,124 @@
-import React, { useEffect } from 'react';
+import React, { useMemo, useState, useEffect, useCallback } from 'react';
 import { connect } from 'react-redux';
-import {
-  Route,
-  Switch,
-  withRouter,
-  Redirect,
-} from 'react-router-dom';
 import classnames from 'classnames';
 
-import {
-  Main,
-  Login,
-  Course,
-  Search,
-  Profile,
-  Favorites,
-  CourseItem,
-  PasswordReset,
-} from 'containers';
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import dayjs from 'dayjs';
 
 import {
-  Header,
-  Footer,
-  MobileFooter,
-  DarkModeButton
-} from 'components';
-
-import {
-  fetchProfile,
-  toggleDarkMode,
-  toggleIsOpenLogin,
+  addEvent,
+  deleteEvent,
 } from 'actions';
+import uuid from 'helpers/uuid';
 
-import { isMobile } from 'utils';
-import Autorize from 'utils/autorize';
+import './index.scss';
 
-import 'sass/animate.scss';
-import 'sass/main.scss';
-import 'sass/media.scss';
-import 'sass/feather-icon.scss';
+const defaultFilter = {
+  event: '',
+  date: new Date(),
+};
 
 const mapStateToProps = ({
-  isOpenLogin,
-  darkMode,
-  login,
-  user,
+  events,
 }) => ({
-  isOpenLogin,
-  darkMode,
-  login,
+  events,
 });
 
 const App = ({
-  user,
-  login,
-  darkMode,
-  isOpenLogin,
-  fetchProfile,
-  toggleDarkMode,
+  events,
+  addEvent,
+  deleteEvent,
 }) => {
 
-  const mobile = isMobile();
-
-  const token = window.localStorage.getItem('token');
-
-  useEffect(() => {
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        toggleDarkMode(true);
-    };
-  },[toggleDarkMode]);
+  const [filter, setFiler] = useState(defaultFilter);
+  const [isValid, setIsValid] = useState(false);
+  const { event, date } = filter;
 
   useEffect(() => {
-    if (token) {
-        fetchProfile();
-    };
-  },[fetchProfile, token]);
+    const valid = date && event;
+    setIsValid(valid);
+  }, [event, date]);
+
+  const addNewEvent = useCallback(() => {
+    const dayDiff = Math.abs(dayjs().diff(filter.date, 'day'));
+    const hourDiff = Math.abs(dayjs().diff(filter.date, 'hour'));
+    const minuteDiff = Math.abs(dayjs().diff(filter.date, 'minute'));
+
+    const hour = hourDiff%60;
+    const minute = minuteDiff%60;
+
+    const newDate = dayDiff 
+      ? `${dayDiff}d ${hour}hour ${minute}min`
+      : hourDiff
+        ? minute ? `${hour}hour ${minute}min` : `${hour}hour`
+        : `${minute}min`;
+
+    addEvent({ 
+      ...filter,
+      date: newDate, 
+      dateValue: filter.date,
+      Id: uuid(), 
+    })
+  }, [filter, addEvent]);
+
+  const headerContent = useMemo(() => (
+    <div className="form-header flexible jBetween">
+      <input
+        onChange={({ target }) => setFiler(prev => ({ ...prev, event: target.value }))}
+        value={event}
+      />
+      <DatePicker
+      showTimeSelect
+      minDate={new Date()}
+      dateFormat="Pp"
+        selected={date}
+        onChange={newDate => setFiler(prev => ({ ...prev, date: newDate }))}
+      />
+      <button 
+        disabled={!isValid}
+        onClick={addNewEvent}
+      >
+          Add Event
+      </button>
+    </div>
+  ), [isValid, event, date, addNewEvent]);
+
+  const eventsContent = useMemo(() => {
+    if (!events?.length) return null;
+
+    return events
+      .sort((a, b) => {
+        if (a.date > b.date) {
+          return -1;
+        }
+        if (a.date < b.date) {
+          return 1;
+        }
+        return 0;
+      })
+      .map(({ Id, event, date, dateValue }) => (
+      <div key={Id} className={classnames('event-item flexible jBetween aCenter', {
+        'isGreen': Math.abs(dayjs().diff(dateValue, 'hour')) > 0,
+        'isYellow': Math.abs(dayjs().diff(dateValue, 'minute')) > 10 && Math.abs(dayjs().diff(dateValue, 'minute')) <= 60,
+        'isRed': Math.abs(dayjs().diff(dateValue, 'minute')) >= 0 && Math.abs(dayjs().diff(dateValue, 'minute')) <= 10,
+      })}>
+        <div>{date}</div>
+        <div>{event}</div>
+        <button onClick={() => deleteEvent(Id)}>Delete Event</button>
+      </div>
+    ));
+  }, [events, deleteEvent]);
 
   return (
-    <>
-      {!mobile && <Header darkMode={darkMode} />}
-        <main className={classnames("Main", { 'darkMode': darkMode })}>
-          {!mobile &&
-            <DarkModeButton
-              active={darkMode}
-              onClick={toggleDarkMode}
-            />
-          }
-          {isOpenLogin && <Login/>}
-          <Switch>
-              <Route exact path="/" component={Main} />
-              <Route exact path="/password-reset/:key" component={PasswordReset} />
-              <Route exact path="/course/:id" component={CourseItem} />
-              <Route exact path="/search/:courseName" component={Search} />
-              <Autorize toggleIsOpenLogin={toggleIsOpenLogin} login={login}>
-                <Route path="/course/:id/:lessonId" component={Course} />
-                <Route path="/profile" component={Profile} />
-                <Route path="/my-courses" component={Favorites} />
-              </Autorize>
-              <Redirect from='/' to='/' />
-          </Switch>
-        </main>
-      {mobile ? <MobileFooter /> : <Footer/>}
-    </>
+    <main>
+      {headerContent}
+      {eventsContent}
+    </main>
   )
 };
 
 export default connect(mapStateToProps, {
-  fetchProfile,
-  toggleDarkMode,
-})(withRouter(App));
+  addEvent,
+  deleteEvent,
+})(App);

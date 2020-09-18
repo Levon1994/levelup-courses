@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');
-@import 'sass/variables.scss';
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif !important;
     font-weight: 400;
-    color: $secondary-black;
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
@@ -32,34 +31,30 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     flex-grow: 1;
-    &.darkMode {
-      background-color: $dark;
+    width: 100%;
+    max-width: 600px;
+    margin: 100px auto;
+    .form-header {
+        margin-bottom: 20px;
+    }
+    .event-item {
+        height: 50px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+        &.isGreen {
+            background-color: green;
+        }
+        &.isRed {
+            background-color: red;
+        }
+        &.isYellow {
+            background-color: yellow; 
+        }
     }
 }
 
 //Global styles for creating flexible components
-
-.withStretch {
-    display: flex;
-    flex-grow: 1;
-    align-items: flex-start;
-}
-
-.image-centering {
-    background-size: cover;
-    background-position: center center;
-    transform: scale(1.03);
-}
-
-.page-content {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 25px;
-    overflow: hidden;
-}
-
 
 .flexible {
     display: flex;
@@ -147,10 +142,5 @@ main {
         -webkit-line-clamp: 5;
         @extend .truncate-lines-styles;
         -webkit-box-orient: vertical;
-    }
-}
-@media(max-width: 1300px) {
-    .page-content {
-        max-width: 100%;
     }
 }

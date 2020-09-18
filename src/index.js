@@ -4,20 +4,14 @@ import { Provider } from 'react-redux'
 import { BrowserRouter } from 'react-router-dom';
 
 import store from 'stores';
-import { TranslatorProvider } from 'utils/translator';
 
 import App from './App';
-import ScrollToTop from './ScrollToTop';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render((
     <Provider store={store}>
       <BrowserRouter>
-          <TranslatorProvider>
-            <ScrollToTop>
-              <App />
-            </ScrollToTop>
-          </TranslatorProvider>
+        <App />
       </BrowserRouter>
     </Provider>
 ), document.getElementById('root'));

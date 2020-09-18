@@ -1,11 +1,3 @@
-export const USER = 'USER';
-export const LOGIN = 'LOGIN';
-export const COURSE = 'COURSE';
-export const COURSES = 'COURSES';
-export const LESSONS = 'LESSONS';
-export const DARK_MODE = 'DARK_MODE';
-export const MY_COURSES = 'MY_COURSES';
-export const CATEGORIES = 'CATEGORIES';
-export const IS_OPEN_LOGIN = 'IS_OPEN_LOGIN';
-export const COURSESSBYNAME = 'COURSESSBYNAME';
-export const COURSESBYSCATEGORYNAME = 'COURSESBYSCATEGORYNAME';
+export const EVENT = 'EVENT';
+export const ADD_EVENT = 'ADD_EVENT';
+export const DELETE_EVENT = 'DELETE_EVENT';
